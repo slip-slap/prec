@@ -1,0 +1,60 @@
+\subsection{Safety factor}
+The safety factor, or yield stress, is how much extra load beyond is intended a
+composite laminate will actually take, which is an indication of the material's
+load carrying capacity. If the value is less then 1.0, it means failure. The safey factor is defined as 
+
+\begin{equation} \label{eq:sr}S R=\frac{\text {Maximum Load Which Can Be Applied}}{\text {Load Applied}}
+\end{equation}.
+
+The safety factor based on maximum stress theory is calculated by the following
+method: first, the principal stresses($\sigma_1^k$,$\sigma_2^k$, and
+$\tau_{12}^k$) are obtained by experiment; evaluate the safety factor along each
+direction according to equation \ref{eq:sr}; The minimum value among these
+safety factors are denoted as the safety factor of the lamina, $SF_{MS}^k$.
+
+\begin{align}
+	SF_{MS}^k = \text{min of}
+	\begin{cases}
+		SF_X^k = 
+		\begin{cases}
+			\frac{X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+			\frac{X_c}{\sigma_{11}}, \text{ if } \sigma_{11}<0 \\
+		\end{cases} \\
+		SF_Y^k = 
+		\begin{cases}
+			\frac{Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+			\frac{Y_c}{\sigma_{22}}, \text{ if } \sigma_{22}<0 \\
+		\end{cases} \\
+		SF_S^k =
+		\begin{cases}
+			\frac{S}{|\tau_{12}|} \\
+		\end{cases} \\
+	\end{cases}
+\end{align}
+
+
+Assuming the composite laminate under a in-plane loading f, the corresponding
+stress on local stress in direction 1, local stress in direction 2, and shear
+stress for the kth lamina are $\sigma_1 SF_{TW}^k$, $\sigma_2SF_{TW}^k$, and $\tau_{12}SF_{TW}^k$,
+respectively. Substitute them into the equation \ref{eq:tsai_wu}, the expression
+are given by
+
+$a(SF_{TW}^k)^2 + b(SF_{TW}^k) - 1 = 0 $
+
+where 
+
+$a = H_{11}(\sigma_1)^2 + H_{22}(\sigma_2)^2 +H_{66}(\tau_{12})^2 +
+2H_{12}\sigma_1 \sigma_2 $
+
+$b = H_1\sigma_1 + H_2 \sigma_2 + H_6 \tau_{12}$
+
+Solve the above equation, the safety factor for the kth lamina is 
+
+$SF_{TW}^k = |\frac{-b+ \sqrt{b^2 + 4a}}{2a}|$.
+
+Then, the minimum of $SF_{TW}^k$ is taken as the safety factor of the
+laminate which is written as
+
+$SF_{TW}= \text{ min of } SF_{TW}^k \text{ for } k=1,2,\cdots, m-1,m$ .
+
+

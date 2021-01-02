@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1609383113 "laminate_design.tex" "laminate_design.pdf" "laminate_design" 1609383113
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty" 1523050425 14744 f67c6d17f46843116f547b114397f823 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def" 1523050425 7769 97b639552068544f7c98d557abb19f41 ""
+  "/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu" 1544567569 4973 923be56c54607ca99f7cc085a8c7e52b ""
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1544742277 35176 ce7fee66be1fb01dfc6b702a7dbfa0ea ""
+  "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1589792795 4227023 287652bbbca0ab5bc2f398b14c497dd0 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "laminate_design.aux" 1609383113 8 a94a2480d3289e625eea47cd1b285758 ""
+  "laminate_design.tex" 1602471943 40694 19143df6939490c21a59f25757466f01 ""
+  "svjour3.cls" 0 -1 0 ""
+  (generated)
+  "laminate_design.log"
+  "laminate_design.pdf"
