@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  1 JAN 2021 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  3 JAN 2021 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,7 +320,26 @@ File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@expandcount=\count115
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen178
+\ar@mcellbox=\box39
+\extrarowheight=\dimen179
+\NC@list=\toks28
+\extratabsurround=\skip44
+\backup@length=\skip45
+\ar@cellbox=\box40
+)
+\TX@col@width=\dimen180
+\TX@old@table=\dimen181
+\TX@old@col=\dimen182
+\TX@target=\dimen183
+\TX@delta=\dimen184
+\TX@cols=\count116
+\TX@ftn=\toks29
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -330,65 +349,65 @@ File: tikzlibrarymatrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\arrowsize=\dimen178
+\arrowsize=\dimen185
 )) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count116
+\pgf@intersect@solutions=\count117
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
-\ex@=\dimen179
+\@emptytoks=\toks30
+\ex@=\dimen186
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen180
+\pmbraise@=\dimen187
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count117
+\inf@bad=\count118
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count118
-\leftroot@=\count119
+\uproot@=\count119
+\leftroot@=\count120
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count120
-\DOTSCASE@=\count121
+\classnum@=\count121
+\DOTSCASE@=\count122
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box39
-\strutbox@=\box40
-\big@size=\dimen181
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen188
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count122
-\c@MaxMatrixCols=\count123
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
 \dotsspace@=\muskip10
-\c@parentequation=\count124
-\dspbrk@lvl=\count125
-\tag@help=\toks29
-\row@=\count126
-\column@=\count127
-\maxfields@=\count128
-\andhelp@=\toks30
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
-\@envbody=\toks31
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks32
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
+\tag@help=\toks31
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
+\andhelp@=\toks32
+\eqnshift@=\dimen189
+\alignsep@=\dimen190
+\tagshift@=\dimen191
+\tagwidth@=\dimen192
+\totwidth@=\dimen193
+\lineht@=\dimen194
+\@envbody=\toks33
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
@@ -398,13 +417,13 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen188
-\captionmargin@=\dimen189
-\captionwidth=\dimen190
-\caption@tempdima=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -414,27 +433,23 @@ Package caption Warning: Unsupported document class (or package) detected,
 See the caption package documentation for explanation.
 
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize {\centering \normalfont \footnotesize #1.\qquad \scshape #2\par }\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
-\c@caption@flags=\count129
-\c@ContinuedFloat=\count130
+\c@caption@flags=\count130
+\c@ContinuedFloat=\count131
 )
-\c@subfigure=\count131
-\c@subtable=\count132
+\c@subfigure=\count132
+\c@subtable=\count133
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip47
-\f@nch@O@elh=\skip48
-\f@nch@O@erh=\skip49
-\f@nch@O@olh=\skip50
-\f@nch@O@orh=\skip51
-\f@nch@O@elf=\skip52
-\f@nch@O@erf=\skip53
-\f@nch@O@olf=\skip54
-\f@nch@O@orf=\skip55
-) (./Paper_format.aux
-
-LaTeX Warning: Label `T300/5308 material properties' multiply defined.
-
-)
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (./Paper_format.aux)
 \openout1 = `Paper_format.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 291.
@@ -451,17 +466,17 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 291.
 LaTeX Font Info:    ... okay on input line 291.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen195
-\scratchbox=\box41
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen196
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count134
+\scratchdimen=\dimen258
+\scratchbox=\box43
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen259
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks36
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -513,9 +528,9 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 75.
+(Font)              <5> on input line 87.
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -541,47 +556,60 @@ Overfull \hbox (3.06631pt too wide) in paragraph at lines 63--64
  []
 
 
-Overfull \hbox (3.06631pt too wide) in paragraph at lines 104--105
+Overfull \hbox (3.06631pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
-) (./a2_methodology.tex [4]) (./a3_result.tex [5]
+) (./a2_methodology.tex [4] (./a0_table.tex
+Overfull \hbox (7.06111pt too wide) in alignment at lines 20--20
+[][][][] 
+ []
+
+) [5]) (./a3_result.tex
 <2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png, id=37, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png>
-Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png  used on input line 11.
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png  used on input line 14.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
 <2020-11-10-pre-image/two_distinct_angle_angle_change.png, id=38, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angle_angle_change.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angle_angle_change.png>
-Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_angle_change.png  used on input line 15.
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_angle_change.png  used on input line 18.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
 <2020-11-10-pre-image/two_distinct_angler_number_change.png, id=39, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angler_number_change.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angler_number_change.png>
-Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angler_number_change.png  used on input line 19.
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angler_number_change.png  used on input line 22.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
-<2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png, id=40, 462.528pt x 346.896pt>
+
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png> <./2020-11-10-pre-image/two_distinct_angle_angle_change.png> <./2020-11-10-pre-image/two_distinct_angler_number_change.png>]
+<2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png, id=46, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png Graphic file (type png)
 <use 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png>
-Package pdftex.def Info: 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png  used on input line 60.
+Package pdftex.def Info: 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png  used on input line 86.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
-<2020-11-10-pre-image/three_distinct_angles_angle_change.png, id=41, 462.528pt x 346.896pt>
+<2020-11-10-pre-image/three_distinct_angles_angle_change.png, id=47, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/three_distinct_angles_angle_change.png Graphic file (type png)
 <use 2020-11-10-pre-image/three_distinct_angles_angle_change.png>
-Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angles_angle_change.png  used on input line 64.
+Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angles_angle_change.png  used on input line 90.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
-<2020-11-10-pre-image/three_distinct_angle_number_of_angle.png, id=42, 462.528pt x 346.896pt>
+<2020-11-10-pre-image/three_distinct_angle_number_of_angle.png, id=48, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png Graphic file (type png)
 <use 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>
-Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png  used on input line 68.
+Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png  used on input line 94.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
-) (./a4_conclusion.tex) (./a5_acknowledgment.tex) (./Paper_format.bbl [6 <./2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png> <./2020-11-10-pre-image/two_distinct_angle_angle_change.png> <./2020-11-10-pre-image/two_distinct_angler_number_change.png>]
+) (./a4_conclusion.tex) (./a5_acknowledgment.tex) (./Paper_format.bbl
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+ [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 104.
- [7])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -593,23 +621,17 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8
-
- <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>] (./Paper_format.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[8] (./Paper_format.aux) ) 
 Here is how much of TeX's memory you used:
- 16146 strings out of 492616
- 330774 string characters out of 6128982
- 402263 words of memory out of 5000000
- 19733 multiletter control sequences out of 15000+600000
- 37573 words of font info for 71 fonts, out of 8000000 for 9000
+ 16249 strings out of 492616
+ 332071 string characters out of 6128982
+ 404183 words of memory out of 5000000
+ 19828 multiletter control sequences out of 15000+600000
+ 36495 words of font info for 70 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,22n,72p,472b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper_format.pdf (8 pages, 509012 bytes).
+Output written on Paper_format.pdf (8 pages, 505988 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream

@@ -11,7 +11,7 @@
 %
 \documentclass[conference, letterpaper]{IEEEtran}
 \usepackage{booktabs}
-\usepackage{graphicx, tikz}
+\usepackage{graphicx, tikz,tabularx}
 \usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
 % Add the compsoc option for Computer Society conferences.
 %
@@ -299,22 +299,17 @@ of genetic algorithm}
 % author names and affiliations
 % use a multiple column layout for up to three different
 % affiliations
-\author{\IEEEauthorblockN{Michael Shell}
-\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Georgia Institute of Technology\\
-Atlanta, Georgia 30332--0250\\
-Email: http://www.michaelshell.org/contact.html}
+\author{\IEEEauthorblockN{Huiyao Zhang}
+\IEEEauthorblockA{Department of Fiber Science and Engineering\\
+Kyoto Institute of Technology,\\
+Matsugasaki, Sakyo-ku, Kyoto, \\606-8585,JAPAN}
 \and
-\IEEEauthorblockN{Homer Simpson}
-\IEEEauthorblockA{Twentieth Century Fox\\
-Springfield, USA\\
-Email: homer@thesimpsons.com}
-\and
-\IEEEauthorblockN{James Kirk\\ and Montgomery Scott}
-\IEEEauthorblockA{Starfleet Academy\\
-San Francisco, California 96678-2391\\
-Telephone: (800) 555--1212\\
-Fax: (888) 555--1212}}
+\IEEEauthorblockN{Atsushi Yokoyama}
+\IEEEauthorblockA{Department of Fiber Science and Engineering\\
+Kyoto Institute of Technology,
+Matsugasaki,\\ Sakyo-ku, Kyoto, 606-8585,JAPAN\\
+Email: yokoyama@kit.ac.jp}
+}
 
 % conference papers do not typically use \thanks and this command
 % is locked out in conference mode. If really needed, such as for
@@ -449,14 +444,6 @@ Genetic Algorithm; Optimization; Classic Lamination Theory; Failure Theory
 %\hline
 %\end{tabular}
 %\end{table}
-
-% Note that IEEE does not put floats in the very first column - or typically
-% anywhere on the first page for that matter. Also, in-text middle ("here")
-% positioning is not used. Most IEEE journals/conferences use top floats
-% exclusively. Note that, LaTeX2e, unlike IEEE journals/conferences, places
-% footnotes above bottom floats. This can be corrected via the \fnbelowfloat
-% command of the stfloats package.
-
 
 \input{a1_introduction_GA}
 \input{a1_introduction_CLT}

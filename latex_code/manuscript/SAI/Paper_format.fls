@@ -1,4 +1,4 @@
-PWD /Users/kismet/Documents/github/code/latex_code/manuscript/SAI
+PWD /Users/kismet/Documents/github/prec/latex_code/manuscript/SAI
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -157,6 +157,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
@@ -259,6 +263,8 @@ INPUT a2_ga_operator.tex
 INPUT a2_ga_operator.tex
 INPUT a2_methodology.tex
 INPUT a2_methodology.tex
+INPUT a0_table.tex
+INPUT a0_table.tex
 INPUT a3_result.tex
 INPUT a3_result.tex
 INPUT 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png
@@ -294,8 +300,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT Paper_format.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
