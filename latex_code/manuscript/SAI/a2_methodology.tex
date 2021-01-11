@@ -72,10 +72,7 @@ chromsome's length is positive correlated with the individual's fitness, the
 coefficient of length mutation denoted by $C_l$, if $\sum_{i=1}^{N}{CT_i}$ great
 than $\sum_{i=1}^{N}{CV_i}$ , the mutation length is restricted to the range
 $[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N]$, which means increase the chromsome's
-length; if the $\sum_{i=1}^{N}{CT_i}$ less than $\sum_{i=1}^{N}{CV_i}$, the
-mutation length is restricted to the range $([\sum_{i=1}^{N}{CT_i-CV_i})/N,0]$,
-which means the individual's fitness exceeds the threshold value, and decrease
-the chromsome's length.  Assuming a $[13_6/-27_4]_s$ T300/5308 carbon/epoxy composite
+length;Assuming a $[+13_6/-27_4]_s$ T300/5308 carbon/epoxy composite
 laminate under the loading $N_{xx} = N_{yy} = 10$ MPa m, it's property as shown
 in table \ref{tab:T300/5308}. According to CLT and
 failure theory, the two safety factors $SF_{MS}$ and $SF_{TW}$ are  0.0539, and
@@ -85,6 +82,14 @@ random number is generated from the range $[0, 18]$, supposing the outcome is
 13, then a length generator is used to a list, the it's sum is 13, suppose the
 list is [5, 8], the laminate after mutation is $[13_{11}/-27_{12}]_s$.
 
+If the $\sum_{i=1}^{N}{CT_i}$ less than $\sum_{i=1}^{N}{CV_i}$, the
+mutation length is restricted to the range $([\sum_{i=1}^{N}{CT_i-CV_i})/N,0]$,
+which means the individual's fitness exceeds the threshold value, and decrease
+the chromsome's length.  Assuming a $[+33_{35}/-29_{26}]_s$ T300/5308 laminate
+is under loading $N_{xx}=10$ MPa, and $N_{yy}=5$ MPa, then, it's $SF_{MS}$
+constraint and $SF_{TW}$ values are  1.0912, 1.0747, respectively.
+because the length mutation is 20, so the mutation range is from -2 to 0. This
+would decrease the chromsome's length. 
 \begin{align}
 	\text{LM} = 
 	\begin{cases}

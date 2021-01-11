@@ -333,16 +333,18 @@ if __name__=='__main__':
     #material =[cv.T300_5308] * 54    
     #material = tool.get_symmetry_list(material)
 
-    angle =[-18] * 34 + [17] * 72  + [-18] * 34 
-    height=[0.00127] * 140 
-    material =[cv.T300_5308] * 140    
-    load=[120,5,0,0,0,0]
+    angle =[13] * 6 + [-27] * 8  + [13] * 6 
+    height=[0.00127] * 20 
+    material =[cv.T300_5308] * 20    
+    load=[10,10,0,0,0,0]
 
 
     sr  = get_strength_ratio(angle,height,material,load)
+    """
     with open("train_data_composite_material.csv",'a') as basic_io:
         csv_writer = csv.writer(basic_io)
         csv_writer.writerow([sr])
+    """
 
     mass = lmac.get_laminate_mass(height,material)
     cost = lmac.get_laminate_cost(material)
