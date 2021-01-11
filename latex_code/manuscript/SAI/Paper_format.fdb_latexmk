@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Paper_format"] 1610350373 "Paper_format.aux" "Paper_format.bbl" "Paper_format" 1610350546
+["bibtex Paper_format"] 1610350373 "Paper_format.aux" "Paper_format.bbl" "Paper_format" 1610358634
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Paper_format.aux" 1610350534 6224 f389dffdcd4efb1efb5d499436d4a69b ""
+  "Paper_format.aux" 1610358627 6224 f389dffdcd4efb1efb5d499436d4a69b ""
   "a6_reference.bib" 1610345969 10539 e8b12e47d8d0f076b3e1e57b10081668 ""
   (generated)
-  "Paper_format.bbl"
   "Paper_format.blg"
-["pdflatex"] 1610350533 "Paper_format.tex" "Paper_format.pdf" "Paper_format" 1610350546
+  "Paper_format.bbl"
+["pdflatex"] 1610358625 "Paper_format.tex" "Paper_format.pdf" "Paper_format" 1610358634
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -157,17 +157,17 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1589787211 3236106 bef0cf154a3167603a4917a99a2c80c5 ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1589792795 4227023 287652bbbca0ab5bc2f398b14c497dd0 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png" 1609552829 38041 13afc108c8560d99e04d38170f76e581 ""
+  "2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png" 1610358411 37274 c5beb840e5c1d63d7c0a8c231424b918 ""
   "2020-11-10-pre-image/three_distinct_angle_number_of_angle.png" 1609552829 39432 768a195eabf3f40dc0393a9df4998d17 ""
   "2020-11-10-pre-image/three_distinct_angles_angle_change.png" 1609552829 30302 62b2bff3c4ca3230be2a6ee2cff0ff35 ""
   "2020-11-10-pre-image/two_distinct_angle_angle_change.png" 1609552829 28169 7fb91f11e7a12bdbcd9475a6ec806539 ""
-  "2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png" 1609552829 37004 84c7c13db1fed410d3af99d784828a1c ""
+  "2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png" 1610357911 36491 b6ecfdff3345cc04d412b44c5ae1f299 ""
   "2020-11-10-pre-image/two_distinct_angler_number_change.png" 1609552829 39190 d248d5ffa0578d3e54f4c5acefb031a4 ""
   "IEEEtran.cls" 1609552829 207390 d653df0f34cc52792528fb4a3b56093b ""
-  "Paper_format.aux" 1610350534 6224 f389dffdcd4efb1efb5d499436d4a69b ""
+  "Paper_format.aux" 1610358627 6224 f389dffdcd4efb1efb5d499436d4a69b ""
   "Paper_format.bbl" 1610350373 8333 34f556a83b4c91b1859e9d00e53f6ddc "bibtex Paper_format"
-  "Paper_format.tex" 1610350538 17625 ce04a98446bee6f93cff1f4ccd4e7c53 ""
-  "a0_table.tex" 1609649500 1159 c5a95782ecd855ad43ca4e32368273d5 ""
+  "Paper_format.tex" 1610358625 17512 372ed88c06399cca1c80ae8cf7a4f765 ""
+  "a0_table.tex" 1610357334 1195 11accd3a73cb3ac57e739ebbea181ea7 ""
   "a1_abstract.tex" 1609552829 612 f17e6b8153ee1304cf08937b327328c0 ""
   "a1_introduction_CLT.tex" 1609552829 6058 a76d81f5a3c325ff9b1dfa614691cdca ""
   "a1_introduction_GA.tex" 1609552829 7093 1ff79835869791c6292fb69c460085ac ""
@@ -175,11 +175,11 @@
   "a1_introduction_safety_factor.tex" 1609552829 2107 80be69aa7b6253d10e8b06b8c3288a85 ""
   "a2_ga_operator.tex" 1609638008 5303 ddb4a5b50f1693615ae736cdbf7fba59 ""
   "a2_methodology.tex" 1610336467 6225 05baffa4a921c2cb794d7ca48040056e ""
-  "a3_result.tex" 1610350531 9775 a59c9f3682337a60f5e154779b3129c3 ""
+  "a3_result.tex" 1610357048 9795 cd73bdf743cb70efa39b43c06b3dc61a ""
   "a4_conclusion.tex" 1610348438 1083 a6b528262ce4e35c330d6ce30149a647 ""
   "a5_acknowledgment.tex" 1609552829 129 6099bf39beeda422b598afbf82d7e6d0 ""
   "image/lamina_local_global_axes.png" 1609552829 133854 1883105abfd54615fa4457cb7ff4985d ""
   (generated)
-  "Paper_format.pdf"
   "Paper_format.aux"
+  "Paper_format.pdf"
   "Paper_format.log"

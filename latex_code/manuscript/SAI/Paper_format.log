@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  11 JAN 2021 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  11 JAN 2021 18:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -574,21 +574,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./a1_abstract.tex) (./a1_introduction_GA.tex
-
-Package Fancyhdr Warning: \headheight is too small (20.0pt): 
-Make it at least 21.14493pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 87.
-[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]) (./a1_introduction_CLT.tex
-<image/lamina_local_global_axes.png, id=14, 1637.11626pt x 572.1375pt>
+<image/lamina_local_global_axes.png, id=13, 1637.11626pt x 572.1375pt>
 File: image/lamina_local_global_axes.png Graphic file (type png)
 <use image/lamina_local_global_axes.png>
 Package pdftex.def Info: image/lamina_local_global_axes.png  used on input line 6.
@@ -614,7 +608,7 @@ Overfull \hbox (3.06631pt too wide) in paragraph at lines 105--106
  []
 
 ) (./a2_methodology.tex [4] (./a0_table.tex
-Overfull \hbox (7.06111pt too wide) in alignment at lines 20--20
+Overfull \hbox (15.83089pt too wide) in alignment at lines 20--20
 [][][][] 
  []
 
@@ -654,6 +648,11 @@ File: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png Graphic file
 <use 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>
 Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png  used on input line 111.
 (pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+
+Overfull \hbox (1.13039pt too wide) in paragraph at lines 123--139
+ [][] 
+ []
+
 ) (./a4_conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -680,13 +679,13 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  16518 strings out of 492616
  335491 string characters out of 6128982
- 411674 words of memory out of 5000000
+ 412462 words of memory out of 5000000
  20089 multiletter control sequences out of 15000+600000
  37602 words of font info for 71 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,22n,72p,472b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Paper_format.pdf (9 pages, 510992 bytes).
+Output written on Paper_format.pdf (9 pages, 507777 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

@@ -239,11 +239,9 @@ INPUT a1_introduction_GA.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmro7t.tfm
 OUTPUT Paper_format.pdf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
@@ -259,6 +257,8 @@ INPUT a1_introduction_CLT.tex
 INPUT image/lamina_local_global_axes.png
 INPUT ./image/lamina_local_global_axes.png
 INPUT ./image/lamina_local_global_axes.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT a1_introduction_failure_criteria.tex
 INPUT a1_introduction_failure_criteria.tex
 INPUT a1_introduction_safety_factor.tex
@@ -280,6 +280,8 @@ INPUT ./2020-11-10-pre-image/two_distinct_angle_angle_change.png
 INPUT 2020-11-10-pre-image/two_distinct_angler_number_change.png
 INPUT ./2020-11-10-pre-image/two_distinct_angler_number_change.png
 INPUT ./2020-11-10-pre-image/two_distinct_angler_number_change.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
 INPUT ./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
 INPUT ./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
@@ -291,8 +293,6 @@ INPUT ./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png
 INPUT ./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png
 INPUT a4_conclusion.tex
 INPUT a4_conclusion.tex
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT a5_acknowledgment.tex
 INPUT a5_acknowledgment.tex
 INPUT Paper_format.bbl
