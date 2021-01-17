@@ -7,10 +7,10 @@ objective function is formulated as
 
 \begin{equation}
 	\begin{split}
-    	F  &= 2t_0 \sum_{k=1}^n n_k  \\
-    	   &SF_{MS} \geq 1  \\
-    	   &SF_{TW} \geq 1 
-	\end{split}
+    	F  &= 2t_0 \sum_{k=1}^n n_k  \textstyle{,}\\
+    	   &SF_{MS} \geq 1 \textstyle{,} \\
+    	   &SF_{TW} \geq 1 \textstyle{.}
+	\end{split} 
 \end{equation}
 
 The first term represents the total thickness of the composite laminates, $t_0$
@@ -21,7 +21,7 @@ factors should not less than 1, which means  $SF_{MS} \geq 1$, and $SF_{TW} \geq
 
 \subsection{Encoding}
 Due to the simplicity and efficiency of float representation, this encoding
-method is implemented to represent a possible solution. As shown in Figure.\ref{GA:operator}
+method is implemented to represent a possible solution. As shown in Figure \ref{GA:operator}
  (a), these two chromsomes represent a $[+8_{7}/-9_{2}]_s$
 carbon T300/5308 laminated composite, and $[+19_{4}/-36_{6}]_s$, respectively.
 Becasue the laminate adopted in this paper is symmetric to its mid-plane, so
@@ -56,12 +56,12 @@ which makes the individual evolve toward a new direction. The offspring of two
 active individuals are more likely to be an active individual, which can maitain
 the active group.  The figure.\ref{GA:operator} (b) shows two children $O_1$
 and $O_2$ from two parents $P_1$ and $P_2$, each angle $C_a$ and it's length 
-$C_l$ of a child are obtained by the following formula:
+$C_l$ of a child are obtained by the following formula
 \begin{align} 
 	\begin{cases}
 	C_a &= (P1_a + P2_a)/2 \\
 	C_l &= (P1_l + P2_l)/2 
-	\end{cases}
+\end{cases} \textstyle{.}
 \end{align}
 \input{a0_table}
 \subsection{Mutation}
@@ -72,7 +72,9 @@ is decided by the constraint thresholds $CT_i$ and the current individual's
 constraint value, denoted as $CV_i$,  The mutation vector can be obtained by the
 following formula
 
-$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [CV_0, \cdots, CV_{n-1}, CV_n]$
+\resizebox{.9\linewidth}{!}{
+	$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [CV_0, \cdots, CV_{n-1}, CV_n]$
+}
 
 During the operator, the mutation procedure is consist of two phases: the length
 mutation of the chromsome, and the angle mutation of the chromsome.  Becasue the
@@ -81,7 +83,7 @@ coefficient of length mutation denoted by $C_l$, if $\sum_{i=1}^{N}{CT_i}$ great
 than $\sum_{i=1}^{N}{CV_i}$ , the mutation length is restricted to the range
 $[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N]$, which means increase the chromsome's
 length;Assuming a $[+13_6/-27_4]_s$ T300/5308 carbon/epoxy composite
-laminate under the loading $N_{xx} = N_{yy} = 10$ MPa m, it's property as shown
+laminate under the loading $N_{x} = N_{y} = 10$ MPa m, it's property as shown
 in table \ref{tab:T300/5308}. According to CLT and
 failure theory, the two safety factors $SF_{MS}$ and $SF_{TW}$ are  0.0539, and
 0.0540, respectively. So the mutation vector and is $[0.9461,0.9460]$, assuming
@@ -94,7 +96,7 @@ If the $\sum_{i=1}^{N}{CT_i}$ less than $\sum_{i=1}^{N}{CV_i}$, the
 mutation length is restricted to the range $([\sum_{i=1}^{N}{CT_i-CV_i})/N,0]$,
 which means the individual's fitness exceeds the threshold value, and decrease
 the chromsome's length.  Assuming a $[+33_{35}/-29_{26}]_s$ T300/5308 laminate
-is under loading $N_{xx}=10$ MPa, and $N_{yy}=5$ MPa, then, it's $SF_{MS}$
+is under loading $N_{x}=10$ MPa, and $N_{y}=5$ MPa, then, it's $SF_{MS}$
 constraint and $SF_{TW}$ values are  1.0912, 1.0747, respectively.
 because the length mutation is 20, so the mutation range is from -2 to 0. This
 would decrease the chromsome's length. 
@@ -105,19 +107,19 @@ would decrease the chromsome's length.
 		\sum_{i=1}^{N}{CV_i}$}\\
 		\resizebox{.35\textwidth}{!}{$[(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N,0], \text{ if }  \sum_{i=1}^{N}{CT_i} < 
 		\sum_{i=1}^{N}{CV_i}$}\\
-	\end{cases}
+	\end{cases} 
 \end{align}
 
 The relationship between the angles in the composite laminate and the
 chromsome's fitness is unclear, so the mutation direction of chromsome's angle
 is random. The coefficient angle mutation is $C_a$, the angle mutation range is
 $[0,C_a \sum_{i=1}^{N}{(|CT_i-CV_i|)}]$ or $[C_a
-\sum_{i=1}^{N}{(-|CT_i-CV_i|)},0]$. It is can be written as:
+\sum_{i=1}^{N}{(-|CT_i-CV_i|)},0]$. It is can be written as
 
 \begin{align}
 	\text{P(AM)} =  
 	\begin{cases}
 		0.5, \text{ AM = }[0,C_a \sum_{i=1}^{N}{(|CT_i-CV_i|)}] \\ 
 	    0.5, \text{ AM = }[C_a \sum_{i=1}^{N}{(-|CT_i-CV_i|)},0]
-	\end{cases}
+	\end{cases} \textstyle{.}
 \end{align}

@@ -1,0 +1,18 @@
+\BOOKMARK [1][]{section*.2}{Introduction}{}% 1
+\BOOKMARK [1][]{section*.3}{Analysis of stress and strain for composite material}{}% 2
+\BOOKMARK [2][]{section*.5}{Stress and Strain in a Lamina}{section*.3}% 3
+\BOOKMARK [2][]{section*.6}{Stress and Strain in a Laminate}{section*.3}% 4
+\BOOKMARK [1][]{section*.7}{Failure criteria for a lamina}{}% 5
+\BOOKMARK [2][]{section*.8}{Maximum stress failure criterion}{section*.7}% 6
+\BOOKMARK [2][]{section*.9}{Tsai-wu failure criterion}{section*.7}% 7
+\BOOKMARK [2][]{section*.11}{Failure Theories for a Laminate}{section*.7}% 8
+\BOOKMARK [2][]{section*.12}{Safety factor}{section*.7}% 9
+\BOOKMARK [1][]{section*.14}{Methodology}{}% 10
+\BOOKMARK [2][]{section*.15}{Objective function}{section*.14}% 11
+\BOOKMARK [2][]{section*.16}{Encoding}{section*.14}% 12
+\BOOKMARK [2][]{section*.17}{Selection}{section*.14}% 13
+\BOOKMARK [2][]{section*.18}{Crossover}{section*.14}% 14
+\BOOKMARK [2][]{section*.20}{Mutation}{section*.14}% 15
+\BOOKMARK [1][]{section*.21}{Result and Discussion}{}% 16
+\BOOKMARK [1][]{section*.27}{Conclusion}{}% 17
+\BOOKMARK [1][]{section*.28}{Acknowledgment}{}% 18

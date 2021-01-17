@@ -1,0 +1,196 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem{schmit1973optimum}
+Schmit LA and Farshi B.
+\newblock Optimum laminate design for strength and stiffness.
+\newblock \emph{International Journal for Numerical Methods in Engineering}
+  1973; 7(4): 519--536.
+
+\bibitem{schmit1977optimum}
+Schmit~Jr L and Farshi B.
+\newblock Optimum design of laminated fibre composite plates.
+\newblock \emph{International journal for numerical methods in engineering}
+  1977; 11(4): 623--640.
+
+\bibitem{fukunaga1991strength}
+Fukunaga H and Vanderplaats G.
+\newblock Strength optimization of laminated composites with respect to layer
+  thickness and/or layer orientation angle.
+\newblock \emph{Computers \& Structures} 1991; 40(6): 1429--1439.
+
+\bibitem{soares1995discrete}
+Soares CM, Correia VF, Mateus H et~al.
+\newblock A discrete model for the optimal design of thin composite plate-shell
+  type structures using a two-level approach.
+\newblock \emph{Composite structures} 1995; 30(2): 147--157.
+
+\bibitem{le1995improved}
+Le~Riche R and Haftka R.
+\newblock Improved genetic algorithm for minimum thickness composite laminate
+  design.
+\newblock \emph{Composites Engineering} 1995; 5(2): 143--161.
+
+\bibitem{jayatheertha1996application}
+Jayatheertha C, Webber J and Morton S.
+\newblock Application of artificial neural networks for the optimum design of a
+  laminated plate.
+\newblock \emph{Computers \& structures} 1996; 59(5): 831--845.
+
+\bibitem{wang1996optimum}
+Wang J and Karihaloo B.
+\newblock Optimum in situ strength design of composite laminates. part i: in
+  situ strength parameters.
+\newblock \emph{Journal of composite materials} 1996; 30(12): 1314--1337.
+
+\bibitem{adali1997minimum}
+Adali S and Verijenko VE.
+\newblock Minimum cost design of hybrid composite cylinders with temperature
+  dependent properties.
+\newblock \emph{Composite structures} 1997; 38(1-4): 623--630.
+
+\bibitem{correia1997higher}
+Correia VF, Soares CM and Soares CM.
+\newblock Higher order models on the eigenfrequency analysis and optimal design
+  of laminated composite structures.
+\newblock \emph{Composite Structures} 1997; 39(3-4): 237--253.
+
+\bibitem{scares1997optimization}
+Scares CMM, Soares CAM and Correia VMF.
+\newblock Optimization of multilaminated structures using higher-order
+  deformation models.
+\newblock \emph{Computer methods in applied mechanics and engineering} 1997;
+  149(1-4): 133--152.
+
+\bibitem{abu1998optimum}
+Abu-Odeh AY and Jones HL.
+\newblock Optimum design of composite plates using response surface method.
+\newblock \emph{Composite structures} 1998; 43(3): 233--242.
+
+\bibitem{lombardi1998anti}
+Lombardi M and Haftka RT.
+\newblock Anti-optimization technique for structural design under load
+  uncertainties.
+\newblock \emph{Computer methods in applied mechanics and engineering} 1998;
+  157(1-2): 19--31.
+
+\bibitem{le1998design}
+Le~Riche R and Gaudin J.
+\newblock Design of dimensionally stable composites by evolutionary
+  optimization.
+\newblock \emph{Composite Structures} 1998; 41(2): 97--111.
+
+\bibitem{sivakumar1998optimum}
+Sivakumar K, Iyengar N and Deb K.
+\newblock Optimum design of laminated composite plates with cutouts using a
+  genetic algorithm.
+\newblock \emph{Composite Structures} 1998; 42(3): 265--279.
+
+\bibitem{barakat1999use}
+Barakat S and Abu-Farsakh G.
+\newblock The use of an energy-based criterion to determine optimum
+  configurations of fibrous composites.
+\newblock \emph{Composites science and technology} 1999; 59(12): 1891--1899.
+
+\bibitem{richard2000reliability}
+Richard F and Perreux D.
+\newblock A reliability method for optimization of [+ $\phi$,- $\phi$] n fiber
+  reinforced composite pipes.
+\newblock \emph{Reliability Engineering \& System Safety} 2000; 68(1): 53--59.
+
+\bibitem{moita2000sensitivity}
+Moita J, Barbosa JI, Soares CM et~al.
+\newblock Sensitivity analysis and optimal design of geometrically non-linear
+  laminated plates and shells.
+\newblock \emph{Computers \& Structures} 2000; 76(1-3): 407--420.
+
+\bibitem{soremekun2001composite}
+Soremekun G, G{\"u}rdal Z, Haftka R et~al.
+\newblock Composite laminate design optimization by genetic algorithm with
+  generalized elitist selection.
+\newblock \emph{Computers \& structures} 2001; 79(2): 131--143.
+
+\bibitem{walker2003technique}
+Walker M and Smith RE.
+\newblock A technique for the multiobjective optimisation of laminated
+  composite structures using genetic algorithms and finite element analysis.
+\newblock \emph{Composite structures} 2003; 62(1): 123--128.
+
+\bibitem{di2003multiconstrained}
+Di~Sciuva M, Gherlone M and Lomario D.
+\newblock Multiconstrained optimization of laminated and sandwich plates using
+  evolutionary algorithms and higher-order plate theories.
+\newblock \emph{Composite Structures} 2003; 59(1): 149--154.
+
+\bibitem{kere2003using}
+Kere P, Lyly M and Koski J.
+\newblock Using multicriterion optimization for strength design of composite
+  laminates.
+\newblock \emph{Composite Structures} 2003; 62(3-4): 329--333.
+
+\bibitem{callahan1992optimum}
+Callahan KJ and Weeks GE.
+\newblock Optimum design of composite laminates using genetic algorithms.
+\newblock \emph{Composites Engineering} 1992; 2(3): 149--160.
+
+\bibitem{park2001stacking}
+Park J, Hwang J, Lee C et~al.
+\newblock Stacking sequence design of composite laminates for maximum strength
+  using genetic algorithms.
+\newblock \emph{Composite Structures} 2001; 52(2): 217--231.
+
+\bibitem{deka2005multiobjective}
+Deka DJ, Sandeep G, Chakraborty D et~al.
+\newblock Multiobjective optimization of laminated composites using finite
+  element method and genetic algorithm.
+\newblock \emph{Journal of reinforced plastics and composites} 2005; 24(3):
+  273--285.
+
+\bibitem{pelletier2006multi}
+Pelletier JL and Vel SS.
+\newblock Multi-objective optimization of fiber reinforced composite laminates
+  for strength, stiffness and minimal mass.
+\newblock \emph{Computers \& structures} 2006; 84(29-30): 2065--2080.
+
+\bibitem{jadhav2007parametric}
+Jadhav P and Mantena PR.
+\newblock Parametric optimization of grid-stiffened composite panels for
+  maximizing their performance under transverse loading.
+\newblock \emph{Composite structures} 2007; 77(3): 353--363.
+
+\bibitem{kim2007development}
+Kim JS.
+\newblock Development of a user-friendly expert system for composite laminate
+  design.
+\newblock \emph{Composite Structures} 2007; 79(1): 76--83.
+
+\bibitem{park2008improved}
+Park CH, Lee WI, Han WS et~al.
+\newblock Improved genetic algorithm for multidisciplinary optimization of
+  composite laminates.
+\newblock \emph{Computers \& structures} 2008; 86(19-20): 1894--1903.
+
+\bibitem{kogiso1994design}
+Kogiso N, Watson LT, G{\"u}rdal Z et~al.
+\newblock Design of composite laminates by a genetic algorithm with memory.
+\newblock \emph{MECHANICS OF COMPOSITE MATERIALS AND STRUCTURES An
+  International Journal} 1994; 1(1): 95--117.
+
+\bibitem{todoroki1998stacking}
+Todoroki A and Haftka RT.
+\newblock Stacking sequence optimization by a genetic algorithm with a new
+  recessive gene like repair strategy.
+\newblock \emph{Composites Part B: Engineering} 1998; 29(3): 277--285.
+
+\bibitem{akbulut2008optimum}
+Akbulut M and Sonmez FO.
+\newblock Optimum design of composite laminates for minimum thickness.
+\newblock \emph{Computers \& Structures} 2008; 86(21-22): 1974--1982.
+
+\end{thebibliography}
