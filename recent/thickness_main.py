@@ -3,6 +3,7 @@ import numpy as np
 import constant_variable as cv
 import genetic_algorithm_thickness as my_ga
 import copy
+import laminate_multiple_component as lmc
 
 
 def get_angle_list(angle_type_length, half_chromosome_length):
@@ -55,7 +56,7 @@ def save_current_state_to_log(ind, result_times, result_fitness, result_strength
 
 def save_ga(result_times, result_fitness, result_strength_ratio, result_angle, result_number):
 
-    with open("thickness_three_angle_result.py","a") as result_handler:
+    with open("thickness_two_angle_result.py","a") as result_handler:
         result_handler.write("result_times=" + str(result_times))
         result_handler.write("\n")
         result_handler.write("result_fitness=" + str(result_fitness))
@@ -70,11 +71,12 @@ def save_ga(result_times, result_fitness, result_strength_ratio, result_angle, r
             result_handler.write("\n")
 
 if __name__ == "__main__":
+    max_stress_strength_ratio = []
     result_times = []
     result_fitness  = []
     result_strength_ratio = []
-    result_angle = [[],[], []]
-    result_number= [[],[], []]
+    result_angle = [[],[]]
+    result_number= [[],[]]
     print("###load: "+str(cv.LOAD))
     population = get_initial_population()
     population.sort(key = lambda c: c.fitness)
@@ -101,14 +103,26 @@ if __name__ == "__main__":
 
         best_individual = tool.get_safety_factor_pos_flag(population)
         current_fitness = population[best_individual].fitness
+
+
+        cv.FAILURE_CRITERIA = "max_stress"
+        max_stress_individual = copy.deepcopy(population[best_individual])
+        strength_raito_temp =  lmc.get_strength_ratio( \
+                                            tool.get_symmetry_list(max_stress_individual.angle_list),    \
+                                            tool.get_symmetry_list(max_stress_individual.height_list),   \
+                                            tool.get_symmetry_list(max_stress_individual.material_list), \
+                                            cv.LOAD)
+        max_stress_strength_ratio.append(strength_raito_temp)
+        cv.FAILURE_CRITERIA = "tsai_wu"
+
         save_current_state_to_log(population[best_individual], result_times, \
                               result_fitness, result_strength_ratio, result_angle, \
                               result_number)
 
-
         print("curent fitness: " + str(current_fitness) + " strength_raito " + \
                 str(population[best_individual].strength_raito))
         my_temp_angle = copy.deepcopy(population[best_individual].angle_list)
+
         for i in range(len(my_temp_angle)):
             my_temp_angle[i] = int(my_temp_angle[i]*180/np.pi)
         print(my_temp_angle)
@@ -117,7 +131,12 @@ if __name__ == "__main__":
     save_ga(result_times, result_fitness, result_strength_ratio, result_angle, result_number)
     print("result fitness:" + str(result_fitness[-1]))
     print("result strength ratio:" + str(result_strength_ratio[-1]))
-    print("result angle1: " + str(result_angle[0][-1]) + " result angle2: " + str(result_angle[1][-1])," result angle3: " + str(result_angle[2][-1]))
-    print("number of angle1: " + str(result_number[0][-1]) + " number of angle2: " + str(result_number[1][-1])," number of angle3: " + str(result_number[2][-1]))
+    print("result angle1: " + str(result_angle[0][-1]) + " result angle2: " +
+            str(result_angle[1][-1])) #," result angle3: " + str(result_angle[2][-1]))
+    print("number of angle1: " + str(result_number[0][-1]) + " number of \
+                    angle2:" + str(result_number[1][-1]))
+    #," number of angle3: " + str(result_number[2][-1]))
     print("###load: "+str(cv.LOAD))
+    with open("thickness_two_angle_max_stress.py","a") as result_handler:
+        result_handler.write("result_fitness=" + str(max_stress_strength_ratio))
 
