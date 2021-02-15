@@ -91,20 +91,20 @@ for material in [ cv.GLASS_EPOXY, cv.GRAPHITE_EPOXY, cv.CARBON_EPOXY]:
         material_property= cv.CARBON_EPOXY_PROPERTIES
         failure_property = carbon_properties 
     # fiber oritenation choosing
-    for angle in range(-90,91,1):
+    for angle in range(-90,91,4):
         # layer length deciding
         for layer in range(5, 200, 4):
             # loading xx
             cv.LOAD[0] = -80
-            for load_xx in [2]*80:
+            for load_xx in [ 10 ]* 16:
                 cv.LOAD[0] = cv.LOAD[0] + load_xx
                 # loading yy
                 cv.LOAD[1] = -80
-                for load_yy in [2]*80:
+                for load_yy in [10]*16:
                     cv.LOAD[1] = cv.LOAD[1] + load_yy
                     # loading xy
                     cv.LOAD[2] = -80
-                    for load_xy in [2]*80:
+                    for load_xy in [10]*16:
                         cv.LOAD[2] = cv.LOAD[2] + load_xy
                         angle_list = [angle, -angle] * int(layer/4)
                         angle_list = tool.get_symmetry_list(angle_list)

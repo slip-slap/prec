@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  13 AUG 2020 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  11 FEB 2021 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,117 +1039,114 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3] [4]
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+] [3]
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 84.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-Overfull \hbox (9.86768pt too wide) detected at line 95
+Overfull \hbox (9.86768pt too wide) detected at line 84
 \OT1/mathkerncmss/m/sl/10.95 sh [] \OT1/cmss/m/n/10.95 = []
  []
 
 
-Overfull \hbox (20.5628pt too wide) in paragraph at lines 95--95
+Overfull \hbox (20.5628pt too wide) in paragraph at lines 84--84
  [] 
+ []
+
+[4
+
+]
+<GA_images/example-sin.png, id=46, 373.395pt x 248.93pt>
+File: GA_images/example-sin.png Graphic file (type png)
+<use GA_images/example-sin.png>
+Package pdftex.def Info: GA_images/example-sin.png  used on input line 108.
+(pdftex.def)             Requested size: 122.9164pt x 81.94203pt.
+<GA_images/example-sin-result.png, id=48, 373.395pt x 248.93pt>
+File: GA_images/example-sin-result.png Graphic file (type png)
+<use GA_images/example-sin-result.png>
+Package pdftex.def Info: GA_images/example-sin-result.png  used on input line 108.
+(pdftex.def)             Requested size: 122.9164pt x 81.94203pt.
+
+Overfull \vbox (11.41296pt too high) detected at line 108
  []
 
 [5
 
-]
-<GA_images/example-sin.png, id=51, 373.395pt x 248.93pt>
-File: GA_images/example-sin.png Graphic file (type png)
-<use GA_images/example-sin.png>
-Package pdftex.def Info: GA_images/example-sin.png  used on input line 119.
+ <./GA_images/example-sin.png> <./GA_images/example-sin-result.png>]
+<GA_images/example-composite-sin.png, id=56, 373.395pt x 248.93pt>
+File: GA_images/example-composite-sin.png Graphic file (type png)
+<use GA_images/example-composite-sin.png>
+Package pdftex.def Info: GA_images/example-composite-sin.png  used on input line 131.
 (pdftex.def)             Requested size: 122.9164pt x 81.94203pt.
-<GA_images/example-sin-result.png, id=53, 373.395pt x 248.93pt>
-File: GA_images/example-sin-result.png Graphic file (type png)
-<use GA_images/example-sin-result.png>
-Package pdftex.def Info: GA_images/example-sin-result.png  used on input line 119.
-(pdftex.def)             Requested size: 122.9164pt x 81.94203pt.
+<GA_images/example-composite-sin-result.png, id=57, 373.395pt x 248.93pt>
+File: GA_images/example-composite-sin-result.png Graphic file (type png)
+<use GA_images/example-composite-sin-result.png>
+Package pdftex.def Info: GA_images/example-composite-sin-result.png  used on input line 131.
+(pdftex.def)             Requested size: 153.64493pt x 102.43039pt.
 
-Overfull \vbox (11.41296pt too high) detected at line 119
+Overfull \vbox (31.90132pt too high) detected at line 131
  []
 
 [6
 
- <./GA_images/example-sin.png> <./GA_images/example-sin-result.png>]
-<GA_images/example-composite-sin.png, id=61, 373.395pt x 248.93pt>
-File: GA_images/example-composite-sin.png Graphic file (type png)
-<use GA_images/example-composite-sin.png>
-Package pdftex.def Info: GA_images/example-composite-sin.png  used on input line 142.
-(pdftex.def)             Requested size: 122.9164pt x 81.94203pt.
-<GA_images/example-composite-sin-result.png, id=62, 373.395pt x 248.93pt>
-File: GA_images/example-composite-sin-result.png Graphic file (type png)
-<use GA_images/example-composite-sin-result.png>
-Package pdftex.def Info: GA_images/example-composite-sin-result.png  used on input line 142.
-(pdftex.def)             Requested size: 153.64493pt x 102.43039pt.
-
-Overfull \vbox (31.90132pt too high) detected at line 142
- []
-
-[7
-
  <./GA_images/example-composite-sin.png> <./GA_images/example-composite-sin-result.png>]
-<GA_images/neural-network-design.png, id=76, 602.25pt x 256.96pt>
+<GA_images/neural-network-design.png, id=70, 602.25pt x 256.96pt>
 File: GA_images/neural-network-design.png Graphic file (type png)
 <use GA_images/neural-network-design.png>
-Package pdftex.def Info: GA_images/neural-network-design.png  used on input line 162.
+Package pdftex.def Info: GA_images/neural-network-design.png  used on input line 151.
 (pdftex.def)             Requested size: 215.10196pt x 91.77623pt.
-<GA_images/ga-neural-network.png, id=77, 218.8175pt x 347.2975pt>
+<GA_images/ga-neural-network.png, id=71, 218.8175pt x 347.2975pt>
 File: GA_images/ga-neural-network.png Graphic file (type png)
 <use GA_images/ga-neural-network.png>
-Package pdftex.def Info: GA_images/ga-neural-network.png  used on input line 162.
+Package pdftex.def Info: GA_images/ga-neural-network.png  used on input line 151.
 (pdftex.def)             Requested size: 98.33162pt x 156.07045pt.
- [8
+ [7
 
  <./GA_images/neural-network-design.png> <./GA_images/ga-neural-network.png>]
-<GA_images/adaboost.png, id=85, 649.42625pt x 464.73625pt>
+<GA_images/adaboost.png, id=80, 649.42625pt x 464.73625pt>
 File: GA_images/adaboost.png Graphic file (type png)
 <use GA_images/adaboost.png>
-Package pdftex.def Info: GA_images/adaboost.png  used on input line 184.
+Package pdftex.def Info: GA_images/adaboost.png  used on input line 173.
 (pdftex.def)             Requested size: 122.9164pt x 87.96042pt.
-<GA_images/neural-network-train.png, id=86, 965.6075pt x 636.3775pt>
+<GA_images/neural-network-train.png, id=81, 965.6075pt x 636.3775pt>
 File: GA_images/neural-network-train.png Graphic file (type png)
 <use GA_images/neural-network-train.png>
-Package pdftex.def Info: GA_images/neural-network-train.png  used on input line 184.
+Package pdftex.def Info: GA_images/neural-network-train.png  used on input line 173.
 (pdftex.def)             Requested size: 122.9164pt x 81.00354pt.
-<GA_images/neural-network.png, id=87, 392.46625pt x 590.205pt>
+<GA_images/neural-network.png, id=82, 392.46625pt x 590.205pt>
 File: GA_images/neural-network.png Graphic file (type png)
 <use GA_images/neural-network.png>
-Package pdftex.def Info: GA_images/neural-network.png  used on input line 184.
+Package pdftex.def Info: GA_images/neural-network.png  used on input line 173.
 (pdftex.def)             Requested size: 122.9164pt x 184.84386pt.
 
-Overfull \vbox (30.29279pt too high) detected at line 184
+Overfull \vbox (30.29279pt too high) detected at line 173
  []
 
-[9
+[8
 
  <./GA_images/adaboost.png> <./GA_images/neural-network-train.png> <./GA_images/neural-network.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 202.
-LaTeX Font Info:    No file OMScmss.fd. on input line 202.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 191.
+LaTeX Font Info:    No file OMScmss.fd. on input line 191.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 202.
+(Font)              for symbol `textbullet' on input line 191.
 
-<GA_images/composite-material.png, id=96, 376.2858pt x 387.3672pt>
+<GA_images/composite-material.png, id=91, 376.2858pt x 387.3672pt>
 File: GA_images/composite-material.png Graphic file (type png)
 <use GA_images/composite-material.png>
-Package pdftex.def Info: GA_images/composite-material.png  used on input line 202.
+Package pdftex.def Info: GA_images/composite-material.png  used on input line 191.
 (pdftex.def)             Requested size: 122.9164pt x 126.53711pt.
-[10
+[9
 
  <./GA_images/composite-material.png>]
 \tf@nav=\write6
@@ -1161,11 +1158,11 @@ Package pdftex.def Info: GA_images/composite-material.png  used on input line 20
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1174,18 +1171,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32591 strings out of 492616
- 658629 string characters out of 6128982
+ 32577 strings out of 492616
+ 658385 string characters out of 6128982
  796719 words of memory out of 5000000
- 35947 multiletter control sequences out of 15000+600000
+ 35935 multiletter control sequences out of 15000+600000
  541439 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,95p,1835b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on presentation.pdf (10 pages, 469451 bytes).
+Output written on presentation.pdf (9 pages, 468961 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

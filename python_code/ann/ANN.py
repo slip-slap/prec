@@ -7,8 +7,13 @@ def layer(layer_name, data, output_channels):
         b = tf.get_variable(name="bias",shape=[output_channels])
         summary_bias = tf.summary.histogram("bias",b)
         y = tf.matmul(data,w)
-        y = tf.add(y,b,name="result")
+        y = tf.add(y,b,name="bias")
+        if layer_name == "last":
+            y = tf.nn.relu(y,name="relu_function")
+        else:
+            y = tf.sigmoid(y,name="sigmoid_function")
     return y
+
 
 # use NumPy to produce data
 x_data = np.float32(np.random.rand(100, 2))
@@ -18,15 +23,14 @@ y_data = np.dot(x_data,[[0.1],[0.2]]) + 0.300
 x = tf.placeholder("float", [None,2],name="input_x")
 y_ = tf.placeholder("float", [None,1],name="input_y")
 
-y=layer("first",x,6)
-y=layer("second",y,2)
-y=layer("third",y,3)
-y=layer("fourth",y,1)
+y=layer("first",x,9)
+y=layer("second",y,3)
+y=layer("last",y,1)
 
 # loss
 loss = tf.reduce_mean(tf.square(y - y_))
 summary_loss = tf.summary.scalar(name="loss",tensor=loss)
-optimizer = tf.train.GradientDescentOptimizer(0.01)
+optimizer = tf.train.GradientDescentOptimizer(0.002)
 train = optimizer.minimize(loss)
 
 # init
@@ -46,6 +50,6 @@ with tf.Session() as sess:
         sess.run(train,feed_dict={x:x_data, y_:y_data})
         summary = sess.run(merged,feed_dict={x:x_data,y_:y_data})
         writer.add_summary(summary, step)
-        if step % 20 == 0:
+        if step % 1000 == 0:
             print(step,sess.run(loss,feed_dict={x:x_data,y_:y_data}))
 

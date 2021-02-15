@@ -3,27 +3,30 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}% 
 \contentsline {section}{\numberline {1.1}Laminated Composite Material}{1}{section.3}% 
 \contentsline {section}{\numberline {1.2}Classic Lamination Theory}{1}{section.4}% 
-\contentsline {section}{\numberline {1.3}Stochastic Optimization Algorithm}{1}{section.5}% 
+\contentsline {section}{\numberline {1.3}Genetic Algorithm}{1}{section.5}% 
 \contentsline {section}{\numberline {1.4}Artificial Neural Network}{1}{section.6}% 
-\contentsline {section}{\numberline {1.5}Conclusion}{1}{section.7}% 
+\contentsline {section}{\numberline {1.5}Summary}{1}{section.7}% 
 \contentsline {chapter}{\numberline {2}Classic Lamination Theory and Failure Theory}{3}{chapter.8}% 
 \contentsline {section}{\numberline {2.1}Classic Lamination Theory}{3}{section.9}% 
 \contentsline {section}{\numberline {2.2}Failure Theory}{3}{section.10}% 
 \contentsline {subsection}{\numberline {2.2.1}Tsai-wu Failure Theory}{3}{subsection.11}% 
 \contentsline {subsection}{\numberline {2.2.2}Maximum Stress Failure Theory}{3}{subsection.12}% 
-\contentsline {section}{\numberline {2.3}Conclusion}{3}{section.13}% 
-\contentsline {chapter}{\numberline {3}Stochastic Algorithm and Artificial Neural Network}{5}{chapter.14}% 
-\contentsline {section}{\numberline {3.1}Genetic Algorithm}{5}{section.15}% 
-\contentsline {section}{\numberline {3.2}Other Stochastic Algorithm}{5}{section.16}% 
-\contentsline {section}{\numberline {3.3}Artificial Neural Network}{5}{section.17}% 
-\contentsline {section}{\numberline {3.4}Conclusion}{5}{section.18}% 
-\contentsline {chapter}{\numberline {4}Laminated Composite Material Optimization by Genetic Algorithm}{7}{chapter.19}% 
-\contentsline {section}{\numberline {4.1}Methodology}{7}{section.20}% 
-\contentsline {section}{\numberline {4.2}Case1: Maximum Strength Optimization}{7}{section.21}% 
-\contentsline {section}{\numberline {4.3}Case2: Minimum Thickness Optimization}{7}{section.22}% 
-\contentsline {section}{\numberline {4.4}Result and Discussion}{7}{section.23}% 
-\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{9}{chapter.24}% 
-\contentsline {section}{\numberline {5.1}Design of Artificial Neural Network}{9}{section.25}% 
-\contentsline {section}{\numberline {5.2}Traing Process}{9}{section.26}% 
-\contentsline {section}{\numberline {5.3}Result and Discussion}{9}{section.27}% 
-\contentsline {chapter}{\numberline {6}Conclusion}{11}{chapter.28}% 
+\contentsline {section}{\numberline {2.3}Summary}{3}{section.13}% 
+\contentsline {chapter}{\numberline {3}A New Genetic Algorithm Model for Constrained Problem}{5}{chapter.14}% 
+\contentsline {section}{\numberline {3.1}Genetic Algorithm Framework}{5}{section.15}% 
+\contentsline {section}{\numberline {3.2}Constrained Problem Optimization}{5}{section.16}% 
+\contentsline {section}{\numberline {3.3}A New Genetic Algorithm Model}{5}{section.17}% 
+\contentsline {section}{\numberline {3.4}Summary}{5}{section.18}% 
+\contentsline {chapter}{\numberline {4}Laminated Composite Material Optimization by New Genetic Algorithm Model}{7}{chapter.19}% 
+\contentsline {section}{\numberline {4.1}Case1: Maximum Strength Optimization}{7}{section.20}% 
+\contentsline {subsection}{\numberline {4.1.1}Methodology}{7}{subsection.21}% 
+\contentsline {subsection}{\numberline {4.1.2}Result and Discussion}{7}{subsection.22}% 
+\contentsline {section}{\numberline {4.2}Case2: Minimum Thickness Optimization}{7}{section.23}% 
+\contentsline {subsection}{\numberline {4.2.1}Methodology}{7}{subsection.24}% 
+\contentsline {subsection}{\numberline {4.2.2}Result and Discussion}{7}{subsection.25}% 
+\contentsline {section}{\numberline {4.3}Summary}{7}{section.26}% 
+\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{9}{chapter.27}% 
+\contentsline {section}{\numberline {5.1}Design of Artificial Neural Network}{9}{section.28}% 
+\contentsline {section}{\numberline {5.2}Traing Process}{9}{section.29}% 
+\contentsline {section}{\numberline {5.3}Result and Discussion}{9}{section.30}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{11}{chapter.31}% 

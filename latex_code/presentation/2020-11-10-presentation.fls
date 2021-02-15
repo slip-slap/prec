@@ -1,4 +1,4 @@
-PWD /Users/kismet/Documents/github/code/latex_code/presentation
+PWD /Users/kismet/Documents/github/prec/latex_code/presentation
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -404,6 +404,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathker
 INPUT 2020-11-10-pre-image/email.png
 INPUT ./2020-11-10-pre-image/email.png
 INPUT ./2020-11-10-pre-image/email.png
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT GA_images/composite-material.png
+INPUT ./GA_images/composite-material.png
+INPUT ./GA_images/composite-material.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -419,15 +423,6 @@ INPUT 2020-11-10-pre-image/two_distinct_angler_number_change.png
 INPUT ./2020-11-10-pre-image/two_distinct_angler_number_change.png
 INPUT ./2020-11-10-pre-image/two_distinct_angler_number_change.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
-INPUT ./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
-INPUT ./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png
-INPUT 2020-11-10-pre-image/three_distinct_angles_angle_change.png
-INPUT ./2020-11-10-pre-image/three_distinct_angles_angle_change.png
-INPUT ./2020-11-10-pre-image/three_distinct_angles_angle_change.png
-INPUT 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png
-INPUT ./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png
-INPUT ./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png
 OUTPUT 2020-11-10-presentation.nav
 OUTPUT 2020-11-10-presentation.toc
 OUTPUT 2020-11-10-presentation.snm
