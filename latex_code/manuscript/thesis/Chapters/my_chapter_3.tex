@@ -9,11 +9,53 @@
 %----------------------------------------------------------------------------------------
 
 \section{Genetic Algorithm Framework}
+GA is one of the most reliable stochastic algorithm, which has been widely used
+in discrete variables optimization problems.  
 \section{Constrained Problem Optimization}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 \section{A New Genetic Algorithm Model}
+
+\subsection{Encoding}
+Due to the simplicity and efficiency of float representation, this encoding
+method is implemented to represent a possible solution. As shown in Figure \ref{GA:operator}
+ (a), these two chromsomes represent a $[+8_{7}/-9_{2}]_s$
+carbon T300/5308 laminated composite, and $[+19_{4}/-36_{6}]_s$, respectively.
+Becasue the laminate adopted in this paper is symmetric to its mid-plane, so
+only half needs to be encoded.
+
+\subsection{Selection}
+The purpose of the selection operator is to chose mating pool to produce
+alternative solutions of better fitness. Traditional methods of selecting
+strategies only take the fitness of individuals into acount, however, due to 
+the existance of constraint, various selection schemes are implemented to
+selecet the mating set. Based on different selection schemes, the parents of
+next generation can be divided into  three groups: proper groups, active groups,
+and potential groups according to different selecting methods. 
+
+Proper parents mean in which individual fullfils the constraints, which are
+chosen by the individual's fitnees, individuals with better fitness are more
+likely to be chosen if they fit the constraint; active groups means that
+individual is supposed to be always exist in the parents during the GA, which
+are selected by fitness, ignoring the constraint; The individuals from active
+group may not correspond to feasible solutions, but their existance enriches the
+variety of the gene clips.  Potential groups means that they are likely to turn
+into proper individual after a couple of generations, and potential individuals
+are chosen by constraint function, the more the individual fulfils the
+constraint, the more possiblity it will be selected.
+
+\subsection{Crossover}
+The crossover operator happens among these three groups. the child of two proper
+groups are more likely to be a proper individual which can be used to obtain a
+alternative feasible solution. the child of an active individual and a potential
+individual can significantly change the gene of active individual's chromsome,
+which makes the individual evolve toward a new direction. The offspring of two
+active individuals are more likely to be an active individual, which can maitain
+the active group.  The figure.\ref{GA:operator} (b) shows two children $O_1$
+
+
+
 \section{Summary}
 

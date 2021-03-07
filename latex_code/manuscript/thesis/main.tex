@@ -40,14 +40,16 @@ headsepline, % Uncomment to get a line under the header
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
 \usepackage{mathpazo} % Use the Palatino font by default
-\usepackage{comment} 
+\usepackage{comment,import} 
+\usepackage{booktabs, multicol, makecell, amsmath}
+\usepackage{tikz,tabularx}
+\usepackage{subcaption}
+\usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
 
+\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
 \usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
-
 \addbibresource{example.bib} % The filename of the bibliography
-
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
 %----------------------------------------------------------------------------------------

@@ -2,31 +2,43 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.2}% 
 \contentsline {section}{\numberline {1.1}Laminated Composite Material}{1}{section.3}% 
-\contentsline {section}{\numberline {1.2}Classic Lamination Theory}{1}{section.4}% 
+\contentsline {section}{\numberline {1.2}Classic Lamination Theory and Failure Theory}{1}{section.4}% 
 \contentsline {section}{\numberline {1.3}Genetic Algorithm}{1}{section.5}% 
 \contentsline {section}{\numberline {1.4}Artificial Neural Network}{1}{section.6}% 
-\contentsline {section}{\numberline {1.5}Summary}{1}{section.7}% 
+\contentsline {section}{\numberline {1.5}Summary}{2}{section.7}% 
 \contentsline {chapter}{\numberline {2}Classic Lamination Theory and Failure Theory}{3}{chapter.8}% 
 \contentsline {section}{\numberline {2.1}Classic Lamination Theory}{3}{section.9}% 
-\contentsline {section}{\numberline {2.2}Failure Theory}{3}{section.10}% 
-\contentsline {subsection}{\numberline {2.2.1}Tsai-wu Failure Theory}{3}{subsection.11}% 
-\contentsline {subsection}{\numberline {2.2.2}Maximum Stress Failure Theory}{3}{subsection.12}% 
-\contentsline {section}{\numberline {2.3}Summary}{3}{section.13}% 
-\contentsline {chapter}{\numberline {3}A New Genetic Algorithm Model for Constrained Problem}{5}{chapter.14}% 
-\contentsline {section}{\numberline {3.1}Genetic Algorithm Framework}{5}{section.15}% 
-\contentsline {section}{\numberline {3.2}Constrained Problem Optimization}{5}{section.16}% 
-\contentsline {section}{\numberline {3.3}A New Genetic Algorithm Model}{5}{section.17}% 
-\contentsline {section}{\numberline {3.4}Summary}{5}{section.18}% 
-\contentsline {chapter}{\numberline {4}Laminated Composite Material Optimization by New Genetic Algorithm Model}{7}{chapter.19}% 
-\contentsline {section}{\numberline {4.1}Case1: Maximum Strength Optimization}{7}{section.20}% 
-\contentsline {subsection}{\numberline {4.1.1}Methodology}{7}{subsection.21}% 
-\contentsline {subsection}{\numberline {4.1.2}Result and Discussion}{7}{subsection.22}% 
-\contentsline {section}{\numberline {4.2}Case2: Minimum Thickness Optimization}{7}{section.23}% 
-\contentsline {subsection}{\numberline {4.2.1}Methodology}{7}{subsection.24}% 
-\contentsline {subsection}{\numberline {4.2.2}Result and Discussion}{7}{subsection.25}% 
-\contentsline {section}{\numberline {4.3}Summary}{7}{section.26}% 
-\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{9}{chapter.27}% 
-\contentsline {section}{\numberline {5.1}Design of Artificial Neural Network}{9}{section.28}% 
-\contentsline {section}{\numberline {5.2}Traing Process}{9}{section.29}% 
-\contentsline {section}{\numberline {5.3}Result and Discussion}{9}{section.30}% 
-\contentsline {chapter}{\numberline {6}Conclusion}{11}{chapter.31}% 
+\contentsline {subsection}{\numberline {2.1.1}Analysis of stress and strain for composite material}{3}{subsection.10}% 
+\contentsline {subsection}{\numberline {2.1.2}Stress and Strain in a Lamina}{3}{subsection.12}% 
+\contentsline {subsection}{\numberline {2.1.3}Stress and Strain in a Laminate}{4}{subsection.19}% 
+\contentsline {section}{\numberline {2.2}Failure Theory}{5}{section.22}% 
+\contentsline {subsection}{\numberline {2.2.1}Tsai-wu failure criterion}{6}{subsection.24}% 
+\contentsline {subsection}{\numberline {2.2.2}Maximum Stress Failure Theory}{7}{subsection.27}% 
+\contentsline {section}{\numberline {2.3}Summary}{8}{section.30}% 
+\contentsline {chapter}{\numberline {3}A New Genetic Algorithm Model for Constrained Problem}{9}{chapter.31}% 
+\contentsline {section}{\numberline {3.1}Genetic Algorithm Framework}{9}{section.32}% 
+\contentsline {section}{\numberline {3.2}Constrained Problem Optimization}{9}{section.33}% 
+\contentsline {section}{\numberline {3.3}A New Genetic Algorithm Model}{9}{section.34}% 
+\contentsline {subsection}{\numberline {3.3.1}Encoding}{9}{subsection.35}% 
+\contentsline {subsection}{\numberline {3.3.2}Selection}{9}{subsection.36}% 
+\contentsline {subsection}{\numberline {3.3.3}Crossover}{10}{subsection.37}% 
+\contentsline {section}{\numberline {3.4}Summary}{10}{section.38}% 
+\contentsline {chapter}{\numberline {4}Laminated Composite Material Optimization by New Genetic Algorithm Model}{11}{chapter.39}% 
+\contentsline {section}{\numberline {4.1}Case1: Maximum Strength Optimization}{11}{section.40}% 
+\contentsline {subsection}{\numberline {4.1.1}Methodology}{12}{subsection.42}% 
+\contentsline {subsection}{\numberline {4.1.2}Result and Discussion}{12}{subsection.43}% 
+\contentsline {section}{\numberline {4.2}Case2: Minimum Thickness Optimization}{12}{section.44}% 
+\contentsline {subsection}{\numberline {4.2.1}Methodology}{12}{subsection.45}% 
+\contentsline {subsection}{\numberline {4.2.2}Result and Discussion}{12}{subsection.51}% 
+\contentsline {section}{\numberline {4.3}Summary}{12}{section.52}% 
+\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{15}{chapter.53}% 
+\contentsline {section}{\numberline {5.1}Neural Network Design}{15}{section.54}% 
+\contentsline {subsection}{\numberline {5.1.1}Architecture}{15}{subsection.55}% 
+\contentsline {subsection}{\numberline {5.1.2}Discussion}{15}{subsection.58}% 
+\contentsline {section}{\numberline {5.2}Approximation Framework}{15}{section.59}% 
+\contentsline {subsection}{\numberline {5.2.1}Data Preparation}{15}{subsection.60}% 
+\contentsline {subsection}{\numberline {5.2.2}Training}{15}{subsection.61}% 
+\contentsline {subsection}{\numberline {5.2.3}Evaluation}{15}{subsection.62}% 
+\contentsline {subsection}{\numberline {5.2.4}Result and Discussion}{15}{subsection.63}% 
+\contentsline {section}{\numberline {5.3}Summary}{15}{section.64}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{17}{chapter.65}% 
