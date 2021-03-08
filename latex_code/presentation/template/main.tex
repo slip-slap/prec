@@ -1,0 +1,68 @@
+\documentclass{article}
+
+\usepackage{moreverb,url}
+\usepackage{booktabs, multicol, makecell}
+\usepackage{graphicx, tikz,tabularx}
+\usepackage{subcaption}
+\usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
+\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
+
+
+
+\begin{document}
+
+\begin{center}
+\begin{tikzpicture}
+	\tikzstyle{rec} = [rectangle, minimum width=4cm, minimum height=0.8cm,
+	text centered, draw=black]
+	\tikzstyle{subgroup} = [rectangle, minimum width=1.5cm, minimum height=0.6cm,
+	text centered, draw=black]
+	\tikzstyle{bigsubgroup} = [rectangle, minimum width=2.5cm, minimum height=0.6cm,
+	text centered, draw=black]
+
+	\node (population) [rec] {population};
+	\node (active_group_1) at ($(population.south)+(-3cm, -2.0cm)$) [subgroup]
+		{active group};
+	\node (active_group_2) at ($(active_group_1.south)+(0cm, -2.0cm)$)
+		[subgroup] {active group};
+	\draw[->] (population.south) -- (active_group_1.north);
+	\draw[->] (active_group_1.south) -- (active_group_2.north);
+	\node at ($(active_group_1.west)+(-1.2cm, 0.0cm)$) {classification: };
+	\node at ($(active_group_2.west)+(-1.2cm, 0.0cm)$) {selection: };
+
+
+	\node (potential_group_1) at ($(population.south)+(0cm, -2.0cm)$) [subgroup]
+		{potential group};
+	\node (potential_group_2) at ($(potential_group_1.south)+(0cm, -2.0cm)$)
+		[subgroup] {potential group};
+	\draw[->] (population.south) -- (potential_group_1.north);
+	\draw[->] (potential_group_1.south) -- (potential_group_2.north);
+
+
+	\node (proper_group_1) at ($(population.south)+(3cm, -2.0cm)$) [subgroup]
+		{proper group};
+	\node (proper_group_2) at ($(proper_group_1.south)+(0cm, -2.0cm)$)[subgroup]
+		{proper group};
+	\draw[->] (population.south) -- (proper_group_1.north);
+	\draw[->] (proper_group_1.south) -- (proper_group_2.north);
+
+	\node (after_cross_over) at ($(potential_group_2.south)+(0cm, -2.0cm)$) [rec] {};
+	\node at ($(potential_group_2.west)+(-2cm, 0.0cm)$)  {crossover: }
+	\draw[-] ($(after_cross_over.south)+(-0.5cm,0cm)$) --
+		($(after_cross_over.north)+(-0.5cm,0cm)$);
+	\draw[->] (active_group_2.south) -- (after_cross_over.north);
+	\draw[->] (potential_group_2.south) -- (after_cross_over.north);
+	\draw[->] (proper_group_2.south) -- (after_cross_over.north);
+
+
+	\node (active_group_3) at ($(after_cross_over.south)+(-2cm, -2.0cm)$)
+		[subgroup] {active group};
+	\draw[->] ($(after_cross_over.south)+(-1cm,0cm)$)--(active_group_3.north);
+
+	\node (poteni_and_prop) at ($(after_cross_over.south)+(2cm, -2.0cm)$)
+		[bigsubgroup] {potential and proper group};
+	\draw[->] ($(after_cross_over.south)+(1cm,0cm)$)--(poteni_and_prop.north);
+
+\end{tikzpicture}
+\end{center}
+\end{document}
