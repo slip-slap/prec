@@ -1,13 +1,74 @@
 #include <iostream>
+#include <vector>
+#include <exception>
+#include <list>
+#include <ostream>
+#include <string>
+
+void print_container(std::vector<int> &vec){
+	for(std::vector<int>::iterator itr=vec.begin(); itr!=vec.end();itr++){
+		std::cout<<*itr<<",";
+	}
+	std::cout<<std::endl;
+}
+
+void print_container(std::list<int> &vec){
+	for(std::list<int>::iterator itr=vec.begin(); itr!=vec.end();itr++){
+		std::cout<<*itr<<",";
+	}
+	std::cout<<std::endl;
+}
+
+void branch(std::vector<int>& vec){
+	std::list<int> queue;
+	queue.push_back(-1);
+
+	while(queue.size()!=0){
+		int front = queue.front();
+		std::cout<<"front is: "<<front<<std::endl;
+		front = front+1;
+		queue.pop_front();
+		for(int i=front;i<3;i++){
+				queue.push_back(i);
+				std::cout<< i<<std::endl;
+		}
+	}
+}
+
+
+int main(){
+	std::vector<int> bag_int {5,10,12,13,15,18};
+	std::vector<int> subset {-1,-1,-1,-1,-1,-1};
+	//sumOfSubset(bag_int, subset,0);
+	//branch(bag_int);
+}
+
+
+/*
+std::vector<int>* copy_array(const int* array, int size,const int removed_element){
+
+	std::vector<int> *new_array = new std::vector<int>();
+	for(int k=0,new_index=0;k<size;new_index++,k++){
+		if(array[k]==removed_element){k++;}
+		std::cout<<array[k]<<std::endl;
+		new_array[new_index] = array[k];
+	}
+	print_array(new_array, size-1);
+
+	return new_array;
+}
+*/
+
+
+
+
+/*
 int main()
 {
 	int* test_arry ;
 	test_arry= new int[20];
 	std::cout<<"the 25th element: "<<test_arry[25000000]<<std::endl;
 }
-
-
-/*
 
 #include<iostream>
 #include <vector>

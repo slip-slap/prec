@@ -9,16 +9,19 @@ message(${CMAKE_CURRENT_BINARY_DIR})
 
 
 find_package(Boost 1.72.0 COMPONENTS locale)
-find_package(OpenCV)
+#find_package(OpenCV)
+
+find_package(SFML 2 COMPONENTS graphics audio REQUIRED)
 
 
 message(${CMAKE_CURRENT_SOURCE_DIR})
-message(${OpenCV_INCLUDE_DIRS})
+#message(${OpenCV_INCLUDE_DIRS})
 include_directories(${Boost_INCLUDES_DIRS})
+include_directories(${SFML_INCLUDES_DIRS})
+
 add_executable(demo main.cpp)
 target_link_libraries(demo ${Boost_LIBRARIES})
-
-
+target_link_libraries(demo sfml-graphics sfml-audio)
 
 
 

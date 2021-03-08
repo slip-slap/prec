@@ -465,6 +465,10 @@ INPUT Chapters/my_chapter_4.tex
 INPUT Chapters/my_chapter_4.tex
 INPUT Figures/table_composite_material.tex
 INPUT Figures/table_composite_material.tex
+INPUT Figures/chapter4_second_ga_operator.tex
+INPUT Figures/chapter4_second_ga_operator.tex
+INPUT Figures/chapter4_second_lay_up_two_angle.tex
+INPUT Figures/chapter4_second_lay_up_two_angle.tex
 INPUT Figures/chapter4_second_two_distinct_angle_fitness_and_sr.png
 INPUT ./Figures/chapter4_second_two_distinct_angle_fitness_and_sr.png
 INPUT ./Figures/chapter4_second_two_distinct_angle_fitness_and_sr.png
@@ -474,8 +478,6 @@ INPUT ./Figures/chapter4_second_two_distinct_angle_angle_change.png
 INPUT Figures/chapter4_second_two_distinct_angler_number_change.png
 INPUT ./Figures/chapter4_second_two_distinct_angler_number_change.png
 INPUT ./Figures/chapter4_second_two_distinct_angler_number_change.png
-INPUT Figures/chapter4_second_lay_up_two_angle.tex
-INPUT Figures/chapter4_second_lay_up_two_angle.tex
 INPUT Figures/chapter4_second_three_distinct_angle_fitness_and_sr.png
 INPUT ./Figures/chapter4_second_three_distinct_angle_fitness_and_sr.png
 INPUT ./Figures/chapter4_second_three_distinct_angle_fitness_and_sr.png
@@ -492,10 +494,10 @@ INPUT Figures/chapter4_second_lay_up_comparsion.tex
 OUTPUT Chapters/my_chapter_5.aux
 INPUT Chapters/my_chapter_5.tex
 INPUT Chapters/my_chapter_5.tex
-INPUT Figures/neural_network.tex
-INPUT Figures/neural_network.tex
-INPUT Figures/ann_for_clt.tex
-INPUT Figures/ann_for_clt.tex
+INPUT Figures/chapter5_neural_network.tex
+INPUT Figures/chapter5_neural_network.tex
+INPUT Figures/chapter5_ann_for_clt.tex
+INPUT Figures/chapter5_ann_for_clt.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm

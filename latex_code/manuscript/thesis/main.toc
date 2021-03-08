@@ -25,20 +25,24 @@
 \contentsline {section}{\numberline {3.4}Summary}{10}{section.38}% 
 \contentsline {chapter}{\numberline {4}Laminated Composite Material Optimization by New Genetic Algorithm Model}{11}{chapter.39}% 
 \contentsline {section}{\numberline {4.1}Case1: Maximum Strength Optimization}{11}{section.40}% 
-\contentsline {subsection}{\numberline {4.1.1}Methodology}{12}{subsection.42}% 
-\contentsline {subsection}{\numberline {4.1.2}Result and Discussion}{12}{subsection.43}% 
-\contentsline {section}{\numberline {4.2}Case2: Minimum Thickness Optimization}{12}{section.44}% 
-\contentsline {subsection}{\numberline {4.2.1}Methodology}{12}{subsection.45}% 
-\contentsline {subsection}{\numberline {4.2.2}Result and Discussion}{12}{subsection.51}% 
-\contentsline {section}{\numberline {4.3}Summary}{12}{section.52}% 
-\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{15}{chapter.53}% 
-\contentsline {section}{\numberline {5.1}Neural Network Design}{15}{section.54}% 
-\contentsline {subsection}{\numberline {5.1.1}Architecture}{15}{subsection.55}% 
-\contentsline {subsection}{\numberline {5.1.2}Discussion}{15}{subsection.58}% 
-\contentsline {section}{\numberline {5.2}Approximation Framework}{15}{section.59}% 
-\contentsline {subsection}{\numberline {5.2.1}Data Preparation}{15}{subsection.60}% 
-\contentsline {subsection}{\numberline {5.2.2}Training}{15}{subsection.61}% 
-\contentsline {subsection}{\numberline {5.2.3}Evaluation}{15}{subsection.62}% 
-\contentsline {subsection}{\numberline {5.2.4}Result and Discussion}{15}{subsection.63}% 
-\contentsline {section}{\numberline {5.3}Summary}{15}{section.64}% 
-\contentsline {chapter}{\numberline {6}Conclusion}{17}{chapter.65}% 
+\contentsline {subsection}{\numberline {4.1.1}Methodology}{11}{subsection.42}% 
+\contentsline {subsection}{\numberline {4.1.2}Result and Discussion}{11}{subsection.43}% 
+\contentsline {section}{\numberline {4.2}Case2: Minimum Thickness Optimization}{11}{section.44}% 
+\contentsline {subsection}{\numberline {4.2.1}Methodology}{11}{subsection.45}% 
+\contentsline {subsection}{\numberline {4.2.2}Encoding}{12}{subsection.47}% 
+\contentsline {subsection}{\numberline {4.2.3}Selection}{12}{subsection.49}% 
+\contentsline {subsection}{\numberline {4.2.4}Crossover}{13}{subsection.50}% 
+\contentsline {subsection}{\numberline {4.2.5}Mutation}{13}{subsection.52}% 
+\contentsline {subsection}{\numberline {4.2.6}Result and Discussion}{14}{subsection.56}% 
+\contentsline {section}{\numberline {4.3}Summary}{16}{section.61}% 
+\contentsline {chapter}{\numberline {5}Approximation of CLT Based on Artificial Neural Network}{19}{chapter.62}% 
+\contentsline {section}{\numberline {5.1}Neural Network Design}{19}{section.63}% 
+\contentsline {subsection}{\numberline {5.1.1}Architecture}{19}{subsection.64}% 
+\contentsline {subsection}{\numberline {5.1.2}Discussion}{19}{subsection.67}% 
+\contentsline {section}{\numberline {5.2}Approximation Framework}{19}{section.68}% 
+\contentsline {subsection}{\numberline {5.2.1}Data Preparation}{19}{subsection.69}% 
+\contentsline {subsection}{\numberline {5.2.2}Training}{19}{subsection.70}% 
+\contentsline {subsection}{\numberline {5.2.3}Evaluation}{19}{subsection.71}% 
+\contentsline {subsection}{\numberline {5.2.4}Result and Discussion}{19}{subsection.72}% 
+\contentsline {section}{\numberline {5.3}Summary}{19}{section.73}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{21}{chapter.74}% 

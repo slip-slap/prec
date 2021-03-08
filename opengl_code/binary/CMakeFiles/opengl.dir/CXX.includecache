@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/kismet/Documents/github/code/opengl_code/main.cpp
-iostream
--
+/Users/kismet/Documents/github/prec/opengl_code/main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
+-
+iostream
 -
 
 /usr/local/include/GL/glew.h

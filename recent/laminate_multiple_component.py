@@ -333,11 +333,13 @@ if __name__=='__main__':
     #material =[cv.T300_5308] * 54    
     #material = tool.get_symmetry_list(material)
 
-    angle =[13] * 6 + [-27] * 8  + [13] * 6 
-    height=[0.00127] * 20 
-    material =[cv.T300_5308] * 20    
-    load=[10,10,0,0,0,0]
 
+    load = [1,1,0,0,0,0]
+    angle =[-45] * 6 + [45] * 6  
+    angle = tool.get_symmetry_list(angle)
+    height= [0.000165]*24
+    material =[cv.CARBON_EPOXY] * 12    
+    material = tool.get_symmetry_list(material)
 
     sr  = get_strength_ratio(angle,height,material,load)
     """

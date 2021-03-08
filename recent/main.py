@@ -16,9 +16,9 @@ import genetic_algorithm as my_ga
 
 
 def get_fitness(ind):
-    #fitness = ind.mass
+    fitness = ind.mass
     #fitness = ind.cost
-    fitness = np.divide(ind.mass, 0.636) + np.divide(ind.cost, 23)
+    #fitness = np.divide(ind.mass, 0.636) + np.divide(ind.cost, 23)
     #fitness = np.divide(ind.mass, 1.377) + np.divide(ind.cost, 80)
     #fitness = np.divide(ind.mass, 0.318) + np.divide(ind.cost, 12)
     #fitness = np.divide(ind.mass, 1.271) + np.divide(ind.cost, 105)
@@ -136,7 +136,6 @@ if __name__ == "__main__":
 
     best_individual_pos = tool.get_safety_factor_pos_flag(population)
     current_fitness = population[best_individual_pos].fitness
-    previous_fitness = 150
 
     print("initial fitness: " + str(current_fitness) + " strength_raito " + \
                 str(population[best_individual_pos].strength_raito))
@@ -147,29 +146,26 @@ if __name__ == "__main__":
     
     ga = my_ga.Genetic_Algorithm()
     d = 0
-    while( d<cv.GA_RUNTIMES ):#np.abs(previous_fitness - current_fitness) > 0.0001):
+    while( d<cv.GA_RUNTIMES ):
         d = d+1 
         parents = ga.select_parents(population,int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT))
         offspring = ga.crossover(parents, int(cv.POPULATION_NUMBER*(1 - cv.ELITIST_PERCENT)))
         ga.mutation(offspring)
         for i in range(len(offspring)):
-            material_list = offspring[i].material_list
-            height_list = offspring[i].height_list
-            angle_list = offspring[i].angle_list
+            offspring[i].strength_raito  = \
+                lmc.get_strength_ratio(offspring[i].angle_list,offspring[i].height_list,offspring[i].material_list,cv.LOAD)
             offspring[i].mass = \
-                lmac.get_laminate_mass(height_list,material_list)
-            offspring[i].cost = lmac.get_laminate_cost(material_list)
-            offspring[i].fitness = get_fitness(offspring[i])
-            offspring[i].strength_raito =  lmc.get_strength_ratio(angle_list, height_list, material_list, cv.LOAD)
+                lmac.get_laminate_mass(offspring[i].height_list,offspring[i].material_list)
+            offspring[i].cost = lmac.get_laminate_cost(offspring[i].material_list)
+            offspring[i].fitness =  get_fitness(offspring[i]);
+
 
         population[0:int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT)] = parents
         population[int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT):] = offspring
         population.sort(key = lambda c: c.fitness)
 
         best_individual = tool.get_safety_factor_pos_flag(population)
-        previous_fitness = current_fitness
         current_fitness = population[best_individual].fitness
-
         result_fitness.append(current_fitness)
         result_strength_ratio.append(population[best_individual].strength_raito)
 

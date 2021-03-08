@@ -14,17 +14,15 @@ def get_lamina_mass(volume,material):
         density = cv.GRAPHITE_EPOXY_DENSITY
     if(fiber == "carbon"):
         density = cv.CARBON_EPOXY_DENSITY
-    else:
-        density = 1
 
-    return volume*density/1000
+    return volume*density
 
 
 
 def get_laminate_mass(height,material):
     mass = 0
     for i in range(len(height)):
-        volume = LAMINATE_WIDTH * LAMINATE_LENGTH * height[i]*100
+        volume = LAMINATE_WIDTH * LAMINATE_LENGTH * height[i]
         lamina_mass = get_lamina_mass(volume,material[i])
         mass = mass + lamina_mass
     return mass

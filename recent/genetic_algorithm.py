@@ -3,12 +3,23 @@ import copy
 import individual
 import tool
 import laminate_multiple_component as lmc
+import lamina_mass_and_cost as lmac
 import constant_variable as cv
+import symmetry_list_operator as slo
 
 
 #PARENTS_BY_FITNESS_PERCENT = 0.4
 #PARENTS_BY_FITNESS_PERCENT = 0.0
 #PROPER_PARENTS_PERCENT = 0.3
+
+def get_fitness(ind):
+    fitness = ind.mass
+    #fitness = ind.cost
+    #fitness = np.divide(ind.mass, 0.636) + np.divide(ind.cost, 23)
+    #fitness = np.divide(ind.mass, 1.377) + np.divide(ind.cost, 80)
+    #fitness = np.divide(ind.mass, 0.318) + np.divide(ind.cost, 12)
+    #fitness = np.divide(ind.mass, 1.271) + np.divide(ind.cost, 105)
+    return fitness
 
 def get_combine_offspring_list(a_list, b_list,random_number):
 
@@ -46,25 +57,32 @@ class Genetic_Algorithm(object):
 
     def select_parents(self, population,  num_parents):
         # select parents according to fitness
-        parents_by_fitness = population[0:int(num_parents * cv.PARENTS_BY_FITNESS_PERCENT)]
-        # select parents according to fitness
-        proper_parents = [x for x in population if x.strength_raito >cv.SAFETY_FACTOR][\
-                0:int(num_parents * cv.PROPER_PARENTS_PERCENT)]
-        
-        # select parents according to distance to 
-        population_copy = copy.deepcopy(population)
+        population1= copy.deepcopy(population)
+        population1.sort(key = lambda c: c.fitness)
+        active_group= population1[0:int(num_parents * cv.ACTIVE_GROUP)]
+        for i in range(len(active_group)):
+            active_group[i].flag = "active_group"
+            print(active_group[i])
 
-        population_copy.sort(key = lambda c: np.abs(c.strength_raito - cv.SAFETY_FACTOR))
-        remain_number = num_parents - len(parents_by_fitness) - len(proper_parents)
-        parents_by_constraint = population_copy[0:remain_number]
-        """
-        print("parents begin")
-        for i in range(len(parents_by_constraint)):
-            print("fitness: " + str(parents_by_constraint[i].fitness) + " strength_raito " + \
-                str(parents_by_constraint[i].strength_raito))
-        print("parents end")
-        """
-        return parents_by_fitness + proper_parents + parents_by_constraint
+        # potential group
+        population2= copy.deepcopy(population)
+        potential_group_ = [x for x in population2 if x.strength_raito
+                < cv.SAFETY_FACTOR]
+        potential_group_.sort(key = lambda c:c.fitness, reverse=True)
+        potential_group = potential_group_[0:int(num_parents * \
+            cv.POTENTIAL_GROUP)]
+        for i in range(len(potential_group)):
+            potential_group[i].flag = "potential_group"
+            print(potential_group[i])
+
+        population3= copy.deepcopy(population)
+        proper_group= [x for x in population3 if x.strength_raito >cv.SAFETY_FACTOR][\
+                0:int(num_parents * cv.PROPER_PARENTS_PERCENT)]
+        for i in range(len(proper_group)):
+            proper_group[i].flag = "proper_group"
+            print(proper_group[i])
+
+        return active_group + potential_group + proper_group;
 
     def crossover(self, parents, offspring_number):
 
@@ -88,28 +106,36 @@ class Genetic_Algorithm(object):
             get_combine_offspring_list(p1_height_list,p2_height_list,random_number)
             child.material_list = get_combine_offspring_list(p1_material_list, \
                     p2_material_list,random_number)
-            child.fitness = -1
+            child.strength_raito  = \
+                lmc.get_strength_ratio(child.angle_list,child.height_list,child.material_list,cv.LOAD)
+            child.mass = \
+                lmac.get_laminate_mass(child.height_list,child.material_list)
+            child.cost = lmac.get_laminate_cost(child.material_list)
+            child.fitness =  get_fitness(child);
             offspring.append(child)
         return offspring
             
 
     def mutation(self, offspring, mutation_percent=0.5):
         for i in range(len(offspring)):
-            if(np.random.rand() > 1 - mutation_percent):
-                get_chromosome_mutation(offspring[i].angle_list,cv.ANGLE)
-                get_chromosome_mutation(offspring[i].material_list,cv.MATERIAL)
-        return
+            if(offspring[i].flag=="active_group"):
+                continue
 
-def get_chromosome_mutation(chromosome, values_set):
-    value_after_muation = values_set[int(np.random.randint(0,len(values_set),1))]
-    mutation_pos = int(np.random.randint(0,len(chromosome),1))
-    chromosome[mutation_pos] = value_after_muation 
-    chromosome[len(chromosome) - 1 - mutation_pos] = value_after_muation
-
+            offspring[i].angle_list = \
+                slo.get_chromosome_mutation_(offspring[i].angle_list,\
+                                offspring[i].strength_raito, cv.ANGLE_CODE);
+            offspring[i].material_list= \
+                    slo.get_chromosome_mutation_(offspring[i].material_list,\
+                    offspring[i].strength_raito,cv.MATERIAL_CODE);
+            assert len(offspring[i].angle_list) == len(offspring[i].material_list)
+            offspring[i].height_list = \
+                len(offspring[i].angle_list)*[cv.LAYER_HEIGHT]
 
 if __name__ == "__main__":
-    get_chromosome_mutation([0,0,0,0,0],[12, 3])
-    a = [4,2.7,1,6,8]
-    a.sort(key = lambda c: np.abs(c-3))
-    print(a)
+    chromosome = [1,8,5,5,8,1]
+    get_chromosome_mutation_(chromosome, 2)
+    #get_chromosome_mutation([0,0,0,0,0],[12, 3])
+    #a = [4,2.7,1,6,8]
+    #a.sort(key = lambda c: np.abs(c-3))
+    #print(a)
 

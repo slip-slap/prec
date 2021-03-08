@@ -6,8 +6,18 @@
 
 #IncludeRegexTransform: 
 
-/Users/kismet/Documents/github/code/cpp_code/main.cpp
+/Users/kismet/Documents/github/prec/cpp_code/main.cpp
 iostream
+-
+vector
+-
+exception
+-
+list
+-
+ostream
+-
+string
 -
 iostream
 -
@@ -4222,16 +4232,6 @@ boost/predef/detail/os_detected.h
 boost/predef/detail/test.h
 -
 
-/usr/local/include/boost/predef/os/android.h
-boost/predef/version_number.h
--
-boost/predef/make.h
--
-boost/predef/detail/os_detected.h
--
-boost/predef/detail/test.h
--
-
 /usr/local/include/boost/predef/os/beos.h
 boost/predef/version_number.h
 -
@@ -5658,22 +5658,6 @@ cstddef
 utility
 -
 
-/usr/local/include/boost/range/detail/as_literal.hpp
-boost/range/detail/detail_str.hpp
--
-boost/range/iterator_range.hpp
--
-
-/usr/local/include/boost/range/detail/begin.hpp
-boost/config.hpp
--
-boost/detail/workaround.hpp
--
-boost/range/iterator.hpp
--
-boost/range/detail/common.hpp
--
-
 /usr/local/include/boost/range/detail/common.hpp
 boost/range/config.hpp
 -
@@ -5686,34 +5670,6 @@ boost/mpl/if.hpp
 boost/mpl/int.hpp
 -
 cstddef
--
-
-/usr/local/include/boost/range/detail/detail_str.hpp
-boost/config.hpp
--
-boost/range/iterator.hpp
--
-boost/range/detail/begin.hpp
--
-boost/range/detail/end.hpp
--
-boost/range/detail/size_type.hpp
--
-boost/range/detail/value_type.hpp
--
-boost/range/detail/common.hpp
--
-
-/usr/local/include/boost/range/detail/end.hpp
-boost/config.hpp
--
-boost/detail/workaround.hpp
--
-boost/range/detail/implementation_help.hpp
--
-boost/range/iterator.hpp
--
-boost/range/detail/common.hpp
 -
 
 /usr/local/include/boost/range/detail/extract_optional_type.hpp
@@ -5756,18 +5712,6 @@ boost/concept_check.hpp
 
 /usr/local/include/boost/range/detail/msvc_has_iterator_workaround.hpp
 
-/usr/local/include/boost/range/detail/remove_extent.hpp
-boost/config.hpp
--
-cstddef
--
-boost/mpl/eval_if.hpp
--
-boost/mpl/identity.hpp
--
-boost/type_traits/is_same.hpp
--
-
 /usr/local/include/boost/range/detail/safe_bool.hpp
 boost/config.hpp
 -
@@ -5784,22 +5728,10 @@ boost/type_traits/detail/yes_no_type.hpp
 utility
 -
 
-/usr/local/include/boost/range/detail/size_type.hpp
-boost/range/detail/common.hpp
--
-
 /usr/local/include/boost/range/detail/str_types.hpp
 boost/range/size_type.hpp
 -
 boost/range/iterator.hpp
--
-
-/usr/local/include/boost/range/detail/value_type.hpp
-boost/range/detail/common.hpp
--
-boost/range/detail/remove_extent.hpp
--
-boost/iterator/iterator_traits.hpp
 -
 
 /usr/local/include/boost/range/difference_type.hpp
@@ -6100,8 +6032,6 @@ boost/smart_ptr/detail/local_counted_base.hpp
 boost/config.hpp
 -
 
-/usr/local/include/boost/smart_ptr/detail/lwm_nop.hpp
-
 /usr/local/include/boost/smart_ptr/detail/lwm_pthreads.hpp
 boost/assert.hpp
 -
@@ -6228,16 +6158,6 @@ boost/config.hpp
 builtins.h
 -
 sys/atomic_op.h
--
-
-/usr/local/include/boost/smart_ptr/detail/sp_counted_base_clang.hpp
-boost/smart_ptr/detail/sp_typeinfo_.hpp
--
-boost/smart_ptr/detail/sp_noexcept.hpp
--
-boost/config.hpp
--
-boost/cstdint.hpp
 -
 
 /usr/local/include/boost/smart_ptr/detail/sp_counted_base_cw_ppc.hpp
@@ -6375,8 +6295,6 @@ cstddef
 /usr/local/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp
 boost/config.hpp
 -
-
-/usr/local/include/boost/smart_ptr/detail/sp_has_sync.hpp
 
 /usr/local/include/boost/smart_ptr/detail/sp_interlocked.hpp
 boost/config.hpp

@@ -9,6 +9,7 @@ class Individual(object):
         self.mass = -1
         self.cost = -1
         self.fitness = -1
+        self.flag = ""
 
     def __str__(self):
         angle = str(self.angle_list)
@@ -18,11 +19,12 @@ class Individual(object):
         mass = str(self.mass)
         cost = str(self.cost)
         fitness = str(self.fitness)
+        flag = str(self.flag)
 
         #return "angle: "+angle+" height: "+height+" material: "+material+"fitness: "+fitness
         return "SR " + strength_raito[0:6] + " mass: " + mass[0:6] + \
                 " fitness: " + fitness[0:6] + " height: " + str(len(self.height_list))[0:6] + \
-                " cost: " + cost
+                " cost: " + cost + " flag: " + flag
         #return "fitness: "+fitness
 
 
