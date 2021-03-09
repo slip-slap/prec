@@ -6,8 +6,10 @@
 
 
 \section{Case1: Maximum Strength Optimization}
-\input{Figures/table_composite_material.tex}
+\input{Figures/chapter4_first_table_composite_material.tex}
+
 \subsection{Methodology}
+
 \subsection{Result and Discussion}
 
 \section{Case2: Minimum Thickness Optimization}
@@ -46,7 +48,10 @@ carbon T300/5308 laminated composite, and $[+19_{4}/-36_{6}]_s$, respectively.
 Becasue the laminate adopted in this paper is symmetric to its mid-plane, so
 only half needs to be encoded.
 
+\afterpage{
 \input{Figures/chapter4_second_ga_operator.tex}
+\clearpage
+}
 
 \subsection{Selection}
 The purpose of the selection operator is to chose mating pool to produce
@@ -167,6 +172,8 @@ In each situation, first, we present the search process by plotting revelvant
 indicators, such as the fitness, strength ratio, and angle. Then, the optimum
 lay-ups under various loading cases is discussed.
 
+
+\afterpage{
 \begin{figure}[!htb]
 	\centering
 		\begin{subfigure}[b]{0.8\linewidth}
@@ -183,6 +190,8 @@ lay-ups under various loading cases is discussed.
 	\caption{Two distinct angles}
 	\label{fig:two_angles}
 \end{figure}
+\clearpage
+}
 
 
 Figure \ref{fig:two_angles} (a) shows how the optimal individual's fitness and
@@ -230,6 +239,7 @@ structure to meet the constraint. That's why the fitness of optimal individual
 kept decreaing, however, the strength ratio curve still is greater then safety
 factor.
 
+\afterpage{
 \begin{figure}[!htb]
 	\centering
 		\begin{subfigure}[b]{0.8\linewidth}
@@ -246,6 +256,8 @@ factor.
 	\caption{three distinct angles}
 	\label{fig:three_angles}
 \end{figure}
+\clearpage
+}
 
 \input{Figures/chapter4_second_lay_up_three_angle.tex}
 

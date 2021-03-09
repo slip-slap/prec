@@ -1,16 +1,5 @@
-\documentclass{article}
 
-\usepackage{moreverb,url}
-\usepackage{booktabs, multicol, makecell}
-\usepackage{graphicx, tikz,tabularx}
-\usepackage{subcaption}
-\usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
-\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
-
-
-
-\begin{document}
-
+\begin{figure}
 \begin{center}
 \begin{tikzpicture}
 	\tikzstyle{rec} = [rectangle, minimum width=4cm, minimum height=0.8cm,
@@ -53,11 +42,11 @@
 	\draw[->] (potential_group_2.south) -- (after_cross_over.north);
 	\draw[->] (proper_group_2.south) -- (after_cross_over.north);
 	% mutation
-	\node (active_group_3) at ($(after_cross_over.south)+(-2cm, -2.0cm)$)
+	\node (active_group_3) at ($(after_cross_over.south)+(-2.2cm, -2.0cm)$)
 		[subgroup] {active offspring};
 	\node at ($(after_cross_over.south)+(0cm, -1.0cm)$) {mutation};
 	\draw[->] ($(after_cross_over.south)+(-1cm,0cm)$)--(active_group_3.north);
-	\node (poteni_and_prop) at ($(after_cross_over.south)+(2cm, -2.0cm)$)
+	\node (poteni_and_prop) at ($(after_cross_over.south)+(2.2cm, -2.0cm)$)
 		[bigsubgroup] {potential and proper offspring};
 	\draw[->] ($(after_cross_over.south)+(1cm,0cm)$)--(poteni_and_prop.north);
 
@@ -67,4 +56,5 @@
 		|- (population.west);
 \end{tikzpicture}
 \end{center}
-\end{document}
+\caption{GA Model\label{GA:model}}
+\end{figure}

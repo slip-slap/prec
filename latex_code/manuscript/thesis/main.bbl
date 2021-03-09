@@ -16,5 +16,890 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{abu1998optimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AOAY}{%
+         family={Abu-Odeh},
+         familyi={A\bibinithyphendelim O\bibinitperiod},
+         given={Akram\bibnamedelima Y},
+         giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=JHL}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Harry\bibnamedelima L},
+         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AOAYJHL1}
+    \strng{fullhash}{AOAYJHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{233\bibrangedash 242}
+    \field{title}{Optimum design of composite plates using response surface
+  method}
+    \field{volume}{43}
+    \field{journaltitle}{Composite structures}
+    \field{year}{1998}
+  \endentry
+
+  \entry{adali1997minimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AS}{%
+         family={Adali},
+         familyi={A\bibinitperiod},
+         given={Sarp},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VVE}{%
+         family={Verijenko},
+         familyi={V\bibinitperiod},
+         given={Viktor\bibnamedelima E},
+         giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ASVVE1}
+    \strng{fullhash}{ASVVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1-4}
+    \field{pages}{623\bibrangedash 630}
+    \field{title}{Minimum cost design of hybrid composite cylinders with
+  temperature dependent properties}
+    \field{volume}{38}
+    \field{journaltitle}{Composite structures}
+    \field{year}{1997}
+  \endentry
+
+  \entry{akbulut2008optimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AM}{%
+         family={Akbulut},
+         familyi={A\bibinitperiod},
+         given={Mustafa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SFO}{%
+         family={Sonmez},
+         familyi={S\bibinitperiod},
+         given={Fazil\bibnamedelima O},
+         giveni={F\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{AMSFO1}
+    \strng{fullhash}{AMSFO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{21-22}
+    \field{pages}{1974\bibrangedash 1982}
+    \field{title}{Optimum design of composite laminates for minimum thickness}
+    \field{volume}{86}
+    \field{journaltitle}{Computers \& Structures}
+    \field{year}{2008}
+  \endentry
+
+  \entry{barakat1999use}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BS}{%
+         family={Barakat},
+         familyi={B\bibinitperiod},
+         given={SA},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AFG}{%
+         family={Abu-Farsakh},
+         familyi={A\bibinithyphendelim F\bibinitperiod},
+         given={GA},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BSAFG1}
+    \strng{fullhash}{BSAFG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{12}
+    \field{pages}{1891\bibrangedash 1899}
+    \field{title}{The use of an energy-based criterion to determine optimum
+  configurations of fibrous composites}
+    \field{volume}{59}
+    \field{journaltitle}{Composites science and technology}
+    \field{year}{1999}
+  \endentry
+
+  \entry{correia1997higher}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CVF}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={VM\bibnamedelima Franco},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={CM\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={CA\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CVFSCMSCM1}
+    \strng{fullhash}{CVFSCMSCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{3-4}
+    \field{pages}{237\bibrangedash 253}
+    \field{title}{Higher order models on the eigenfrequency analysis and
+  optimal design of laminated composite structures}
+    \field{volume}{39}
+    \field{journaltitle}{Composite Structures}
+    \field{year}{1997}
+  \endentry
+
+  \entry{di2003multiconstrained}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DSM}{%
+         family={Di\bibnamedelima Sciuva},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=GM}{%
+         family={Gherlone},
+         familyi={G\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=LD}{%
+         family={Lomario},
+         familyi={L\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DSMGMLD1}
+    \strng{fullhash}{DSMGMLD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{149\bibrangedash 154}
+    \field{title}{Multiconstrained optimization of laminated and sandwich
+  plates using evolutionary algorithms and higher-order plate theories}
+    \field{volume}{59}
+    \field{journaltitle}{Composite Structures}
+    \field{year}{2003}
+  \endentry
+
+  \entry{fukunaga1991strength}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FH}{%
+         family={Fukunaga},
+         familyi={F\bibinitperiod},
+         given={Hisao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Vanderplaats},
+         familyi={V\bibinitperiod},
+         given={GN},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FHVG1}
+    \strng{fullhash}{FHVG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{6}
+    \field{pages}{1429\bibrangedash 1439}
+    \field{title}{Strength optimization of laminated composites with respect to
+  layer thickness and/or layer orientation angle}
+    \field{volume}{40}
+    \field{journaltitle}{Computers \& Structures}
+    \field{year}{1991}
+  \endentry
+
+  \entry{jayatheertha1996application}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JC}{%
+         family={Jayatheertha},
+         familyi={J\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=WJ}{%
+         family={Webber},
+         familyi={W\bibinitperiod},
+         given={JPH},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Morton},
+         familyi={M\bibinitperiod},
+         given={SK},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{JCWJMS1}
+    \strng{fullhash}{JCWJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{5}
+    \field{pages}{831\bibrangedash 845}
+    \field{title}{Application of artificial neural networks for the optimum
+  design of a laminated plate}
+    \field{volume}{59}
+    \field{journaltitle}{Computers \& structures}
+    \field{year}{1996}
+  \endentry
+
+  \entry{kere2003using}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KP}{%
+         family={Kere},
+         familyi={K\bibinitperiod},
+         given={Petri},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lyly},
+         familyi={L\bibinitperiod},
+         given={Mikko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Koski},
+         familyi={K\bibinitperiod},
+         given={Juhani},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KPLMKJ1}
+    \strng{fullhash}{KPLMKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{3-4}
+    \field{pages}{329\bibrangedash 333}
+    \field{title}{Using multicriterion optimization for strength design of
+  composite laminates}
+    \field{volume}{62}
+    \field{journaltitle}{Composite Structures}
+    \field{year}{2003}
+  \endentry
+
+  \entry{kogiso1994design}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KN}{%
+         family={Kogiso},
+         familyi={K\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=WLT}{%
+         family={Watson},
+         familyi={W\bibinitperiod},
+         given={Layne\bibnamedelima T},
+         giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=GZ}{%
+         family={G{\"u}rdal},
+         familyi={G\bibinitperiod},
+         given={Zafer},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=HRT}{%
+         family={Haftka},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima T},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nagendra},
+         familyi={N\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{KN+1}
+    \strng{fullhash}{KNWLTGZHRTNS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{95\bibrangedash 117}
+    \field{title}{Design of composite laminates by a genetic algorithm with
+  memory}
+    \field{volume}{1}
+    \field{journaltitle}{MECHANICS OF COMPOSITE MATERIALS AND STRUCTURES An
+  International Journal}
+    \field{year}{1994}
+  \endentry
+
+  \entry{le1995improved}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LRR}{%
+         family={Le\bibnamedelima Riche},
+         familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=HR}{%
+         family={Haftka},
+         familyi={H\bibinitperiod},
+         given={RT},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LRRHR1}
+    \strng{fullhash}{LRRHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{2}
+    \field{pages}{143\bibrangedash 161}
+    \field{title}{Improved genetic algorithm for minimum thickness composite
+  laminate design}
+    \field{volume}{5}
+    \field{journaltitle}{Composites Engineering}
+    \field{year}{1995}
+  \endentry
+
+  \entry{le1998design}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LRR}{%
+         family={Le\bibnamedelima Riche},
+         familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Rodolphe},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gaudin},
+         familyi={G\bibinitperiod},
+         given={Jocelyn},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LRRGJ1}
+    \strng{fullhash}{LRRGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{2}
+    \field{pages}{97\bibrangedash 111}
+    \field{title}{Design of dimensionally stable composites by evolutionary
+  optimization}
+    \field{volume}{41}
+    \field{journaltitle}{Composite Structures}
+    \field{year}{1998}
+  \endentry
+
+  \entry{lombardi1998anti}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Lombardi},
+         familyi={L\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HRT}{%
+         family={Haftka},
+         familyi={H\bibinitperiod},
+         given={Raphael\bibnamedelima T},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LMHRT1}
+    \strng{fullhash}{LMHRT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{1-2}
+    \field{pages}{19\bibrangedash 31}
+    \field{title}{Anti-optimization technique for structural design under load
+  uncertainties}
+    \field{volume}{157}
+    \field{journaltitle}{Computer methods in applied mechanics and engineering}
+    \field{year}{1998}
+  \endentry
+
+  \entry{moita2000sensitivity}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MJ}{%
+         family={Moita},
+         familyi={M\bibinitperiod},
+         given={JS},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BJI}{%
+         family={Barbosa},
+         familyi={B\bibinitperiod},
+         given={J\bibnamedelima Infante},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={CM\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SCM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={CA\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MJ+1}
+    \strng{fullhash}{MJBJISCMSCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1-3}
+    \field{pages}{407\bibrangedash 420}
+    \field{title}{Sensitivity analysis and optimal design of geometrically
+  non-linear laminated plates and shells}
+    \field{volume}{76}
+    \field{journaltitle}{Computers \& Structures}
+    \field{year}{2000}
+  \endentry
+
+  \entry{richard2000reliability}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RF}{%
+         family={Richard},
+         familyi={R\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+      {{hash=PD}{%
+         family={Perreux},
+         familyi={P\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{RFPD1}
+    \strng{fullhash}{RFPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{53\bibrangedash 59}
+    \field{title}{A reliability method for optimization of [+ $\phi$,- $\phi$]
+  n fiber reinforced composite pipes}
+    \field{volume}{68}
+    \field{journaltitle}{Reliability Engineering \& System Safety}
+    \field{year}{2000}
+  \endentry
+
+  \entry{scares1997optimization}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SCMM}{%
+         family={Scares},
+         familyi={S\bibinitperiod},
+         given={Crist{\'o}v{\~a}o M\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=SCAM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={Carlos A\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=CVMF}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={Victor M\bibnamedelima Franco},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SCMMSCAMCVMF1}
+    \strng{fullhash}{SCMMSCAMCVMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1-4}
+    \field{pages}{133\bibrangedash 152}
+    \field{title}{Optimization of multilaminated structures using higher-order
+  deformation models}
+    \field{volume}{149}
+    \field{journaltitle}{Computer methods in applied mechanics and engineering}
+    \field{year}{1997}
+  \endentry
+
+  \entry{schmit1973optimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SLA}{%
+         family={Schmit},
+         familyi={S\bibinitperiod},
+         given={L\bibnamedelima Aꎬ},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Farshi},
+         familyi={F\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{SLAFB1}
+    \strng{fullhash}{SLAFB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{519\bibrangedash 536}
+    \field{title}{Optimum laminate design for strength and stiffness}
+    \field{volume}{7}
+    \field{journaltitle}{International Journal for Numerical Methods in
+  Engineering}
+    \field{year}{1973}
+  \endentry
+
+  \entry{schmit1977optimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJL}{%
+         family={Schmit\bibnamedelima Jr},
+         familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={LA},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Farshi},
+         familyi={F\bibinitperiod},
+         given={B},
+         giveni={B},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{SJLFB1}
+    \strng{fullhash}{SJLFB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{623\bibrangedash 640}
+    \field{title}{Optimum design of laminated fibre composite plates}
+    \field{volume}{11}
+    \field{journaltitle}{International journal for numerical methods in
+  engineering}
+    \field{year}{1977}
+  \endentry
+
+  \entry{sivakumar1998optimum}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SK}{%
+         family={Sivakumar},
+         familyi={S\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=IN}{%
+         family={Iyengar},
+         familyi={I\bibinitperiod},
+         given={NGR},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Deb},
+         familyi={D\bibinitperiod},
+         given={Kalyanmoy},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SKINDK1}
+    \strng{fullhash}{SKINDK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{3}
+    \field{pages}{265\bibrangedash 279}
+    \field{title}{Optimum design of laminated composite plates with cutouts
+  using a genetic algorithm}
+    \field{volume}{42}
+    \field{journaltitle}{Composite Structures}
+    \field{year}{1998}
+  \endentry
+
+  \entry{soares1995discrete}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SCM}{%
+         family={Soares},
+         familyi={S\bibinitperiod},
+         given={CM\bibnamedelima Mota},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CVF}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={V\bibnamedelima Franco},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mateus},
+         familyi={M\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=HJ}{%
+         family={Herskovits},
+         familyi={H\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SCM+1}
+    \strng{fullhash}{SCMCVFMHHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{147\bibrangedash 157}
+    \field{title}{A discrete model for the optimal design of thin composite
+  plate-shell type structures using a two-level approach}
+    \field{volume}{30}
+    \field{journaltitle}{Composite structures}
+    \field{year}{1995}
+  \endentry
+
+  \entry{soremekun2001composite}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SG}{%
+         family={Soremekun},
+         familyi={S\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+      {{hash=GZ}{%
+         family={G{\"u}rdal},
+         familyi={G\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=HR}{%
+         family={Haftka},
+         familyi={H\bibinitperiod},
+         given={RT},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Watson},
+         familyi={W\bibinitperiod},
+         given={LT},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SG+1}
+    \strng{fullhash}{SGGZHRWL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{131\bibrangedash 143}
+    \field{title}{Composite laminate design optimization by genetic algorithm
+  with generalized elitist selection}
+    \field{volume}{79}
+    \field{journaltitle}{Computers \& structures}
+    \field{year}{2001}
+  \endentry
+
+  \entry{todoroki1998stacking}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TA}{%
+         family={Todoroki},
+         familyi={T\bibinitperiod},
+         given={Akira},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HRT}{%
+         family={Haftka},
+         familyi={H\bibinitperiod},
+         given={Raphael\bibnamedelima T},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{TAHRT1}
+    \strng{fullhash}{TAHRT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{3}
+    \field{pages}{277\bibrangedash 285}
+    \field{title}{Stacking sequence optimization by a genetic algorithm with a
+  new recessive gene like repair strategy}
+    \field{volume}{29}
+    \field{journaltitle}{Composites Part B: Engineering}
+    \field{year}{1998}
+  \endentry
+
+  \entry{walker2003technique}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WM}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SRE}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Ryan\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{WMSRE1}
+    \strng{fullhash}{WMSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{1}
+    \field{pages}{123\bibrangedash 128}
+    \field{title}{A technique for the multiobjective optimisation of laminated
+  composite structures using genetic algorithms and finite element analysis}
+    \field{volume}{62}
+    \field{journaltitle}{Composite structures}
+    \field{year}{2003}
+  \endentry
+
+  \entry{wang1996optimum}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=KB}{%
+         family={Karihaloo},
+         familyi={K\bibinitperiod},
+         given={BL},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications Sage CA: Thousand Oaks, CA}%
+    }
+    \strng{namehash}{WJKB1}
+    \strng{fullhash}{WJKB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{12}
+    \field{pages}{1314\bibrangedash 1337}
+    \field{title}{Optimum in situ strength design of composite laminates. Part
+  I: in situ strength parameters}
+    \field{volume}{30}
+    \field{journaltitle}{Journal of composite materials}
+    \field{year}{1996}
+  \endentry
+\enddatalist
 \endinput

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1615254085 "main.tex" "main.pdf" "main" 1615254093
+["pdflatex"] 1615259465 "main_bak.tex" "main_bak.pdf" "main_bak" 1615259480
   "/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1480098733 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -115,11 +115,11 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1589787211 3236106 bef0cf154a3167603a4917a99a2c80c5 ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1589792795 4227023 287652bbbca0ab5bc2f398b14c497dd0 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "main.aux" 1615254086 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "main.out" 1615254085 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.tex" 1615254085 3138 663b8353ca10d1f9e1a88aecc0416312 ""
+  "main_bak.aux" 1615259465 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "main_bak.out" 1615259465 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main_bak.tex" 1615259475 1757 20ca50681f3e1a6fcf5a36071e047c56 ""
   (generated)
-  "main.log"
-  "main.aux"
-  "main.pdf"
-  "main.out"
+  "main_bak.log"
+  "main_bak.out"
+  "main_bak.pdf"
+  "main_bak.aux"

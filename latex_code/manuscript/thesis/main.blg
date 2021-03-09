@@ -24,49 +24,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: main-blx.bib
 Database file #2: example.bib
-Warning--I didn't find a database entry for "akbulut2008optimum"
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+You've used 25 entries,
             6304 wiz_defined-function locations,
-            1192 strings with 8899 characters,
-and the built_in function-call counts, 1325 in all, are:
-= -- 64
-> -- 58
-< -- 1
-+ -- 41
-- -- 24
-* -- 27
-:= -- 312
+            1338 strings with 13306 characters,
+and the built_in function-call counts, 168583 in all, are:
+= -- 12275
+> -- 3121
+< -- 926
++ -- 3899
+- -- 1176
+* -- 12995
+:= -- 17728
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
+call.type$ -- 25
+change.case$ -- 521
 chr.to.int$ -- 34
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 91
-format.name$ -- 0
-if$ -- 289
+cite$ -- 48
+duplicate$ -- 16788
+empty$ -- 15307
+format.name$ -- 1815
+if$ -- 34762
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 72
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 43
+newline$ -- 878
+num.names$ -- 1313
+pop$ -- 8421
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 673
 quote$ -- 0
-skip$ -- 69
+skip$ -- 4848
 stack$ -- 0
-substring$ -- 127
-swap$ -- 1
-text.length$ -- 16
-text.prefix$ -- 0
+substring$ -- 22051
+swap$ -- 4160
+text.length$ -- 740
+text.prefix$ -- 41
 top$ -- 1
-type$ -- 22
+type$ -- 838
 warning$ -- 0
-while$ -- 52
+while$ -- 2272
 width$ -- 0
-write$ -- 20
-(There was 1 warning)
+write$ -- 854
