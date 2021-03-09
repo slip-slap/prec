@@ -62,7 +62,7 @@ class Genetic_Algorithm(object):
         active_group= population1[0:int(num_parents * cv.ACTIVE_GROUP)]
         for i in range(len(active_group)):
             active_group[i].flag = "active_group"
-            print(active_group[i])
+            #print(active_group[i])
 
         # potential group
         population2= copy.deepcopy(population)
@@ -73,14 +73,14 @@ class Genetic_Algorithm(object):
             cv.POTENTIAL_GROUP)]
         for i in range(len(potential_group)):
             potential_group[i].flag = "potential_group"
-            print(potential_group[i])
+            #print(potential_group[i])
 
         population3= copy.deepcopy(population)
         proper_group= [x for x in population3 if x.strength_raito >cv.SAFETY_FACTOR][\
                 0:int(num_parents * cv.PROPER_PARENTS_PERCENT)]
         for i in range(len(proper_group)):
             proper_group[i].flag = "proper_group"
-            print(proper_group[i])
+            #print(proper_group[i])
 
         return active_group + potential_group + proper_group;
 

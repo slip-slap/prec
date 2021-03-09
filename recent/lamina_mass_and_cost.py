@@ -2,7 +2,7 @@ import numpy as np
 import constant_variable as cv
 
 LAMINATE_LENGTH = 1
-LAMINATE_WIDTH =  1
+LAMINATE_WIDTH = 0.2 
 
 
 def get_lamina_mass(volume,material):
@@ -47,11 +47,9 @@ if __name__ == "__main__":
     #mass = get_lamina_mass(volume,'glass_epoxy')
     #mass = get_lamina_mass(volume,'graphite_epoxy')
     #mass = get_lamina_mass(volume,'glass_epoxy')
-    mass = get_laminate_mass([0.005]*4,["graphite_epoxy"]*4)
+    mass = get_laminate_mass([0.000165]*24,["carbon_epoxy"]*24)
     print(mass)
-    mass = get_laminate_mass([0.005]*4,["glass_epoxy"]*4)
-    print(mass)
-    print(get_laminate_cost(['graphite_epoxy']*9))
+    print(get_laminate_cost(['carbon_epoxy']*24))
 
 """
 def get_lamina_mass(volume,material):

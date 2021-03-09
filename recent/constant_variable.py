@@ -4,7 +4,7 @@ Maitain constant variable will be used in this program
 import numpy as np
 
 
-LOAD = [1, 1, 0, 0, 0 ,0]
+LOAD = [0, 0, 1, 0, 0 ,0]
 
 ANGLE_CODE = "000"
 MATERIAL_CODE = "100"
@@ -56,11 +56,12 @@ PARENTS_BY_FITNESS_PERCENT = 0.0
 
 CHROMOSOME_LENGTH_LOWER_BOUND = 8 
 CHROMOSOME_LENGTH_UPPER_BOUND = 15 
-GA_RUNTIMES = 300 
+GA_RUNTIMES = 100 
 #ANGLE_TYPE = 2 
 # Material
 LAYER_HEIGHT = 0.000165
-ANGLE = [-45,45]
+ANGLE = [np.pi/4]
+
 #MATERIAL = [T300_5308]
 #MATERIAL = [CARBON_EPOXY]
 MATERIAL = [GRAPHITE_EPOXY]

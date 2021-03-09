@@ -94,23 +94,23 @@ def save_to_output(result_fitness, result_strength_ratio, my_best_individual):
     with open("seed_test.py","a") as result_handler:
         result_handler.write("##################################")
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "load=  " + str(cv.LOAD))
+        result_handler.write("load=  " + str(cv.LOAD))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "material=  " + str(cv.MATERIAL))
+        result_handler.write("material=  " + str(cv.MATERIAL))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "angle=  " + str(cv.ANGLE))
+        result_handler.write("angle=  " + str(cv.ANGLE))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "fitness_ =  " + str(result_fitness))
+        result_handler.write("fitness_ =  " + str(result_fitness))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "strength_ratio_= "+ str(result_strength_ratio))
+        result_handler.write("strength_ratio_= "+ str(result_strength_ratio))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "cost= "+ str(my_best_individual.cost))
+        result_handler.write("cost= "+ str(my_best_individual.cost))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "mass= "+ str(my_best_individual.mass))
+        result_handler.write("mass= "+ str(my_best_individual.mass))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "strength_raito= "+ str(my_best_individual.strength_raito))
+        result_handler.write("strength_raito= "+ str(my_best_individual.strength_raito))
         result_handler.write("\n")
-        result_handler.write(cv.prefix + "number_of_layer= "+ str(len(my_best_individual.material_list)))
+        result_handler.write("number_of_layer= "+ str(len(my_best_individual.material_list)))
         result_handler.write("\n")
 
         stacking_sequence = []
@@ -124,6 +124,18 @@ def save_to_output(result_fitness, result_strength_ratio, my_best_individual):
         result_handler.write("\n")
         result_handler.write("##################################")
         result_handler.write("\n")
+
+def crossover_and_mutation(ga, parents, number_of_offspring):
+    offspring = ga.crossover(parents, number_of_offspring)
+    ga.mutation(offspring)
+    for i in range(len(offspring)):
+        offspring[i].strength_raito  = \
+            lmc.get_strength_ratio(offspring[i].angle_list,offspring[i].height_list,offspring[i].material_list,cv.LOAD)
+        offspring[i].mass = \
+            lmac.get_laminate_mass(offspring[i].height_list,offspring[i].material_list)
+        offspring[i].cost = lmac.get_laminate_cost(offspring[i].material_list)
+        offspring[i].fitness =  get_fitness(offspring[i]);
+    return offspring;
 
 
 if __name__ == "__main__":
@@ -149,28 +161,28 @@ if __name__ == "__main__":
     while( d<cv.GA_RUNTIMES ):
         d = d+1 
         parents = ga.select_parents(population,int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT))
-        offspring = ga.crossover(parents, int(cv.POPULATION_NUMBER*(1 - cv.ELITIST_PERCENT)))
-        ga.mutation(offspring)
-        for i in range(len(offspring)):
-            offspring[i].strength_raito  = \
-                lmc.get_strength_ratio(offspring[i].angle_list,offspring[i].height_list,offspring[i].material_list,cv.LOAD)
-            offspring[i].mass = \
-                lmac.get_laminate_mass(offspring[i].height_list,offspring[i].material_list)
-            offspring[i].cost = lmac.get_laminate_cost(offspring[i].material_list)
-            offspring[i].fitness =  get_fitness(offspring[i]);
+        offspring = crossover_and_mutation(ga, parents, int(cv.POPULATION_NUMBER*(1 - cv.ELITIST_PERCENT)));
+        number_of_vacant_spot = cv.POPULATION_NUMBER - len(offspring) - \
+                                 len(parents)
+        vacant_offspring = []
+        if(number_of_vacant_spot > 0):
+            vacant_offspring = crossover_and_mutation(ga, parents, \
+                    number_of_vacant_spot);
 
 
-        population[0:int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT)] = parents
-        population[int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT):] = offspring
+        population[0:len(parents)] = parents
+        population[len(parents):len(parents)+len(offspring)] = offspring
+        population[cv.POPULATION_NUMBER - number_of_vacant_spot:] = vacant_offspring;
+
         population.sort(key = lambda c: c.fitness)
-
         best_individual = tool.get_safety_factor_pos_flag(population)
         current_fitness = population[best_individual].fitness
         result_fitness.append(current_fitness)
         result_strength_ratio.append(population[best_individual].strength_raito)
 
-        print("curent fitness: " + str(current_fitness) + " strength_raito " + \
-                str(population[best_individual].strength_raito))
+        #print("curent fitness: " + str(current_fitness) + " strength_raito " + \
+        #        str(population[best_individual].strength_raito))
+        print(population[best_individual])
 
     save_to_output(result_fitness, result_strength_ratio, population[best_individual])
 

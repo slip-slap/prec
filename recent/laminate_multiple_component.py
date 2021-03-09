@@ -307,8 +307,6 @@ def get_FPF_and_LPF():
     print("laminate efficiency" + str(laminate_efficiency))
 
 def get_strength_ratio(angle, height, material, load):
-    for i in range(len(angle)):
-        angle[i] = np.divide(angle[i]*np.pi, 180)
 
     laminate_stiffness = calc_laminate_stiffness_matrice(angle,height,material)
     midplane_strain_and_curvature = \
@@ -334,12 +332,12 @@ if __name__=='__main__':
     #material = tool.get_symmetry_list(material)
 
 
-    load = [1,1,0,0,0,0]
-    angle =[-45] * 6 + [45] * 6  
-    angle = tool.get_symmetry_list(angle)
-    height= [0.000165]*24
-    material =[cv.CARBON_EPOXY] * 12    
-    material = tool.get_symmetry_list(material)
+    load = [1,0,0,0,0,0]
+    angle =[0,90,90,0 ] 
+    #angle = tool.get_symmetry_list(angle)
+    height= [0.005]*4
+    material =[cv.GRAPHITE_EPOXY] * 4    
+    #material = tool.get_symmetry_list(material)
 
     sr  = get_strength_ratio(angle,height,material,load)
     """
