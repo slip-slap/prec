@@ -522,6 +522,11 @@ INPUT Chapters/my_chapter_5.tex
 INPUT Chapters/my_chapter_5.tex
 INPUT Figures/chapter5_neural_network.tex
 INPUT Figures/chapter5_neural_network.tex
+INPUT Figures/chapter5_figure_angle_ply_laminate.tex
+INPUT Figures/chapter5_figure_angle_ply_laminate.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT Figures/chapter5_ann_for_clt.tex
 INPUT Figures/chapter5_ann_for_clt.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
@@ -533,6 +538,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
