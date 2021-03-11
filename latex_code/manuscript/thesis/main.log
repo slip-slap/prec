@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  9 MAR 2021 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  11 MAR 2021 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1538,9 +1538,14 @@ Overfull \hbox (7.67703pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-)
+) (./Figures/chapter5_table_training_data.tex)
 1: section
-[23] [24]) [25]
+[23] [24] (./Figures/chapter5_table_ann_valuation.tex
+Overfull \hbox (79.65642pt too wide) in paragraph at lines 4--18
+ [][] 
+ []
+
+)) [25]
 \openout2 = `Chapters/my_chapter_6.aux'.
 
  (./Chapters/my_chapter_6.tex [26
@@ -1596,7 +1601,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7BE57BE108C8041B5B4EFFCCCC9AFCEC;9140.
+(rerunfilecheck)             Checksum: 482520C987750F59989473AA383A1130;9140.
 
 
 LaTeX Warning: There were undefined references.
@@ -1606,18 +1611,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49832 strings out of 492616
- 1023860 string characters out of 6128982
- 1402088 words of memory out of 5000000
- 52934 multiletter control sequences out of 15000+600000
+ 49842 strings out of 492616
+ 1024206 string characters out of 6128982
+ 1405088 words of memory out of 5000000
+ 52936 multiletter control sequences out of 15000+600000
  578433 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,22n,85p,1149b,2429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 521813 bytes).
+Output written on main.pdf (32 pages, 523243 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 506 compressed objects within 6 object streams
- 135 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 508 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
  424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

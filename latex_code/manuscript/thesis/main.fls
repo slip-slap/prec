@@ -543,6 +543,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT Figures/chapter5_table_training_data.tex
+INPUT Figures/chapter5_table_training_data.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -556,6 +558,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
+INPUT Figures/chapter5_table_ann_valuation.tex
+INPUT Figures/chapter5_table_ann_valuation.tex
 OUTPUT Chapters/my_chapter_6.aux
 INPUT Chapters/my_chapter_6.tex
 INPUT Chapters/my_chapter_6.tex
