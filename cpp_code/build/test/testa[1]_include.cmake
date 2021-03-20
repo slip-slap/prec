@@ -1,0 +1,5 @@
+if(EXISTS "/Users/kismet/Documents/github/prec/cpp_code/build/test/testa[1]_tests.cmake")
+  include("/Users/kismet/Documents/github/prec/cpp_code/build/test/testa[1]_tests.cmake")
+else()
+  add_test(testa_NOT_BUILT testa_NOT_BUILT)
+endif()

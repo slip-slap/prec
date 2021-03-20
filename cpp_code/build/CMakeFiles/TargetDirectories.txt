@@ -1,3 +1,11 @@
 /Users/kismet/Documents/github/prec/cpp_code/build/CMakeFiles/rebuild_cache.dir
 /Users/kismet/Documents/github/prec/cpp_code/build/CMakeFiles/edit_cache.dir
-/Users/kismet/Documents/github/prec/cpp_code/build/CMakeFiles/demo.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/CMakeFiles/test.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/src/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/src/CMakeFiles/edit_cache.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/src/CMakeFiles/test.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/src/CMakeFiles/demo.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/test/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/test/CMakeFiles/edit_cache.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/test/CMakeFiles/test.dir
+/Users/kismet/Documents/github/prec/cpp_code/build/test/CMakeFiles/Test.dir
