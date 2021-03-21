@@ -1,0 +1,9 @@
+/Users/kismet/Desktop/temp/Dog/build/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/CMakeFiles/edit_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/edit_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir
+/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog_autogen.dir
+/Users/kismet/Desktop/temp/Dog/build/test/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/test/CMakeFiles/edit_cache.dir
+/Users/kismet/Desktop/temp/Dog/build/test/CMakeFiles/test.dir
