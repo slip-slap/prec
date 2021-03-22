@@ -1,10 +1,14 @@
 #include "ProjectConfig.h"
 #include <iostream>
+#include <string>
 
 int add(int a, int b){return a+b;}
 
+
 int main(){
 	std::cout<<"*************************start test**************"<<std::endl;
+	std::string name="liam";
+	std::cout<<name.c_str();
 	return 0;
 }
 

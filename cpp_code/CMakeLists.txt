@@ -11,7 +11,7 @@ SET(CMAKE_C_FLAGS_DEBUG "-O0")
 
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_modules/")
 find_package(foo REQUIRED)
-
+message("variable in module " ${FOO_LIBRARY})
 message("cmake module path: " ${CMAKE_MODULE_PATH})
 
 message(${CMAKE_FIND_LIBRARY_PREFIXES})

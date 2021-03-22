@@ -98,17 +98,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/opt/local/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Documents/github/prec/cpp_code/build/CMakeFiles /Users/kismet/Documents/github/prec/cpp_code/build/test/CMakeFiles/progress.marks
@@ -142,19 +131,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/Test.dir/rule:
-	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/Test.dir/rule
-.PHONY : test/CMakeFiles/Test.dir/rule
+test/CMakeFiles/testa.dir/rule:
+	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/testa.dir/rule
+.PHONY : test/CMakeFiles/testa.dir/rule
 
 # Convenience name for target.
-Test: test/CMakeFiles/Test.dir/rule
+testa: test/CMakeFiles/testa.dir/rule
 
-.PHONY : Test
+.PHONY : testa
 
 # fast build rule for target.
-Test/fast:
-	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+testa/fast:
+	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/testa.dir/build.make test/CMakeFiles/testa.dir/build
+.PHONY : testa/fast
 
 test.o: test.cpp.o
 
@@ -162,7 +151,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/test.cpp.o
+	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/testa.dir/build.make test/CMakeFiles/testa.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -171,7 +160,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/test.cpp.i
+	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/testa.dir/build.make test/CMakeFiles/testa.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -180,7 +169,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/Test.dir/build.make test/CMakeFiles/Test.dir/test.cpp.s
+	cd /Users/kismet/Documents/github/prec/cpp_code/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/testa.dir/build.make test/CMakeFiles/testa.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -191,8 +180,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test"
-	@echo "... Test"
+	@echo "... testa"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
