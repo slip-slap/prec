@@ -112,6 +112,7 @@ class Genetic_Algorithm(object):
                 lmac.get_laminate_mass(child.height_list,child.material_list)
             child.cost = lmac.get_laminate_cost(child.material_list)
             child.fitness =  get_fitness(child);
+            child.flag =""
             offspring.append(child)
         return offspring
             
@@ -120,7 +121,6 @@ class Genetic_Algorithm(object):
         for i in range(len(offspring)):
             if(offspring[i].flag=="active_group"):
                 continue
-
             offspring[i].angle_list = \
                 slo.get_chromosome_mutation_(offspring[i].angle_list,\
                                 offspring[i].strength_raito, cv.ANGLE_CODE);

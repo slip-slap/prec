@@ -90,27 +90,40 @@ def get_concerter_angle(angle):
     if(angle > 0 and np.abs(angle - np.pi/4) < 0.1):
         return 45
 
-def save_to_output(result_fitness, result_strength_ratio, my_best_individual):
-    with open("seed_test.py","a") as result_handler:
+def save_to_output(result_fitness, result_strength_ratio, \
+        my_best_individual,result_active_group, result_potential_group, \
+        result_proper_group):
+    with open("main_result.py","a") as result_handler:
         result_handler.write("##################################")
         result_handler.write("\n")
-        result_handler.write("load=  " + str(cv.LOAD))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_value=  " + str(cv.MUTATION_EFFICIENT))
         result_handler.write("\n")
-        result_handler.write("material=  " + str(cv.MATERIAL))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_load=  " + str(cv.LOAD))
         result_handler.write("\n")
-        result_handler.write("angle=  " + str(cv.ANGLE))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_material=  " + str(cv.MATERIAL))
         result_handler.write("\n")
-        result_handler.write("fitness_ =  " + str(result_fitness))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_angle=  " + str(cv.ANGLE))
         result_handler.write("\n")
-        result_handler.write("strength_ratio_= "+ str(result_strength_ratio))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_fitness_ =  " + str(result_fitness))
         result_handler.write("\n")
-        result_handler.write("cost= "+ str(my_best_individual.cost))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_strength_ratio_= "+ str(result_strength_ratio))
         result_handler.write("\n")
-        result_handler.write("mass= "+ str(my_best_individual.mass))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(my_best_individual.cost))
         result_handler.write("\n")
-        result_handler.write("strength_raito= "+ str(my_best_individual.strength_raito))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_mass= "+ str(my_best_individual.mass))
         result_handler.write("\n")
-        result_handler.write("number_of_layer= "+ str(len(my_best_individual.material_list)))
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(my_best_individual.strength_raito))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(my_best_individual.material_list)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) \
+                +"_active_group_number= "+ str(result_active_group))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) \
+                +"_potential_group_number= "+ str(result_potential_group))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) \
+                +"_proper_group_number= "+ str(result_proper_group))
         result_handler.write("\n")
 
         stacking_sequence = []
@@ -142,7 +155,11 @@ if __name__ == "__main__":
     result_fitness  = []
     result_times = []
     result_strength_ratio = []
+    result_active_group = []
+    result_potential_group = []
+    result_proper_group = []
     print("###load: "+str(cv.LOAD))
+    print("###load: "+str(cv.MUTATION_EFFICIENT))
     population = get_initial_population()
     population.sort(key = lambda c: c.fitness)
 
@@ -159,8 +176,22 @@ if __name__ == "__main__":
     ga = my_ga.Genetic_Algorithm()
     d = 0
     while( d<cv.GA_RUNTIMES ):
+#        break;
         d = d+1 
+        active_group_number = 0;
+        potential_group_number = 0;
+        proper_group_number = 0;
         parents = ga.select_parents(population,int(cv.POPULATION_NUMBER * cv.ELITIST_PERCENT))
+        for i in range(len(parents)):
+            if(parents[i].flag == "active_group"):
+                active_group_number = active_group_number + 1;
+            if(parents[i].flag == "potential_group"):
+                potential_group_number = potential_group_number+ 1;
+            if(parents[i].flag == "proper_group"):
+                proper_group_number = proper_group_number + 1;
+        result_active_group.append(active_group_number) 
+        result_potential_group.append(potential_group_number)
+        result_proper_group.append(proper_group_number)
         offspring = crossover_and_mutation(ga, parents, int(cv.POPULATION_NUMBER*(1 - cv.ELITIST_PERCENT)));
         number_of_vacant_spot = cv.POPULATION_NUMBER - len(offspring) - \
                                  len(parents)
@@ -184,5 +215,7 @@ if __name__ == "__main__":
         #        str(population[best_individual].strength_raito))
         print(population[best_individual])
 
-    save_to_output(result_fitness, result_strength_ratio, population[best_individual])
+    save_to_output(result_fitness, result_strength_ratio, \
+            population[best_individual], result_active_group, \
+            result_potential_group, result_proper_group)
 

@@ -49,10 +49,10 @@ def remove_chromsome_is_even(chromosome, number):
     chromosome_len = len(chromosome)
     half_chromosome = chromosome[0:int(chromosome_len/2)]
     if(number%2==0):
-        half_chromosome = remove_block(half_chromosome, int(number/2),code);
+        half_chromosome = remove_block(half_chromosome, int(number/2));
         full_chromosome = tool.get_symmetry_list(half_chromosome);
     if(number%2==1):
-        half_chromosome = remove_block(half_chromosome, int(number/2),code);
+        half_chromosome = remove_block(half_chromosome, int(number/2));
         full_chromosome = tool.get_symmetry_list(half_chromosome);
         del full_chromosome[int(len(full_chromosome)/2)]
     return full_chromosome;
