@@ -1,22 +1,20 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include <list>
+#include <string>
+#include <QMessageBox>
 #include <QDebug>
-#include "stock.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    QString file_name = "SSE_listed_company_info.csv";
-    QFile file(file_name);
-    if (!file.open(QIODevice::ReadOnly)) {
-            qDebug() << file.errorString();
-        }
-    while(!file.atEnd()){
-        QByteArray line = file.readLine();
-        QString first_item = QString(line.split(',').first());
-        ui->listWidget->addItem(first_item);
+    ui->menubar->setNativeMenuBar(false);// display menubar
+    std::list<std::string> listed_company = s.getListedCompany();
+    //s.readStocks("");
+    for(std::list<std::string>::iterator itr=listed_company.begin();itr!=listed_company.end();itr++){
+         ui->listWidget->addItem(itr->c_str());
     }
 }
 
@@ -29,17 +27,19 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     qDebug()<<"something";
-    plotData();
+    QMessageBox::about(this, "title","this is");
 
 }
 
-void MainWindow::plotData(){
+void MainWindow::plotData(std::string stock_code){
+    std::list<StockNode> stock_data = s.getStock(stock_code);
 
-    QList<StockNode> stock = s.getStock();
-    int const size = stock.size();
+    int const size = stock_data.size();
     QVector<double> y(2);
-    for(QList<StockNode>::iterator itr=stock.begin();itr!=stock.end();itr++){
+    double max_price = -1;
+    for(std::list<StockNode>::iterator itr=stock_data.begin();itr!=stock_data.end();itr++){
         y.push_back(itr->getOpenPrice());
+        if(itr->getOpenPrice() > max_price){max_price = itr->getOpenPrice();}
         qDebug()<<"price is: "<<itr->getOpenPrice();
     }
     QVector<double> x(y.size());
@@ -49,13 +49,17 @@ void MainWindow::plotData(){
     ui->customPlot->addGraph();
     ui->customPlot->graph(0)->setData(x,y);
     ui->customPlot->xAxis->setRange(0,size);
-    ui->customPlot->yAxis->setRange(0,10);
+    ui->customPlot->yAxis->setRange(0,int(max_price));
     ui->customPlot->replot();
+
 }
 
 void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item)
 {
-    qDebug()<<item->text();
-    s.readStocks("");
-    plotData();	
+    plotData(item->text().toStdString());
+}
+
+void MainWindow::on_actionOpen_triggered()
+{
+    QMessageBox::information(this,"","");
 }

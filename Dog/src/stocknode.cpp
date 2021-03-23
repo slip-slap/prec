@@ -6,7 +6,7 @@ StockNode::StockNode(){
 }
 
 StockNode::StockNode(const StockNode &node){
-	std::cout<<"copy constructor"<<std::endl;
+	//std::cout<<"copy constructor"<<std::endl;
 	this->m_date = node.m_date;
 	this->m_open_price = node.m_open_price;
 	this->m_high_price = node.m_high_price;

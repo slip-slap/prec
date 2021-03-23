@@ -63,10 +63,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kismet/Desktop/temp/Dog
+CMAKE_SOURCE_DIR = /Users/kismet/Documents/github/prec/Dog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
+CMAKE_BINARY_DIR = /Users/kismet/Documents/github/prec/Dog/build
 
 # Utility rule file for Dog_autogen.
 
@@ -74,8 +74,8 @@ CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
 include src/CMakeFiles/Dog_autogen.dir/progress.make
 
 src/CMakeFiles/Dog_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Dog"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /opt/local/bin/cmake -E cmake_autogen /Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Dog"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /opt/local/bin/cmake -E cmake_autogen /Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog_autogen.dir/AutogenInfo.json ""
 
 Dog_autogen: src/CMakeFiles/Dog_autogen
 Dog_autogen: src/CMakeFiles/Dog_autogen.dir/build.make
@@ -88,10 +88,10 @@ src/CMakeFiles/Dog_autogen.dir/build: Dog_autogen
 .PHONY : src/CMakeFiles/Dog_autogen.dir/build
 
 src/CMakeFiles/Dog_autogen.dir/clean:
-	cd /Users/kismet/Desktop/temp/Dog/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Dog_autogen.dir/cmake_clean.cmake
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Dog_autogen.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Dog_autogen.dir/clean
 
 src/CMakeFiles/Dog_autogen.dir/depend:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Desktop/temp/Dog /Users/kismet/Desktop/temp/Dog/src /Users/kismet/Desktop/temp/Dog/build /Users/kismet/Desktop/temp/Dog/build/src /Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Documents/github/prec/Dog /Users/kismet/Documents/github/prec/Dog/src /Users/kismet/Documents/github/prec/Dog/build /Users/kismet/Documents/github/prec/Dog/build/src /Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Dog_autogen.dir/depend
 

@@ -68,10 +68,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kismet/Desktop/temp/Dog
+CMAKE_SOURCE_DIR = /Users/kismet/Documents/github/prec/Dog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
+CMAKE_BINARY_DIR = /Users/kismet/Documents/github/prec/Dog/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Desktop/temp/Dog/build/CMakeFiles /Users/kismet/Desktop/temp/Dog/build/test/CMakeFiles/progress.marks
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Desktop/temp/Dog/build/CMakeFiles 0
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Documents/github/prec/Dog/build/CMakeFiles /Users/kismet/Documents/github/prec/Dog/build/test/CMakeFiles/progress.marks
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Documents/github/prec/Dog/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test.dir/rule:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/rule
 .PHONY : test/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -142,8 +142,62 @@ test: test/CMakeFiles/test.dir/rule
 
 # fast build rule for target.
 test/fast:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+__/src/stock.o: __/src/stock.cpp.o
+
+.PHONY : __/src/stock.o
+
+# target to build an object file
+__/src/stock.cpp.o:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stock.cpp.o
+.PHONY : __/src/stock.cpp.o
+
+__/src/stock.i: __/src/stock.cpp.i
+
+.PHONY : __/src/stock.i
+
+# target to preprocess a source file
+__/src/stock.cpp.i:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stock.cpp.i
+.PHONY : __/src/stock.cpp.i
+
+__/src/stock.s: __/src/stock.cpp.s
+
+.PHONY : __/src/stock.s
+
+# target to generate assembly for a file
+__/src/stock.cpp.s:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stock.cpp.s
+.PHONY : __/src/stock.cpp.s
+
+__/src/stocknode.o: __/src/stocknode.cpp.o
+
+.PHONY : __/src/stocknode.o
+
+# target to build an object file
+__/src/stocknode.cpp.o:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stocknode.cpp.o
+.PHONY : __/src/stocknode.cpp.o
+
+__/src/stocknode.i: __/src/stocknode.cpp.i
+
+.PHONY : __/src/stocknode.i
+
+# target to preprocess a source file
+__/src/stocknode.cpp.i:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stocknode.cpp.i
+.PHONY : __/src/stocknode.cpp.i
+
+__/src/stocknode.s: __/src/stocknode.cpp.s
+
+.PHONY : __/src/stocknode.s
+
+# target to generate assembly for a file
+__/src/stocknode.cpp.s:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/__/src/stocknode.cpp.s
+.PHONY : __/src/stocknode.cpp.s
 
 test.o: test.cpp.o
 
@@ -151,7 +205,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -160,7 +214,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -169,8 +223,35 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
+
+teststock.o: teststock.cpp.o
+
+.PHONY : teststock.o
+
+# target to build an object file
+teststock.cpp.o:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/teststock.cpp.o
+.PHONY : teststock.cpp.o
+
+teststock.i: teststock.cpp.i
+
+.PHONY : teststock.i
+
+# target to preprocess a source file
+teststock.cpp.i:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/teststock.cpp.i
+.PHONY : teststock.cpp.i
+
+teststock.s: teststock.cpp.s
+
+.PHONY : teststock.s
+
+# target to generate assembly for a file
+teststock.cpp.s:
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/teststock.cpp.s
+.PHONY : teststock.cpp.s
 
 # Help Target
 help:
@@ -181,9 +262,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... __/src/stock.o"
+	@echo "... __/src/stock.i"
+	@echo "... __/src/stock.s"
+	@echo "... __/src/stocknode.o"
+	@echo "... __/src/stocknode.i"
+	@echo "... __/src/stocknode.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... teststock.o"
+	@echo "... teststock.i"
+	@echo "... teststock.s"
 .PHONY : help
 
 
@@ -195,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

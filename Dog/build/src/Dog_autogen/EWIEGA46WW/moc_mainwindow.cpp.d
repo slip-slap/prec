@@ -1,5 +1,5 @@
-/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/kismet/Desktop/temp/Dog/src/mainwindow.h \
-  /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/moc_predefs.h \
+/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_mainwindow.cpp: /Users/kismet/Documents/github/prec/Dog/src/mainwindow.h \
+  /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
@@ -172,11 +172,8 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stdarg.h \
-  /Users/kismet/Desktop/temp/Dog/src/stock.h \
-  /Users/kismet/Desktop/temp/Dog/src/stocknode.h \
-  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QList \
-  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QMap \
-  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/QString \
+  /Users/kismet/Documents/github/prec/Dog/src/stock.h \
+  /Users/kismet/Documents/github/prec/Dog/src/stocknode.h \
   /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/qabstractitemmodel.h \
   /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/qalgorithms.h \
   /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Versions/5/Headers/qarraydata.h \

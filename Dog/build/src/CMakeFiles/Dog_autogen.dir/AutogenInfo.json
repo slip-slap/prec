@@ -1,38 +1,38 @@
 {
-	"BUILD_DIR" : "/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/kismet/Desktop/temp/Dog/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/kismet/Desktop/temp/Dog/build/src",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/kismet/Desktop/temp/Dog/src",
+	"BUILD_DIR" : "/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/kismet/Documents/github/prec/Dog/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/kismet/Documents/github/prec/Dog/build/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/kismet/Documents/github/prec/Dog/src",
 	"CMAKE_EXECUTABLE" : "/opt/local/bin/cmake",
-	"CMAKE_SOURCE_DIR" : "/Users/kismet/Desktop/temp/Dog",
+	"CMAKE_SOURCE_DIR" : "/Users/kismet/Documents/github/prec/Dog",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/kismet/Desktop/temp/Dog/src/mainwindow.h",
+			"/Users/kismet/Documents/github/prec/Dog/src/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
 		],
 		[
-			"/Users/kismet/Desktop/temp/Dog/src/qcustomplot.h",
+			"/Users/kismet/Documents/github/prec/Dog/src/qcustomplot.h",
 			"MU",
 			"EWIEGA46WW/moc_qcustomplot.cpp"
 		],
 		[
-			"/Users/kismet/Desktop/temp/Dog/src/stock.h",
+			"/Users/kismet/Documents/github/prec/Dog/src/stock.h",
 			"MU",
 			"EWIEGA46WW/moc_stock.cpp"
 		],
 		[
-			"/Users/kismet/Desktop/temp/Dog/src/stocknode.h",
+			"/Users/kismet/Documents/github/prec/Dog/src/stocknode.h",
 			"MU",
 			"EWIEGA46WW/moc_stocknode.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -50,9 +50,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/kismet/Desktop/temp/Dog/build/src",
-		"/Users/kismet/Desktop/temp/Dog/src",
-		"/Users/kismet/Desktop/temp/Dog/build",
+		"/Users/kismet/Documents/github/prec/Dog/build/src",
+		"/Users/kismet/Documents/github/prec/Dog/src",
+		"/Users/kismet/Documents/github/prec/Dog/include",
+		"/Users/kismet/Documents/github/prec/Dog/build",
 		"/Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework",
 		"/Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers",
 		"/Users/kismet/Qt/5.15.0/clang_64/lib/QtGui.framework",
@@ -79,24 +80,24 @@
 		"-c",
 		"/opt/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/kismet/Qt/5.15.0/clang_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/kismet/Qt/5.15.0/clang_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/kismet/Desktop/temp/Dog/src/main.cpp", "MU" ],
-		[ "/Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp", "MU" ],
-		[ "/Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp", "MU" ],
-		[ "/Users/kismet/Desktop/temp/Dog/src/stock.cpp", "MU" ],
-		[ "/Users/kismet/Desktop/temp/Dog/src/stocknode.cpp", "MU" ]
+		[ "/Users/kismet/Documents/github/prec/Dog/src/main.cpp", "MU" ],
+		[ "/Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp", "MU" ],
+		[ "/Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp", "MU" ],
+		[ "/Users/kismet/Documents/github/prec/Dog/src/stock.cpp", "MU" ],
+		[ "/Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

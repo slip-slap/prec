@@ -8,13 +8,19 @@ else()
 endif()
 ]]
 
+set (SOURCE_CPP 
+	"${CMAKE_SOURCE_DIR}/src/stock.cpp"
+	"${CMAKE_SOURCE_DIR}/src/stocknode.cpp"
+        test.cpp
+        teststock.cpp
+	)
 
 find_package(GTest REQUIRED)
 
-
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_executable(test test.cpp)
+add_executable(test ${SOURCE_CPP})
 target_link_libraries(test ${GTEST_BOTH_LIBRARIES} pthread)
+
 
 gtest_discover_tests(test)

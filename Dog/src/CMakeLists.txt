@@ -11,10 +11,11 @@ endif(Qt5_FOUND)
 
 FILE(GLOB_RECURSE PROJECT_SOURCES
 	"${CMAKE_SOURCE_DIR}/src/*.cpp"
-	"${CMAKE_SOURCE_DIR}/src/*.h"
 	"${CMAKE_SOURCE_DIR}/src/*.ui"
+	#	"${CMAKE_SOURCE_DIR}/src/*.h"
 	)
 
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Dog
@@ -33,7 +34,6 @@ else()
 endif()
 
 #find_package(Qt5)
-
 
 target_include_directories(Dog PUBLIC "${PROJECT_BINARY_DIR}")
 target_link_libraries(Dog PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::PrintSupport Qt${QT_VERSION_MAJOR}::Core)

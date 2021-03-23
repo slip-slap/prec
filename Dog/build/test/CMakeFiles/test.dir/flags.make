@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/kismet/Desktop/temp/Dog/build/test -I/Users/kismet/Desktop/temp/Dog/test -I/usr/local/include 
+CXX_INCLUDES = -I/Users/kismet/Documents/github/prec/Dog/build/test -I/Users/kismet/Documents/github/prec/Dog/test -I/Users/kismet/Documents/github/prec/Dog/include -I/usr/local/include 
 

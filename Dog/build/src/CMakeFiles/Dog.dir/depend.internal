@@ -6,33 +6,21 @@ src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o
  ../src/qcustomplot.h
  ../src/stock.h
  ../src/stocknode.h
- /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_mainwindow.cpp
- /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_qcustomplot.cpp
- /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QList
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QMap
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QString
+ /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_mainwindow.cpp
+ /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_qcustomplot.cpp
+ /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QtNumeric
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlist.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmath.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qnumeric.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qstring.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QListWidgetItem
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 src/CMakeFiles/Dog.dir/main.cpp.o
- /Users/kismet/Desktop/temp/Dog/src/main.cpp
- /Users/kismet/Desktop/temp/Dog/src/mainwindow.h
- /Users/kismet/Desktop/temp/Dog/src/stock.h
- /Users/kismet/Desktop/temp/Dog/src/stocknode.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QList
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QMap
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QString
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlist.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qstring.h
+ /Users/kismet/Documents/github/prec/Dog/src/main.cpp
+ /Users/kismet/Documents/github/prec/Dog/src/mainwindow.h
+ /Users/kismet/Documents/github/prec/Dog/src/stock.h
+ /Users/kismet/Documents/github/prec/Dog/src/stocknode.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QApplication
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QListWidgetItem
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
@@ -41,48 +29,32 @@ src/CMakeFiles/Dog.dir/main.cpp.o
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 src/CMakeFiles/Dog.dir/mainwindow.cpp.o
  ../src/qcustomplot.h
- /Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp
- /Users/kismet/Desktop/temp/Dog/src/mainwindow.h
- /Users/kismet/Desktop/temp/Dog/src/stock.h
- /Users/kismet/Desktop/temp/Dog/src/stocknode.h
+ /Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp
+ /Users/kismet/Documents/github/prec/Dog/src/mainwindow.h
+ /Users/kismet/Documents/github/prec/Dog/src/stock.h
+ /Users/kismet/Documents/github/prec/Dog/src/stocknode.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QList
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QMap
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QString
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QtNumeric
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlist.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmath.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qnumeric.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qstring.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QListWidgetItem
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/QMessageBox
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qlistwidget.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
  src/Dog_autogen/include/ui_mainwindow.h
 src/CMakeFiles/Dog.dir/qcustomplot.cpp.o
- /Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp
- /Users/kismet/Desktop/temp/Dog/src/qcustomplot.h
+ /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp
+ /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QtNumeric
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmath.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qnumeric.h
 src/CMakeFiles/Dog.dir/stock.cpp.o
- /Users/kismet/Desktop/temp/Dog/src/stock.cpp
- /Users/kismet/Desktop/temp/Dog/src/stock.h
- /Users/kismet/Desktop/temp/Dog/src/stocknode.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QFile
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QList
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QMap
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QString
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qfile.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlist.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmap.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qstring.h
+ /Users/kismet/Documents/github/prec/Dog/src/stock.cpp
+ /Users/kismet/Documents/github/prec/Dog/src/stock.h
+ /Users/kismet/Documents/github/prec/Dog/src/stocknode.h
 src/CMakeFiles/Dog.dir/stocknode.cpp.o
- /Users/kismet/Desktop/temp/Dog/src/stocknode.cpp
- /Users/kismet/Desktop/temp/Dog/src/stocknode.h
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QList
- /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qlist.h
+ /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp
+ /Users/kismet/Documents/github/prec/Dog/src/stocknode.h

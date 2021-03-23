@@ -68,10 +68,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kismet/Desktop/temp/Dog
+CMAKE_SOURCE_DIR = /Users/kismet/Documents/github/prec/Dog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
+CMAKE_BINARY_DIR = /Users/kismet/Documents/github/prec/Dog/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Desktop/temp/Dog/build/CMakeFiles /Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/progress.marks
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Desktop/temp/Dog/build/CMakeFiles 0
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Documents/github/prec/Dog/build/CMakeFiles /Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/progress.marks
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kismet/Documents/github/prec/Dog/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Dog.dir/rule:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Dog.dir/rule
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Dog.dir/rule
 .PHONY : src/CMakeFiles/Dog.dir/rule
 
 # Convenience name for target.
@@ -142,12 +142,12 @@ Dog: src/CMakeFiles/Dog.dir/rule
 
 # fast build rule for target.
 Dog/fast:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/build
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/build
 .PHONY : Dog/fast
 
 # Convenience name for target.
 src/CMakeFiles/Dog_autogen.dir/rule:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Dog_autogen.dir/rule
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/Dog_autogen.dir/rule
 .PHONY : src/CMakeFiles/Dog_autogen.dir/rule
 
 # Convenience name for target.
@@ -157,7 +157,7 @@ Dog_autogen: src/CMakeFiles/Dog_autogen.dir/rule
 
 # fast build rule for target.
 Dog_autogen/fast:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog_autogen.dir/build.make src/CMakeFiles/Dog_autogen.dir/build
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog_autogen.dir/build.make src/CMakeFiles/Dog_autogen.dir/build
 .PHONY : Dog_autogen/fast
 
 Dog_autogen/mocs_compilation.o: Dog_autogen/mocs_compilation.cpp.o
@@ -166,7 +166,7 @@ Dog_autogen/mocs_compilation.o: Dog_autogen/mocs_compilation.cpp.o
 
 # target to build an object file
 Dog_autogen/mocs_compilation.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o
 .PHONY : Dog_autogen/mocs_compilation.cpp.o
 
 Dog_autogen/mocs_compilation.i: Dog_autogen/mocs_compilation.cpp.i
@@ -175,7 +175,7 @@ Dog_autogen/mocs_compilation.i: Dog_autogen/mocs_compilation.cpp.i
 
 # target to preprocess a source file
 Dog_autogen/mocs_compilation.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i
 .PHONY : Dog_autogen/mocs_compilation.cpp.i
 
 Dog_autogen/mocs_compilation.s: Dog_autogen/mocs_compilation.cpp.s
@@ -184,7 +184,7 @@ Dog_autogen/mocs_compilation.s: Dog_autogen/mocs_compilation.cpp.s
 
 # target to generate assembly for a file
 Dog_autogen/mocs_compilation.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s
 .PHONY : Dog_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
@@ -193,7 +193,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -202,7 +202,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -211,7 +211,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -220,7 +220,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -229,7 +229,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -238,7 +238,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 qcustomplot.o: qcustomplot.cpp.o
@@ -247,7 +247,7 @@ qcustomplot.o: qcustomplot.cpp.o
 
 # target to build an object file
 qcustomplot.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.o
 .PHONY : qcustomplot.cpp.o
 
 qcustomplot.i: qcustomplot.cpp.i
@@ -256,7 +256,7 @@ qcustomplot.i: qcustomplot.cpp.i
 
 # target to preprocess a source file
 qcustomplot.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.i
 .PHONY : qcustomplot.cpp.i
 
 qcustomplot.s: qcustomplot.cpp.s
@@ -265,7 +265,7 @@ qcustomplot.s: qcustomplot.cpp.s
 
 # target to generate assembly for a file
 qcustomplot.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/qcustomplot.cpp.s
 .PHONY : qcustomplot.cpp.s
 
 stock.o: stock.cpp.o
@@ -274,7 +274,7 @@ stock.o: stock.cpp.o
 
 # target to build an object file
 stock.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.o
 .PHONY : stock.cpp.o
 
 stock.i: stock.cpp.i
@@ -283,7 +283,7 @@ stock.i: stock.cpp.i
 
 # target to preprocess a source file
 stock.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.i
 .PHONY : stock.cpp.i
 
 stock.s: stock.cpp.s
@@ -292,7 +292,7 @@ stock.s: stock.cpp.s
 
 # target to generate assembly for a file
 stock.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stock.cpp.s
 .PHONY : stock.cpp.s
 
 stocknode.o: stocknode.cpp.o
@@ -301,7 +301,7 @@ stocknode.o: stocknode.cpp.o
 
 # target to build an object file
 stocknode.cpp.o:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.o
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.o
 .PHONY : stocknode.cpp.o
 
 stocknode.i: stocknode.cpp.i
@@ -310,7 +310,7 @@ stocknode.i: stocknode.cpp.i
 
 # target to preprocess a source file
 stocknode.cpp.i:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.i
 .PHONY : stocknode.cpp.i
 
 stocknode.s: stocknode.cpp.s
@@ -319,7 +319,7 @@ stocknode.s: stocknode.cpp.s
 
 # target to generate assembly for a file
 stocknode.cpp.s:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/Dog.dir/build.make src/CMakeFiles/Dog.dir/stocknode.cpp.s
 .PHONY : stocknode.cpp.s
 
 # Help Target
@@ -361,6 +361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -63,10 +63,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kismet/Desktop/temp/Dog
+CMAKE_SOURCE_DIR = /Users/kismet/Documents/github/prec/Dog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
+CMAKE_BINARY_DIR = /Users/kismet/Documents/github/prec/Dog/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Dog.dir/depend.make
@@ -79,81 +79,81 @@ include src/CMakeFiles/Dog.dir/flags.make
 
 src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o: src/Dog_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o -c /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o -c /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp
 
 src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp > CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp > CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.i
 
 src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp -o CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp -o CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.s
 
 src/CMakeFiles/Dog.dir/main.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Dog.dir/main.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/main.cpp.o -c /Users/kismet/Desktop/temp/Dog/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Dog.dir/main.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/main.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/main.cpp
 
 src/CMakeFiles/Dog.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/main.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/src/main.cpp > CMakeFiles/Dog.dir/main.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/main.cpp > CMakeFiles/Dog.dir/main.cpp.i
 
 src/CMakeFiles/Dog.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/main.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/src/main.cpp -o CMakeFiles/Dog.dir/main.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/main.cpp -o CMakeFiles/Dog.dir/main.cpp.s
 
 src/CMakeFiles/Dog.dir/mainwindow.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/mainwindow.cpp.o: ../src/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Dog.dir/mainwindow.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/mainwindow.cpp.o -c /Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Dog.dir/mainwindow.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/mainwindow.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp
 
 src/CMakeFiles/Dog.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/mainwindow.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp > CMakeFiles/Dog.dir/mainwindow.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp > CMakeFiles/Dog.dir/mainwindow.cpp.i
 
 src/CMakeFiles/Dog.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/mainwindow.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp -o CMakeFiles/Dog.dir/mainwindow.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp -o CMakeFiles/Dog.dir/mainwindow.cpp.s
 
 src/CMakeFiles/Dog.dir/qcustomplot.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/qcustomplot.cpp.o: ../src/qcustomplot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Dog.dir/qcustomplot.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/qcustomplot.cpp.o -c /Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Dog.dir/qcustomplot.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/qcustomplot.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp
 
 src/CMakeFiles/Dog.dir/qcustomplot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/qcustomplot.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp > CMakeFiles/Dog.dir/qcustomplot.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp > CMakeFiles/Dog.dir/qcustomplot.cpp.i
 
 src/CMakeFiles/Dog.dir/qcustomplot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/qcustomplot.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp -o CMakeFiles/Dog.dir/qcustomplot.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp -o CMakeFiles/Dog.dir/qcustomplot.cpp.s
 
 src/CMakeFiles/Dog.dir/stock.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/stock.cpp.o: ../src/stock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Dog.dir/stock.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/stock.cpp.o -c /Users/kismet/Desktop/temp/Dog/src/stock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/Dog.dir/stock.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/stock.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/stock.cpp
 
 src/CMakeFiles/Dog.dir/stock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/stock.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/src/stock.cpp > CMakeFiles/Dog.dir/stock.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/stock.cpp > CMakeFiles/Dog.dir/stock.cpp.i
 
 src/CMakeFiles/Dog.dir/stock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/stock.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/src/stock.cpp -o CMakeFiles/Dog.dir/stock.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/stock.cpp -o CMakeFiles/Dog.dir/stock.cpp.s
 
 src/CMakeFiles/Dog.dir/stocknode.cpp.o: src/CMakeFiles/Dog.dir/flags.make
 src/CMakeFiles/Dog.dir/stocknode.cpp.o: ../src/stocknode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Dog.dir/stocknode.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/stocknode.cpp.o -c /Users/kismet/Desktop/temp/Dog/src/stocknode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/Dog.dir/stocknode.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dog.dir/stocknode.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp
 
 src/CMakeFiles/Dog.dir/stocknode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dog.dir/stocknode.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/src/stocknode.cpp > CMakeFiles/Dog.dir/stocknode.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp > CMakeFiles/Dog.dir/stocknode.cpp.i
 
 src/CMakeFiles/Dog.dir/stocknode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dog.dir/stocknode.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/src/stocknode.cpp -o CMakeFiles/Dog.dir/stocknode.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp -o CMakeFiles/Dog.dir/stocknode.cpp.s
 
 # Object files for target Dog
 Dog_OBJECTS = \
@@ -179,8 +179,8 @@ src/Dog: /Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/QtWidgets
 src/Dog: /Users/kismet/Qt/5.15.0/clang_64/lib/QtGui.framework/QtGui
 src/Dog: /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/QtCore
 src/Dog: src/CMakeFiles/Dog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Dog"
-	cd /Users/kismet/Desktop/temp/Dog/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dog.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Dog"
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Dog.dir/build: src/Dog
@@ -188,10 +188,10 @@ src/CMakeFiles/Dog.dir/build: src/Dog
 .PHONY : src/CMakeFiles/Dog.dir/build
 
 src/CMakeFiles/Dog.dir/clean:
-	cd /Users/kismet/Desktop/temp/Dog/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Dog.dir/cmake_clean.cmake
+	cd /Users/kismet/Documents/github/prec/Dog/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Dog.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Dog.dir/clean
 
 src/CMakeFiles/Dog.dir/depend:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Desktop/temp/Dog /Users/kismet/Desktop/temp/Dog/src /Users/kismet/Desktop/temp/Dog/build /Users/kismet/Desktop/temp/Dog/build/src /Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Documents/github/prec/Dog /Users/kismet/Documents/github/prec/Dog/src /Users/kismet/Documents/github/prec/Dog/build /Users/kismet/Documents/github/prec/Dog/build/src /Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Dog.dir/depend
 

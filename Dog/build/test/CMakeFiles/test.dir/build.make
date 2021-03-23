@@ -63,10 +63,10 @@ RM = /opt/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kismet/Desktop/temp/Dog
+CMAKE_SOURCE_DIR = /Users/kismet/Documents/github/prec/Dog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kismet/Desktop/temp/Dog/build
+CMAKE_BINARY_DIR = /Users/kismet/Documents/github/prec/Dog/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/test.dir/depend.make
@@ -77,34 +77,79 @@ include test/CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test.dir/flags.make
 
+test/CMakeFiles/test.dir/__/src/stock.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/stock.cpp.o: ../src/stock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/__/src/stock.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/stock.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/stock.cpp
+
+test/CMakeFiles/test.dir/__/src/stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/stock.cpp.i"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/stock.cpp > CMakeFiles/test.dir/__/src/stock.cpp.i
+
+test/CMakeFiles/test.dir/__/src/stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/stock.cpp.s"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/stock.cpp -o CMakeFiles/test.dir/__/src/stock.cpp.s
+
+test/CMakeFiles/test.dir/__/src/stocknode.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/__/src/stocknode.cpp.o: ../src/stocknode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test.dir/__/src/stocknode.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/__/src/stocknode.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp
+
+test/CMakeFiles/test.dir/__/src/stocknode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/__/src/stocknode.cpp.i"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp > CMakeFiles/test.dir/__/src/stocknode.cpp.i
+
+test/CMakeFiles/test.dir/__/src/stocknode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/__/src/stocknode.cpp.s"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp -o CMakeFiles/test.dir/__/src/stocknode.cpp.s
+
 test/CMakeFiles/test.dir/test.cpp.o: test/CMakeFiles/test.dir/flags.make
 test/CMakeFiles/test.dir/test.cpp.o: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test.dir/test.cpp.o"
-	cd /Users/kismet/Desktop/temp/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test.cpp.o -c /Users/kismet/Desktop/temp/Dog/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/test.dir/test.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/test.cpp.o -c /Users/kismet/Documents/github/prec/Dog/test/test.cpp
 
 test/CMakeFiles/test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/test.cpp.i"
-	cd /Users/kismet/Desktop/temp/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Desktop/temp/Dog/test/test.cpp > CMakeFiles/test.dir/test.cpp.i
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/test/test.cpp > CMakeFiles/test.dir/test.cpp.i
 
 test/CMakeFiles/test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/test.cpp.s"
-	cd /Users/kismet/Desktop/temp/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Desktop/temp/Dog/test/test.cpp -o CMakeFiles/test.dir/test.cpp.s
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/test/test.cpp -o CMakeFiles/test.dir/test.cpp.s
+
+test/CMakeFiles/test.dir/teststock.cpp.o: test/CMakeFiles/test.dir/flags.make
+test/CMakeFiles/test.dir/teststock.cpp.o: ../test/teststock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/test.dir/teststock.cpp.o"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test.dir/teststock.cpp.o -c /Users/kismet/Documents/github/prec/Dog/test/teststock.cpp
+
+test/CMakeFiles/test.dir/teststock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/teststock.cpp.i"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kismet/Documents/github/prec/Dog/test/teststock.cpp > CMakeFiles/test.dir/teststock.cpp.i
+
+test/CMakeFiles/test.dir/teststock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/teststock.cpp.s"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kismet/Documents/github/prec/Dog/test/teststock.cpp -o CMakeFiles/test.dir/teststock.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/test.cpp.o"
+"CMakeFiles/test.dir/__/src/stock.cpp.o" \
+"CMakeFiles/test.dir/__/src/stocknode.cpp.o" \
+"CMakeFiles/test.dir/test.cpp.o" \
+"CMakeFiles/test.dir/teststock.cpp.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
+test/test: test/CMakeFiles/test.dir/__/src/stock.cpp.o
+test/test: test/CMakeFiles/test.dir/__/src/stocknode.cpp.o
 test/test: test/CMakeFiles/test.dir/test.cpp.o
+test/test: test/CMakeFiles/test.dir/teststock.cpp.o
 test/test: test/CMakeFiles/test.dir/build.make
 test/test: /usr/local/lib/libgtest.a
 test/test: /usr/local/lib/libgtest_main.a
 test/test: test/CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kismet/Desktop/temp/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test"
-	cd /Users/kismet/Desktop/temp/Dog/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/kismet/Desktop/temp/Dog/build/test && /opt/local/bin/cmake -D TEST_TARGET=test -D TEST_EXECUTABLE=/Users/kismet/Desktop/temp/Dog/build/test/test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/kismet/Desktop/temp/Dog/build/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_TESTS -D CTEST_FILE=/Users/kismet/Desktop/temp/Dog/build/test/test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /opt/local/share/cmake-3.17/Modules/GoogleTestAddTests.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kismet/Documents/github/prec/Dog/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test"
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && /opt/local/bin/cmake -D TEST_TARGET=test -D TEST_EXECUTABLE=/Users/kismet/Documents/github/prec/Dog/build/test/test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/kismet/Documents/github/prec/Dog/build/test -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=test_TESTS -D CTEST_FILE=/Users/kismet/Documents/github/prec/Dog/build/test/test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -P /opt/local/share/cmake-3.17/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/test.dir/build: test/test
@@ -112,10 +157,10 @@ test/CMakeFiles/test.dir/build: test/test
 .PHONY : test/CMakeFiles/test.dir/build
 
 test/CMakeFiles/test.dir/clean:
-	cd /Users/kismet/Desktop/temp/Dog/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test.dir/cmake_clean.cmake
+	cd /Users/kismet/Documents/github/prec/Dog/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test.dir/clean
 
 test/CMakeFiles/test.dir/depend:
-	cd /Users/kismet/Desktop/temp/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Desktop/temp/Dog /Users/kismet/Desktop/temp/Dog/test /Users/kismet/Desktop/temp/Dog/build /Users/kismet/Desktop/temp/Dog/build/test /Users/kismet/Desktop/temp/Dog/build/test/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kismet/Documents/github/prec/Dog/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kismet/Documents/github/prec/Dog /Users/kismet/Documents/github/prec/Dog/test /Users/kismet/Documents/github/prec/Dog/build /Users/kismet/Documents/github/prec/Dog/build/test /Users/kismet/Documents/github/prec/Dog/build/test/CMakeFiles/test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test.dir/depend
 

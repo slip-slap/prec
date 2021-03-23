@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/mocs_compilation.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o"
-  "/Users/kismet/Desktop/temp/Dog/src/main.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/main.cpp.o"
-  "/Users/kismet/Desktop/temp/Dog/src/mainwindow.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/mainwindow.cpp.o"
-  "/Users/kismet/Desktop/temp/Dog/src/qcustomplot.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/qcustomplot.cpp.o"
-  "/Users/kismet/Desktop/temp/Dog/src/stock.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/stock.cpp.o"
-  "/Users/kismet/Desktop/temp/Dog/src/stocknode.cpp" "/Users/kismet/Desktop/temp/Dog/build/src/CMakeFiles/Dog.dir/stocknode.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/mocs_compilation.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/Dog_autogen/mocs_compilation.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/src/main.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/main.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/src/mainwindow.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/mainwindow.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/src/qcustomplot.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/qcustomplot.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/src/stock.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/stock.cpp.o"
+  "/Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp" "/Users/kismet/Documents/github/prec/Dog/build/src/CMakeFiles/Dog.dir/stocknode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -27,6 +27,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "src"
   "../src"
   "src/Dog_autogen/include"
+  "../include"
   "."
   "/Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework"
   "/Users/kismet/Qt/5.15.0/clang_64/lib/QtWidgets.framework/Headers"

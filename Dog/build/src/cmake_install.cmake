@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kismet/Desktop/temp/Dog/src
+# Install script for directory: /Users/kismet/Documents/github/prec/Dog/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

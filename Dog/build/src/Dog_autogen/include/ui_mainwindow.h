@@ -27,6 +27,7 @@ class Ui_MainWindow
 {
 public:
     QAction *actionOpen;
+    QAction *actionQuit;
     QWidget *centralwidget;
     QPushButton *pushButton;
     QCustomPlot *customPlot;
@@ -42,6 +43,8 @@ public:
         MainWindow->resize(800, 600);
         actionOpen = new QAction(MainWindow);
         actionOpen->setObjectName(QString::fromUtf8("actionOpen"));
+        actionQuit = new QAction(MainWindow);
+        actionQuit->setObjectName(QString::fromUtf8("actionQuit"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         pushButton = new QPushButton(centralwidget);
@@ -66,6 +69,7 @@ public:
 
         menubar->addAction(menuFile->menuAction());
         menuFile->addAction(actionOpen);
+        menuFile->addAction(actionQuit);
 
         retranslateUi(MainWindow);
 
@@ -76,6 +80,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         actionOpen->setText(QCoreApplication::translate("MainWindow", "Open", nullptr));
+        actionQuit->setText(QCoreApplication::translate("MainWindow", "Quit", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
         menuFile->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
     } // retranslateUi

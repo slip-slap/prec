@@ -1,5 +1,5 @@
-/Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_qcustomplot.cpp: /Users/kismet/Desktop/temp/Dog/src/qcustomplot.h \
-  /Users/kismet/Desktop/temp/Dog/build/src/Dog_autogen/moc_predefs.h \
+/Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/EWIEGA46WW/moc_qcustomplot.cpp: /Users/kismet/Documents/github/prec/Dog/src/qcustomplot.h \
+  /Users/kismet/Documents/github/prec/Dog/build/src/Dog_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers/OpenGLAvailability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers/gl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers/gl3.h \

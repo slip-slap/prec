@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kismet/Desktop/temp/Dog
+# Install script for directory: /Users/kismet/Documents/github/prec/Dog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/kismet/Desktop/temp/Dog/build/src/cmake_install.cmake")
-  include("/Users/kismet/Desktop/temp/Dog/build/test/cmake_install.cmake")
+  include("/Users/kismet/Documents/github/prec/Dog/build/src/cmake_install.cmake")
+  include("/Users/kismet/Documents/github/prec/Dog/build/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kismet/Desktop/temp/Dog/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kismet/Documents/github/prec/Dog/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

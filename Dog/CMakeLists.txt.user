@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.14.1, 2021-03-20T12:42:56. -->
+<!-- Written by QtCreator 4.14.1, 2021-03-21T22:41:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -65,8 +65,10 @@
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
-    <value type="Qt::CheckState" key="/Users/kismet/Desktop/temp/Dog/test/test.cpp:a">Checked</value>
-    <value type="Qt::CheckState" key="/Users/kismet/Desktop/temp/Dog/test/test.cpp:b">Checked</value>
+    <value type="Qt::CheckState" key="/Users/kismet/Documents/github/prec/Dog/test/test.cpp:a">Checked</value>
+    <value type="Qt::CheckState" key="/Users/kismet/Documents/github/prec/Dog/test/test.cpp:b">Checked</value>
+    <value type="Qt::CheckState" key="/Users/kismet/Documents/github/prec/Dog/test/teststock.cpp:aa">Checked</value>
+    <value type="Qt::CheckState" key="/Users/kismet/Documents/github/prec/Dog/test/teststock.cpp:bb">Checked</value>
    </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
@@ -344,7 +346,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/kismet/Desktop/build-Dog-Desktop_x86_darwin_generic_mach_o_64bit-Debug</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/Users/kismet/Desktop/build-Dog-Desktop_x86_darwin_generic_mach_o_64bit-Debug/src</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
