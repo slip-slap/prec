@@ -47,7 +47,7 @@ if __name__ == "__main__":
     #mass = get_lamina_mass(volume,'glass_epoxy')
     #mass = get_lamina_mass(volume,'graphite_epoxy')
     #mass = get_lamina_mass(volume,'glass_epoxy')
-    mass = get_laminate_mass([0.000165]*24,["carbon_epoxy"]*24)
+    mass = get_laminate_mass([0.000165]*282,["glass_epoxy"]*282)
     print(mass)
     print(get_laminate_cost(['carbon_epoxy']*24))
 

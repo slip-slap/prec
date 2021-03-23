@@ -39,6 +39,8 @@ def get_combine_offspring_list(a_list, b_list,random_number):
     if(np.mod(random_number, 2)== 0):
         return tool.get_symmetry_list(result)
     if(np.mod(random_number, 2)== 1):
+        if(len(result) == 0):
+            return tool.get_symmetry_list(a_list);
         mid_element = result[-1]
         rest = tool.get_symmetry_list(result[0:len(result)-1])
         rest.insert(len(result)-1,mid_element)
@@ -119,17 +121,26 @@ class Genetic_Algorithm(object):
 
     def mutation(self, offspring, mutation_percent=0.5):
         for i in range(len(offspring)):
-            if(offspring[i].flag=="active_group"):
-                continue
-            offspring[i].angle_list = \
-                slo.get_chromosome_mutation_(offspring[i].angle_list,\
-                                offspring[i].strength_raito, cv.ANGLE_CODE);
-            offspring[i].material_list= \
-                    slo.get_chromosome_mutation_(offspring[i].material_list,\
-                    offspring[i].strength_raito,cv.MATERIAL_CODE);
-            assert len(offspring[i].angle_list) == len(offspring[i].material_list)
-            offspring[i].height_list = \
-                len(offspring[i].angle_list)*[cv.LAYER_HEIGHT]
+            while True:
+                #print("in the loop")
+                if(offspring[i].flag=="active_group"):
+                    continue
+                offspring[i].angle_list = \
+                    slo.get_chromosome_mutation_(offspring[i].angle_list,\
+                                    offspring[i].strength_raito, cv.ANGLE_CODE);
+                offspring[i].material_list= \
+                        slo.get_chromosome_mutation_(offspring[i].material_list,\
+                        offspring[i].strength_raito,cv.MATERIAL_CODE);
+                assert len(offspring[i].angle_list) == len(offspring[i].material_list)
+                offspring[i].height_list = \
+                    len(offspring[i].angle_list)*[cv.LAYER_HEIGHT]
+                if(len(set(offspring[i].angle_list)) == 1):
+                    if(len(offspring[i].angle_list) == 1):
+                        break
+                    offspring[i].angle_list[0] = cv.ANGLE[0]
+                    offspring[i].angle_list[1] = cv.ANGLE[1]
+                if(len(set(offspring[i].angle_list)) == 2):
+                    break
 
 if __name__ == "__main__":
     chromosome = [1,8,5,5,8,1]

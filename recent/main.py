@@ -6,6 +6,7 @@ import laminate_multiple_component as lmc
 import lamina_mass_and_cost as lmac
 import constant_variable as cv
 import genetic_algorithm as my_ga
+from collections import Counter
 
 
 # GA
@@ -92,7 +93,17 @@ def get_concerter_angle(angle):
 
 def save_to_output(result_fitness, result_strength_ratio, \
         my_best_individual,result_active_group, result_potential_group, \
-        result_proper_group):
+        result_proper_group,result_number_angle0, result_number_angle90):
+
+    dict_result =  dict(Counter(my_best_individual.angle_list))
+    number_of_angle_0 = 0
+    number_of_angle_90 = 0
+    for key in dict_result:
+        if(key==0):
+            number_of_angle_0 = dict_result[key]
+        else:
+            number_of_angle_90 = dict_result[key]
+
     with open("main_result.py","a") as result_handler:
         result_handler.write("##################################")
         result_handler.write("\n")
@@ -116,6 +127,10 @@ def save_to_output(result_fitness, result_strength_ratio, \
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(my_best_individual.material_list)))
         result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_result_number_angle0= "+ str(result_number_angle0))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) +"_result_number_angle90= "+ str(result_number_angle90))
+        result_handler.write("\n")
         result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) \
                 +"_active_group_number= "+ str(result_active_group))
         result_handler.write("\n")
@@ -124,6 +139,10 @@ def save_to_output(result_fitness, result_strength_ratio, \
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(cv.MUTATION_EFFICIENT_TYPE) \
                 +"_proper_group_number= "+ str(result_proper_group))
+        result_handler.write("\n")
+        result_handler.write("number_of_angle_90= "+ str(number_of_angle_90))
+        result_handler.write("\n")
+        result_handler.write("number_of_angle_0= "+ str(number_of_angle_0))
         result_handler.write("\n")
 
         stacking_sequence = []
@@ -158,8 +177,10 @@ if __name__ == "__main__":
     result_active_group = []
     result_potential_group = []
     result_proper_group = []
-    print("###load: "+str(cv.LOAD))
-    print("###load: "+str(cv.MUTATION_EFFICIENT))
+    result_number_angle0 = []
+    result_number_angle90 = []
+    print("loading             : "+str(cv.LOAD))
+    print("mutation coefficient: "+str(cv.MUTATION_EFFICIENT))
     population = get_initial_population()
     population.sort(key = lambda c: c.fitness)
 
@@ -214,8 +235,14 @@ if __name__ == "__main__":
         #print("curent fitness: " + str(current_fitness) + " strength_raito " + \
         #        str(population[best_individual].strength_raito))
         print(population[best_individual])
+        dict_result =  dict(Counter(population[best_individual].angle_list))
+        for key in dict_result:
+            if(key==0):
+                result_number_angle0.append(dict_result[key])
+            else:
+                result_number_angle90.append(dict_result[key])
 
     save_to_output(result_fitness, result_strength_ratio, \
             population[best_individual], result_active_group, \
-            result_potential_group, result_proper_group)
+            result_potential_group, result_proper_group,result_number_angle0, result_number_angle90)
 

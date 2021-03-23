@@ -15,6 +15,8 @@ def add_block(half_chromosome, half_number,code):
         half_chromosome.append(get_random_value(code));
     return half_chromosome
 def remove_block(half_chromosome, half_number):
+    if(len(half_chromosome) < half_number):
+        return half_chromosome;
     for i in range(half_number):
         del half_chromosome[-1];
     return half_chromosome
