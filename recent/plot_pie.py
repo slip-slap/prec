@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 labels = 'Active Group', 'Proper Group', 'Potential Group'
-sizes = [25, 30, 45]
+sizes = [20, 30, 50]
 #explode = (0, 0.1, 0 )  # only "explode" the 2nd slice (i.e. 'Hogs')
 explode = (0, 0, 0 )  # only "explode" the 2nd slice (i.e. 'Hogs')
 
