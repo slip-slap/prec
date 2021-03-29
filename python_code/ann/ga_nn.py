@@ -1,89 +1,36 @@
 import numpy as np
-import genetic_algorithm as ga
-import individual  as ind
-import plot as my_plot
-import network_with_chromosome as train
-import valuation as valuate
-import data
+import yaml
 
-my_data = data.data()
-test_data= my_data.get_test_data()
-test_data_input = test_data[:,0:13]
-test_data_output = test_data[:,13].reshape(test_data_input.shape[0],1)
+import configuration_ga as CGA
+import individual  
+import tool_ga 
 
-def binary_to_decimal(binary_number):
-    """TODO: Docstring for binary_to_decimal.
-    :returns: decimal value
-    """
-    decimal = 0
-    for i in range(len(binary_number)):
-        decimal = decimal + binary_number[i]*np.power(2,len(binary_number)-i-1)
-    return int(decimal)
+CONFIGURATION = None;
+with open('configuration.yaml') as input_stream:
+    CONFIGURATION = yaml.load(input_stream, Loader=yaml.FullLoader)
 
-def activation_function_name(activation_function_code):
-    if(activation_function_code == 0):
-        return "sigmoid"
-    if(activation_function_code == 1):
-        return "relu"
-    if(activation_function_code == 2):
-        return "tanh"
-    if(activation_function_code == 3):
-        return "softmax"
-
-
-def chromosome_to_gene_list(chromosome,unit_length):
-    gene_number = len(chromosome)/unit_length
-    gene_list= list()
-    i = 0
-    while(i<gene_number):
-        temp = chromosome[i:i+unit_length]
-        gene_list.append(temp)
-        i=i+1
-    return gene_list
-
-
-class Individual_Child(ind.Individual):
-    def __init__(self, node_number):
-        self.node_number = node_number
-        self.fitness = -1 
-        self.activation_function_chromosome=None
-
-    def calculate_individual_fitness(self):
-        """TODO: Docstring for calculate_individual_fitness.
-        self.fitness = int(np.random.randint(0,15,1))
-        """
-        if(self.fitness == -1):
-            gene_list = chromosome_to_gene_list(self.chromosome,13)
-            activation_function_list = \
-            chromosome_to_gene_list(self.activation_function_chromosome,2)
-            train.train_network(gene_list,activation_function_list)
-            self.fitness = valuate.get_cell_result(test_data_input, \
-                           test_data_output, \
-                           meta_graph="./trained_model/chrosome/model.meta",\
-                           checkpoint='./trained_model/chrosome')
-        return self.fitness
-
-def initilize_population(population_number=10,gene_length=13):
+def initilize_population():
     """TODO: Docstring for initize_population.
-
     :arg1: TODO
     :returns: initilize population
-
     """
     individual_list = list()
-    for i in range(population_number):
-        node_number = np.random.randint(3,12,1)[0]
-        chromosome_length = gene_length*node_number
-        temp_individual = Individual_Child(node_number)
-        chromosome = list(np.random.randint(0, 2, chromosome_length,int))
-        temp_individual.set_individual_chromosome(chromosome)
-        temp_individual.activation_function_chromosome = \
-        list(np.random.randint(0,2,node_number*2,int))
+    for i in range(CGA.POPUPATION):
+        node_number = np.random.randint(CGA.NODE_NUMBER_OF_HIDDEN_LAYER_LOWER_BOUND,CGA.NODE_NUMBER_OF_HIDDEN_LAYER_UPPER_BOUND,1)[0]
+        temp_individual = individual.Individual()
+        temp_individual.connection_gene = tool_ga.get_connection_gene(node_number)
+        temp_individual.activation_function_gene = tool_ga.get_activation_function_gene(node_number)
+        temp_individual.model_save_path = CONFIGURATION['SAVING_PLACE_OF_TRAINING_MODEL'] + "/model" + str(i)+ "/"
+        temp_individual.model_traing_process_path = CONFIGURATION['SAVING_PLACE_OF_TRAINING_PROCESS']+ "/log"+  str(i) + "/"
         temp_individual.fitness = temp_individual.calculate_individual_fitness()
         individual_list.append(temp_individual)
     return individual_list
 
+if __name__ == "__main__":
+    initilize_population()
+
             
+"""
 my_ga = ga.Genetic_Algorithm()
 population = initilize_population()
 population.sort(key = lambda c: c.fitness,reverse=True)
@@ -135,4 +82,31 @@ while(current_fitness-previous_fitness>0.001):
 
 #data_x = np.arange(0,1,0.01) 
 
+def binary_to_decimal(binary_number):
+    decimal = 0
+    for i in range(len(binary_number)):
+        decimal = decimal + binary_number[i]*np.power(2,len(binary_number)-i-1)
+    return int(decimal)
+
+def activation_function_name(activation_function_code):
+    if(activation_function_code == 0):
+        return "sigmoid"
+    if(activation_function_code == 1):
+        return "relu"
+    if(activation_function_code == 2):
+        return "tanh"
+    if(activation_function_code == 3):
+        return "softmax"
+
+
+def chromosome_to_gene_list(chromosome,unit_length):
+    gene_number = len(chromosome)/unit_length
+    gene_list= list()
+    i = 0
+    while(i<gene_number):
+        temp = chromosome[i:i+unit_length]
+        gene_list.append(temp)
+        i=i+1
+    return gene_list
+"""
 

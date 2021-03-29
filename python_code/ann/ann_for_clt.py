@@ -26,12 +26,12 @@ def layer(layer_name, data, output_channels):
 #y_data = np.dot(x_data,[[0.1],[0.2]]) + 0.300
 
 
-x = tf.placeholder("float", [None,16],name="input_x")
-y_ = tf.placeholder("float", [None,2],name="input_y")
+x = tf.placeholder("float", [None,CONFIGURATION['NUMBER_OF_INPUTS']],name="input_x")
+y_ = tf.placeholder("float", [None,CONFIGURATION['NUMBER_OF_OUTPUTS']],name="input_y")
 
 y=layer("first",x,9)
 y=layer("second",y,3)
-y=layer("last",y,2)
+y=layer("last",y,CONFIGURATION['NUMBER_OF_OUTPUTS'])
 
 # loss
 loss = tf.reduce_mean(tf.square(y - y_))
@@ -53,21 +53,22 @@ my_data = data.data(
         file_path=CONFIGURATION["FILE_PATH"],file_name=CONFIGURATION["FILE_NAME"])
 
 # run graph
+SAVE_STEP_LENGTH =1000 
 with tf.Session() as sess:
     sess.run(init)
-    writer = tf.summary.FileWriter("./ann",sess.graph)
-    for step in range(0, 40000000):
-        if(step%4000 == 0):
-            saver.save(sess, "./train_model/model.ckpt")
+    writer = tf.summary.FileWriter(CONFIGURATION["SAVING_PLACE_OF_TRAINING_PROCESS"],sess.graph)
+    for step in range(0, CONFIGURATION['TRAINING_RUNTIMES']):
+        if(step%SAVE_STEP_LENGTH== 0):
+            saver.save(sess, CONFIGURATION["SAVING_PLACE_OF_TRAINING_MODEL"])
         train_data = my_data.get_batch_train_data()
         x_data = train_data[:,0:CONFIGURATION['NUMBER_OF_INPUTS']]
         y_data = \
         train_data[:,CONFIGURATION['NUMBER_OF_INPUTS']:CONFIGURATION['NUMBER_OF_INPUTS']
                 + \
                 CONFIGURATION['NUMBER_OF_OUTPUTS']].reshape(x_data.shape[0],CONFIGURATION['NUMBER_OF_OUTPUTS'])
-        sess.run(train,feed_dict={x:x_data, y_:y_data})
         summary = sess.run(merged,feed_dict={x:x_data,y_:y_data})
         if step % 4000 == 0:
             writer.add_summary(summary, step)
             print(step,sess.run(loss,feed_dict={x:x_data,y_:y_data}))
+        sess.run(train,feed_dict={x:x_data, y_:y_data})
 

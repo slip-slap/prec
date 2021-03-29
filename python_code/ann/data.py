@@ -32,7 +32,8 @@ class data:
     def get_data(self):
         data= []
         with open(self.file_path+self.file_name,'r') as my_file:
-            csv_reader = csv.reader(my_file,delimiter=',')
+            csv_reader = csv.reader(my_file,delimiter=',',)
+            next(csv_reader)
             for i in csv_reader:
                 for j in range(len(i)):
                     i[j]=float(i[j])

@@ -61,7 +61,10 @@ def last_layer(input_data):
         y = tf.nn.relu(y,name="result")
     return y
 
-def train_network(chromosome,activation_function_chromosome):
+def train_network(chromosome,activation_function_chromosome,ind):
+    print(ind)
+    print("train nerual network")
+    my_loss = 0; # this is return value
     tf.reset_default_graph()
     input_x = tf.placeholder("float", [None,CONFIGURATION['NUMBER_OF_INPUTS']],name="input_x")
     input_y = tf.placeholder("float", [None,CONFIGURATION['NUMBER_OF_OUTPUTS']],name="input_y")
@@ -88,15 +91,13 @@ def train_network(chromosome,activation_function_chromosome):
             training_percent=CONFIGURATION["TRAINING_PERCENT"],
             file_path=CONFIGURATION["FILE_PATH"],file_name=CONFIGURATION["FILE_NAME"])
 
-    previous_loss= 0
-    current_loss= 0.01 
     step = 0
 # run graph
     with tf.Session() as sess:
         sess.run(init)
         writer = \
-            tf.summary.FileWriter(CONFIGURATION["SAVING_PLACE_OF_TRAINING_MODEL"],sess.graph)
-        while(np.abs(current_loss- previous_loss)> 0.000001):
+            tf.summary.FileWriter(ind.model_traing_process_path, sess.graph)
+        while(step <=CONFIGURATION['TRAINING_RUNTIMES']):
             step = step + 1
             # get data
             train_data = my_data.get_batch_train_data()
@@ -112,15 +113,13 @@ def train_network(chromosome,activation_function_chromosome):
             writer.add_summary(summary, step)
             if step % CONFIGURATION['NUMBER_OF_TRAINING_SAVE_STATE']== 0:
                 # can't name this variable loss, it will overwrite the tensor in the 
-                # graph
                 my_loss = sess.run(loss,feed_dict={input_x:train_data_input,input_y:train_data_output})
-                saver.save(sess, CONFIGURATION["SAVING_PLACE_OF_TRAINING_PROCESS"])
+                saver.save(sess, ind.model_save_path)
                 summary = sess.run(merged,feed_dict={input_x:train_data_input, input_y:train_data_output})
                 writer.add_summary(summary,step)
                 # my_y   = sess.run(y,feed_dict={input_x:train_data_input,input_y:train_data_output})
                 print("step="+str(step)+" difference="+str(my_loss))
-                previous_loss= current_loss
-                current_loss= my_loss
+    return my_loss
 
 def get_activation_function_gene(number=5):
     gene = list()
@@ -138,6 +137,9 @@ def get_connection_gene(number=5):
     return chromosome
 
 if __name__=="__main__":
-    train_network(get_connection_gene(), get_activation_function_gene())
+    print(train_network(get_connection_gene(), get_activation_function_gene()))
+    #print(get_connection_gene())
+    #rint(get_activation_function_gene())
     print("train is over")
+
 
