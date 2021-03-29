@@ -91,14 +91,13 @@ def train_network(chromosome,activation_function_chromosome,ind):
             training_percent=CONFIGURATION["TRAINING_PERCENT"],
             file_path=CONFIGURATION["FILE_PATH"],file_name=CONFIGURATION["FILE_NAME"])
 
-    step = 0
 # run graph
+    step = 0
     with tf.Session() as sess:
         sess.run(init)
         writer = \
             tf.summary.FileWriter(ind.model_traing_process_path, sess.graph)
         while(step <=CONFIGURATION['TRAINING_RUNTIMES']):
-            step = step + 1
             # get data
             train_data = my_data.get_batch_train_data()
             train_data_input = train_data[:,0:CONFIGURATION['NUMBER_OF_INPUTS']]
@@ -111,14 +110,15 @@ def train_network(chromosome,activation_function_chromosome,ind):
             summary = \
             sess.run(merged,feed_dict={input_x:train_data_input,input_y:train_data_output})
             writer.add_summary(summary, step)
-            if step % CONFIGURATION['NUMBER_OF_TRAINING_SAVE_STATE']== 0:
+            if step % CONFIGURATION['NUMBER_OF_TRAINING_SAVE_STATE'] == 0:
                 # can't name this variable loss, it will overwrite the tensor in the 
                 my_loss = sess.run(loss,feed_dict={input_x:train_data_input,input_y:train_data_output})
                 saver.save(sess, ind.model_save_path)
                 summary = sess.run(merged,feed_dict={input_x:train_data_input, input_y:train_data_output})
                 writer.add_summary(summary,step)
                 # my_y   = sess.run(y,feed_dict={input_x:train_data_input,input_y:train_data_output})
-                print("step="+str(step)+" difference="+str(my_loss))
+                print("step="+str(step)+" loss="+str(my_loss))
+            step = step + 1
     return my_loss
 
 def get_activation_function_gene(number=5):

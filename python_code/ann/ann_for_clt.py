@@ -53,13 +53,10 @@ my_data = data.data(
         file_path=CONFIGURATION["FILE_PATH"],file_name=CONFIGURATION["FILE_NAME"])
 
 # run graph
-SAVE_STEP_LENGTH =1000 
 with tf.Session() as sess:
     sess.run(init)
     writer = tf.summary.FileWriter(CONFIGURATION["SAVING_PLACE_OF_TRAINING_PROCESS"],sess.graph)
     for step in range(0, CONFIGURATION['TRAINING_RUNTIMES']):
-        if(step%SAVE_STEP_LENGTH== 0):
-            saver.save(sess, CONFIGURATION["SAVING_PLACE_OF_TRAINING_MODEL"])
         train_data = my_data.get_batch_train_data()
         x_data = train_data[:,0:CONFIGURATION['NUMBER_OF_INPUTS']]
         y_data = \
@@ -69,6 +66,7 @@ with tf.Session() as sess:
         summary = sess.run(merged,feed_dict={x:x_data,y_:y_data})
         if step % 4000 == 0:
             writer.add_summary(summary, step)
+            saver.save(sess, CONFIGURATION["SAVING_PLACE_OF_TRAINING_MODEL"])
             print(step,sess.run(loss,feed_dict={x:x_data,y_:y_data}))
         sess.run(train,feed_dict={x:x_data, y_:y_data})
 

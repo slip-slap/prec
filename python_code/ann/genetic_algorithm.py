@@ -1,6 +1,7 @@
 import numpy as np
 import copy
 import individual
+import tool_ga
 
 
 
@@ -10,17 +11,10 @@ class Genetic_Algorithm(object):
 
     def __init__(self):
         """TODO: to be defined. """
+        child_counter = 0
         pass
 
     def select_parents(self, population,  num_parents):
-        """TODO: Docstring for select_parents.
-        Parameters
-        :population: the list of population must be sorted by fitness from up to
-        down
-        ----------
-        Returns parents
-        -------
-        """
         parents = population[0:num_parents]
         return parents
 
@@ -33,42 +27,19 @@ class Genetic_Algorithm(object):
         for i in range(offspring_number):
             parent1_pos = int(np.random.randint(0, len(parents), 1))
             parent2_pos = int(np.random.randint(0, len(parents), 1))
-            parent1_chromosome = parents[parent1_pos].get_individual_chromosome()
             parent1_node_number = parents[parent1_pos].node_number
-            parent2_chromosome = parents[parent2_pos].get_individual_chromosome()
             parent2_node_number = parents[parent2_pos].node_number
 
-            child_node_number = \
-                int(parent1_node_number/2)+int(parent2_node_number/2)
-            child_chromosome = list(np.empty(child_node_number*13,int))
-
-
-            crossover_point1 = (int(parent1_node_number/2))*13
-            child_chromosome[0:] \
-            = parent1_chromosome[0:crossover_point1]
-
-            crossover_point2 = (int(parent2_node_number/2))*13
-            child_chromosome[crossover_point1:] \
-            = parent2_chromosome[0:crossover_point2]
-
-            child_activation_function_chromosome = \
-            list(np.empty(child_node_number*2,int))
-
-            crossover_point1_flag=  (int(parent1_node_number/2))*2
-            child_activation_function_chromosome[0:] = \
-                    parents[parent1_pos].activation_function_chromosome[0:crossover_point1_flag]
-
-            crossover_point2_flag=  (int(parent2_node_number/2))*2
-            child_activation_function_chromosome[crossover_point1_flag:]\
-                    =parents[parent2_pos].activation_function_chromosome[0:crossover_point2_flag]
-
+            child_node_number = int(parent1_node_number/2 + parent2_node_number/2)
             child = copy.deepcopy(parents[0])
-            child.set_individual_chromosome(child_chromosome)
-            child.activation_function_chromosome = \
-            child_activation_function_chromosome
+            child.connection_gene = tool_ga.get_activation_function_gene(child_node_number)
+            child.activation_function_gene = tool_ga.get_connection_gene(child_node_number)
             child.node_number = child_node_number
             child.fitness = -1
+            child.model_save_path = CONFIGURATION['SAVING_PLACE_OF_TRAINING_MODEL'] + "/child" + str(child_counter)+ "/model"
+            child.model_traing_process_path = CONFIGURATION['SAVING_PLACE_OF_TRAINING_PROCESS']+ "/child"+  str(child_counter) + "/model"
             offspring.append(child)
+            child_counter = child_counter + 1
         return offspring
             
 
@@ -76,19 +47,13 @@ class Genetic_Algorithm(object):
         """TODO: Docstring for mutation.
         :returns: None
         """
-        for i in range(len(offspring)):
-            chromosome_length = len(offspring[i].chromosome)
-            mutation_pos = int(np.random.randint(0,chromosome_length,1))
-            chromosome = offspring[i].get_individual_chromosome()
-            chromosome[mutation_pos] = 1 - chromosome[mutation_pos]
-            offspring[i].set_individual_chromosome(chromosome)
-
-
-    def get_individual_fitness(self, object):
-        """TODO: Docstring for get_individual_fitness.
-        :returns: fitness value of individual
-
-        """
         pass
+        
+
+                 
+
+
+
+
 
 
