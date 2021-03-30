@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  29 MAR 2021 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  30 MAR 2021 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -476,20 +476,20 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 ) (./elsarticle-template.aux)
 \openout1 = `elsarticle-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count149
@@ -516,7 +516,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 42.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -524,9 +524,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
  (./elsarticle-template.out) (./elsarticle-template.out)
 \@outlinefile=\write5
 \openout5 = `elsarticle-template.out'.
@@ -595,45 +595,58 @@ Overfull \hbox (36.97174pt too wide) in paragraph at lines 88--89
  []
 
 
-Overfull \hbox (24.05078pt too wide) in paragraph at lines 96--107
+Overfull \hbox (28.03691pt too wide) in paragraph at lines 96--114
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) (./a3_result.tex (./a0_figure_ann_for_clt_architecture.tex
+) (./a0_figure_ann_for_clt_architecture_child.tex
+Overfull \hbox (32.57181pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+
+Overfull \hbox (24.05078pt too wide) in paragraph at lines 81--95
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./a0_figure_evolutionary_ann.tex) [9] [10] [11] [12] [13]) (./a3_result.tex (./a0_figure_ann_for_clt_architecture.tex
 Overfull \hbox (63.55652pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-) [9] [10] [11] [12] (./a0_figure_angle_ply_laminate.tex)) (./a4_conclusion.tex) [13] (./elsarticle-template.bbl
+) (./a0_figure_angle_ply_laminate.tex)) (./a4_conclusion.tex) (./elsarticle-template.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+) [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (./elsarticle-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `elsarticle-template.out' has not changed.
-(rerunfilecheck)             Checksum: AF3C6E87970A197C8C6E77CE989C0F0C;687.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+(rerunfilecheck)             Checksum: A7E2C6C2FE849EC89E72AD3057C309D0;742.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 19503 strings out of 492616
- 378444 string characters out of 6128982
- 653464 words of memory out of 5000000
- 23020 multiletter control sequences out of 15000+600000
+ 19470 strings out of 492616
+ 378441 string characters out of 6128982
+ 666744 words of memory out of 5000000
+ 22977 multiletter control sequences out of 15000+600000
  10023 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,72p,479b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,72p,479b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on elsarticle-template.pdf (14 pages, 274881 bytes).
+Output written on elsarticle-template.pdf (15 pages, 280330 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 PDF objects out of 1000 (max. 8388607)
+ 219 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
