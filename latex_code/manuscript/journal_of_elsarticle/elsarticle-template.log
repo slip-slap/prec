@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  30 MAR 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  30 MAR 2021 20:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,36 +494,156 @@ Package caption Info: hyperref package is loaded.
 )
 \c@subfigure=\count151
 \c@subtable=\count152
-) (./elsarticle-template.aux)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count153
+\mult@box=\box45
+\multicol@leftmargin=\dimen195
+\c@unbalance=\count154
+\c@collectmore=\count155
+\doublecol@number=\count156
+\multicoltolerance=\count157
+\multicolpretolerance=\count158
+\full@width=\dimen196
+\page@free=\dimen197
+\premulticols=\dimen198
+\postmulticols=\dimen199
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box46
+\last@line=\box47
+\maxbalancingoverflow=\dimen256
+\mult@rightbox=\box48
+\mult@grightbox=\box49
+\mult@gfirstbox=\box50
+\mult@firstbox=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\c@columnbadness=\count159
+\c@finalcolumnbadness=\count160
+\last@try=\dimen257
+\multicolovershoot=\dimen258
+\multicolundershoot=\dimen259
+\mult@nat@firstbox=\box69
+\colbreak@box=\box70
+\mc@col@check@num=\count161
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen260
+\ar@mcellbox=\box71
+\extrarowheight=\dimen261
+\NC@list=\toks35
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box72
+)
+\rotheadsize=\dimen262
+\c@nlinenum=\count162
+\TeXr@lab=\toks36
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks37
+\AP@partial=\box73
+\AP@footins=\box74
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen263
+\TX@old@table=\dimen264
+\TX@old@col=\dimen265
+\TX@target=\dimen266
+\TX@delta=\dimen267
+\TX@cols=\count163
+\TX@ftn=\toks38
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks39
+\XKV@tempa@toks=\toks40
+)
+\XKV@depth=\count164
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box75
+)
+\tc@llx=\dimen268
+\tc@lly=\dimen269
+\tc@urx=\dimen270
+\tc@ury=\dimen271
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen272
+\adjbox@Height=\dimen273
+\adjbox@Depth=\dimen274
+\adjbox@Totalheight=\dimen275
+\adjbox@pwidth=\dimen276
+\adjbox@pheight=\dimen277
+\adjbox@pdepth=\dimen278
+\adjbox@ptotalheight=\dimen279
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count165
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box76
+\sift@deathcycles=\count166
+\@vwid@loff=\dimen280
+\@vwid@roff=\dimen281
+)) (./elsarticle-template.aux)
 \openout1 = `elsarticle-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
-\scratchdimen=\dimen195
-\scratchbox=\box45
-\nofMPsegments=\count154
-\nofMParguments=\count155
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count156
-\MPscratchDim=\dimen196
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count167
+\scratchdimen=\dimen282
+\scratchbox=\box77
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen283
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -536,18 +656,18 @@ Package grfext Info: Graphics extension search list:
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 42.
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring OFF on input line 44.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 44.
+LaTeX Info: Redefining \pageref on input line 44.
+LaTeX Info: Redefining \nameref on input line 44.
  (./elsarticle-template.out) (./elsarticle-template.out)
 \@outlinefile=\write5
 \openout5 = `elsarticle-template.out'.
@@ -595,25 +715,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]) (./a1_introduction_failure_criteria.tex [5] [6] [7] [8]) (./a1_introduction_ann.tex
-Overfull \hbox (26.3655pt too wide) in paragraph at lines 33--44
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./a0_figure_angle_ply_laminate.tex) [2] [3] [4]) (./a1_introduction_failure_criteria.tex [5] (./a0_figure_angle_ply_laminate.tex) [6] [7] [8]) (./a1_introduction_ann.tex [9] (./a0_figure_ann_architecture.tex) [10] (./a0_figure_ann_active_function.tex
+Overfull \hbox (26.36551pt too wide) in paragraph at lines 4--15
  [][] 
  []
 
-) (./a2_methodology.tex (./a0_figure_ann_architecture.tex) [9] [10]
+)) (./a2_methodology.tex (./a0_figure_ann_for_clt_architecture.tex
+Overfull \hbox (63.55652pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
 
-./a2_methodology.tex:16: LaTeX Error: Unknown graphics extension: .tex.
+) (./a0_figure_evolutionary_ann.tex) [11]
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 ...ure_ann_for_clt_architecture_example1.tex}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `tab:parents1' on page 12 undefined on input line 33.
 
-(./a0_figure_ann_for_clt_architecture_example2.tex
+) (./a3_experiment.tex (./a0_experiment_table_training_data.tex [12] [13]) (./a0_figure_ann_for_clt_architecture_example1.tex
+Overfull \hbox (32.9718pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+) (./a0_figure_ann_for_clt_architecture_example2.tex
 Overfull \hbox (36.97174pt too wide) in paragraph at lines 87--88
  [][] 
  []
@@ -623,45 +744,33 @@ Overfull \hbox (32.57181pt too wide) in paragraph at lines 73--74
  [][] 
  []
 
-) (./a0_figure_evolutionary_ann.tex)
-
-LaTeX Warning: Reference `tab:parents1' on page 11 undefined on input line 42.
-
-
-LaTeX Warning: Reference `fig:parents1' on page 11 undefined on input line 43.
-
-[11] [12]) (./a3_result.tex (./a0_figure_ann_for_clt_architecture.tex
-Overfull \hbox (63.55652pt too wide) in paragraph at lines 69--70
- [][] 
- []
-
-) (./a0_figure_angle_ply_laminate.tex)) (./a4_conclusion.tex) (./elsarticle-template.bbl [13]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+)) (./a3_result.tex (./a0_result_table_ann_valuation.tex)) (./a4_conclusion.tex) (./elsarticle-template.bbl [14] [15]) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (./elsarticle-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `elsarticle-template.out' has not changed.
-(rerunfilecheck)             Checksum: A7E2C6C2FE849EC89E72AD3057C309D0;742.
+(rerunfilecheck)             Checksum: E35920B08BD1C1F70CCA71B7C122B911;1247.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 20593 strings out of 492616
- 398874 string characters out of 6128982
- 572720 words of memory out of 5000000
- 24096 multiletter control sequences out of 15000+600000
- 10023 words of font info for 36 fonts, out of 8000000 for 9000
+ 22013 strings out of 492616
+ 421502 string characters out of 6128982
+ 653382 words of memory out of 5000000
+ 25437 multiletter control sequences out of 15000+600000
+ 10368 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,72p,479b,1013s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,77p,479b,1014s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on elsarticle-template.pdf (14 pages, 279153 bytes).
+Output written on elsarticle-template.pdf (16 pages, 288469 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

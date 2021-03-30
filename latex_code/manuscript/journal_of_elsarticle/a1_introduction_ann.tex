@@ -20,56 +20,27 @@ based on gradient descent. However, this class of algorithms are  plagued by
 the possible existance of local minima or "flat spots" and "the curse of
 dimensionality". One method to overcome this problem is to adopt EANN's.
 
+\subsection{General neural network}
+\input{a0_figure_ann_architecture}
+In this paper, the feedforward nueural network models are adopted in our
+system, because feedforward NNs are straigntforward and simply to code.  For
+funnction approximation, Cybenko demonstrated that a two-lay multilayer
+perceptron(MLP) is capbable of forming an arbitrarily close approximation to
+any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, the
+
+
+\subsection{Transfer function}
+The transfer fucntion has been shown to be one of the critical part of the
+architecture. Liu \cite{liu1996evolutionary} et al. have claimed that ANNs with
+different active functions play a important role in the arthitecture's performance.
+
+\input{a0_figure_ann_active_function}
 
 
 
 
 
 
-\begin{table}
-\centering
-\caption{Different Activation Functions}
 
-\begin{tabular}{lllc}
-		\toprule
-		Type & Description  & Formula & Range  \\
-		\midrule
-		Linear & The output is proportional to the input & $f(x)=cx$ &
-		$(-\infty, +\infty)$ \\ 
-		Sigmoid & A family of S-shaped functions& $f(x)=\frac{1}{1+e^{-cx}}$ &
-		$(0, 1)$ \\ 
-		Gaussian & A coninuous bell-shaped curve & $f(x)=e^{-x^2}$ & $(0,1)$ \\ 
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-
-\begin{figure}
-\centering
-\begin{tikzpicture}
-	\begin{scope}
-		%\draw[style=help lines] (-3,-3) grid (3,3);
-		\draw (0,0) rectangle (2,3);
-		\draw[->] (1.3,1.2) -- (2.6,1.2);
-		\draw[->] (1.3,1.2) -- (1.3,3.4);
-		\node at (2.2,1) {$X_T$};
-		\node at (1.5, 3.2) {$Y_T$};
-		\node at (-0.2, 0.9) {$X_C$};
-		\node at (1.8, -0.2) {$Y_C$};
-	\end{scope}
-	\begin{scope}[xshift=6cm,yshift=1.15cm]
-		%\draw[style=help lines] (-3,-3) grid (3,3);
-		\draw[rotate=30] (0,0) ellipse (2cm and 1cm);
-		\draw[->] (0.2,0) -- (0.2,2.2);
-		\draw[->] (0.2,0) -- (1.9,0);
-		\node at (1.6,-0.2) {$X_T$};
-		\node at (0.3, 1.3) {$Y_T$};
-		\node at (-1.6, 0) {$X_C$};
-		\node at (-0.5, -1.5) {$Y_C$};
-	\end{scope}
-\end{tikzpicture}
-\caption{Schematic failure surfaces for maximum stress and quadratic failure
-criteria}
-\end{figure}
 
 

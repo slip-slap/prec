@@ -1,33 +1,24 @@
-\input{a0_figure_ann_architecture}
-In this paper, the feedforward nueural network models are adopted in our
-system, because feedforward NNs are straigntforward and simply to code.  For
-funnction approximation, Cybenko demonstrated that a two-lay multilayer
-perceptron(MLP) is capbable of forming an arbitrarily close approximation to
-any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, the
+\section{Methodology}
+
+\subsection{Search Space}
 we propose a GNN framework as shown in Figure \ref{fig:gnn}. The search space
 is parametrized by: (i) the number of nodes m(possibly unbounded) in hidden
 layer, to narrow down the search space, m is less than n; (ii) the type of
 operation every nodes executes, e.g., sigmoid, linear, gaussian. (iii) the
 connection relationship between hidden nodes and inputs.
 
+\input{a0_figure_ann_for_clt_architecture}
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics{./a0_figure_ann_for_clt_architecture_example1.tex}
-	\label{fig:parent1}
-	\caption{bbbbbbb}
-\end{figure}
-
-
-
-%\input{a0_figure_ann_for_clt_architecture_example1}
-\input{a0_figure_ann_for_clt_architecture_example2}
-\input{a0_figure_ann_for_clt_architecture_child}
+The inputs of the neural network is consist of four parts: in-plane loading
+$N_x$, $N_y$, and $N_{xy}$, design parameters of laminate, two distinct fiber
+orientation angle $\theta_1$ and $\theta_2$, ply thickness $t$, total number of
+plies $N$; five engineering constants of composite materials, $E_1$, $E_2$, ;
+five strength parameters of a unidirectional lamina. There are two outputs in
+the neural network, safety factors for MS theory and Tsai-Wu theory, respectively.
+\subsection{Search Strategy}
 
 
 \input{a0_figure_evolutionary_ann.tex}
-\section{Evolution in EANN's}
-
 Evolution in EANN can be divided into four different levels: topology, learning
 rules, active functions, and connection weights. For the evolution of toplogy,
 the aim is to find an optimal ANN architecture for a specfic problem. The
@@ -49,7 +40,7 @@ last two digits are stand for  the corresponding kernal function.
 First,  random initialize ANN population, partial training every ANN, 
 For the evolution of the topology,
 
-
+\subsection{Performance estimation}
 
 
 
