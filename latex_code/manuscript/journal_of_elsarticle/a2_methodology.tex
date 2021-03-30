@@ -1,5 +1,26 @@
 \input{a0_figure_ann_architecture}
-\input{a0_figure_ann_for_clt_architecture_example1}
+In this paper, the feedforward nueural network models are adopted in our
+system, because feedforward NNs are straigntforward and simply to code.  For
+funnction approximation, Cybenko demonstrated that a two-lay multilayer
+perceptron(MLP) is capbable of forming an arbitrarily close approximation to
+any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, the
+we propose a GNN framework as shown in Figure \ref{fig:gnn}. The search space
+is parametrized by: (i) the number of nodes m(possibly unbounded) in hidden
+layer, to narrow down the search space, m is less than n; (ii) the type of
+operation every nodes executes, e.g., sigmoid, linear, gaussian. (iii) the
+connection relationship between hidden nodes and inputs.
+
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics{./a0_figure_ann_for_clt_architecture_example1.tex}
+	\label{fig:parent1}
+	\caption{bbbbbbb}
+\end{figure}
+
+
+
+%\input{a0_figure_ann_for_clt_architecture_example1}
 \input{a0_figure_ann_for_clt_architecture_example2}
 \input{a0_figure_ann_for_clt_architecture_child}
 
@@ -9,11 +30,24 @@
 
 Evolution in EANN can be divided into four different levels: topology, learning
 rules, active functions, and connection weights. For the evolution of toplogy,
-the aim is to find a optimal ANN architecture for a specfic problem. The
+the aim is to find an optimal ANN architecture for a specfic problem. The
 architecture of a neural network determines the information processing
 capability in application, which is the foundation of the ANN. Two critical
 issues are involved in the search process of an ANN architecture: the
 representation and the search operators.
+
+The classic approach has always adopted binary strings to encode an alternative solutions. 
+
+
+Tab.\ref{tab:parents1}  gives an example of the binary representation of an ANN
+whose architecture is as shown in Fig.\ref{fig:parents1}. Each number in the
+digit denotes the connection relationship between input and nodes in hidden
+layer. It an connection exists, it's indicated by number one, otherwise, the
+number takes zero. The first sixteen digits denotes the connection relationship, and the
+last two digits are stand for  the corresponding kernal function. 
+
+First,  random initialize ANN population, partial training every ANN, 
+For the evolution of the topology,
 
 
 

@@ -178,6 +178,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 INPUT elsarticle-template.aux
 INPUT elsarticle-template.aux
 OUTPUT elsarticle-template.aux
@@ -231,8 +237,7 @@ INPUT a2_methodology.tex
 INPUT a2_methodology.tex
 INPUT a0_figure_ann_architecture.tex
 INPUT a0_figure_ann_architecture.tex
-INPUT a0_figure_ann_for_clt_architecture_example1.tex
-INPUT a0_figure_ann_for_clt_architecture_example1.tex
+INPUT ./a0_figure_ann_for_clt_architecture_example1.tex
 INPUT a0_figure_ann_for_clt_architecture_example2.tex
 INPUT a0_figure_ann_for_clt_architecture_example2.tex
 INPUT a0_figure_ann_for_clt_architecture_child.tex
