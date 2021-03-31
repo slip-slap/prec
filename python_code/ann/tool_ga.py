@@ -22,5 +22,11 @@ def get_connection_gene(number=5):
 
 
 if __name__=='__main__':
-    print(get_activation_function_gene())
-    print(get_connection_gene())
+    a = get_activation_function_gene()
+    b = get_connection_gene()
+    with open("network_train_result.txt","a") as train_handler:
+            train_handler.write("ANN model:")
+            train_handler.write("\n")
+            train_handler.write("active function: " + str(a))
+            train_handler.write("\n")
+            train_handler.write("connection:  " + str(b))

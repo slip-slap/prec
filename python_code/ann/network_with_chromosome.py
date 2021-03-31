@@ -62,7 +62,7 @@ def last_layer(input_data):
     return y
 
 def train_network(chromosome,activation_function_chromosome,ind):
-    print(ind)
+    #print(ind)
     print("train nerual network")
     my_loss = 0; # this is return value
     tf.reset_default_graph()
