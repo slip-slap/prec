@@ -38,8 +38,8 @@ def get_cell_result(train_data_input, train_data_output, \
 
 if __name__=='__main__':
     print(test_data_input.shape)
-    test_data_input = test_data_input[20:26,:]
-    test_data_output = test_data_output[20:26,:]
+    test_data_input = test_data_input[5800:5805,:]
+    test_data_output = test_data_output[5800:5805,:]
     accurate = get_cell_result(test_data_input, test_data_output, \
             meta_graph="./train_model/model.meta",\
             checkpoint='./train_model')
