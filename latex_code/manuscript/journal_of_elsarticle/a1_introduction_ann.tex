@@ -18,12 +18,14 @@ desired and the prediction output values averaged over all examples.
 Backpropation algorithm has been successful applied to in many areas, and it's
 based on gradient descent. However, this class of algorithms are  plagued by
 the possible existance of local minima or "flat spots" and "the curse of
-dimensionality". One method to overcome this problem is to adopt EANN's.
+dimensionality". One method to overcome this problem is to adopt
+EANN's\cite{yao1999evolving} through a systematic search process\cite{elsken2019neural} to build
+the topology of ANN.
 
 \subsection{General neural network}
 \input{a0_figure_ann_architecture}
 In this paper, the feedforward nueural network models are adopted in our
-system, because feedforward NNs are straigntforward and simply to code.  For
+system, because feedforward NNs are straigntforward and simply to implement.  For
 funnction approximation, Cybenko demonstrated that a two-lay multilayer
 perceptron(MLP) is capbable of forming an arbitrarily close approximation to
 any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, the

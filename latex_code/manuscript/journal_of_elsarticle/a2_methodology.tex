@@ -1,13 +1,22 @@
 \section{Methodology}
 
 \subsection{Search Space}
+\input{a0_figure_evolutionary_ann.tex}
 we propose a GNN framework as shown in Figure \ref{fig:gnn}. The search space
 is parametrized by: (i) the number of nodes m(possibly unbounded) in hidden
-layer, to narrow down the search space, m is less than n; (ii) the type of
+layer, to narrow down the search space, the assumptions is that m less than n; (ii) the type of
 operation every nodes executes, e.g., sigmoid, linear, gaussian. (iii) the
-connection relationship between hidden nodes and inputs.
+connection relationship between hidden nodes and inputs; (IV) if a connection
+exists, the weight value in the connection.
 
-\input{a0_figure_ann_for_clt_architecture}
+Therefore, evolution in EANN can be divided into four different levels: topology, learning
+rules, active functions, and connection weights. For the evolution of toplogy,
+the aim is to find an optimal ANN architecture for a specfic problem. The
+architecture of a neural network determines the information processing
+capability in application, which is the foundation of the ANN. Two critical
+issues are involved in the search process of an ANN architecture: the
+representation and the search operators.
+Figure \ref{fig:evolution} summarizes different these four levels of evolution in ANN's.
 
 The inputs of the neural network is consist of four parts: in-plane loading
 $N_x$, $N_y$, and $N_{xy}$, design parameters of laminate, two distinct fiber
@@ -15,17 +24,10 @@ orientation angle $\theta_1$ and $\theta_2$, ply thickness $t$, total number of
 plies $N$; five engineering constants of composite materials, $E_1$, $E_2$, ;
 five strength parameters of a unidirectional lamina. There are two outputs in
 the neural network, safety factors for MS theory and Tsai-Wu theory, respectively.
+\input{a0_figure_ann_for_clt_architecture}
 \subsection{Search Strategy}
 
 
-\input{a0_figure_evolutionary_ann.tex}
-Evolution in EANN can be divided into four different levels: topology, learning
-rules, active functions, and connection weights. For the evolution of toplogy,
-the aim is to find an optimal ANN architecture for a specfic problem. The
-architecture of a neural network determines the information processing
-capability in application, which is the foundation of the ANN. Two critical
-issues are involved in the search process of an ANN architecture: the
-representation and the search operators.
 
 The classic approach has always adopted binary strings to encode an alternative solutions. 
 
@@ -41,6 +43,7 @@ First,  random initialize ANN population, partial training every ANN,
 For the evolution of the topology,
 
 \subsection{Performance estimation}
+\cite{baker2017accelerating}
 
 
 
