@@ -28,13 +28,29 @@ In this paper, the feedforward nueural network models are adopted in our
 system, because feedforward NNs are straigntforward and simply to implement.  For
 funnction approximation, Cybenko demonstrated that a two-lay multilayer
 perceptron(MLP) is capbable of forming an arbitrarily close approximation to
-any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, the
+any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, a
+two layers feedforward neural network is proposed in present study, for nodes
+in the hidden layer, they are in essence feature extractors and detectors.
+Therefore, every nodes in the hidden layer should be partial connected within
+the inputs, the unnecessary connections would increased the models complicacy
+which would reduce the ANN's performance. For the nodes in the last layer,
+every node should be full connected with nodes in previous layer.
 
 
 \subsection{Transfer function}
 The transfer fucntion has been shown to be one of the critical part of the
 architecture. Liu \cite{liu1996evolutionary} et al. have claimed that ANNs with
 different active functions play a important role in the arthitecture's performance.
+A generalized transfer function can be written as
+
+\begin{equation}
+	y_i = f_i(\sum_{j=1}^n{w_{ij}x_j - \theta})
+\end{equation}
+
+where $y_i$ is the output of the node $i$, $x_j$ is the $j$th input to the node,
+and $w_{ij}$ is the connection weight between adjacent nodes $i$ and $j$. Most
+widely transfer function  $f_i$ is listed in table \ref{tab:transfer_function}
+
 
 \input{a0_figure_ann_active_function}
 
