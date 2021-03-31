@@ -55,6 +55,7 @@ while(current_fitness-previous_fitness>0.001):
     current_fitness = population[0].fitness
     print(population[0])
 
+
 #data_x = np.arange(0,1,0.01) 
 
 """
