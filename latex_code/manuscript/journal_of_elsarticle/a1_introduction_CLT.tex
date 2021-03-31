@@ -72,10 +72,17 @@ to engineering elastic constants given by
 where $E_1, E_2, v_{12}, G_{12} $ are four independent engineering elastic constants, which are defined as follows: $E_1 $ is the longitudinal Young's modulus, $E_2 $ is the transverse Young's modulus, $v_{12} $ is the major Poisson's ratio, and $G_{12} $ is the in-plane shear modulus.
 
 Stress strain relation in the global x-y axis:
-\begin{equation}\left[\begin{array}{l}\sigma _{x} \\ \sigma _{y} \\ \tau_{xy}\end{array}\right]=\left[\begin{array}{lll}\bar{Q}_{11} & \bar{Q}_{12} & \bar{Q}_{16}\\ \bar{Q}_{12} & \bar{Q}_{22} & \bar{Q}_{26} \\ \bar{Q}_{16} & \bar{Q}_{26} &\bar{Q}_{66}\end{array}\right]\left[\begin{array}{l}\varepsilon_{x} \\ \varepsilon_{y}\\ \gamma_{x y}\end{array}\right]
-\end{equation}
+\begin{equation}
+	\label{equ:stress-strain}
+	\left[\begin{array}{l}
+			\sigma _{x} \\ \sigma _{y} \\
+			\tau_{xy}\end{array}\right]=\left[\begin{array}{lll}\bar{Q}_{11} &
+			\bar{Q}_{12} & \bar{Q}_{16}\\ 
+			\bar{Q}_{12} & \bar{Q}_{22} & \bar{Q}_{26} \\
+								\bar{Q}_{16} & \bar{Q}_{26}
+			 &\bar{Q}_{66}\end{array}\right]\left[\begin{array}{l}\varepsilon_{x}
+	 \\ \varepsilon_{y}\\ \gamma_{x y}\end{array}\right] \end{equation}
 where
-
 \begin{equation}
 	\begin{array}{l}
 		\resizebox{.35\textwidth}{!}{$\bar{Q}_{11}=Q_{11} cos^{4}\theta+Q_{22} sin^{4}\theta+2\left(Q_{12}+2

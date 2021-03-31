@@ -1,5 +1,20 @@
 \section{Experiment}
 \subsection{Train Data Preparation}
+Equation \ref{equ:stress-strain} takes an analytical approach to model the
+relationship between stress and strain. We sample this function to yield 14000 points
+uniformly distributed over the domain space.
+
+The range of in-plane loading is from 0 to 120; fiber orientation range is from
+-90 to 90; ply thickness is 1.27mm, number of plies range N is from 4 to 120;
+Three different material is used in this experiment, as shown in table \ref{tab:mat}.
+
+In order to speeds up the learning and accerlate convergence, the
+training data is normalized through a min-max normalization trick.
+
+\input{a0_table_composite_material}
+
+Figure \ref{tab:traing-data} shows part of the training data.
+
 \input{a0_experiment_table_training_data}
 
 

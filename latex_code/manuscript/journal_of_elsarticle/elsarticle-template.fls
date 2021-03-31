@@ -286,6 +286,8 @@ INPUT a0_figure_evolutionary_ann.tex
 INPUT a0_figure_evolutionary_ann.tex
 INPUT a3_experiment.tex
 INPUT a3_experiment.tex
+INPUT a0_table_composite_material.tex
+INPUT a0_table_composite_material.tex
 INPUT a0_experiment_table_training_data.tex
 INPUT a0_experiment_table_training_data.tex
 INPUT a0_figure_ann_for_clt_architecture_example1.tex
