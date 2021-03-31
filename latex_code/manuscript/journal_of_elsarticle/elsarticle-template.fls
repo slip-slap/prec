@@ -281,6 +281,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./a0_figure_ann_for_clt_architecture.png
 INPUT ./a0_figure_ann_for_clt_architecture.png
 INPUT ./a0_figure_ann_for_clt_architecture.png
+INPUT a0_figure_ann_for_clt_architecture_example1_table.tex
+INPUT a0_figure_ann_for_clt_architecture_example1_table.tex
 INPUT a3_experiment.tex
 INPUT a3_experiment.tex
 INPUT a0_experiment_table_training_data.tex

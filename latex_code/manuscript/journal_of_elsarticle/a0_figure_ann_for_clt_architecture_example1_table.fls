@@ -1,0 +1,6 @@
+PWD /Users/kismet/Documents/github/prec/latex_code/manuscript/journal_of_elsarticle
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT a0_figure_ann_for_clt_architecture_example1_table.tex
+OUTPUT a0_figure_ann_for_clt_architecture_example1_table.log
