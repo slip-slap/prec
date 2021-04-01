@@ -8,19 +8,7 @@ accelerate the calculation process and reduce the computation cost. In order to
 solve practical engineering problems in composite material application, classic
 laminational theory(CLT) has been proposed which involves many matrix
 multiplication and integration calculation. ANN which has been proved is a
-reliable tool instead of complicate mathematical model.  The design of neural
-network consists of three basic parts: neural network architecture, learning
-rules, and training techniques.
-
-The weight training in ANN is to minimize the error function, such as the most
-widely used mean square error which calculate the difference  between the
-desired and the prediction output values averaged over all examples.
-Backpropation algorithm has been successful applied to in many areas, and it's
-based on gradient descent. However, this class of algorithms are  plagued by
-the possible existance of local minima or "flat spots" and "the curse of
-dimensionality". One method to overcome this problem is to adopt
-EANN's\cite{yao1999evolving} through a systematic search process\cite{elsken2019neural} to build
-the topology of ANN.
+reliable tool instead of complicate mathematical model.  
 
 \subsection{General neural network}
 \input{a0_figure_ann_architecture}
@@ -34,7 +22,10 @@ in the hidden layer, they are in essence feature extractors and detectors.
 Therefore, every nodes in the hidden layer should be partial connected within
 the inputs, the unnecessary connections would increased the models complicacy
 which would reduce the ANN's performance. For the nodes in the last layer,
-every node should be full connected with nodes in previous layer.
+every node should be full connected with nodes in previou. The design of neural
+network consists of three basic parts: neural network architecture, learning
+rules, and training techniques.
+s layer.
 
 
 \subsection{Transfer function}
@@ -51,10 +42,18 @@ where $y_i$ is the output of the node $i$, $x_j$ is the $j$th input to the node,
 and $w_{ij}$ is the connection weight between adjacent nodes $i$ and $j$. Most
 widely transfer function  $f_i$ is listed in table \ref{tab:transfer_function}
 
-
 \input{a0_figure_ann_active_function}
 
-
+\subsection{Weights learning}
+The weight training in ANN is to minimize the error function, such as the most
+widely used mean square error which calculate the difference  between the
+desired and the prediction output values averaged over all examples.
+Backpropation algorithm has been successful applied to in many areas, and it's
+based on gradient descent. However, this class of algorithms are  plagued by
+the possible existance of local minima or "flat spots" and "the curse of
+dimensionality". One method to overcome this problem is to adopt
+EANN's\cite{yao1999evolving} through a systematic search process\cite{elsken2019neural} to build
+the topology of ANN.
 
 
 

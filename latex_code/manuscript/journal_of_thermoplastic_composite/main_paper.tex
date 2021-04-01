@@ -9,8 +9,9 @@
 
 \newcommand\BibTeX{{\rmfamily B\kern-.05em \textsc{i\kern-.025em b}\kern-.08em
 T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
 \def\volumeyear{2016}
+
+\newcommand{\ROOT}{./}
 
 \begin{document}
 
@@ -128,7 +129,7 @@ Static failure criteria are used to investigate the feasibility of a laminate co
 \section{Stress and Strain in a Laminate}
 \begin{figure*}[!htb]
 	\centering
-	\includegraphics[width=\linewidth]{lamina_local_global_axes}
+	\includegraphics[width=\linewidth]{\ROOT/fig/lamina_local_global_axes.png}
 \caption{Lamina}
   	\label{fig:lamina}
 \end{figure*}
@@ -428,10 +429,10 @@ Mutation strategy		& Mass mutation \\
 \end{adjustbox}
 \end{table}
 
-\begin{figure*}[!htb]
-  \includegraphics[width=\linewidth]{ga_operator}
-\caption{GA Operators\label{GA:operator}}
-\end{figure*}
+%\begin{figure*}[!htb]
+%  \includegraphics[width=\linewidth]{ga_operator}
+%\caption{GA Operators\label{GA:operator}}
+%\end{figure*}
 
 The laminate chromosome is represented by a double-gene string that can be divided into two parts:
 one part represents the angles, and the other part represents the materials (as shown in Figure
@@ -527,25 +528,6 @@ Cost                                       &                      &       &  8  
 %\caption{Lamina}
 % 	\label{fig:lamina}
 %\end{figure*}
-\begin{table*}[!htb]
-\caption{The optimum lay-ups for the loading $N_x=1e6$ N}
-\centering
-\begin{adjustbox}{width=1\textwidth}
-\begin{tabular}{c|cc|cc}
-	\toprule
-	Cross Ply $[0_M/90_N]$         & \multicolumn{2}{c}{Previous Research} & \multicolumn{2}{c}{Current Research} \\
-	\midrule																								  
-	 Material       &  Glass-Epoxy & Graphite-Epoxy  & Glass-Epoxy & Graphite-Epoxy      \\ 
-	      M         &  68          &    17           &  78		    &  18             \\
-	      N         &  72          &    18           &  28		    &  8              \\
-no. of lamina(n)    &  140         &    35           &  106	    &  26                     \\
-         SR         &  2.01        &    2.10         &  2.03	    &  2.16            \\
-     weight         &  9.10        &    1.84         &  6.89	    &  102.5           \\
-	\bottomrule
-\end{tabular}
-\end{adjustbox}
-\label{tab:comparsion}
-\end{table*}
 
 
 \begin{figure*}[!htb]
@@ -553,6 +535,8 @@ no. of lamina(n)    &  140         &    35           &  106	    &  26           
   \caption{GA process under load  $N_x=N_y$ = 1e6 N}
   \label{fig:NxNy}
 \end{figure*}
+
+\input{comparsion.tex}
 
 \begin{table*}[!htb]
 \caption{The optimum lay-ups for the loading $N_x=N_y=1e6$ N}

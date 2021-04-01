@@ -491,6 +491,8 @@ INPUT Chapters/my_chapter_4.tex
 INPUT Chapters/my_chapter_4.tex
 INPUT Figures/chapter4_first_table_composite_material.tex
 INPUT Figures/chapter4_first_table_composite_material.tex
+INPUT Figures/chapter4_first_figure_cross_ply_laminate.tex
+INPUT Figures/chapter4_first_figure_cross_ply_laminate.tex
 INPUT Figures/chapter4_first_table_comparsion.tex
 INPUT Figures/chapter4_first_table_comparsion.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm

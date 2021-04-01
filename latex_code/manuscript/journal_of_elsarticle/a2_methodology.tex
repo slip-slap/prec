@@ -1,4 +1,10 @@
 \section{Methodology}
+The works involved in the evolution process of ANN can be categorized into
+three parts:  search space which defines the architecture can be represented in
+principle; search strategy which details how to explore the search space;
+performance estimation strategy that refers to the process of estimating this
+performance.
+
 
 \subsection{Search Space}
 \input{a0_figure_evolutionary_ann.tex}
@@ -28,11 +34,10 @@ the neural network, safety factors for MS theory and Tsai-Wu theory, respectivel
 	\centering
 	\includegraphics[width=0.9\textwidth]{./a0_figure_ann_for_clt_architecture.png}
 \end{figure}
+
 \subsection{Search Strategy}
 
-
 The classic approach has always adopted binary strings to encode an alternative solutions. 
-
 
 Tab.\ref{tab:parents1}  gives an example of the binary representation of an ANN
 whose architecture is as shown in Fig.\ref{fig:parents1}. Each number in the
@@ -44,15 +49,13 @@ last two digits are stand for  the corresponding kernal function.
 First,  random initialize ANN population, partial training every ANN, 
 For the evolution of the topology,
 
-\subsection{Performance estimation}
-\cite{baker2017accelerating}
+\subsection{Performance estimation strategy}
+The simplest approach to this problem is to perform a standard training and
+validation of the architecture on dataset, however, this method is inefficient
+and computational intensive. Therefore, much recent
+research\cite{baker2017accelerating} foces on developing methods that reduce
+the cost of performance estimation.
 
 \input{a0_figure_ann_for_clt_architecture_example1_table}
-
-
-
-
-
-
 
 

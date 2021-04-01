@@ -186,6 +186,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
@@ -300,6 +302,17 @@ INPUT ./a0_figure_ann_for_clt_architecture_child.png
 INPUT ./a0_figure_ann_for_clt_architecture_child.png
 INPUT a3_result.tex
 INPUT a3_result.tex
+INPUT a8_result_train.pdf_tex
+INPUT a8_result_train.pdf_tex
+INPUT a8_result_train.pdf
+INPUT ./a8_result_train.pdf
+INPUT ./a8_result_train.pdf
+INPUT a8_result_train.pdf
+INPUT ./a8_result_train.pdf
+INPUT ./a8_result_train.pdf
+INPUT a8_result_train.pdf
+INPUT ./a8_result_train.pdf
+INPUT ./a8_result_train.pdf
 INPUT a0_result_table_ann_valuation.tex
 INPUT a0_result_table_ann_valuation.tex
 INPUT a4_conclusion.tex
