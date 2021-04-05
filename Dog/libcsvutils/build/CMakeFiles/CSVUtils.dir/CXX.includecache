@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/csv_utils.h
+string
+-
+list
+-
+
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp
+csv_utils.h
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.h
+internal.h
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/internal.h
+iostream
+-
+fstream
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/fstream
+
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/internal.h
+string
+-
+list
+-
+

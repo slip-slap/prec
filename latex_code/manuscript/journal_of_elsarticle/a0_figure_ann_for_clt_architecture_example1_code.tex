@@ -1,12 +1,15 @@
-\begin{figure}
-\centering
+%\begin{figure}
+%\centering
 \begin{tikzpicture}
-	[ p/.style={ draw=none, fill=none, }, remember picture, 
+	[ p/.style={ draw=none, fill=none}, 
+	  remember picture, 
 	  net/.style={ matrix of nodes, nodes={ draw, circle, inner sep=7.5pt },
 	  nodes in empty cells,
 	  column sep=-10.5pt,
-	  row sep=0.8cm
-	  }
+	  row sep=0.8cm,
+	  },
+	  scale=0.6,
+	  every node/.style={}
 	]
 %\draw[help lines] (-3cm,-6cm) grid (6cm,3cm);
 \matrix[net] (mat)
@@ -64,5 +67,5 @@
 			}
  }
 \end{tikzpicture}
-\caption{Parent 1\label{fig:parents1}}
-\end{figure}
+%\caption{Parent 1\label{fig:parents1}}
+%\end{figure}

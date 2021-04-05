@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>400</x>
       <y>400</y>
       <width>112</width>
       <height>32</height>
@@ -43,7 +43,17 @@
       <x>20</x>
       <y>30</y>
       <width>271</width>
-      <height>351</height>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>304</width>
+      <height>173</height>
      </rect>
     </property>
    </widget>

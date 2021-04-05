@@ -16,10 +16,10 @@
 \usecolortheme{spruce}
 \setbeamercolor{background canvas}{bg=white}
 
-\title{Paper Progress Report}
+\title{Thesis Presentation}
 \author{Huiyao Zhang}
 \institute{Kyoto Institue of Technology}
-\date{03-23-2021}
+\date{03-24-2021}
 \setbeamertemplate{itemize/enumerate body begin}{\large}
 
 \DeclarePairedDelimiter\Floor\lfloor\rfloor
@@ -30,26 +30,33 @@
 \end{frame}
 
 \begin{frame}[c]{Content} 
-    \begin{enumerate}
-        \item Optimum design of laminated composites for minimum thickness by a variant of genetic algorithm
-        \item A technique for constrained optimization of cross ply laminates useing a new variant of genetic algorithm
-        \item An approximation method of classic lamination theory based on evolutionary artificial neural network.
-    \end{enumerate}
+	\begin{columns}
+		\begin{column}{0.8\textwidth}
+			\begin{enumerate}[I]
+				\item Introduction
+					\begin{itemize}
+						\item Classic lamination theory(CLT) 
+        				\item Failure theory 
+						\item Evolutionary artificial neural network
+					\end{itemize}
+				\item New GA Model
+					\begin{itemize}
+						\item optimal design for cross ply laminate
+						\item optimal design for angle ply laminate
+					\end{itemize}
+				\item Approximation of CLT and failure theories.
+					\begin{itemize}
+						\item Data preparation
+						\item Learning
+						\item Experiment
+					\end{itemize}
+			\end{enumerate}
+		\end{column}
+	\end{columns}
 \end{frame}
 
-\begin{frame}[c]{Content} 
-    \begin{enumerate}
-        \item Classic lamination theory
-        \item Failure theory for composite material
-        \item Self-adaptative genetic algorithm
-        \item Experiment and result
-        \item Comparison with related research
-    \end{enumerate}
-\end{frame}
 
-
-
-\begin{frame}{1. Classic Lamination Theory}
+\begin{frame}{1): Classic Lamination Theory}
     \begin{columns}[c]
     \begin{column}{0.5\textwidth}
 		\includegraphics[width=1.5\linewidth]{./fig/lamina_local_global_axes.png}
@@ -122,7 +129,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}{2. Failure Theory }
+\begin{frame}{Introduction: Failure Theory }
 \begin{columns}[c]
     \begin{column}{0.4\textwidth}
 		\begin{figure}
@@ -196,15 +203,19 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}{2. Traditional GA model}
+\begin{frame}{Introduction: Neural network structure}
+	\input{fig/chapter5_neural_network.tex}
+\end{frame}
+
+\begin{frame}{2. Traditional GA Model}
 	\input{fig/chapter3_OGAM.tex}
 \end{frame}
 
-\begin{frame}{3. New GA model}
+\begin{frame}{3. New GA Model}
 	\input{fig/chapter3_NGAM.tex}
 \end{frame}
 
-\begin{frame}{3. New GA: selection operator}
+\begin{frame}{3. New GA Parents}
     \begin{columns}[c]
     \begin{column}{0.5\textwidth}
 		\begin{itemize}
@@ -222,7 +233,34 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}{3. Self-adaptative GA}
+
+\begin{frame}{Experiment for  cross ply laminate}
+	\input{fig/chapter4_first_figure_cross_ply_laminate.tex}
+\end{frame}
+
+\begin{frame}{Experiment for  cross ply laminate}
+    \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.4]{fig/chapter4_first_result_strength_ratio_and_fitness.png}
+			\caption{Parents}
+		\end{figure}
+    \end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.4]{fig/chapter4_first_result_number_of_three_groups.png}
+			\caption{Parents}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Experiment for Comparison}
+	\input{fig/chapter4_first_table_comparsion.tex}
+\end{frame}
+
+
+\begin{frame}{Experiment for angle ply laminate: Self-adaptative GA}
     \begin{columns}[c]
     \begin{column}{1\textwidth}
 		\begin{itemize}
@@ -240,7 +278,7 @@
 \end{frame}
 
 
-\begin{frame}{3. Self-adaptative GA:  mutation operator}
+\begin{frame}{Experiment for angle ply laminate:  mutation operator}
     \begin{columns}[c]
     \begin{column}{1\textwidth}
 		$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [ICV_0, \cdots, ICV_{n-1},
@@ -257,7 +295,7 @@
 \end{frame}
 
 
-\begin{frame}{4. Self-adaptative GA:  mutation operator}
+\begin{frame}{Experiment for angle ply laminate: mutation operator}
     \begin{columns}[c]
 	\begin{column}{1\textwidth}
 		\begin{itemize}
@@ -282,34 +320,7 @@
 \end{columns}
 \end{frame}
 
-\begin{frame}{Paper 1: Cross ply laminate}
-	\input{fig/chapter4_first_figure_cross_ply_laminate.tex}
-\end{frame}
-
-\begin{frame}{Paper 1: Experiment}
-    \begin{columns}[c]
-    \begin{column}{0.5\textwidth}
-		\begin{figure}
-			\includegraphics[scale=0.4]{fig/chapter4_first_result_strength_ratio_and_fitness.png}
-			\caption{Parents}
-		\end{figure}
-    \end{column}
-	\begin{column}{0.5\textwidth}
-		\begin{figure}
-			\includegraphics[scale=0.4]{fig/chapter4_first_result_number_of_three_groups.png}
-			\caption{Parents}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Paper 1: Comparison}
-	\input{fig/chapter4_first_table_comparsion.tex}
-\end{frame}
-
-
-
-\begin{frame}{Paper 2: Loading $N_x = 10, N_y=5 $ MPa m}
+\begin{frame}{Experiment: $N_x = 10, N_y=5 $ MPa m}
     \begin{columns}
     \begin{column}{0.5\textwidth}
 
@@ -331,7 +342,7 @@
 \end{frame}
 
 
-\begin{frame}{Paper 2: Comparison}
+\begin{frame}{Comparison}
 \begin{table}
 	\normalsize
 	\caption{Comparison with the results of DSA}
@@ -356,16 +367,31 @@
 \end{table}
 \end{frame}
 
-\begin{frame}{Paper 3: }
+\begin{frame}{Paper 3: Angle ply laminate}
 	\input{fig/chapter5_figure_angle_ply_laminate.tex}
 \end{frame}
 
-\begin{frame}{Paper 3: }
-	\input{fig/chapter5_neural_network.tex}
+\begin{frame}{Paper 3: General Neural Network}
+	\begin{figure}
+		\includegraphics[width=0.9\textwidth]{fig/a0_figure_ann_for_clt_architecture.png}
+		\caption{General Neural Network for CLT}
+	\end{figure}
 \end{frame}
 
-\begin{frame}{Paper 3: }
+\begin{frame}{Paper 3: Trainging data preparation}
 	\input{fig/chapter5_table_training_data.tex}
+\end{frame}
+
+\begin{frame}{Paper 3: Prediction}
+	\input{fig/chapter5_table_ann_valuation.tex}
+\end{frame}
+
+\begin{frame}{Paper 3: Prediction}
+	\begin{enumerate}[1)]
+		\item paper1:  journal of reinforced plastic and composites
+		\item paper2:  journal of thermoplastic composite
+		\item paper3: which journal?
+	\end{enumerate}
 \end{frame}
 
 \end{document}

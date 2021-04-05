@@ -33,8 +33,10 @@ src/CMakeFiles/Dog.dir/mainwindow.cpp.o
  /Users/kismet/Documents/github/prec/Dog/src/mainwindow.h
  /Users/kismet/Documents/github/prec/Dog/src/stock.h
  /Users/kismet/Documents/github/prec/Dog/src/stocknode.h
+ /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDate
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QDebug
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/QtNumeric
+ /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdatetime.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qdebug.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qmath.h
  /Users/kismet/Qt/5.15.0/clang_64/lib/QtCore.framework/Headers/qnumeric.h

@@ -99,8 +99,13 @@ demo_EXTERNAL_OBJECTS =
 
 src/demo: src/CMakeFiles/demo.dir/main.cpp.o
 src/demo: src/CMakeFiles/demo.dir/build.make
+src/demo: /usr/local/lib/libboost_locale-mt.dylib
+src/demo: /Users/kismet/Desktop/temp_install/lib/libCSVUtils.a
 src/demo: /usr/local/lib/libsfml-graphics.2.5.1.dylib
 src/demo: /usr/local/lib/libsfml-audio.2.5.1.dylib
+src/demo: /usr/local/lib/libboost_chrono-mt.dylib
+src/demo: /usr/local/lib/libboost_system-mt.dylib
+src/demo: /usr/local/lib/libboost_thread-mt.dylib
 src/demo: /usr/local/lib/libsfml-window.2.5.1.dylib
 src/demo: /usr/local/lib/libsfml-system.2.5.1.dylib
 src/demo: src/CMakeFiles/demo.dir/link.txt

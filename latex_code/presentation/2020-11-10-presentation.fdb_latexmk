@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1613022447 "2020-11-10-presentation.tex" "2020-11-10-presentation.pdf" "2020-11-10-presentation" 1615895565
-  "/dev/null" 1615895543 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1613022447 "2020-11-10-presentation.tex" "2020-11-10-presentation.pdf" "2020-11-10-presentation" 1616470560
+  "/dev/null" 1616470496 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -234,13 +234,13 @@
   "2020-11-10-presentation.aux" 1613022449 2703 093dc9c599ef23db47879f3552a154e5 ""
   "2020-11-10-presentation.nav" 1613022449 1202 a971439ba5eedf62b158aa4c3f07763d ""
   "2020-11-10-presentation.out" 1613022448 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "2020-11-10-presentation.tex" 1613022463 8698 873b6f8a9ace088af4a5857ec44833e3 ""
+  "2020-11-10-presentation.tex" 1616470555 8698 873b6f8a9ace088af4a5857ec44833e3 ""
   "GA_images/composite-material.png" 1609552829 142756 4e5f72f2268e0a24b5b85c10fa2f1404 ""
   (generated)
-  "2020-11-10-presentation.pdf"
-  "2020-11-10-presentation.aux"
-  "2020-11-10-presentation.nav"
-  "2020-11-10-presentation.out"
   "2020-11-10-presentation.toc"
   "2020-11-10-presentation.log"
+  "2020-11-10-presentation.aux"
+  "2020-11-10-presentation.nav"
+  "2020-11-10-presentation.pdf"
+  "2020-11-10-presentation.out"
   "2020-11-10-presentation.snm"

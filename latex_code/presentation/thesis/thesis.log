@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  23 MAR 2021 20:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  2 APR 2021 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1123,157 +1123,159 @@ Overfull \vbox (47.30656pt too high) detected at line 30
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 56.
+LaTeX Font Info:    No file OMScmss.fd. on input line 56.
 
-] [3
 
-]
-<./fig/lamina_local_global_axes.png, id=33, 1637.11626pt x 572.1375pt>
-File: ./fig/lamina_local_global_axes.png Graphic file (type png)
-<use ./fig/lamina_local_global_axes.png>
-Package pdftex.def Info: ./fig/lamina_local_global_axes.png  used on input line 123.
-(pdftex.def)             Requested size: 230.46739pt x 80.5352pt.
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 56.
 
-Overfull \hbox (76.82246pt too wide) in paragraph at lines 123--123
-[][]  
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 123.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
-Overfull \hbox (19.43813pt too wide) detected at line 123
+) [2
+
+]
+<./fig/lamina_local_global_axes.png, id=29, 1637.11626pt x 572.1375pt>
+File: ./fig/lamina_local_global_axes.png Graphic file (type png)
+<use ./fig/lamina_local_global_axes.png>
+Package pdftex.def Info: ./fig/lamina_local_global_axes.png  used on input line 130.
+(pdftex.def)             Requested size: 230.46739pt x 80.5352pt.
+
+Overfull \hbox (76.82246pt too wide) in paragraph at lines 130--130
+[][]  
+ []
+
+
+Overfull \hbox (19.43813pt too wide) detected at line 130
 [][][]
  []
 
 
-Overfull \vbox (19.19786pt too high) detected at line 123
+Overfull \vbox (19.19786pt too high) detected at line 130
+ []
+
+[3
+
+ <./fig/lamina_local_global_axes.png>]
+Overfull \hbox (24.58052pt too wide) in paragraph at lines 204--204
+ [] 
+ []
+
+
+Overfull \hbox (38.84158pt too wide) detected at line 204
+[]
+ []
+
+
+Overfull \hbox (3.11963pt too wide) detected at line 204
+[]
+ []
+
+
+Overfull \hbox (21.90005pt too wide) detected at line 204
+[]
  []
 
 [4
 
- <./fig/lamina_local_global_axes.png>]
-Overfull \hbox (24.58052pt too wide) in paragraph at lines 197--197
- [] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 197.
-LaTeX Font Info:    No file OMScmss.fd. on input line 197.
-
-LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 197.
-
-
-Overfull \hbox (38.84158pt too wide) detected at line 197
-[]
- []
-
-
-Overfull \hbox (3.11963pt too wide) detected at line 197
-[]
- []
-
-
-Overfull \hbox (21.90005pt too wide) detected at line 197
-[]
- []
-
-[5
+] (./fig/chapter5_neural_network.tex) [5
 
 ] (./fig/chapter3_OGAM.tex) [6
 
 ] (./fig/chapter3_NGAM.tex)
-Overfull \vbox (35.07385pt too high) detected at line 205
+Overfull \vbox (35.07385pt too high) detected at line 216
  []
 
 [7
 
 ]
-<fig/chapter2_figure_group_pie.png, id=67, 462.528pt x 346.896pt>
+<fig/chapter2_figure_group_pie.png, id=68, 462.528pt x 346.896pt>
 File: fig/chapter2_figure_group_pie.png Graphic file (type png)
 <use fig/chapter2_figure_group_pie.png>
-Package pdftex.def Info: fig/chapter2_figure_group_pie.png  used on input line 223.
+Package pdftex.def Info: fig/chapter2_figure_group_pie.png  used on input line 234.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
-Overfull \hbox (77.6185pt too wide) in paragraph at lines 223--223
+Overfull \hbox (77.6185pt too wide) in paragraph at lines 234--234
  [] 
  []
 
 
-Overfull \vbox (8.67647pt too high) detected at line 223
+Overfull \vbox (8.67647pt too high) detected at line 234
  []
 
 [8
 
- <./fig/chapter2_figure_group_pie.png>]
-Overfull \hbox (188.92734pt too wide) detected at line 240
+ <./fig/chapter2_figure_group_pie.png>] (./fig/chapter4_first_figure_cross_ply_laminate.tex) [9
+
+]
+<fig/chapter4_first_result_strength_ratio_and_fitness.png, id=80, 462.528pt x 346.896pt>
+File: fig/chapter4_first_result_strength_ratio_and_fitness.png Graphic file (type png)
+<use fig/chapter4_first_result_strength_ratio_and_fitness.png>
+Package pdftex.def Info: fig/chapter4_first_result_strength_ratio_and_fitness.png  used on input line 256.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+Overfull \hbox (31.36298pt too wide) in paragraph at lines 256--256
+ [] 
+ []
+
+<fig/chapter4_first_result_number_of_three_groups.png, id=81, 462.528pt x 346.896pt>
+File: fig/chapter4_first_result_number_of_three_groups.png Graphic file (type png)
+<use fig/chapter4_first_result_number_of_three_groups.png>
+Package pdftex.def Info: fig/chapter4_first_result_number_of_three_groups.png  used on input line 256.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+
+Overfull \hbox (31.36298pt too wide) in paragraph at lines 256--256
+ [] 
+ []
+
+[10
+
+ <./fig/chapter4_first_result_strength_ratio_and_fitness.png> <./fig/chapter4_first_result_number_of_three_groups.png>] (./fig/chapter4_first_table_comparsion.tex) [11
+
+]
+Overfull \hbox (188.92734pt too wide) detected at line 278
 [][][] $[]$[][][][][][][][] $[]$[][][][][][] 
  []
 
-[9
+[12
 
-] [10
-
-]
-Overfull \vbox (2.94128pt too high) detected at line 283
- []
-
-[11
-
-] (./fig/chapter4_first_figure_cross_ply_laminate.tex) [12
+] [13
 
 ]
-<fig/chapter4_first_result_strength_ratio_and_fitness.png, id=97, 462.528pt x 346.896pt>
-File: fig/chapter4_first_result_strength_ratio_and_fitness.png Graphic file (type png)
-<use fig/chapter4_first_result_strength_ratio_and_fitness.png>
-Package pdftex.def Info: fig/chapter4_first_result_strength_ratio_and_fitness.png  used on input line 304.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-
-Overfull \hbox (31.36298pt too wide) in paragraph at lines 304--304
- [] 
+Overfull \vbox (2.94128pt too high) detected at line 321
  []
 
-<fig/chapter4_first_result_number_of_three_groups.png, id=98, 462.528pt x 346.896pt>
-File: fig/chapter4_first_result_number_of_three_groups.png Graphic file (type png)
-<use fig/chapter4_first_result_number_of_three_groups.png>
-Package pdftex.def Info: fig/chapter4_first_result_number_of_three_groups.png  used on input line 304.
-(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-
-Overfull \hbox (31.36298pt too wide) in paragraph at lines 304--304
- [] 
- []
-
-[13
-
- <./fig/chapter4_first_result_strength_ratio_and_fitness.png> <./fig/chapter4_first_result_number_of_three_groups.png>] (./fig/chapter4_first_table_comparsion.tex) [14
+[14
 
 ]
 <./fig/two_distinct_angle_fitness_and_sr.png, id=113, 462.528pt x 346.896pt>
 File: ./fig/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
 <use ./fig/two_distinct_angle_fitness_and_sr.png>
-Package pdftex.def Info: ./fig/two_distinct_angle_fitness_and_sr.png  used on input line 331.
+Package pdftex.def Info: ./fig/two_distinct_angle_fitness_and_sr.png  used on input line 342.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 <./fig/two_distinct_angle_angle_change.png, id=114, 462.528pt x 346.896pt>
 File: ./fig/two_distinct_angle_angle_change.png Graphic file (type png)
 <use ./fig/two_distinct_angle_angle_change.png>
-Package pdftex.def Info: ./fig/two_distinct_angle_angle_change.png  used on input line 331.
+Package pdftex.def Info: ./fig/two_distinct_angle_angle_change.png  used on input line 342.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 <./fig/two_distinct_angler_number_change.png, id=115, 462.528pt x 346.896pt>
 File: ./fig/two_distinct_angler_number_change.png Graphic file (type png)
 <use ./fig/two_distinct_angler_number_change.png>
-Package pdftex.def Info: ./fig/two_distinct_angler_number_change.png  used on input line 331.
+Package pdftex.def Info: ./fig/two_distinct_angler_number_change.png  used on input line 342.
 (pdftex.def)             Requested size: 153.64493pt x 115.23296pt.
 
-Overfull \vbox (36.39499pt too high) detected at line 331
+Overfull \vbox (36.39499pt too high) detected at line 342
  []
 
 [15
@@ -1282,9 +1284,19 @@ Overfull \vbox (36.39499pt too high) detected at line 331
 
 ] (./fig/chapter5_figure_angle_ply_laminate.tex) [17
 
-] (./fig/chapter5_neural_network.tex) [18
+]
+<fig/a0_figure_ann_for_clt_architecture.png, id=135, 639.38875pt x 311.1625pt>
+File: fig/a0_figure_ann_for_clt_architecture.png Graphic file (type png)
+<use fig/a0_figure_ann_for_clt_architecture.png>
+Package pdftex.def Info: fig/a0_figure_ann_for_clt_architecture.png  used on input line 379.
+(pdftex.def)             Requested size: 276.559pt x 134.59016pt.
+ [18
 
-] (./fig/chapter5_table_training_data.tex) [19
+ <./fig/a0_figure_ann_for_clt_architecture.png>] (./fig/chapter5_table_training_data.tex) [19
+
+] (./fig/chapter5_table_ann_valuation.tex) [20
+
+] [21
 
 ]
 \tf@nav=\write6
@@ -1296,11 +1308,11 @@ Overfull \vbox (36.39499pt too high) detected at line 331
 \tf@snm=\write8
 \openout8 = `thesis.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1309,18 +1321,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 34840 strings out of 492616
- 697854 string characters out of 6128982
- 848658 words of memory out of 5000000
- 38098 multiletter control sequences out of 15000+600000
+ 34885 strings out of 492616
+ 699106 string characters out of 6128982
+ 853716 words of memory out of 5000000
+ 38134 multiletter control sequences out of 15000+600000
  547073 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,27n,95p,1829b,1122s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis.pdf (19 pages, 448593 bytes).
+Output written on thesis.pdf (21 pages, 477710 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

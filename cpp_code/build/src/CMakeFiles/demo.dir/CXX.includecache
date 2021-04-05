@@ -7,8 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/kismet/Documents/github/prec/cpp_code/src/main.cpp
-ProjectConfig.h
-/Users/kismet/Documents/github/prec/cpp_code/src/ProjectConfig.h
+algorithm
+-
+cstddef
+-
 iostream
 -
 iostream
@@ -6941,6 +6943,4 @@ boost/utility/detail/result_of_iterate.hpp
 -
 
 /usr/local/include/boost/version.hpp
-
-ProjectConfig.h
 

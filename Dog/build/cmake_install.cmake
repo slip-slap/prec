@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/kismet/Documents/github/prec/Dog/build/src/cmake_install.cmake")
+  include("/Users/kismet/Documents/github/prec/Dog/build/libcsvutils/cmake_install.cmake")
   include("/Users/kismet/Documents/github/prec/Dog/build/test/cmake_install.cmake")
 
 endif()

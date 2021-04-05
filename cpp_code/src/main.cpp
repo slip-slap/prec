@@ -1,15 +1,25 @@
-#include "ProjectConfig.h"
 #include <iostream>
-#include <string>
 
-int add(int a, int b){return a+b;}
+class String{
+	public:
+		String(){}
+		String(char* str){}
+		~String(){
+			delete[] m_Array;
+		}
+	private:
+		char* m_Array;
+		size_t m_Size;
+	friend void printString(String other){
+		std::cout<<other.m_Size;
+	}
+};
 
 
 int main(){
-	std::cout<<"*************************start test**************"<<std::endl;
-	std::string name="liam";
-	std::cout<<name.c_str();
-	return 0;
+	String s;
+	printString(s);
+	std::cout<<3;
 }
 
 /*

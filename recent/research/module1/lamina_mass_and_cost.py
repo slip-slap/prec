@@ -1,0 +1,75 @@
+import numpy as np
+import material_constant_variable as MCV
+
+LAMINATE_LENGTH = 1
+LAMINATE_WIDTH = 0.2 
+
+
+def get_lamina_mass(volume,material):
+    fiber = material.split('_')[0]
+    matrice = material.split('_')[1]
+    if(fiber == "glass"):
+        density = MCV.GLASS_EPOXY_DENSITY
+    if(fiber == "graphite"):
+        density = MCV.GRAPHITE_EPOXY_DENSITY
+    if(fiber == "carbon"):
+        density = MCV.CARBON_EPOXY_DENSITY
+
+    return volume*density
+
+
+
+def get_laminate_mass(height,material):
+    mass = 0
+    for i in range(len(height)):
+        volume = LAMINATE_WIDTH * LAMINATE_LENGTH * height[i]
+        lamina_mass = get_lamina_mass(volume,material[i])
+        mass = mass + lamina_mass
+    return mass
+
+
+def get_laminate_cost(material):
+    cost = 0
+    for i in range(len(material)):
+        if(material[i] == 'glass_epoxy'):
+            cost = cost + MCV.GLASS_EPOXY_COST
+        if(material[i] == 'graphite_epoxy'):
+            cost = cost + MCV.GRAPHITE_EPOXY_COST
+        if(material[i] == 'carbon_epoxy'):
+            cost = cost + MCV.CARBON_EPOXY_COST
+    return cost
+
+
+
+
+if __name__ == "__main__":
+    #volume = 4*100*20*0.5
+    #mass = get_lamina_mass(volume,'glass_epoxy')
+    #mass = get_lamina_mass(volume,'graphite_epoxy')
+    #mass = get_lamina_mass(volume,'glass_epoxy')
+    mass = get_laminate_mass([0.000165]*282,["glass_epoxy"]*282)
+    print(mass)
+    print(get_laminate_cost(['carbon_epoxy']*24))
+
+"""
+def get_lamina_mass(volume,material):
+    fiber = material.split('_')[0]
+    matrice = material.split('_')[1]
+    if(fiber == "glass"):
+        fiber_volume_fraction = FIBER_VOLUME_FRACTION_GLASS_EPOXY
+        fiber_specific_gravity = FIBER_SPECIFIC_GRAVITY_GLASS
+    if(fiber == "graphite"):
+        fiber_volume_fraction = FIBER_VOLUME_FRACTION_GRAPHITE_EPOXY
+        fiber_specific_gravity = FIBER_SPECIFIC_GRAVITY_GRAPHITE
+    if(fiber == "boron"):
+        fiber_volume_fraction = FIBER_VOLUME_FRACTION_BORON_EPOXY
+        fiber_specific_gravity = FIBER_SPECIFIC_GRAVITY_BORON
+
+    if(matrice == 'epoxy'):
+        matric_specific_gravity = MATRIC_SPECIFIC_GRAVITY_EPOXY
+
+    
+    density = fiber_specific_gravity * fiber_volume_fraction + \
+            matric_specific_gravity *  (1 -  fiber_volume_fraction)
+    return volume * density/1000
+"""

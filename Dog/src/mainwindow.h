@@ -25,6 +25,8 @@ private slots:
 
     void on_actionOpen_triggered();
 
+    void on_calendarWidget_clicked(const QDate &date);
+
 private:
     Ui::MainWindow *ui;
     Stock s;

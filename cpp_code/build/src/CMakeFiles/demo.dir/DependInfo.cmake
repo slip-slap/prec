@@ -8,10 +8,20 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_CHRONO_DYN_LINK"
+  "BOOST_LOCALE_DYN_LINK"
+  "BOOST_SYSTEM_DYN_LINK"
+  "BOOST_THREAD_DYN_LINK"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "/usr/local/include"
+  "/Users/kismet/Desktop/temp_install/include"
   )
 
 # Targets to which this target links.

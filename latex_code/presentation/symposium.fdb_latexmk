@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1613102934 "symposium.tex" "symposium.pdf" "symposium" 1613102961
+["pdflatex"] 1616470743 "symposium.tex" "symposium.pdf" "symposium" 1616470745
   "../data/lamina_local_global_axes.png" 1613022630 133854 1883105abfd54615fa4457cb7ff4985d ""
-  "/dev/null" 1613102945 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1616470745 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -233,15 +233,15 @@
   "2020-11-10-pre-image/two_distinct_angle_angle_change.png" 1609552829 28169 7fb91f11e7a12bdbcd9475a6ec806539 ""
   "2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png" 1609552829 37004 84c7c13db1fed410d3af99d784828a1c ""
   "2020-11-10-pre-image/two_distinct_angler_number_change.png" 1609552829 39190 d248d5ffa0578d3e54f4c5acefb031a4 ""
-  "symposium.aux" 1613102936 2544 a0399ea54ab953fbe45187003977f436 ""
-  "symposium.nav" 1613102936 1109 07396102f9d82bf25877ba7d82798efb ""
-  "symposium.out" 1613102935 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "symposium.tex" 1613102955 9496 b27c756959527dfd5dacba84e38e6ba9 ""
+  "symposium.aux" 1616470745 2544 a0399ea54ab953fbe45187003977f436 ""
+  "symposium.nav" 1616470745 1109 07396102f9d82bf25877ba7d82798efb ""
+  "symposium.out" 1616470744 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "symposium.tex" 1616470740 9496 b27c756959527dfd5dacba84e38e6ba9 ""
   (generated)
-  "symposium.nav"
-  "symposium.snm"
-  "symposium.toc"
   "symposium.pdf"
   "symposium.aux"
   "symposium.out"
+  "symposium.nav"
+  "symposium.snm"
   "symposium.log"
+  "symposium.toc"

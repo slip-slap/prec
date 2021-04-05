@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  1 APR 2021 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  5 APR 2021 10:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,23 +738,21 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `tab:traing-data' on page 15 undefined on input line 14.
 
-(./a0_experiment_table_training_data.tex) (./a0_table_composite_material.tex)
-<./a0_figure_ann_for_clt_architecture_example1.png, id=250, 583.17876pt x 200.75pt>
-File: ./a0_figure_ann_for_clt_architecture_example1.png Graphic file (type png)
-<use ./a0_figure_ann_for_clt_architecture_example1.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_example1.png  used on input line 26.
-(pdftex.def)             Requested size: 276.00105pt x 95.0111pt.
-<./a0_figure_ann_for_clt_architecture_example2.png, id=251, 589.20125pt x 206.7725pt>
+(./a0_experiment_table_training_data.tex) (./a0_table_composite_material.tex) (./a0_figure_ann_for_clt_architecture_example1_code.tex)
+Overfull \hbox (32.9718pt too wide) in paragraph at lines 69--28
+ [][] 
+ []
+
+<./a0_figure_ann_for_clt_architecture_example2.png, id=250, 589.20125pt x 206.7725pt>
 File: ./a0_figure_ann_for_clt_architecture_example2.png Graphic file (type png)
 <use ./a0_figure_ann_for_clt_architecture_example2.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_example2.png  used on input line 33.
+Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_example2.png  used on input line 34.
 (pdftex.def)             Requested size: 276.00105pt x 96.85811pt.
-<./a0_figure_ann_for_clt_architecture_child.png, id=252, 571.13374pt x 207.77625pt>
+<./a0_figure_ann_for_clt_architecture_child.png, id=251, 571.13374pt x 207.77625pt>
 File: ./a0_figure_ann_for_clt_architecture_child.png Graphic file (type png)
 <use ./a0_figure_ann_for_clt_architecture_child.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_child.png  used on input line 40.
+Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_child.png  used on input line 41.
 (pdftex.def)             Requested size: 276.00105pt x 100.40675pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -767,28 +765,28 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:train-process' on page 15 undefined on input line 5.
 
 (./a8_result_train.pdf_tex
-<a8_result_train.pdf, id=254, page=1, 233.52489pt x 151.48395pt>
+<a8_result_train.pdf, id=253, page=1, 233.52489pt x 151.48395pt>
 File: a8_result_train.pdf Graphic file (type pdf)
 <use a8_result_train.pdf, page 1>
 Package pdftex.def Info: a8_result_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<a8_result_train.pdf, id=255, page=2, 233.52489pt x 151.48395pt>
+<a8_result_train.pdf, id=254, page=2, 233.52489pt x 151.48395pt>
 File: a8_result_train.pdf Graphic file (type pdf)
 <use a8_result_train.pdf, page 2>
 Package pdftex.def Info: a8_result_train.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<a8_result_train.pdf, id=256, page=3, 233.52489pt x 151.48395pt>
+<a8_result_train.pdf, id=255, page=3, 233.52489pt x 151.48395pt>
 File: a8_result_train.pdf Graphic file (type pdf)
 <use a8_result_train.pdf, page 3>
 Package pdftex.def Info: a8_result_train.pdf , page3 used on input line 80.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-) (./a0_result_table_ann_valuation.tex) [15]) (./a4_conclusion.tex) (./a5_acknowledge.tex) (./elsarticle-template.bbl [16] [17 <./a0_figure_ann_for_clt_architecture_example1.png> <./a0_figure_ann_for_clt_architecture_example2.png> <./a0_figure_ann_for_clt_architecture_child.png>] [18 <./a8_result_train.pdf> <./a8_result_train.pdf
+) (./a0_result_table_ann_valuation.tex) [15]) (./a4_conclusion.tex) (./a5_acknowledge.tex) (./elsarticle-template.bbl [16] [17 <./a0_figure_ann_for_clt_architecture_example2.png> <./a0_figure_ann_for_clt_architecture_child.png>] [18 <./a8_result_train.pdf> <./a8_result_train.pdf
 
 pdfTeX warning: pdflatex (file ./a8_result_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./a8_result_train.pdf
 
 pdfTeX warning: pdflatex (file ./a8_result_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) [19]
+>] [19]) [20]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./elsarticle-template.aux)
@@ -803,18 +801,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 21437 strings out of 492616
- 409338 string characters out of 6128982
- 518086 words of memory out of 5000000
- 24834 multiletter control sequences out of 15000+600000
+ 22132 strings out of 492616
+ 424254 string characters out of 6128982
+ 547918 words of memory out of 5000000
+ 25526 multiletter control sequences out of 15000+600000
  9185 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,77p,479b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,77p,479b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on elsarticle-template.pdf (19 pages, 428513 bytes).
+Output written on elsarticle-template.pdf (20 pages, 411927 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 378 compressed objects within 4 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 

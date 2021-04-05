@@ -30,6 +30,16 @@
   "file": "/Users/kismet/Documents/github/prec/Dog/src/stocknode.cpp"
 },
 {
+  "directory": "/Users/kismet/Documents/github/prec/Dog/build/libcsvutils",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/build/libcsvutils -I/Users/kismet/Documents/github/prec/Dog/libcsvutils -I/Users/kismet/Documents/github/prec/Dog/include -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/include -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Werror -std=gnu++11 -o CMakeFiles/CSVUtils.dir/src/csv_utils.cpp.o -c /Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp",
+  "file": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp"
+},
+{
+  "directory": "/Users/kismet/Documents/github/prec/Dog/build/libcsvutils/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/build/libcsvutils/test -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/test -I/Users/kismet/Documents/github/prec/Dog/include -isystem /Users/kismet/Desktop/temp_install/include   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/demo.dir/test_csv.cpp.o -c /Users/kismet/Documents/github/prec/Dog/libcsvutils/test/test_csv.cpp",
+  "file": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/test/test_csv.cpp"
+},
+{
   "directory": "/Users/kismet/Documents/github/prec/Dog/build/test",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/build/test -I/Users/kismet/Documents/github/prec/Dog/test -I/Users/kismet/Documents/github/prec/Dog/include -I/usr/local/include   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/test.dir/__/src/stock.cpp.o -c /Users/kismet/Documents/github/prec/Dog/src/stock.cpp",
   "file": "/Users/kismet/Documents/github/prec/Dog/src/stock.cpp"

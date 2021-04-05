@@ -4,6 +4,7 @@
 #include <string>
 #include <QMessageBox>
 #include <QDebug>
+#include <QDate>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -62,4 +63,9 @@ void MainWindow::on_listWidget_itemClicked(QListWidgetItem *item)
 void MainWindow::on_actionOpen_triggered()
 {
     QMessageBox::information(this,"","");
+}
+
+void MainWindow::on_calendarWidget_clicked(const QDate &date)
+{
+    qDebug()<<date.toString();
 }

@@ -35,5 +35,7 @@ endif()
 
 #find_package(Qt5)
 
-target_include_directories(Dog PUBLIC "${PROJECT_BINARY_DIR}")
-target_link_libraries(Dog PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::PrintSupport Qt${QT_VERSION_MAJOR}::Core)
+target_include_directories(Dog 
+	PUBLIC "${PROJECT_BINARY_DIR}")
+target_link_libraries(Dog 
+	PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::PrintSupport Qt${QT_VERSION_MAJOR}::Core)

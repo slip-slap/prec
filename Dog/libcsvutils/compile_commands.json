@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/include -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -Werror -o CMakeFiles/CSVUtils.dir/src/csv_utils.cpp.o -c /Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp",
+  "file": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp"
+},
+{
+  "directory": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/include -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/demo.dir/test_csv.cpp.o -c /Users/kismet/Documents/github/prec/Dog/libcsvutils/test/test_csv.cpp",
+  "file": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/test/test_csv.cpp"
+},
+{
+  "directory": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/include -I/Users/kismet/Documents/github/prec/Dog/libcsvutils/src   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/demo.dir/__/src/csv_utils.cpp.o -c /Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp",
+  "file": "/Users/kismet/Documents/github/prec/Dog/libcsvutils/src/csv_utils.cpp"
+}
+]

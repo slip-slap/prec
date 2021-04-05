@@ -1,0 +1,14 @@
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/install/local.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/install/strip.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/install.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/list_install_components.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/edit_cache.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/CMakeFiles/CSVUtils.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/install/local.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/install/strip.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/install.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/list_install_components.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/edit_cache.dir
+/Users/kismet/Documents/github/prec/Dog/libcsvutils/build/test/CMakeFiles/demo.dir
