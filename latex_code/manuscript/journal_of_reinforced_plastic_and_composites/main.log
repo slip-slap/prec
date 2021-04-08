@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  24 MAR 2021 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  8 APR 2021 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -748,7 +748,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 44.
- (./a1_abstract.tex)
+ (./src/a1_abstract.tex)
 LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -789,7 +789,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 5.69998pt on input line 51.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 51.
- (./a1_introduction_GA.tex
+ (./src/a1_introduction_GA.tex
 Overfull \vbox (1.88446pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
@@ -800,7 +800,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 
-]) (./a1_introduction_CLT.tex
+]) (./src/a1_introduction_CLT.tex
 <image/lamina_local_global_axes.png, id=109, 1637.11626pt x 572.1375pt>
 File: image/lamina_local_global_axes.png Graphic file (type png)
 <use image/lamina_local_global_axes.png>
@@ -820,17 +820,17 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 166.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 166.
- [2]) (./a1_introduction_failure_criteria.tex [3 <./image/lamina_local_global_axes.png>]
+ [2]) (./src/a1_introduction_failure_criteria.tex [3 <./image/lamina_local_global_axes.png>]
 Overfull \hbox (3.04518pt too wide) in paragraph at lines 108--110
  [][] 
  []
 
-) (./a1_introduction_safety_factor.tex) (./a2_ga_operator.tex) (./a2_methodology.tex [4] (./a0_table.tex
+) (./src/a1_introduction_safety_factor.tex) (./src/a2_ga_operator.tex) (./src/a2_methodology.tex [4] (./tab/composite_material.tex
 Overfull \hbox (20.38516pt too wide) in alignment at lines 20--20
 [][][][] 
  []
 
-) [5]) (./a3_result.tex
+) [5]) (./src/a3_result.tex
 <2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png, id=171, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png>
@@ -872,7 +872,7 @@ Overfull \hbox (20.65207pt too wide) in paragraph at lines 127--143
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
-) (./a4_conclusion.tex [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]) (./a5_acknowledgment.tex) (./main.bbl
+) (./src/a4_conclusion.tex [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]) (./src/a5_acknowledgment.tex) (./main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
@@ -889,8 +889,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 21076 strings out of 492616
- 400300 string characters out of 6128982
+ 21078 strings out of 492616
+ 400426 string characters out of 6128982
  504812 words of memory out of 5000000
  24426 multiletter control sequences out of 15000+600000
  49637 words of font info for 99 fonts, out of 8000000 for 9000
