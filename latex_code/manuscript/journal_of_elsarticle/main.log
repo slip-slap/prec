@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  5 APR 2021 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  8 APR 2021 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**elsarticle-template.tex
-(./elsarticle-template.tex
+**main.tex
+(./main.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2018/texmf-dist/tex/latex/elsarticle/elsarticle.cls
 Document Class: elsarticle 2019/01/14, 3.1: Elsevier Ltd
@@ -61,7 +61,7 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \@enLab=\toks16
 \@sep=\skip43
 \@@sep=\skip44
- (./elsarticle-template.spl) (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+ (./main.spl) (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -69,7 +69,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count94
 )
 \splwrite=\write3
-\openout3 = `elsarticle-template.spl'.
+\openout3 = `main.spl'.
 
 \appnamewidth=\dimen109
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/lineno/lineno.sty
@@ -197,8 +197,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \pgfutil@abb=\box32
  (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
 Package: pgf 2019/02/02 v3.1.1 (3.1.1)
@@ -266,8 +266,8 @@ Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 \pgfmath@toks=\toks25
 \pgfmath@stack@operand=\toks26
 \pgfmath@stack@operation=\toks27
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count120
 )) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -333,11 +333,11 @@ File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
 File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box38
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
@@ -382,7 +382,9 @@ File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \tikz@expandcount=\count131
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
-))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/import/import.sty
+Package: import 2009/03/23  v 5.1
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -395,10 +397,10 @@ File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
 File: tikzlibrarymatrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 \pgf@intersect@solutions=\count132
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
@@ -619,8 +621,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count167
 \@vwid@loff=\dimen281
 \@vwid@roff=\dimen282
-)) (./elsarticle-template.aux)
-\openout1 = `elsarticle-template.aux'.
+)) (./main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -673,9 +675,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
- (./elsarticle-template.out) (./elsarticle-template.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write5
-\openout5 = `elsarticle-template.out'.
+\openout5 = `main.out'.
 
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
@@ -720,39 +722,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./a0_figure_angle_ply_laminate.tex) [2] [3] [4]) (./a1_introduction_failure_criteria.tex [5] (./a0_figure_angle_ply_laminate.tex) [6] [7] [8]) (./a1_introduction_ann.tex [9] (./a0_figure_ann_architecture.tex) [10] (./a0_figure_ann_active_function.tex)) (./a2_methodology.tex [11] (./a0_figure_evolutionary_ann.tex) [12]
-<./a0_figure_ann_for_clt_architecture.png, id=230, 639.38875pt x 311.1625pt>
-File: ./a0_figure_ann_for_clt_architecture.png Graphic file (type png)
-<use ./a0_figure_ann_for_clt_architecture.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture.png  used on input line 35.
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]) (./a1_introduction_failure_criteria.tex [5] (./fig/angle_ply_laminate.tex) [6] [7] [8]) (./a1_introduction_ann.tex [9] (./fig/ann_general_architecture.tex) [10] (./fig/ann_active_function.tex)) (./a2_methodology.tex [11] (./fig/methodology_evolutionary_ann.tex) [12]
+<fig/ann_for_clt_architecture.png, id=229, 639.38875pt x 311.1625pt>
+File: fig/ann_for_clt_architecture.png Graphic file (type png)
+<use fig/ann_for_clt_architecture.png>
+Package pdftex.def Info: fig/ann_for_clt_architecture.png  used on input line 35.
 (pdftex.def)             Requested size: 310.4979pt x 151.10829pt.
 
 
 LaTeX Warning: Reference `fig:parents1' on page 13 undefined on input line 43.
 
-[13 <./a0_figure_ann_for_clt_architecture.png>] (./a0_figure_ann_for_clt_architecture_example1_table.tex)) (./a3_experiment.tex [14]
+[13 <./fig/ann_for_clt_architecture.png>] (./fig/experiment_architecture_example1_table.tex)) (./a3_experiment.tex [14]
 
 Package caption Warning: \label without proper reference on input line 2.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:traing-data' on page 15 undefined on input line 14.
+LaTeX Warning: Reference `tab:traing-data' on page 15 undefined on input line 13.
 
-(./a0_experiment_table_training_data.tex) (./a0_table_composite_material.tex) (./a0_figure_ann_for_clt_architecture_example1_code.tex)
-Overfull \hbox (32.9718pt too wide) in paragraph at lines 69--28
- [][] 
- []
-
-<./a0_figure_ann_for_clt_architecture_example2.png, id=250, 589.20125pt x 206.7725pt>
-File: ./a0_figure_ann_for_clt_architecture_example2.png Graphic file (type png)
-<use ./a0_figure_ann_for_clt_architecture_example2.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_example2.png  used on input line 34.
+(./tab/experiment_training_data.tex) (./tab/composite_material.tex)
+<fig/experiment_architecture_example1.png, id=249, 583.17876pt x 200.75pt>
+File: fig/experiment_architecture_example1.png Graphic file (type png)
+<use fig/experiment_architecture_example1.png>
+Package pdftex.def Info: fig/experiment_architecture_example1.png  used on input line 25.
+(pdftex.def)             Requested size: 276.00105pt x 95.0111pt.
+<fig/experiment_architecture_example2.png, id=250, 589.20125pt x 206.7725pt>
+File: fig/experiment_architecture_example2.png Graphic file (type png)
+<use fig/experiment_architecture_example2.png>
+Package pdftex.def Info: fig/experiment_architecture_example2.png  used on input line 33.
 (pdftex.def)             Requested size: 276.00105pt x 96.85811pt.
-<./a0_figure_ann_for_clt_architecture_child.png, id=251, 571.13374pt x 207.77625pt>
-File: ./a0_figure_ann_for_clt_architecture_child.png Graphic file (type png)
-<use ./a0_figure_ann_for_clt_architecture_child.png>
-Package pdftex.def Info: ./a0_figure_ann_for_clt_architecture_child.png  used on input line 41.
+<fig/experiment_architecture_child.png, id=251, 571.13374pt x 207.77625pt>
+File: fig/experiment_architecture_child.png Graphic file (type png)
+<use fig/experiment_architecture_child.png>
+Package pdftex.def Info: fig/experiment_architecture_child.png  used on input line 40.
 (pdftex.def)             Requested size: 276.00105pt x 100.40675pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -764,55 +768,80 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `fig:train-process' on page 15 undefined on input line 5.
 
-(./a8_result_train.pdf_tex
-<a8_result_train.pdf, id=253, page=1, 233.52489pt x 151.48395pt>
-File: a8_result_train.pdf Graphic file (type pdf)
-<use a8_result_train.pdf, page 1>
-Package pdftex.def Info: a8_result_train.pdf , page1 used on input line 56.
+(./fig/pre_train.pdf_tex
+<fig/pre_train.pdf, id=253, page=1, 233.52489pt x 151.48395pt>
+File: fig/pre_train.pdf Graphic file (type pdf)
+<use fig/pre_train.pdf, page 1>
+Package pdftex.def Info: fig/pre_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<a8_result_train.pdf, id=254, page=2, 233.52489pt x 151.48395pt>
-File: a8_result_train.pdf Graphic file (type pdf)
-<use a8_result_train.pdf, page 2>
-Package pdftex.def Info: a8_result_train.pdf , page2 used on input line 66.
+<fig/pre_train.pdf, id=254, page=2, 233.52489pt x 151.48395pt>
+File: fig/pre_train.pdf Graphic file (type pdf)
+<use fig/pre_train.pdf, page 2>
+Package pdftex.def Info: fig/pre_train.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<a8_result_train.pdf, id=255, page=3, 233.52489pt x 151.48395pt>
-File: a8_result_train.pdf Graphic file (type pdf)
-<use a8_result_train.pdf, page 3>
-Package pdftex.def Info: a8_result_train.pdf , page3 used on input line 80.
+<fig/pre_train.pdf, id=255, page=3, 233.52489pt x 151.48395pt>
+File: fig/pre_train.pdf Graphic file (type pdf)
+<use fig/pre_train.pdf, page 3>
+Package pdftex.def Info: fig/pre_train.pdf , page3 used on input line 80.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-) (./a0_result_table_ann_valuation.tex) [15]) (./a4_conclusion.tex) (./a5_acknowledge.tex) (./elsarticle-template.bbl [16] [17 <./a0_figure_ann_for_clt_architecture_example2.png> <./a0_figure_ann_for_clt_architecture_child.png>] [18 <./a8_result_train.pdf> <./a8_result_train.pdf
+) (./tab/result_ann_valuation.tex) [15] (./fig/post_train.pdf_tex
+<fig/post_train.pdf, id=264, page=1, 231.23705pt x 151.59235pt>
+File: fig/post_train.pdf Graphic file (type pdf)
+<use fig/post_train.pdf, page 1>
+Package pdftex.def Info: fig/post_train.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 345.0pt x 226.18744pt.
+<fig/post_train.pdf, id=265, page=2, 231.23705pt x 151.59235pt>
+File: fig/post_train.pdf Graphic file (type pdf)
+<use fig/post_train.pdf, page 2>
+Package pdftex.def Info: fig/post_train.pdf , page2 used on input line 68.
+(pdftex.def)             Requested size: 345.0pt x 226.18744pt.
+<fig/post_train.pdf, id=266, page=3, 231.23705pt x 151.59235pt>
+File: fig/post_train.pdf Graphic file (type pdf)
+<use fig/post_train.pdf, page 3>
+Package pdftex.def Info: fig/post_train.pdf , page3 used on input line 81.
+(pdftex.def)             Requested size: 345.0pt x 226.18744pt.
+)) (./a4_conclusion.tex) (./a5_acknowledge.tex [16]) (./main.bbl [17 <./fig/experiment_architecture_example1.png> <./fig/experiment_architecture_example2.png> <./fig/experiment_architecture_child.png>] [18 <./fig/pre_train.pdf> <./fig/pre_train.pdf
 
-pdfTeX warning: pdflatex (file ./a8_result_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./a8_result_train.pdf
+pdfTeX warning: pdflatex (file ./fig/pre_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./fig/pre_train.pdf
 
-pdfTeX warning: pdflatex (file ./a8_result_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ./fig/pre_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./fig/post_train.pdf
+
+pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./fig/post_train.pdf
+
+pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./fig/post_train.pdf
+
+pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [19]) [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
- (./elsarticle-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
-Package rerunfilecheck Info: File `elsarticle-template.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 39EDB356EDBE5E360EFE8C2DDCB6457B;1415.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 22132 strings out of 492616
- 424254 string characters out of 6128982
- 547918 words of memory out of 5000000
- 25526 multiletter control sequences out of 15000+600000
+ 21471 strings out of 492616
+ 409477 string characters out of 6128982
+ 518395 words of memory out of 5000000
+ 24860 multiletter control sequences out of 15000+600000
  9185 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,77p,479b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,77p,464b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on elsarticle-template.pdf (20 pages, 411927 bytes).
+Output written on main.pdf (20 pages, 443011 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
+ 545 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
  96 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 

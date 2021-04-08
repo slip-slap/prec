@@ -1,6 +1,6 @@
 %% Creator: Inkscape 1.0.2 (e86c8708, 2021-01-15), www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'a8_result_train.pdf' (pdf, eps, ps)
+%% Accompanies image file 'pre_train.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,7 +53,7 @@
   \begin{picture}(1,0.64868437)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{a8_result_train.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{pre_train.pdf}}%
     \put(0.06472611,0.06300385){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-0.2\end{tabular}}}}%
     \put(0.06472611,0.13432806){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
     \put(0.06472611,0.20565226){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
@@ -63,7 +63,7 @@
     \put(0.06472611,0.49094908){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1\end{tabular}}}}%
     \put(0.06472611,0.56227328){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.2\end{tabular}}}}%
     \put(0.06472611,0.63359749){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}1.4\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=2]{a8_result_train.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{pre_train.pdf}}%
     \put(0.09414231,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-50\end{tabular}}}}%
     \put(0.16966403,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
     \put(0.24518575,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}50\end{tabular}}}}%
@@ -77,6 +77,6 @@
     \put(0.8493595,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}450\end{tabular}}}}%
     \put(0.92488121,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500\end{tabular}}}}%
     \put(1.00040296,0.03721431){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}550\end{tabular}}}}%
-    \put(0,0){\includegraphics[width=\unitlength,page=3]{a8_result_train.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{pre_train.pdf}}%
   \end{picture}%
 \endgroup%
