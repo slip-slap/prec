@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  8 APR 2021 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  8 APR 2021 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,9 +793,9 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 Overfull \vbox (1.88446pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 74.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 72.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 6.64998pt on input line 74.
+(Font)              scaled to size 6.64998pt on input line 72.
  [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -817,9 +817,9 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 11.39996pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 166.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 170.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 166.
+(Font)              scaled to size 9.49997pt on input line 170.
  [2]) (./src/a1_introduction_failure_criteria.tex [3 <./image/lamina_local_global_axes.png>]
 Overfull \hbox (3.04518pt too wide) in paragraph at lines 108--110
  [][] 
@@ -831,17 +831,17 @@ Overfull \hbox (20.38516pt too wide) in alignment at lines 20--20
  []
 
 ) [5]) (./src/a3_result.tex
-<2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png, id=171, 462.528pt x 346.896pt>
+<2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png, id=172, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png>
 Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png  used on input line 21.
 (pdftex.def)             Requested size: 193.2319pt x 144.92252pt.
-<2020-11-10-pre-image/two_distinct_angle_angle_change.png, id=172, 462.528pt x 346.896pt>
+<2020-11-10-pre-image/two_distinct_angle_angle_change.png, id=173, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angle_angle_change.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angle_angle_change.png>
 Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_angle_change.png  used on input line 25.
 (pdftex.def)             Requested size: 193.2319pt x 144.92252pt.
-<2020-11-10-pre-image/two_distinct_angler_number_change.png, id=173, 462.528pt x 346.896pt>
+<2020-11-10-pre-image/two_distinct_angler_number_change.png, id=174, 462.528pt x 346.896pt>
 File: 2020-11-10-pre-image/two_distinct_angler_number_change.png Graphic file (type png)
 <use 2020-11-10-pre-image/two_distinct_angler_number_change.png>
 Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angler_number_change.png  used on input line 29.
@@ -872,7 +872,10 @@ Overfull \hbox (20.65207pt too wide) in paragraph at lines 127--143
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
-) (./src/a4_conclusion.tex [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]) (./src/a5_acknowledgment.tex) (./main.bbl
+) (./src/a4_conclusion.tex) (./src/a5_acknowledgment.tex) (./main.bbl [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8])
@@ -891,13 +894,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
 Here is how much of TeX's memory you used:
  21078 strings out of 492616
  400426 string characters out of 6128982
- 504812 words of memory out of 5000000
+ 503812 words of memory out of 5000000
  24426 multiletter control sequences out of 15000+600000
  49637 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,22n,72p,436b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 544068 bytes).
+Output written on main.pdf (9 pages, 543711 bytes).
 PDF statistics:
  318 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams
