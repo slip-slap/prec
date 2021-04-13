@@ -1,13 +1,16 @@
-\section{Optimum Design of a Laminate Composite}
+\section{Genetic algorithm model}
 
-\input{fig/chapter3_NGAM.tex}
-\subsection{Genetic Algorithm}
-The GA starts off with multiple individuals with limited chromosome lengths, in which maybe none of
-these individuals fulfill the safety factor constraint. The GA is assumed to derive appropriate
-offspring based on the initial population as the GA continues. The classic way to handle the constrained
-search of the GA is either to introduce repair strategies or use a penalty function. Here, a new
-approach is developed to address the constrained GA search problem by modifying the selection
-strategy.
+\input{fig/chapter3_ngam.tex}
+\input{fig/chapter3_ogam.tex}
+The GA starts off with multiple individuals with limited chromosome lengths, in
+which maybe none of these individuals fulfill the constraints. The GA is
+assumed to derive appropriate offspring based on the initial population as the
+GA continues. The classic way to handle the constrained search of the GA is
+either to introduce repair strategies or use a penalty function. Figure
+\ref{fig:old_ga_model} shows the classic flow chart of a GA framework which
+includes selection, crossover and mutation operators. However, GA is originally
+proposed to solve unconstrained problems, therefore, a new approach is
+developed to address the constrained GA search problem in an unconstrained way. 
 
 Because of the existence of constraints, the population can be sorted by the
 fitness (obtained by the objective function) but can also be sorted by the
@@ -29,12 +32,38 @@ group.  The number of active individuals, potential individuals and proper
 individuals are called, respectively, active number, potential numbers and
 proper number. 
 
-Figure \ref{fig:model} shows the flow chart of the proposed GA. First, the
-population are divided into three groups, active group, potential group, and
-proper group by fitness and constraint functions. Second, select appropriate
-number of individuals from each group as parents, and the selection strategy
-for every group doesn't need to be the same. 
+Each group in the parents population has its own role in the searching
+process.  The problem within traditional GA is premature and has weak local
+search ability, therefore, traditional GAs are more likely to get stuck in a
+local optimum. To prevent the GA from experiencing early convergence and to
+improve the local search performance, the active group is proposed to overcome
+this problem. As its name suggests, this group would always live in the
+population.  Because both active individual's fitness and constraint value are small,
+each individual can be treated as a independent gene clip. So their existance
+enriches the gene clip varity of mating pool. The offspring of two active
+individuals are more likely to be an active individual, which can maintain the
+active group.
 
+For an individual in the potential group, it doesn't satisfy constraint,
+however, it's supposed to evolve into a proper individual after multiple
+generations by modifying its chromosome structure or length. The crossover
+operation could happen between a potential individual with an active
+individual, or a potential individual or a proper individual. The child of an
+active individual and a potential is more likely to be a potential individual,
+and this active individual could inject new gene clip into this potential
+individual, therefore providing a new evolution direction. 
+
+
+An proper individual means a feasible solution, it fulfills all the constraints. 
+However, there are still some drawbacks within it, for example, its fitness is low.
+The crossover operation  could happen between a proper individual and any other individuals.
+
+
+Figure \ref{fig:model} shows the flow chart of new GA. First, the
+population are divided into three groups, active group, potential group, and
+proper group by above mentioned method. Second, select appropriate number of
+individuals from each group as parents, and the various selection scheme can be
+taken for each group. 
 
 
 At the beginning of the GA, no individual in the population is appropriate, which means the number
@@ -47,96 +76,4 @@ potential number and proper number. To differentiate the current selection metho
 the following, the current GA is called the basic GA. In the following experiment, 50 percent of the
 parents are potential individuals, and 50 percent of the parents are proper individuals.
 
-The problem with this basic GA is premature and has weak local search ability; therefore, basic GAs are more likely
-to get stuck in a local optimum. Therefore, to prevent the GA from experiencing early convergence and to improve the
-local search performance, a new selection method is proposed, which ignores whether the
-individuals satisfy the constraint or not and ranks individuals by their fitness. Individuals
-selected by this method are called active individuals because they are assumed to always be in the
-population. GAs with these active individuals are called improved GAs. In the improved GA, the parents
-consist of three parts: active individuals, potential individuals, and proper individuals. In the
-following experiment, 20 percent of the parent population are active individuals, 30 percent of the
-parents are potential individuals, and the rest are proper individuals.
 
-In the present study, the relevant parameters of the GA are shown in Table \ref{tab:ga}. The design
-variables are the materials, number of layers, and ply orientation restricted to a discrete set of
-angles ($0,\pm 45 \text{ and } 90 \text{ degrees} $). The possible materials are graphite/epoxy,
-carbon/epoxy, and glass/epoxy and are represented by codes 0, 1 and 2, respectively.
-
-
-\begin{table}[!ht]
-\centering
-\caption{GA parameters}
-\begin{adjustbox}{width=0.45\textwidth}
-\label{tab:ga}
-\begin{tabular}{cc}
-\toprule
-Parameter				&  Value  \\
-\midrule
-Seed					& 1       \\
-Population size			& 20      \\
-Initial length range	& [3-15]  \\
-Encoding				& Integer  \\
-Crossover strategy		& One-point \\
-Mutation strategy		& Mass mutation \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
-
-%\begin{figure*}[!htb]
-%  \includegraphics[width=\linewidth]{ga_operator}
-%\caption{GA Operators\label{GA:operator}}
-%\end{figure*}
-
-The laminate chromosome is represented by a double-gene string that can be divided into two parts:
-one part represents the angles, and the other part represents the materials (as shown in Figure
-\ref{GA:operator}($P_1$)) . To maintain the diversity of the population, single-point crossover is
-taken during the evolution process. The break points in the string are randomly chosen, and one of
-the offspring of parent 1 (as shown in Figure \ref{GA:operator}($P_1$)) and parent 2 (as shown in
-Figure \ref{GA:operator}($P_2$)) is obtained by combining the gene segments $P1_o$ and $P2_o$ and
-$P1_m$ and $P2_m$, respectively. The gene code of the offspring laminate is
-$[\text{+}45,\text{-}45,\text{-}45,\text{-}45,\text{-}45,\text{-}45,\text{-}45,0,1,0,1,1,0,1,0]$.
-
-
-To prevent the search from becoming stuck in a local optimum, mutation is used to randomly change the
-gene in the chromosome, and the offspring after the mutation operator is as shown in Figure
-\ref{GA:operator}
-
-The GA is a stochastic procedure that heavily depends on the generator of pseudorandom numbers. In
-the present study, the standard Wichmann-Hill generator is used in the algorithm, which combines
-three pure multiplicative congruent generators of moduli 30269, 30307 and 30323. The seed used
-in this paper is 1.
-
-\subsection{Design Problem I}
-
-The aim is to minimize the mass of a laminate composite for a targeted strength
-ratio based on the Tsai-wu failure theory. The design variable are the ply angles and the
-number of layers.
-
-Find: $\{\theta_k, n\}$ $\theta_k \in \{ 0,\text{+}45,\text{-}45,90\}$
-
-Minimize: weight
-
-Subject to: strength ratio and first ply failure constraint
-
-
-\subsection{Design Problem II}
-The aim is to minimize the weighted cost and weight of hybrid composite
-laminates under various loading cases, so the design variable not only includes
-the ply angles and number of layers but also the material of each lamina.
-
-
-Find: $\{\theta_k,\text{mat}_k, n\}$ $\theta_k \in \{ 0,\text{+}45,\text{-}45,90\}$ $\text{mat}_k \in \{CA, GR, GL \}$
-
-Minimize:
-\begin{equation}
-	F=\frac{\text { Cost }}{C_{\text {min }}}+\frac{\text { Weight }}{W_{\text {min }}}
-\end{equation}
-
-Subject to: strength ratio and first ply failure constraint
-
-
-Here, CA, GF, and GL represent carbon/epoxy, graphite/epoxy, and glass/epoxy, and
-$C_{\text{min}}$ and $W_{\text{min}}$ represent the cost and
-weight corresponding to the laminates with a minimum cost and minimum weight
-obtained from previous problem.
