@@ -11,14 +11,6 @@ import ga_constant_variable as GCV
 import genetic_algorithm as my_ga
 from collections import Counter
 
-
-# GA
-#POPULATION_NUMBER = 10 
-#MUTATION_PROBABILITY=0.8
-#CROSSOVER_PROBABLITY=0.8
-#ELITIST_PERCENT=0.40
-
-
 def get_fitness(ind):
     fitness = ind.mass
     #fitness = ind.cost
@@ -73,13 +65,14 @@ def get_laminate_individual(length):
     return temp_ind
 
 def get_initial_population():
-    np.random.seed(0)
+    #np.random.seed(0)
     initial_population = []
     while(len(initial_population)<GCV.POPULATION_NUMBER):
         length = int(np.random.randint(low=GCV.CHROMOSOME_LENGTH_LOWER_BOUND, \
             high=GCV.CHROMOSOME_LENGTH_UPPER_BOUND, size=1))
         temp_ind = get_laminate_individual(length)
-        initial_population.append(temp_ind)
+        if(len(set(temp_ind.angle_list))==2):
+            initial_population.append(temp_ind)
     return initial_population
 
 def get_concerter_angle(angle):
@@ -107,7 +100,7 @@ def save_to_output(result_fitness, result_strength_ratio, \
         else:
             number_of_angle_90 = dict_result[key]
 
-    with open("main_result.py","a") as result_handler:
+    with open("result.py","a") as result_handler:
         result_handler.write("##################################")
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_value=  " + str(GCV.MUTATION_EFFICIENT))
@@ -172,8 +165,7 @@ def crossover_and_mutation(ga, parents, number_of_offspring):
         offspring[i].fitness =  get_fitness(offspring[i]);
     return offspring;
 
-
-if __name__ == "__main__":
+def GA():
     result_fitness  = []
     result_times = []
     result_strength_ratio = []
@@ -245,7 +237,61 @@ if __name__ == "__main__":
             else:
                 result_number_angle90.append(dict_result[key])
 
-    save_to_output(result_fitness, result_strength_ratio, \
-            population[best_individual], result_active_group, \
-            result_potential_group, result_proper_group,result_number_angle0, result_number_angle90)
+    return  {'fitness':result_fitness, 'strength_raito':result_strength_ratio, \
+            'best_individual':population[best_individual], 'active_group':result_active_group, \
+            'potential_group':result_potential_group, 'proper_group':result_proper_group, \
+            'number_of_angle0':result_number_angle0, 'number_of_angle90':result_number_angle90}
+
+def save_individual(ind):
+    with open("result_ind.py","a") as result_handler:
+        result_handler.write("##########begin########################")
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(ind.cost))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_mass= "+ str(ind.mass))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(ind.strength_raito))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(ind.material_list)))
+        result_handler.write("\n")
+        result_handler.write("##########end########################")
+        result_handler.write("\n")
+
+
+if __name__ == "__main__":
+    RUN_BATCH = 5
+    result_fitness  = [0]
+    result_strength_ratio = [0]
+    best_mass = 1000000
+    best = []
+    worst_mass = -1000000
+    best = []
+    for i in range(RUN_BATCH):
+        one_time = GA()
+        result_fitness = np.add(result_fitness, one_time['fitness'])
+        if(one_time['best_individual'].mass < best_mass):
+            best_mass = one_time['best_individual'].mass
+            best = one_time['best_individual']
+        if(one_time['best_individual'].mass > worst_mass):
+            worst_mass = one_time['best_individual'].mass
+            worst = one_time['best_individual']
+        result_fitness = np.add(result_strength_ratio, one_time['fitness'])
+        result_strength_ratio = np.add(result_strength_ratio, one_time['strength_raito'])
+        save_to_output(one_time['fitness'], one_time['strength_raito'], one_time['best_individual'], 
+                       one_time['active_group'],one_time['potential_group'],one_time['proper_group'],
+                       one_time['number_of_angle0'],one_time['number_of_angle90'])
+    save_individual(best)
+    save_individual(worst)
+
+    with open("result_ind.py","a") as result_handler:
+        result_handler.write("##########average########################")
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,1)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_ratio= "+ str(np.divide(result_strength_ratio,RUN_BATCH)))
+        result_handler.write("\n")
+                    
+
 
