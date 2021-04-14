@@ -1,6 +1,6 @@
 \begin{figure}
 	\centering
-		\begin{tikzpicture}[thick, scale=0.6, every node/.style={transform shape}]
+		\begin{tikzpicture}[thick, scale=0.8, every node/.style={transform shape}]
 			\tikzstyle{rec} = [rectangle, minimum width=4cm, minimum height=0.8cm,
 			text centered, draw=black]
 			\tikzstyle{subgroup} = [rectangle, minimum width=1.5cm, minimum height=0.6cm,
@@ -33,10 +33,8 @@
 			\draw[->] (population.south) -- (proper_group_1.north);
 			\draw[->] (proper_group_1.south) -- (proper_group_2.north);
 			% crossover
-			\node (after_cross_over) at ($(potential_group_2.south)+(0cm, -2.0cm)$) [rec] {};
+			\node (after_cross_over) at ($(potential_group_2.south)+(0cm, -2.0cm)$) [rec] {offspring};
 			\node  at ($(after_cross_over.north)+(0cm, 1.0cm)$)  {crossover};
-			\draw[-] ($(after_cross_over.south)+(-0.5cm,0cm)$) --
-				($(after_cross_over.north)+(-0.5cm,0cm)$);
 			\draw[->] (active_group_2.south) -- (after_cross_over.north);
 			\draw[->] (potential_group_2.south) -- (after_cross_over.north);
 			\draw[->] (proper_group_2.south) -- (after_cross_over.north);

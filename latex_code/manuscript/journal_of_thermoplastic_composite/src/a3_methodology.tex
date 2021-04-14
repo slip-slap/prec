@@ -59,6 +59,12 @@ However, there are still some drawbacks within it, for example, its fitness is l
 The crossover operation  could happen between a proper individual and any other individuals.
 
 
+The mutation operator for active group is different from the potential group
+and proper group, becasue their roles in the searching process are different.
+The target of the potential group and proper group are to obtain a feasible
+solution, however, the role of active group is to maintain the variety of gene
+clip in the mating pool. 
+
 Figure \ref{fig:model} shows the flow chart of new GA. First, the
 population are divided into three groups, active group, potential group, and
 proper group by above mentioned method. Second, select appropriate number of
@@ -66,14 +72,13 @@ individuals from each group as parents, and the various selection scheme can be
 taken for each group. 
 
 
-At the beginning of the GA, no individual in the population is appropriate, which means the number
-of proper individuals is nearly zero. Therefore, the GA can be divided into two stages according to whether
-proper individuals are generated during the search process. During the initial stages, the number of
-potential individuals gradually decreases from the maximum (which is the parent population) to the potential
-number, while the number of proper individuals increases from zero to the proper number as the GA
-continues. After the initial stage, both groups converge to the
-potential number and proper number. To differentiate the current selection methods from
-the following, the current GA is called the basic GA. In the following experiment, 50 percent of the
-parents are potential individuals, and 50 percent of the parents are proper individuals.
+The searching process can be divided into two phases according to whether
+proper individuals are generated.  During the initial stage, no individual in
+the population is appropriate, which means the number of individuals in the
+proper group is zero. Both active group and potential group are full. After a
+couple of generations, some proper individuals could be produced. Then, GA
+comes to its second phase, the number of proper individuals begins to increase,
+finally, the number in the proper group reaches its upper bound. During the
+last phases, 
 
 

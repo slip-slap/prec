@@ -1,6 +1,0 @@
-PWD /Users/kismet/Documents/github/prec/latex_code/manuscript/journal_of_thermoplastic_composite/fig
-INPUT /usr/local/texlive/2018/texmf.cnf
-INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT chapter3_NGAM.tex
-OUTPUT chapter3_NGAM.log

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  13 APR 2021 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  14 APR 2021 16:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -875,78 +875,62 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 251.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 251.
- [2]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [3 <.//fig/lamina_local_global_axes.png>]) (./src/a4_experiment.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4] (./table/ga_parameters.tex)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-
-
-LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 19.
-
-
-LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 20.
-
-
-LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 27.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+ [2]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [3 <.//fig/lamina_local_global_axes.png>] [4]) (./src/a4_experiment.tex (./fig/ga_operator.tex) (./table/ga_parameters.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []\OT1/ptm/m/n/10 Find: $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 ^^R[]; [][]; n\OMS/cmsy/m/n/10 g$ $\OML/cmm/m/it/10 ^^R[] \OMS/cmsy/m/n/10 2 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 90\OMS/cmsy/m/n/10 g$ $[][] 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 []\OT1/ptm/m/n/10 Here, CA, GF, and GL rep-re-sent car-bon/epoxy,
  []
 
-<fig/group_number.png, id=180, 462.528pt x 346.896pt>
+<fig/group_number.png, id=185, 462.528pt x 346.896pt>
 File: fig/group_number.png Graphic file (type png)
 <use fig/group_number.png>
-Package pdftex.def Info: fig/group_number.png  used on input line 72.
+Package pdftex.def Info: fig/group_number.png  used on input line 76.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
-<fig/fitness_strength_ratio.png, id=181, 462.528pt x 346.896pt>
+<fig/fitness_strength_ratio.png, id=186, 462.528pt x 346.896pt>
 File: fig/fitness_strength_ratio.png Graphic file (type png)
 <use fig/fitness_strength_ratio.png>
-Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 77.
+Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 81.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
-(./table/material.tex) (./table/comparsion.tex) [5 <./fig/group_number.png> <./fig/fitness_strength_ratio.png>]
+[5 <./fig/group_number.png>] (./table/material.tex) (./table/comparsion.tex)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 118.
+
+LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 122.
 
 (./table/optimum_layup_nx_ny.tex)
 
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 124.
+LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 128.
 
 
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 124.
+LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 128.
 
 
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 125.
+LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 129.
 
 
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 141.
+LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 145.
 
 
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 141.
+LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 145.
 
 
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 142.
+LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 146.
 
 
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 151.
+LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 155.
 
 
-LaTeX Warning: Reference `tab:NxNyNz' on page 6 undefined on input line 156.
+LaTeX Warning: Reference `tab:NxNyNz' on page 6 undefined on input line 160.
 
-) (./src/a5_conclusion.tex
+) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl [6 <./fig/fitness_strength_ratio.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]) (./src/a6_acknowledgment.tex) (./main.bbl
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
@@ -959,7 +943,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 98A1FAC6B9D5A9327936CDAD6DAD8496;842.
+(rerunfilecheck)             Checksum: 0B8DDCD2C476689A02B0CFE81F844722;842.
 
 
 LaTeX Warning: There were undefined references.
@@ -967,18 +951,18 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 22160 strings out of 492616
- 418265 string characters out of 6128982
- 518201 words of memory out of 5000000
- 25474 multiletter control sequences out of 15000+600000
+ 22248 strings out of 492616
+ 419681 string characters out of 6128982
+ 518245 words of memory out of 5000000
+ 25558 multiletter control sequences out of 15000+600000
  48011 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,72p,464b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,18n,72p,464b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 398523 bytes).
+Output written on main.pdf (8 pages, 401506 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 271 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
