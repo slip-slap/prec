@@ -9,15 +9,19 @@ import laminate_multiple_component as lmc
 import lamina_mass_and_cost as lmac
 import ga_constant_variable as GCV
 import genetic_algorithm as my_ga
-from collections import Counter
+import collections
+
+def counter_item(a):
+    if(isinstance(a,list)==False):
+        print("input argument is not a list")
+        return
+    if(len(a)==0):
+        print("element length is zero")
+        return
+    return  dict(collections.Counter(a))
 
 def get_fitness(ind):
     fitness = ind.mass
-    #fitness = ind.cost
-    #fitness = np.divide(ind.mass, 0.636) + np.divide(ind.cost, 23)
-    #fitness = np.divide(ind.mass, 1.377) + np.divide(ind.cost, 80)
-    #fitness = np.divide(ind.mass, 0.318) + np.divide(ind.cost, 12)
-    #fitness = np.divide(ind.mass, 1.271) + np.divide(ind.cost, 105)
     return fitness
 
 def get_angle_height_material_list(length):
@@ -91,7 +95,7 @@ def save_to_output(result_fitness, result_strength_ratio, \
         my_best_individual,result_active_group, result_potential_group, \
         result_proper_group,result_number_angle0, result_number_angle90):
 
-    dict_result =  dict(Counter(my_best_individual.angle_list))
+    dict_result =  dict(collections.Counter(my_best_individual.angle_list))
     number_of_angle_0 = 0
     number_of_angle_90 = 0
     for key in dict_result:
@@ -230,7 +234,7 @@ def GA():
         #print("curent fitness: " + str(current_fitness) + " strength_raito " + \
         #        str(population[best_individual].strength_raito))
         print(population[best_individual])
-        dict_result =  dict(Counter(population[best_individual].angle_list))
+        dict_result =  dict(collections.Counter(population[best_individual].angle_list))
         for key in dict_result:
             if(key==0):
                 result_number_angle0.append(dict_result[key])
@@ -246,11 +250,13 @@ def save_individual(ind):
     with open("result_ind.py","a") as result_handler:
         result_handler.write("##########begin########################")
         result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(ind.cost))
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_layup= "+ str(counter_item(ind.angle_list)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(ind.strength_raito))
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_mass= "+ str(ind.mass))
         result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(ind.strength_raito))
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(ind.cost))
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(ind.material_list)))
         result_handler.write("\n")
@@ -259,27 +265,31 @@ def save_individual(ind):
 
 
 if __name__ == "__main__":
-    RUN_BATCH = 5
+    RUN_BATCH = 50 
     result_fitness  = [0]
     result_strength_ratio = [0]
+    total_sr = 0
+    total_mass = 0
+    total_cost = 0
+    total_layer = 0
     best_mass = 1000000
     best = []
     worst_mass = -1000000
     best = []
     for i in range(RUN_BATCH):
         one_time = GA()
-        result_fitness = np.add(result_fitness, one_time['fitness'])
         if(one_time['best_individual'].mass < best_mass):
             best_mass = one_time['best_individual'].mass
             best = one_time['best_individual']
         if(one_time['best_individual'].mass > worst_mass):
             worst_mass = one_time['best_individual'].mass
             worst = one_time['best_individual']
-        result_fitness = np.add(result_strength_ratio, one_time['fitness'])
+        total_sr = total_sr + one_time['best_individual'].strength_raito
+        total_mass = total_mass + one_time['best_individual'].mass
+        total_cost = total_cost + one_time['best_individual'].cost
+        total_layer = total_layer + len(one_time['best_individual'].material_list)
+        result_fitness = np.add(result_fitness, one_time['fitness'])
         result_strength_ratio = np.add(result_strength_ratio, one_time['strength_raito'])
-        save_to_output(one_time['fitness'], one_time['strength_raito'], one_time['best_individual'], 
-                       one_time['active_group'],one_time['potential_group'],one_time['proper_group'],
-                       one_time['number_of_angle0'],one_time['number_of_angle90'])
     save_individual(best)
     save_individual(worst)
 
@@ -292,6 +302,18 @@ if __name__ == "__main__":
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_ratio= "+ str(np.divide(result_strength_ratio,RUN_BATCH)))
         result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_strength_ratio= "+ str(np.divide(total_sr,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_mass= "+ str(np.divide(total_mass,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_cost= "+ str(np.divide(total_cost,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_layer= "+ str(np.divide(total_layer,RUN_BATCH)))
+        result_handler.write("\n")
                     
 
-
+"""
+save_to_output(one_time['fitness'], one_time['strength_raito'], one_time['best_individual'], 
+               one_time['active_group'],one_time['potential_group'],one_time['proper_group'],
+               one_time['number_of_angle0'],one_time['number_of_angle90'])
+"""

@@ -938,3 +938,303 @@ number_of_angle_90= 30
 number_of_angle_0= 32
 #stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
 ##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 0.9101400000000001, 1.17018, 1.3002, 1.43022, 1.56024, 1.56024, 1.8202800000000001, 1.9503000000000001, 1.9503000000000001, 1.9503000000000001, 2.08032, 2.34036, 2.47038, 2.47038, 2.73042, 2.99046, 3.12048, 3.2505, 3.38052, 3.51054]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.2626184438203425, 0.3211131389665001, 0.3696500691347193, 0.3796378075125913, 0.4281508519553334, 0.4281508519553334, 0.44825414599191327, 0.49672215656595625, 0.5738057133937913, 0.5738057133937913, 0.6223894327135767, 0.6422262779330002, 0.6522411206086445, 0.6907568135332167, 0.7107797164175322, 0.7693232120160126, 0.7793985720298261, 0.8278702609432617, 0.914820286515149, 0.886419968673709]
+coeff_low_cost= 54
+coeff_low_mass= 3.51054
+coeff_low_strength_raito= 0.886419968673709
+coeff_low_number_of_layer= 54
+coeff_low_result_number_angle0= [10, 12, 14, 14, 16, 16, 16, 18, 22, 22, 24, 24, 24, 26, 26, 28, 28, 30, 34, 32]
+coeff_low_result_number_angle90= [4, 6, 6, 8, 8, 8, 12, 12, 8, 8, 8, 12, 14, 12, 16, 18, 20, 20, 18, 22]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 22
+number_of_angle_0= 32
+#stacking sequence= [90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.84513, 0.9101400000000001, 1.04016, 0.9101400000000001, 1.3002, 1.56024, 1.69026, 1.8202800000000001, 2.08032, 2.34036, 2.47038, 2.6004, 2.6004, 2.73042, 3.12048, 3.2505, 3.2505, 3.6405600000000002, 3.6405600000000002, 3.6405600000000002, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2771996142093387, 0.2626184438203425, 0.27260387875662745, 0.30154153784589816, 0.3311481043773042, 0.42815085195533303, 0.4381762494004839, 0.5252368876406843, 0.6223894327135768, 0.6808281614802915, 0.7294016439226816, 0.7779867908919711, 0.8559390108207046, 0.8654864340008268, 0.9335841490703667, 0.9821791919408613, 0.9821791919408613, 1.0504737752813706, 1.0891815072487614, 1.1669949584069848, 1.1863776148120797]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 1.1863776148120797
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [10, 10, 12, 12, 16, 16, 20, 24, 26, 28, 30, 34, 34, 36, 38, 38, 40, 42, 46, 46]
+coeff_low_result_number_angle90= [4, 6, 2, 8, 8, 10, 8, 8, 10, 10, 10, 6, 8, 12, 12, 12, 16, 14, 10, 14]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 14
+number_of_angle_0= 46
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 1.04016, 1.3002, 1.3002, 1.56024, 1.69026, 1.69026, 2.21034, 2.34036, 2.47038, 2.73042, 2.73042, 3.12048, 3.38052, 3.51054, 3.6405600000000002, 3.6405600000000002, 3.9006000000000003, 4.03062, 4.16064, 4.42068]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.3111947163567887, 0.36965006913471904, 0.36965006913471904, 0.4667920745351828, 0.47668462463013195, 0.47668462463013195, 0.5169283608411646, 0.5653696252386491, 0.6138258893594734, 0.7107797164175329, 0.7492639909218336, 0.8178116362698832, 0.8763524988009694, 0.9248447712618184, 0.9733465967991648, 1.0118677487436916, 1.0703771298883349, 1.1189050164932324, 1.167440810230143, 1.2259423640697622]
+coeff_low_cost= 68
+coeff_low_mass= 4.42068
+coeff_low_strength_raito= 1.2259423640697622
+coeff_low_number_of_layer= 68
+coeff_low_result_number_angle0= [12, 14, 14, 18, 18, 18, 18, 20, 22, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46]
+coeff_low_result_number_angle90= [4, 6, 6, 6, 8, 8, 16, 16, 16, 16, 14, 18, 20, 20, 20, 18, 20, 20, 20, 22]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 22
+number_of_angle_0= 46
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 0.9101400000000001, 0.9101400000000001, 1.43022, 1.56024, 1.43022, 1.8202800000000001, 2.08032, 2.21034, 2.21034, 2.47038, 2.47038, 2.73042, 2.86044, 3.12048, 3.12048, 3.2505, 3.38052, 3.6405600000000002, 3.6405600000000002, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.30154153784589816, 0.3015415378458982, 0.30297228576182866, 0.313147893285131, 0.34124453989204157, 0.37170536606483234, 0.39207992616335113, 0.47865694594479835, 0.47865694594479835, 0.4990003170992923, 0.5372190443043169, 0.5575580490972489, 0.6059445715236575, 0.6262957865702621, 0.6262957865702622, 0.6364808597382696, 0.6466708594881274, 0.7434107321296659, 0.7434107321296659, 0.8019692040804327]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 0.8019692040804327
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [12, 12, 10, 10, 12, 12, 12, 16, 16, 16, 18, 18, 20, 20, 20, 20, 20, 24, 24, 26]
+coeff_low_result_number_angle90= [2, 2, 12, 14, 10, 16, 20, 18, 18, 22, 20, 24, 24, 28, 28, 30, 32, 32, 32, 34]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 34
+number_of_angle_0= 26
+#stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 1.04016, 1.3002, 1.56024, 1.69026, 1.8202800000000001, 1.9503000000000001, 1.9503000000000001, 2.34036, 2.47038, 2.47038, 2.6004, 2.86044, 2.99046, 3.12048, 3.38052, 3.6405600000000002, 3.6405600000000002, 3.9006000000000003, 4.16064, 4.16064]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.3502393395323779, 0.3696500691347193, 0.38969928601491216, 0.4381762494004839, 0.44825414599191327, 0.49672215656595625, 0.5738057133937915, 0.5653696252386491, 0.6138258893594736, 0.6138258893594736, 0.662296208754609, 0.7592756150251835, 0.8077831700914551, 0.856301703910668, 0.9533692492602651, 1.0504737752813706, 1.0891815072487614, 1.1476114267875852, 1.167440810230143, 1.2060643301430758]
+coeff_low_cost= 64
+coeff_low_mass= 4.16064
+coeff_low_strength_raito= 1.2060643301430758
+coeff_low_number_of_layer= 64
+coeff_low_result_number_angle0= [14, 14, 14, 16, 16, 18, 22, 20, 22, 22, 24, 28, 30, 32, 36, 40, 42, 44, 44, 46]
+coeff_low_result_number_angle90= [2, 6, 10, 10, 12, 12, 8, 16, 16, 16, 16, 16, 16, 16, 16, 16, 14, 16, 20, 18]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 18
+number_of_angle_0= 46
+#stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 0.9101400000000001, 0.9101400000000001, 1.3002, 1.56024, 1.56024, 1.8202800000000001, 2.08032, 2.08032, 2.08032, 2.34036, 2.47038, 2.73042, 2.73042, 2.99046, 2.99046, 3.12048, 3.12048, 3.51054, 3.6405600000000002, 3.6405600000000002]
+coeff_low_strength_ratio_= [0.30154153784589816, 0.30154153784589816, 0.3015415378458982, 0.3311481043773042, 0.35137734515616065, 0.3896992860149121, 0.44825414599191327, 0.4685031268748811, 0.5452077575132548, 0.5452077575132548, 0.6422262779330002, 0.6907568135332165, 0.6340524962549973, 0.7878553314610268, 0.7309379820517758, 0.9238035128665999, 0.9335841490703664, 0.8948853258908765, 1.0793938864906756, 1.1280125258140092, 1.1280125258140092]
+coeff_low_cost= 56
+coeff_low_mass= 3.6405600000000002
+coeff_low_strength_raito= 1.1280125258140092
+coeff_low_number_of_layer= 56
+coeff_low_result_number_angle0= [12, 12, 12, 12, 14, 16, 16, 20, 20, 24, 26, 22, 30, 26, 36, 36, 34, 42, 44, 44]
+coeff_low_result_number_angle90= [2, 2, 8, 12, 10, 12, 16, 12, 12, 12, 12, 20, 12, 20, 10, 12, 14, 12, 12, 12]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 12
+number_of_angle_0= 44
+#stacking sequence= [90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.84513, 1.04016, 1.04016, 1.3002, 1.56024, 1.43022, 1.9503000000000001, 2.08032, 2.21034, 2.34036, 2.47038, 2.6004, 2.73042, 2.86044, 2.86044, 3.12048, 3.38052, 3.51054, 3.6405600000000002, 3.7705800000000003, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2771996142093387, 0.31119471635678864, 0.3111947163567887, 0.4084233857279477, 0.38969928601491244, 0.45706726315649704, 0.5738057133937917, 0.6223894327135773, 0.7099281958547137, 0.7195959243271163, 0.8466256518943182, 0.8559390108207047, 0.9440836955292686, 0.9928190665068797, 0.9928190665068797, 1.050718018597135, 1.1481390720198372, 1.2365443908657767, 1.2852972000893121, 1.3340520860423524, 1.4229873390028387]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 1.4229873390028387
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [12, 12, 16, 14, 18, 22, 24, 28, 28, 34, 34, 38, 40, 40, 42, 46, 50, 52, 54, 58]
+coeff_low_result_number_angle90= [4, 4, 4, 10, 4, 8, 8, 6, 8, 4, 6, 4, 4, 4, 6, 6, 4, 4, 4, 2]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 2
+number_of_angle_0= 58
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 1.04016, 1.3002, 1.43022, 1.56024, 1.69026, 1.8202800000000001, 2.08032, 2.08032, 2.47038, 2.6004, 2.6004, 2.86044, 2.99046, 3.12048, 3.2505, 3.38052, 3.51054, 3.6405600000000002, 3.7705800000000003, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.3111947163567885, 0.3696500691347192, 0.41821077927076616, 0.5057266590262576, 0.5543992284186761, 0.5640062629070028, 0.6612761728197695, 0.6612761728197695, 0.6522411206086447, 0.662296208754609, 0.7393001382694391, 0.7592756150251837, 0.8077831700914553, 0.8563017039106681, 0.9048305901868787, 0.9533692492602653, 1.0019171438546928, 1.0118677487436918, 1.060404822178033, 1.1089502074041597]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 1.1089502074041597
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [12, 14, 16, 20, 22, 22, 26, 26, 24, 24, 28, 28, 30, 32, 34, 36, 38, 38, 40, 42]
+coeff_low_result_number_angle90= [4, 6, 6, 4, 4, 6, 6, 6, 14, 16, 12, 16, 16, 16, 16, 16, 16, 18, 18, 18]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 18
+number_of_angle_0= 42
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.78012, 1.04016, 1.3002, 1.56024, 1.56024, 1.8202800000000001, 1.8202800000000001, 1.9503000000000001, 2.34036, 2.47038, 2.6004, 2.73042, 2.73042, 2.73042, 2.86044, 3.12048, 3.2505, 3.38052, 3.6405600000000002, 3.7705800000000003, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.25286332951312945, 0.27260387875662745, 0.3696500691347191, 0.3896992860149121, 0.42815085195533314, 0.525236887640684, 0.525236887640684, 0.5351885649441662, 0.5270660177342412, 0.5372190443043181, 0.5856289085936013, 0.6340524962549979, 0.6723812189878705, 0.6723812189878705, 0.7592756150251833, 0.7027546903123226, 0.789495806226818, 0.8379527475433971, 0.9733465967991646, 1.0218575241311656, 1.0703771298883349]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 1.0703771298883349
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [10, 14, 14, 16, 20, 20, 20, 18, 18, 20, 22, 24, 24, 28, 24, 28, 30, 36, 38, 40]
+coeff_low_result_number_angle90= [6, 6, 10, 8, 8, 8, 10, 18, 20, 20, 20, 18, 18, 16, 24, 22, 22, 20, 20, 20]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 20
+number_of_angle_0= 40
+#stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 0.9101400000000001, 1.17018, 1.17018, 1.3002, 1.43022, 1.69026, 1.69026, 2.08032, 2.21034, 2.34036, 2.6004, 2.73042, 2.86044, 3.12048, 3.38052, 3.6405600000000002, 3.51054, 3.9006000000000003, 4.03062, 4.16064]
+coeff_low_strength_ratio_= [0.30154153784589816, 0.30154153784589816, 0.359797962163558, 0.359797962163558, 0.3696500691347191, 0.4182107792707659, 0.4766846246301315, 0.5543992284186766, 0.5452077575132547, 0.5937095496357356, 0.6037495695333885, 0.7007462279762341, 0.7107797164175327, 0.7208461873742109, 0.7793985720298263, 0.761317581171683, 0.8198804720310432, 0.8480544378579746, 0.8401901007031655, 0.9651734575370372, 1.0136223726745408]
+coeff_low_cost= 64
+coeff_low_mass= 4.16064
+coeff_low_strength_raito= 1.0136223726745408
+coeff_low_number_of_layer= 64
+coeff_low_result_number_angle0= [12, 14, 14, 14, 16, 18, 22, 20, 22, 22, 26, 26, 26, 28, 26, 28, 30, 28, 34, 36]
+coeff_low_result_number_angle90= [2, 4, 4, 6, 6, 8, 4, 12, 12, 14, 14, 16, 18, 20, 26, 28, 24, 32, 28, 28]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 28
+number_of_angle_0= 36
+#stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.84513, 1.04016, 1.04016, 1.17018, 1.56024, 1.56024, 1.8202800000000001, 2.08032, 2.08032, 2.08032, 2.34036, 2.34036, 2.6004, 2.73042, 2.99046, 3.12048, 3.2505, 3.51054, 3.6405600000000002, 3.7705800000000003, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2771996142093387, 0.3111947163567887, 0.3111947163567887, 0.359797962163558, 0.42815085195533303, 0.5057266590262581, 0.564006262907003, 0.6223894327135767, 0.6223894327135767, 0.6223894327135767, 0.680828161480291, 0.680828161480291, 0.7007462279762334, 0.7107797164175326, 0.6543436434139465, 0.6645055955970027, 0.6746758143104301, 0.6568650176335056, 0.6670627177960688, 0.677263459672766, 0.687466832941818]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 0.687466832941818
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [12, 12, 14, 16, 20, 22, 24, 24, 24, 26, 26, 26, 26, 22, 22, 22, 20, 20, 20, 20]
+coeff_low_result_number_angle90= [4, 4, 4, 8, 4, 6, 8, 8, 8, 10, 10, 14, 16, 24, 26, 28, 34, 36, 38, 40]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 40
+number_of_angle_0= 20
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 0.9101400000000001, 1.17018, 1.3002, 1.3002, 1.56024, 1.8202800000000001, 2.08032, 2.21034, 2.34036, 2.34036, 2.47038, 2.6004, 2.99046, 3.12048, 3.38052, 3.51054, 3.6405600000000002, 3.7705800000000003, 3.9006000000000003, 4.16064]
+coeff_low_strength_ratio_= [0.22412707299595672, 0.22412707299595683, 0.24441184301226568, 0.3311481043773044, 0.3311481043773044, 0.3896992860149121, 0.4866732983995808, 0.5068111863372691, 0.5169283608411654, 0.565369625238649, 0.565369625238649, 0.5754903389112723, 0.5856289085936012, 0.6161166097756127, 0.6645055955970028, 0.7613175811716828, 0.809739635968785, 0.858171811819164, 0.9066136981703194, 0.9550649063116889, 1.0136223726745401]
+coeff_low_cost= 64
+coeff_low_mass= 4.16064
+coeff_low_strength_raito= 1.0136223726745401
+coeff_low_number_of_layer= 64
+coeff_low_result_number_angle0= [8, 8, 12, 12, 14, 18, 18, 18, 20, 20, 20, 20, 20, 22, 26, 28, 30, 32, 34, 36]
+coeff_low_result_number_angle90= [6, 10, 8, 8, 10, 10, 14, 16, 16, 16, 18, 20, 26, 26, 26, 26, 26, 26, 26, 28]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 28
+number_of_angle_0= 36
+#stacking sequence= [0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.84513, 1.04016, 1.04016, 1.3002, 1.3002, 1.3002, 1.56024, 1.8202800000000001, 1.9503000000000001, 2.08032, 2.21034, 2.21034, 2.6004, 2.73042, 2.86044, 2.99046, 3.12048, 3.2505, 3.51054, 3.6405600000000002, 3.9006000000000003]
+coeff_low_strength_ratio_= [0.2969484620793208, 0.3111947163567885, 0.3111947163567885, 0.40842338572794745, 0.40842338572794745, 0.40842338572794745, 0.4281508519553328, 0.4482541459919129, 0.4583666369165905, 0.46850312687488127, 0.4404436768300697, 0.4404436768300697, 0.47102395817676745, 0.519375228424705, 0.5295707668860665, 0.5779272740911423, 0.6262957865702624, 0.6746758143104299, 0.6950356791059237, 0.7434107321296658, 0.8019692040804324]
+coeff_low_cost= 60
+coeff_low_mass= 3.9006000000000003
+coeff_low_strength_raito= 0.8019692040804324
+coeff_low_number_of_layer= 60
+coeff_low_result_number_angle0= [12, 12, 16, 16, 16, 16, 16, 16, 16, 14, 14, 14, 16, 16, 18, 20, 22, 22, 24, 26]
+coeff_low_result_number_angle90= [4, 4, 4, 4, 4, 8, 12, 14, 16, 20, 20, 26, 26, 28, 28, 28, 28, 32, 32, 34]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 34
+number_of_angle_0= 26
+#stacking sequence= [90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.9101400000000001, 1.04016, 1.3002, 1.56024, 1.56024, 1.8202800000000001, 2.08032, 2.34036, 2.47038, 2.47038, 2.6004, 2.73042, 2.86044, 3.12048, 3.2505, 3.38052, 3.6405600000000002, 3.51054, 3.9006000000000003, 4.03062, 4.03062]
+coeff_low_strength_ratio_= [0.2626184438203425, 0.27260387875662745, 0.33114810437730435, 0.4281508519553334, 0.4281508519553334, 0.48667329839958134, 0.6223894327135766, 0.6808281614802918, 0.7294016439226816, 0.7682163115259756, 0.7779867908919711, 0.826582686279145, 0.8364215585415328, 0.9335841490703667, 0.9434461441465389, 1.0307826136986342, 1.0891815072487614, 1.1574796925177968, 1.1476114267875852, 1.3129855523222043, 1.3129855523222043]
+coeff_low_cost= 62
+coeff_low_mass= 4.03062
+coeff_low_strength_raito= 1.3129855523222043
+coeff_low_number_of_layer= 62
+coeff_low_result_number_angle0= [10, 12, 16, 16, 18, 24, 26, 28, 30, 30, 32, 32, 36, 36, 40, 42, 46, 44, 52, 52]
+coeff_low_result_number_angle90= [6, 8, 8, 8, 10, 8, 10, 10, 8, 10, 10, 12, 12, 14, 12, 14, 8, 16, 10, 10]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 10
+number_of_angle_0= 52
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
+##################################
+coeff_low_value=  0.001
+coeff_low_load=  [1, 0, 0, 0, 0, 0]
+coeff_low_material=  ['glass_epoxy']
+coeff_low_angle=  [1.5707963267948966, 0]
+coeff_low_fitness_ =  [0.84513, 0.9101400000000001, 1.3002, 1.3002, 1.56024, 1.56024, 1.56024, 1.69026, 1.8202800000000001, 1.9503000000000001, 1.9503000000000001, 2.08032, 2.21034, 2.6004, 2.73042, 2.86044, 2.99046, 2.99046, 3.2505, 3.38052, 3.6405600000000002]
+coeff_low_strength_ratio_= [0.2771996142093387, 0.3015415378458982, 0.3311481043773042, 0.3696500691347195, 0.5057266590262579, 0.5057266590262579, 0.5057266590262579, 0.554399228418677, 0.5252368876406839, 0.573805713393791, 0.573805713393791, 0.6223894327135772, 0.6322673665699098, 0.6239290147546434, 0.6723812189878705, 0.6824890797840841, 0.7693232120160126, 0.807783170091455, 0.9048305901868785, 0.9533692492602653, 1.1280125258140092]
+coeff_low_cost= 56
+coeff_low_mass= 3.6405600000000002
+coeff_low_strength_raito= 1.1280125258140092
+coeff_low_number_of_layer= 56
+coeff_low_result_number_angle0= [12, 12, 14, 20, 20, 20, 22, 20, 22, 22, 24, 24, 22, 24, 24, 28, 30, 34, 36, 44]
+coeff_low_result_number_angle90= [2, 8, 6, 4, 4, 4, 4, 8, 8, 8, 8, 10, 18, 18, 20, 18, 16, 16, 16, 12]
+coeff_low_active_group_number= [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+coeff_low_potential_group_number= [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+coeff_low_proper_group_number= [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+number_of_angle_90= 12
+number_of_angle_0= 44
+#stacking sequence= [0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 90, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy', 0, 'glass_epoxy']
+##################################
