@@ -73,6 +73,22 @@ def modify_one_element_list(a):
     a[random_pos] = GCV.ANGLE[0] - a[random_pos]
     return a
 
+def get_safety_factor_pos_flag(population):
+    safety_factor_pos_flag = -1
+    max_strength_ratio = -1
+    max_strength_ratio_pos = -1000
+    for i in range(len(population)):
+        if(population[i].strength_raito > max_strength_ratio):
+            max_strength_ratio = population[i].strength_raito
+            max_strength_ratio_pos = i
+
+        if(population[i].strength_raito > GCV.SAFETY_FACTOR):
+            safety_factor_pos_flag = i
+            break
+    if(safety_factor_pos_flag == -1):
+        print("no strength_raito is great then specified safety factor")
+        safety_factor_pos_flag = max_strength_ratio_pos
+    return safety_factor_pos_flag
 if __name__ == '__main__':
     a = list_cross_over([1,2,3,2,5],[89,120,340],3)
     #a = reduce_list_length([1,2,3,4,2],0)

@@ -32,25 +32,20 @@ class Genetic_Algorithm(object):
         active_group= population1[0:int(num_parents * GCV.ACTIVE_GROUP)]
         for i in range(len(active_group)):
             active_group[i].flag = "active_group"
-            #print(active_group[i])
 
         # potential group
         population2= copy.deepcopy(population)
-        potential_group_ = [x for x in population2 if x.strength_raito
-                < GCV.SAFETY_FACTOR]
+        potential_group_ = [x for x in population2 if x.strength_raito < GCV.SAFETY_FACTOR]
         potential_group_.sort(key = lambda c:c.fitness, reverse=True)
-        potential_group = potential_group_[0:int(num_parents * \
-            GCV.POTENTIAL_GROUP)]
+        potential_group = potential_group_[0:int(num_parents * GCV.POTENTIAL_GROUP)]
         for i in range(len(potential_group)):
             potential_group[i].flag = "potential_group"
-            #print(potential_group[i])
 
         population3= copy.deepcopy(population)
         proper_group= [x for x in population3 if x.strength_raito >GCV.SAFETY_FACTOR][\
                 0:int(num_parents * GCV.PROPER_PARENTS_PERCENT)]
         for i in range(len(proper_group)):
             proper_group[i].flag = "proper_group"
-            #print(proper_group[i])
 
         return active_group + potential_group + proper_group;
 
@@ -59,8 +54,8 @@ class Genetic_Algorithm(object):
         while(len(offspring) < offspring_number):
             p1_pos = int(np.random.randint(0, len(parents), 1))
             p2_pos = int(np.random.randint(0, len(parents), 1))
-            p1_angle_list    = parents[p1_pos].angle_list
-            p2_angle_list    = parents[p2_pos].angle_list
+            p1_angle_list    = copy.deepcopy(parents[p1_pos].angle_list)
+            p2_angle_list    = copy.deepcopy(parents[p2_pos].angle_list)
             child = copy.deepcopy(parents[0])
             random_number = int(np.random.randint(0,4,1))
             child.angle_list  = app1_tool.list_cross_over(p1_angle_list, p2_angle_list, random_number)
