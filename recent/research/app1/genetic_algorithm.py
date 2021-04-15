@@ -61,15 +61,13 @@ class Genetic_Algorithm(object):
             p2_pos = int(np.random.randint(0, len(parents), 1))
             p1_angle_list    = parents[p1_pos].angle_list
             p2_angle_list    = parents[p2_pos].angle_list
-            p1_height_list   = parents[p1_pos].height_list
-            p2_height_list   = parents[p2_pos].height_list
-            p1_material_list = parents[p1_pos].material_list
-            p2_material_list = parents[p2_pos].material_list
             child = copy.deepcopy(parents[0])
             random_number = int(np.random.randint(0,4,1))
             child.angle_list  = app1_tool.list_cross_over(p1_angle_list, p2_angle_list, random_number)
-            child.height_list = app1_tool.list_cross_over(p1_height_list, p2_height_list, random_number)
-            child.material_list = app1_tool.list_cross_over(p1_material_list, p2_material_list, random_number)
+            if(len(set(child.angle_list))==1):
+                child.angle_list = app1_tool.modify_one_element_list(child.angle_list)
+            child.height_list = [GCV.LAYER_HEIGHT] * len(child.angle_list)
+            child.material_list = [GCV.MATERIAL[0]] * len(child.angle_list) 
             child.strength_raito= lmc.get_strength_ratio(child.angle_list,child.height_list,child.material_list,GCV.LOAD)
             child.mass = lmac.get_laminate_mass(child.height_list,child.material_list)
             child.cost = lmac.get_laminate_cost(child.material_list)
@@ -81,22 +79,24 @@ class Genetic_Algorithm(object):
 
     def mutation(self, offspring, mutation_percent=0.5):
         for i in range(len(offspring)):
-            while True:
-                print("in the loop")
-                if(offspring[i].flag=="active_group"):
-                    continue
-                if(GCV.SAFETY_FACTOR > offspring[i].strength_raito):
-                    number = int(GCV.MUTATION_EFFICIENT * (GCV.SAFETY_FACTOR - offspring[i].strength_raito)))
-                    offspring[i].angle_list = app1_tool.increase_list_length(offspring[i].angle_list, number)
-                if(GCV.SAFETY_FACTOR < constraint):
-                    number = int(GCV.MUTATION_EFFICIENT * (constraint - GCV.SAFETY_FACTOR))
-                    offspring[i].angle_list = app1_tool.reduce_list_length(offspring[i].angle_list, number)
-
+            if(GCV.SAFETY_FACTOR > offspring[i].strength_raito):
+                number = int(GCV.MUTATION_EFFICIENT * (GCV.SAFETY_FACTOR - offspring[i].strength_raito))
+                offspring[i].angle_list = app1_tool.increase_list_length(offspring[i].angle_list, number)
+                offspring[i].angle_list = app1_tool.random_change_list_content(offspring[i].angle_list)
+                if(len(set(offspring[i].angle_list))==1):
+                    offspring[i].angle_list = app1_tool.modify_one_element_list(offspring[i].angle_list)
                 offspring[i].material_list =len(offspring[i].angle_list) * [offspring[i].material_list[0]]
                 offspring[i].height_list   = len(offspring[i].angle_list)*[GCV.LAYER_HEIGHT]
-                
-
-
+                break
+            if(GCV.SAFETY_FACTOR < offspring[i].strength_raito):
+                number = int(GCV.MUTATION_EFFICIENT * (offspring[i].strength_raito - GCV.SAFETY_FACTOR))
+                offspring[i].angle_list = app1_tool.reduce_list_length(offspring[i].angle_list, number)
+                offspring[i].angle_list = app1_tool.random_change_list_content(offspring[i].angle_list)
+                if(len(set(offspring[i].angle_list))==1):
+                    offspring[i].angle_list = app1_tool.modify_one_element_list(offspring[i].angle_list)
+                offspring[i].material_list =len(offspring[i].angle_list) * [offspring[i].material_list[0]]
+                offspring[i].height_list   = len(offspring[i].angle_list)*[GCV.LAYER_HEIGHT]
+                break
 
 
 if __name__ == "__main__":

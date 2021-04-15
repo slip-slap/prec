@@ -24,59 +24,35 @@ def get_fitness(ind):
     fitness = ind.mass
     return fitness
 
-def get_angle_height_material_list(length):
-    angle_list = []; height_list = []; material_list = [];
+def get_angle_list(length):
+    angle_list = []; 
     for k in range(length):
         random_angle_pos = int(np.random.randint(low=0,high=len(GCV.ANGLE),size=1))
         random_material_pos = int(np.random.randint(low=0,high=len(GCV.MATERIAL),size=1))
         angle_list.append(GCV.ANGLE[random_angle_pos])
-        material_list.append(GCV.MATERIAL[random_material_pos])
-        height_list.append(GCV.LAYER_HEIGHT)
-    return(angle_list, height_list, material_list)
+    if(len(set(angle_list)) == 1):
+        angle_list = app1_tool.modify_one_element_list(angle_list)
+    return angle_list 
 
 
 def get_laminate_individual(length):
-    # set material, angle, and height
-    if(np.mod(length,2) == 0):
-        angle_height_material = get_angle_height_material_list(int(length/2))
-        angle_list = tool.get_symmetry_list(angle_height_material[0])
-        height_list = tool.get_symmetry_list(angle_height_material[1])
-        material_list = tool.get_symmetry_list(angle_height_material[2])
-
-        temp_ind = ind.Individual(angle_list,height_list,material_list)
-        temp_ind.strength_raito =  lmc.get_strength_ratio(angle_list, height_list, material_list, GCV.LOAD)
-        temp_ind.mass = lmac.get_laminate_mass(height_list,material_list)
-        temp_ind.cost = lmac.get_laminate_cost(material_list)
-        temp_ind.fitness = get_fitness(temp_ind)
-    if(np.mod(length, 2) == 1):
-        mid = int((length - 1) /2)
-        angle_height_material = get_angle_height_material_list(mid)
-        angle_list = tool.get_symmetry_list(angle_height_material[0])
-        height_list = tool.get_symmetry_list(angle_height_material[1])
-        material_list = tool.get_symmetry_list(angle_height_material[2])
-
-        random_angle_pos = int(np.random.randint(low=0,high=len(GCV.ANGLE),size=1))
-        random_material_pos = int(np.random.randint(low=0,high=len(GCV.MATERIAL),size=1))
-        angle_list.insert(mid, GCV.ANGLE[random_angle_pos])
-        height_list.insert(mid, GCV.LAYER_HEIGHT)
-        material_list.insert(mid, GCV.MATERIAL[random_material_pos])
-
-        temp_ind = ind.Individual(angle_list,height_list,material_list)
-        temp_ind.strength_raito =  lmc.get_strength_ratio(angle_list, height_list, material_list, GCV.LOAD)
-        temp_ind.mass = lmac.get_laminate_mass(height_list,material_list)
-        temp_ind.cost = lmac.get_laminate_cost(material_list)
-        temp_ind.fitness = get_fitness(temp_ind)
+    angle_list = get_angle_list(length) 
+    height_list = [GCV.LAYER_HEIGHT] * len(angle_list)
+    material_list = [GCV.MATERIAL[0]] * len(angle_list) 
+    temp_ind = ind.Individual(angle_list,height_list,material_list)
+    temp_ind.strength_raito =  lmc.get_strength_ratio(angle_list, height_list, material_list, GCV.LOAD)
+    temp_ind.mass = lmac.get_laminate_mass(height_list,material_list)
+    temp_ind.cost = lmac.get_laminate_cost(material_list)
+    temp_ind.fitness = get_fitness(temp_ind)
     return temp_ind
 
 def get_initial_population():
     #np.random.seed(0)
     initial_population = []
     while(len(initial_population)<GCV.POPULATION_NUMBER):
-        length = int(np.random.randint(low=GCV.CHROMOSOME_LENGTH_LOWER_BOUND, \
-            high=GCV.CHROMOSOME_LENGTH_UPPER_BOUND, size=1))
+        length = int(np.random.randint(low=GCV.CHROMOSOME_LENGTH_LOWER_BOUND, high=GCV.CHROMOSOME_LENGTH_UPPER_BOUND, size=1))
         temp_ind = get_laminate_individual(length)
-        if(len(set(temp_ind.angle_list))==2):
-            initial_population.append(temp_ind)
+        initial_population.append(temp_ind)
     return initial_population
 
 def get_concerter_angle(angle):
@@ -213,13 +189,10 @@ def GA():
         result_potential_group.append(potential_group_number)
         result_proper_group.append(proper_group_number)
         offspring = crossover_and_mutation(ga, parents, int(GCV.POPULATION_NUMBER*(1 - GCV.ELITIST_PERCENT)));
-        number_of_vacant_spot = GCV.POPULATION_NUMBER - len(offspring) - \
-                                 len(parents)
+        number_of_vacant_spot = GCV.POPULATION_NUMBER - len(offspring) - len(parents)
         vacant_offspring = []
         if(number_of_vacant_spot > 0):
-            vacant_offspring = crossover_and_mutation(ga, parents, \
-                    number_of_vacant_spot);
-
+            vacant_offspring = crossover_and_mutation(ga, parents, number_of_vacant_spot);
 
         population[0:len(parents)] = parents
         population[len(parents):len(parents)+len(offspring)] = offspring

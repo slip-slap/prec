@@ -17,33 +17,41 @@ def list_cross_over(a, b, random_number):
     if(random_number == 0):
         result = a[0:a_half_pos] + b[0:b_half_pos]
     if(random_number == 1):
-        result = a[0:a_half_pos] + b[b_half_pos:-1]
+        result = a[0:a_half_pos] + b[b_half_pos:]
     if(random_number == 2):
-        result = a[a_half_pos:-1] + b[0:b_half_pos]
+        result = a[a_half_pos:] + b[0:b_half_pos]
     if(random_number == 3):
-        result = a[a_half_pos:-1] + b[b_half_pos:-1]
+        result = a[a_half_pos:] + b[b_half_pos:]
     return result
 
 def reduce_list_length(a, number):
+    #print('a: ' + str(a))
+    #print('number: ' + str(number))
     if isinstance(a,list) == False:
+        print("reduce list length")
         print("the first argument is not a list")
         return
+    if number == 0:
+        return a
     if number < 1:
+        print("reduce list length")
         print("illegal argument")
         return
     if len(a) < number:
+        print("reduce list length")
         print("list is too short")
         return
-
     for i in range(number):
         del a[-1]
     return a
 
 def increase_list_length(a, number):
     if isinstance(a, list)==False:
+        print("increase list length")
         print("the first argument is not a list")
         return
     if number < 0:
+        print("increase list length")
         print("the second argument is not a list")
         return
     for i in range(number):
@@ -51,11 +59,24 @@ def increase_list_length(a, number):
         a.append(GCV.ANGLE[random_angle_pos])
     return a
 
+def random_change_list_content(a):
+    if isinstance(a, list)==False:
+        print("the first argument is not a list")
+        return
+    for i in range(len(a)):
+        if(np.random.random() > 0.7):
+            a[i] = GCV.ANGLE[0] - a[i]
+    return a
+
+def modify_one_element_list(a):
+    random_pos = np.random.randint(0, len(a)) 
+    a[random_pos] = GCV.ANGLE[0] - a[random_pos]
+    return a
 
 if __name__ == '__main__':
-    #a = list_cross_over([1,2,3,2,5],[89,120,340],3)
-    #a = reduce_list_length([1,2,3,4,2],-1)
-    a = increase_list_length([1,2],3)
+    a = list_cross_over([1,2,3,2,5],[89,120,340],3)
+    #a = reduce_list_length([1,2,3,4,2],0)
+    #a = increase_list_length([1,2],3)
     print(a)
 
 
