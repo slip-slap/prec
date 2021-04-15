@@ -1,5 +1,15 @@
 import numpy as np
 import ga_constant_variable as GCV
+import collections
+
+def counter_item(a):
+    if(isinstance(a,list)==False):
+        print("input argument is not a list")
+        return
+    if(len(a)==0):
+        print("element length is zero")
+        return
+    return  dict(collections.Counter(a))
 
 def list_cross_over(a, b, random_number):
     if isinstance(a, list) != True:
@@ -99,7 +109,26 @@ def save_individual(ind):
         result_handler.write("\n")
         result_handler.write("##########end########################")
         result_handler.write("\n")
-    
+
+def save_average_result(result_fitness, result_strength_ratio,total_sr,total_mass, total_cost, total_layer, RUN_BATCH):
+    with open("result_ind.py","a") as result_handler:
+        result_handler.write("##########average########################")
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,1)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_ratio= "+ str(np.divide(result_strength_ratio,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_strength_ratio= "+ str(np.divide(total_sr,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_mass= "+ str(np.divide(total_mass,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_cost= "+ str(np.divide(total_cost,RUN_BATCH)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_layer= "+ str(np.divide(total_layer,RUN_BATCH)))
+        result_handler.write("\n")
+
 if __name__ == '__main__':
     #a = list_cross_over([1,2,3,2,5],[89,120,340],3)
     #a = reduce_list_length([1,2,3,4,2],0)

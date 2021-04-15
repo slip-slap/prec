@@ -97,9 +97,7 @@ def get_best_individual_fitness_and_strength_ratio(ind, ga_fitness, ga_strength_
             ga_number_angle90.append(dict_result[key])
 
 
-def GA():
-    ga_active_group = []; ga_potential_group = []; ga_proper_group = [];
-    ga_fitness  = []; ga_strength_ratio = []; ga_number_angle0 = []; ga_number_angle90 = []; 
+def GA(ga_active_group,ga_potential_group,ga_proper_group,ga_fitness,ga_strength_ratio,ga_number_angle0, ga_number_angle90):
     population = get_initial_population()
     population.sort(key = lambda c: c.fitness)
     best_individual_pos = app1_tool.get_specified_value_pos(get_population_strength_ratio(population), GCV.SAFETY_FACTOR)
@@ -121,15 +119,34 @@ def GA():
         best_individual = app1_tool.get_specified_value_pos(get_population_strength_ratio(population), GCV.SAFETY_FACTOR)
         print("best: "+ str(population[best_individual]))
         get_best_individual_fitness_and_strength_ratio(population[best_individual],ga_fitness, ga_strength_ratio,ga_number_angle0, ga_number_angle90)
-    print(ga_active_group)
-    print(ga_potential_group)
-    print(ga_proper_group)
-    print(ga_fitness)
-    print(ga_strength_ratio)
-    print(ga_number_angle0)
-    print(ga_number_angle90)
+    return population[best_individual]
 
+def average_ga(times):
+    total_fitness  = [0]; total_strength_ratio = [0]; total_sr = 0; total_mass= 0; total_cost = 0; total_layer = 0;
+    best_mass = 1000000;   best = []
+    worst_mass = -1000000; best = []
+    for i in range(times):
+        ga_active_group=[]; ga_potential_group=[]; ga_proper_group=[];
+        ga_fitness=[]; ga_strength_ratio=[]; ga_number_angle0=[]; ga_number_angle90=[];
+        ind = GA(ga_active_group,ga_potential_group,ga_proper_group,ga_fitness,ga_strength_ratio,ga_number_angle0, ga_number_angle90)
+        if(ind.mass < best_mass):
+            best_mass = ind.mass
+            best = ind
+        if(ind.mass > worst_mass):
+            worst_mass = ind.mass
+            worst = ind 
+        total_sr = total_sr + ind.strength_raito
+        total_mass = total_mass + ind.mass
+        total_cost = total_cost + ind.cost
+        total_layer = total_layer + len(ind.material_list)
+        result_fitness = np.add(total_fitness, ga_fitness)
+        result_strength_ratio = np.add(total_strength_ratio, ga_strength_ratio)
+        print('----------------------------------------')
+    app1_tool.save_individual(worst)
+    app1_tool.save_individual(best)
+    app1_tool.save_average_result(total_fitness,total_strength_ratio, total_sr, total_mass,total_cost, total_layer,times)
+    
 if __name__ == "__main__":
-    GA()
+    average_ga(5)
                     
 
