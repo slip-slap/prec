@@ -1,11 +1,10 @@
 import numpy as np
 import copy
+
 import individual
-import tool
 import laminate_multiple_component as lmc
 import lamina_mass_and_cost as lmac
 import ga_constant_variable as GCV
-import symmetry_list_operator as slo
 import app1_tool
 
 
@@ -36,7 +35,7 @@ class Genetic_Algorithm(object):
         # potential group
         population2= copy.deepcopy(population)
         potential_group_ = [x for x in population2 if x.strength_raito < GCV.SAFETY_FACTOR]
-        potential_group_.sort(key = lambda c:c.fitness, reverse=True)
+        potential_group_.sort(key = lambda c:c.strength_raito, reverse=True)
         potential_group = potential_group_[0:int(num_parents * GCV.POTENTIAL_GROUP)]
         for i in range(len(potential_group)):
             potential_group[i].flag = "potential_group"
@@ -75,23 +74,21 @@ class Genetic_Algorithm(object):
     def mutation(self, offspring, mutation_percent=0.5):
         for i in range(len(offspring)):
             if(GCV.SAFETY_FACTOR > offspring[i].strength_raito):
-                number = int(GCV.MUTATION_EFFICIENT * (GCV.SAFETY_FACTOR - offspring[i].strength_raito))
+                number = int(GCV.MUTATION_EFFICIENT * (GCV.SAFETY_FACTOR - offspring[i].strength_raito)) + 2
                 offspring[i].angle_list = app1_tool.increase_list_length(offspring[i].angle_list, number)
                 offspring[i].angle_list = app1_tool.random_change_list_content(offspring[i].angle_list)
                 if(len(set(offspring[i].angle_list))==1):
                     offspring[i].angle_list = app1_tool.modify_one_element_list(offspring[i].angle_list)
                 offspring[i].material_list =len(offspring[i].angle_list) * [offspring[i].material_list[0]]
                 offspring[i].height_list   = len(offspring[i].angle_list)*[GCV.LAYER_HEIGHT]
-                break
             if(GCV.SAFETY_FACTOR < offspring[i].strength_raito):
-                number = int(GCV.MUTATION_EFFICIENT * (offspring[i].strength_raito - GCV.SAFETY_FACTOR))
+                number = int(GCV.MUTATION_EFFICIENT * (offspring[i].strength_raito - GCV.SAFETY_FACTOR)) + 2
                 offspring[i].angle_list = app1_tool.reduce_list_length(offspring[i].angle_list, number)
                 offspring[i].angle_list = app1_tool.random_change_list_content(offspring[i].angle_list)
                 if(len(set(offspring[i].angle_list))==1):
                     offspring[i].angle_list = app1_tool.modify_one_element_list(offspring[i].angle_list)
                 offspring[i].material_list =len(offspring[i].angle_list) * [offspring[i].material_list[0]]
                 offspring[i].height_list   = len(offspring[i].angle_list)*[GCV.LAYER_HEIGHT]
-                break
 
 
 if __name__ == "__main__":

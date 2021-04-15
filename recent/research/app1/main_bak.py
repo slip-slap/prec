@@ -2,7 +2,6 @@ import sys
 sys.path.insert(1,"/Users/kismet/Documents/github/prec/recent/research/module1")
 
 import individual as ind
-import tool
 import copy
 import numpy as np
 import laminate_multiple_component as lmc
@@ -55,17 +54,6 @@ def get_initial_population():
         initial_population.append(temp_ind)
     return initial_population
 
-def get_concerter_angle(angle):
-    if(angle < 0 and np.abs(angle + np.pi/2) < 0.1):
-        return -90
-    if(angle < 0 and np.abs(angle + np.pi/4) < 0.1):
-        return -45
-    if(np.abs(angle - 0) < 0.001):
-        return 0
-    if(angle > 0 and np.abs(angle - np.pi/2) < 0.1):
-        return 90
-    if(angle > 0 and np.abs(angle - np.pi/4) < 0.1):
-        return 45
 
 def save_to_output(result_fitness, result_strength_ratio, \
         my_best_individual,result_active_group, result_potential_group, \
@@ -178,16 +166,6 @@ def GA():
         potential_group_number = 0;
         proper_group_number = 0;
         parents = ga.select_parents(population,int(GCV.POPULATION_NUMBER * GCV.ELITIST_PERCENT))
-        for i in range(len(parents)):
-            if(parents[i].flag == "active_group"):
-                active_group_number = active_group_number + 1;
-            if(parents[i].flag == "potential_group"):
-                potential_group_number = potential_group_number+ 1;
-            if(parents[i].flag == "proper_group"):
-                proper_group_number = proper_group_number + 1;
-        result_active_group.append(active_group_number) 
-        result_potential_group.append(potential_group_number)
-        result_proper_group.append(proper_group_number)
         offspring = crossover_and_mutation(ga, parents, int(GCV.POPULATION_NUMBER*(1 - GCV.ELITIST_PERCENT)));
         number_of_vacant_spot = GCV.POPULATION_NUMBER - len(offspring) - len(parents)
         vacant_offspring = []
@@ -199,42 +177,16 @@ def GA():
         population[GCV.POPULATION_NUMBER - number_of_vacant_spot:] = vacant_offspring;
 
         population.sort(key = lambda c: c.fitness)
-        best_individual = tool.get_safety_factor_pos_flag(population)
-        current_fitness = population[best_individual].fitness
-        result_fitness.append(current_fitness)
-        result_strength_ratio.append(population[best_individual].strength_raito)
 
         #print("curent fitness: " + str(current_fitness) + " strength_raito " + \
         #        str(population[best_individual].strength_raito))
         print(population[best_individual])
-        dict_result =  dict(collections.Counter(population[best_individual].angle_list))
-        for key in dict_result:
-            if(key==0):
-                result_number_angle0.append(dict_result[key])
-            else:
-                result_number_angle90.append(dict_result[key])
 
     return  {'fitness':result_fitness, 'strength_raito':result_strength_ratio, \
             'best_individual':population[best_individual], 'active_group':result_active_group, \
             'potential_group':result_potential_group, 'proper_group':result_proper_group, \
             'number_of_angle0':result_number_angle0, 'number_of_angle90':result_number_angle90}
 
-def save_individual(ind):
-    with open("result_ind.py","a") as result_handler:
-        result_handler.write("##########begin########################")
-        result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_layup= "+ str(counter_item(ind.angle_list)))
-        result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(ind.strength_raito))
-        result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_mass= "+ str(ind.mass))
-        result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(ind.cost))
-        result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(ind.material_list)))
-        result_handler.write("\n")
-        result_handler.write("##########end########################")
-        result_handler.write("\n")
 
 
 if __name__ == "__main__":

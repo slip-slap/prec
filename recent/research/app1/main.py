@@ -65,19 +65,50 @@ def crossover_and_mutation(ga, parents, number_of_offspring):
         offspring[i].fitness =  get_fitness(offspring[i]);
     return offspring;
 
+def get_population_strength_ratio(population):
+    strength_ratio = []
+    for i in range(len(population)):
+        strength_ratio.append(population[i].strength_raito)
+    return strength_ratio
+
+def get_active_potential_proper_group_number(population,ga_active_group, ga_potential_group, ga_proper_group):
+    active_group_number = 0
+    potential_group_number = 0
+    proper_group_number = 0
+    for i in range(len(population)):
+        if(population[i].flag == "active_group"):
+            active_group_number = active_group_number + 1;
+        if(population[i].flag == "potential_group"):
+            potential_group_number = potential_group_number+ 1;
+        if(population[i].flag == "proper_group"):
+            proper_group_number = proper_group_number + 1;
+    ga_active_group.append(active_group_number) 
+    ga_potential_group.append(potential_group_number)
+    ga_proper_group.append(proper_group_number)
+
+def get_best_individual_fitness_and_strength_ratio(ind, ga_fitness, ga_strength_ratio, ga_number_angle0, ga_number_angle90):
+    ga_fitness.append(ind.fitness)
+    ga_strength_ratio.append(ind.strength_raito)
+    dict_result =  dict(collections.Counter(ind.angle_list))
+    for key in dict_result:
+        if(key==0):
+            ga_number_angle0.append(dict_result[key])
+        else:
+            ga_number_angle90.append(dict_result[key])
+
+
 def GA():
-    print("loading             : "+str(GCV.LOAD))
-    print("mutation coefficient: "+str(GCV.MUTATION_EFFICIENT))
+    ga_active_group = []; ga_potential_group = []; ga_proper_group = [];
+    ga_fitness  = []; ga_strength_ratio = []; ga_number_angle0 = []; ga_number_angle90 = []; 
     population = get_initial_population()
     population.sort(key = lambda c: c.fitness)
-    best_individual_pos = app1_tool.get_safety_factor_pos_flag(population)
-    current_fitness = population[best_individual_pos].fitness
-    print("initial fitness: " + str(current_fitness) + " strength_raito " + str(population[best_individual_pos].strength_raito))
+    best_individual_pos = app1_tool.get_specified_value_pos(get_population_strength_ratio(population), GCV.SAFETY_FACTOR)
     ga = my_ga.Genetic_Algorithm()
     d = 0
     while( d<GCV.GA_RUNTIMES ):
         d = d+1 
         parents = ga.select_parents(population,int(GCV.POPULATION_NUMBER * GCV.ELITIST_PERCENT))
+        get_active_potential_proper_group_number(parents,ga_active_group, ga_potential_group, ga_proper_group)
         offspring = crossover_and_mutation(ga, parents, int(GCV.POPULATION_NUMBER*(1 - GCV.ELITIST_PERCENT)));
         number_of_vacant_spot = GCV.POPULATION_NUMBER - len(offspring) - len(parents)
         vacant_offspring = []
@@ -87,10 +118,16 @@ def GA():
         population[len(parents):len(parents)+len(offspring)] = offspring
         population[GCV.POPULATION_NUMBER - number_of_vacant_spot:] = vacant_offspring;
         population.sort(key = lambda c: c.fitness)
-        best_individual = app1_tool.get_safety_factor_pos_flag(population)
-        for i in range(len(population)):
-            print(population[i])
+        best_individual = app1_tool.get_specified_value_pos(get_population_strength_ratio(population), GCV.SAFETY_FACTOR)
         print("best: "+ str(population[best_individual]))
+        get_best_individual_fitness_and_strength_ratio(population[best_individual],ga_fitness, ga_strength_ratio,ga_number_angle0, ga_number_angle90)
+    print(ga_active_group)
+    print(ga_potential_group)
+    print(ga_proper_group)
+    print(ga_fitness)
+    print(ga_strength_ratio)
+    print(ga_number_angle0)
+    print(ga_number_angle90)
 
 if __name__ == "__main__":
     GA()

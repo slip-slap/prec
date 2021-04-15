@@ -64,7 +64,7 @@ def random_change_list_content(a):
         print("the first argument is not a list")
         return
     for i in range(len(a)):
-        if(np.random.random() > 0.7):
+        if(np.random.random() > 0.4):
             a[i] = GCV.ANGLE[0] - a[i]
     return a
 
@@ -73,27 +73,39 @@ def modify_one_element_list(a):
     a[random_pos] = GCV.ANGLE[0] - a[random_pos]
     return a
 
-def get_safety_factor_pos_flag(population):
-    safety_factor_pos_flag = -1
-    max_strength_ratio = -1
-    max_strength_ratio_pos = -1000
-    for i in range(len(population)):
-        if(population[i].strength_raito > max_strength_ratio):
-            max_strength_ratio = population[i].strength_raito
-            max_strength_ratio_pos = i
+def get_specified_value_pos(a, value):
+    a_ = np.subtract(a, value).tolist()
+    if max(a_) < 0:
+        return a_.index(max(a_))
+    if max(a_) >= 0:
+        sub_a_= [x for x in a_ if x > 0]
+        min_ele = min(sub_a_)
+        return a_.index(min_ele)
 
-        if(population[i].strength_raito > GCV.SAFETY_FACTOR):
-            safety_factor_pos_flag = i
-            break
-    if(safety_factor_pos_flag == -1):
-        print("no strength_raito is great then specified safety factor")
-        safety_factor_pos_flag = max_strength_ratio_pos
-    return safety_factor_pos_flag
+
+def save_individual(ind):
+    with open("result_ind.py","a") as result_handler:
+        result_handler.write("##########begin########################")
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_layup= "+ str(counter_item(ind.angle_list)))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_raito= "+ str(ind.strength_raito))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_mass= "+ str(ind.mass))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_cost= "+ str(ind.cost))
+        result_handler.write("\n")
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_number_of_layer= "+ str(len(ind.material_list)))
+        result_handler.write("\n")
+        result_handler.write("##########end########################")
+        result_handler.write("\n")
+    
 if __name__ == '__main__':
-    a = list_cross_over([1,2,3,2,5],[89,120,340],3)
+    #a = list_cross_over([1,2,3,2,5],[89,120,340],3)
     #a = reduce_list_length([1,2,3,4,2],0)
     #a = increase_list_length([1,2],3)
-    print(a)
+    #print(a)
+    print(get_specified_value_pos([0.999,1.2323,2], 2.15))
 
 
 
