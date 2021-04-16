@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1618378966 "main.aux" "main.bbl" "main" 1618384768
+["bibtex main"] 1618535015 "main.aux" "main.bbl" "main" 1618558117
   "./SageV.bst" 1618195339 27111 85b45bca39b0a2f223956e4ccc2e96ec ""
-  "main.aux" 1618384767 7333 679d780df847457bb97c703a91d32ca9 ""
+  "main.aux" 1618558116 7333 a80a6b5a48c55be0ee78f48529f07ac9 ""
   "reference.bib" 1618274222 13253 c0c65159c54ee88ec54563ffd7cb4bc6 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1618384765 "main.tex" "main.pdf" "main" 1618384768
+  "main.bbl"
+["pdflatex"] 1618558114 "main.tex" "main.pdf" "main" 1618558117
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -232,9 +232,9 @@
   "fig/fitness_strength_ratio.png" 1618226644 41365 02682233d80bb94791395c705e5436e4 ""
   "fig/ga_operator.tex" 1618379990 5482 71fe24f298dd5018d0426484ca16acd4 ""
   "fig/group_number.png" 1618226077 28642 1f9d3f6502bb75e782e14a9630f0e796 ""
-  "main.aux" 1618384767 7333 679d780df847457bb97c703a91d32ca9 ""
-  "main.bbl" 1618378966 7747 1fbbe1a8cbf62fad9649f4d4ce876419 "bibtex main"
-  "main.out" 1618384767 842 0b8ddcd2c476689a02b0cfe81f844722 ""
+  "main.aux" 1618558116 7333 a80a6b5a48c55be0ee78f48529f07ac9 ""
+  "main.bbl" 1618535015 7747 1fbbe1a8cbf62fad9649f4d4ce876419 "bibtex main"
+  "main.out" 1618558116 842 0b8ddcd2c476689a02b0cfe81f844722 ""
   "main.tex" 1618379013 1700 9406f25097a6fde4140832b862eefb21 ""
   "sagej.cls" 1618195339 15958 5fa98adc3dbacfa813e0251e7c0042fe ""
   "src/a1_abstract.tex" 1618210090 824 56b8c7acff9fa9309b447678648c5429 ""
@@ -246,9 +246,9 @@
   "table/comparsion.tex" 1618227037 909 318a345c9f1f4cc5803317f65d3581b2 ""
   "table/ga_parameters.tex" 1618287567 708 50f69ecbfa7c742defd8c6a6807f3a2f ""
   "table/material.tex" 1618226979 1701 19e9b0db6e2c7b348c14059eecfdf45b ""
-  "table/optimum_layup_nx_ny.tex" 1618374835 2357 7b4afa208305eba5a1f7f45cd1c1f235 ""
+  "table/optimum_layup_nx_ny.tex" 1618558113 1792 915becb562f88b358c525de04c0bc789 ""
   (generated)
-  "main.log"
-  "main.out"
   "main.aux"
   "main.pdf"
+  "main.log"
+  "main.out"
