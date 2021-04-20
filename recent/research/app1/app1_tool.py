@@ -83,18 +83,27 @@ def modify_one_element_list(a):
     a[random_pos] = GCV.ANGLE[0] - a[random_pos]
     return a
 
-def get_specified_value_pos(a, value):
+def get_specified_value_pos(a, value, population):
     a_ = np.subtract(a, value).tolist()
     if max(a_) < 0:
         return a_.index(max(a_))
     if max(a_) >= 0:
-        sub_a_= [x for x in a_ if x > 0]
-        min_ele = min(sub_a_)
-        return a_.index(min_ele)
+        #sub_a_= [x for x in a_ if x > 0]
+        #min_ele = min(sub_a_)
+        sub_a = [x for x in population if x.strength_raito > value]
+        min_mass = 1000
+        identity = 0
+        for i in range(len(sub_a)):
+            if(sub_a[i].mass < min_mass):
+                min_mass = sub_a[i].mass
+                identity = id(sub_a[i])
+        for i in range(len(population)):
+            if id(population[i]) == identity:
+                return i
 
 
 def save_individual(ind):
-    with open("result_ind.py","a") as result_handler:
+    with open("temp.py","a") as result_handler:
         result_handler.write("##########begin########################")
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_layup= "+ str(counter_item(ind.angle_list)))
