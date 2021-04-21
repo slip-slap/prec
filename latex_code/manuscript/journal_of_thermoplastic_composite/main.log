@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  21 APR 2021 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  21 APR 2021 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -692,21 +692,21 @@ LaTeX Warning: Label `fig:group' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -774,7 +774,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 18.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -782,71 +782,71 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 37.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 38.
+(Font)              scaled to size 9.49997pt on input line 37.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 38.
+(Font)              scaled to size 11.39996pt on input line 37.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 38.
+(Font)              scaled to size 11.39996pt on input line 37.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 38.
+(Font)              scaled to size 9.49997pt on input line 37.
  (./src/a1_abstract.tex)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 40.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 39.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 45.
+(Font)              scaled to size 17.09995pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <18> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 17.09995pt on input line 45.
+(Font)              scaled to size 17.09995pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 45.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 45.
+(Font)              scaled to size 6.64998pt on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 44.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 45.
+(Font)              scaled to size 7.59998pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 45.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 5.69998pt on input line 45.
+(Font)              scaled to size 5.69998pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 45.
+(Font)              scaled to size 7.59998pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 45.
+(Font)              scaled to size 5.69998pt on input line 44.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 45.
+(Font)              scaled to size 4.74998pt on input line 44.
  (./src/a2_introduction.tex
 Overfull \vbox (1.68784pt too high) has occurred while \output is active []
 
@@ -870,7 +870,7 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 8.54997pt on input line 82.
- (./fig/cross_ply_laminate.tex)
+ (./fig/cross_ply_laminate.tex) (./table/material.tex)
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
@@ -879,56 +879,56 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 251.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 251.
- [2]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [3 <.//fig/lamina_local_global_axes.png>] [4]) (./src/a4_experiment.tex (./table/material.tex) (./fig/ga_operator.tex)
-<fig/percentage_of_groups.png, id=189, 462.528pt x 346.896pt>
+ [2] [3 <.//fig/lamina_local_global_axes.png>]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [4]) (./src/a4_experiment.tex (./fig/ga_operator.tex) [5]
+<fig/percentage_of_groups.png, id=196, 462.528pt x 346.896pt>
 File: fig/percentage_of_groups.png Graphic file (type png)
 <use fig/percentage_of_groups.png>
 Package pdftex.def Info: fig/percentage_of_groups.png  used on input line 59.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
  (./table/ga_parameters.tex)) (./src/a4_result_and_discussion.tex
-<fig/group_number.png, id=190, 462.528pt x 346.896pt>
+<fig/group_number.png, id=197, 462.528pt x 346.896pt>
 File: fig/group_number.png Graphic file (type png)
 <use fig/group_number.png>
 Package pdftex.def Info: fig/group_number.png  used on input line 10.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
-<fig/fitness_strength_ratio.png, id=191, 462.528pt x 346.896pt>
+<fig/fitness_strength_ratio.png, id=198, 462.528pt x 346.896pt>
 File: fig/fitness_strength_ratio.png Graphic file (type png)
 <use fig/fitness_strength_ratio.png>
 Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 17.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
- [5 <./fig/percentage_of_groups.png>] (./table/optimum_layup.tex) [6 <./fig/group_number.png> <./fig/fitness_strength_ratio.png>] (./table/comparsion.tex)) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl
+ [6 <./fig/percentage_of_groups.png> <./fig/group_number.png> <./fig/fitness_strength_ratio.png>] (./table/optimum_layup.tex) (./table/comparsion.tex)) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6F186B065DADFF05B3F01FFC120717DA;901.
+(rerunfilecheck)             Checksum: 77071343BC40CD6D31CB5F0E5707B44F;902.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 22253 strings out of 492616
- 419889 string characters out of 6128982
- 518575 words of memory out of 5000000
- 25560 multiletter control sequences out of 15000+600000
+ 22259 strings out of 492616
+ 419997 string characters out of 6128982
+ 520869 words of memory out of 5000000
+ 25566 multiletter control sequences out of 15000+600000
  46385 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,72p,464b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 411857 bytes).
+ 55i,18n,72p,464b,949s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 420939 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 316 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  86 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

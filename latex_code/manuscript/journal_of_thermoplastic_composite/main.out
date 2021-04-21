@@ -1,15 +1,15 @@
 \BOOKMARK [1][]{section*.2}{Introduction}{}% 1
 \BOOKMARK [1][]{section*.3}{Stress and Strain in a Laminate}{}% 2
-\BOOKMARK [2][]{section*.6}{Stress and Strain in a Lamina}{section*.3}% 3
-\BOOKMARK [2][]{section*.7}{Stress and Strain in a Laminate}{section*.3}% 4
-\BOOKMARK [1][]{section*.8}{Failure Theory}{}% 5
-\BOOKMARK [2][]{section*.9}{Failure Process}{section*.8}% 6
-\BOOKMARK [2][]{section*.10}{Tsai-wu Failure Theory}{section*.8}% 7
-\BOOKMARK [1][]{section*.11}{Genetic algorithm model}{}% 8
-\BOOKMARK [1][]{section*.14}{Experiment}{}% 9
-\BOOKMARK [2][]{section*.16}{Problem formulation}{section*.14}% 10
-\BOOKMARK [2][]{section*.17}{GA Operation}{section*.14}% 11
-\BOOKMARK [2][]{section*.19}{GA Parameters}{section*.14}% 12
+\BOOKMARK [2][]{section*.7}{Stress and Strain in a Lamina}{section*.3}% 3
+\BOOKMARK [2][]{section*.8}{Stress and Strain in a Laminate}{section*.3}% 4
+\BOOKMARK [1][]{section*.9}{Failure Theory}{}% 5
+\BOOKMARK [2][]{section*.10}{Failure Process}{section*.9}% 6
+\BOOKMARK [2][]{section*.11}{Tsai-wu Failure Theory}{section*.9}% 7
+\BOOKMARK [1][]{section*.12}{Genetic algorithm model}{}% 8
+\BOOKMARK [1][]{section*.15}{Experiment}{}% 9
+\BOOKMARK [2][]{section*.16}{Problem formulation}{section*.15}% 10
+\BOOKMARK [2][]{section*.17}{GA Operation}{section*.15}% 11
+\BOOKMARK [2][]{section*.19}{GA Parameters}{section*.15}% 12
 \BOOKMARK [1][]{section*.22}{Numerical Results and Discussion}{}% 13
 \BOOKMARK [1][]{section*.27}{Conclusions}{}% 14
 \BOOKMARK [1][]{section*.28}{Acknowledgment}{}% 15

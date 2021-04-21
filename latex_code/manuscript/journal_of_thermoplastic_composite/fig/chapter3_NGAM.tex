@@ -1,26 +1,36 @@
-\begin{figure}
+\begin{figure}{!htb}
 	\centering
 		\begin{tikzpicture}[thick, scale=0.8, every node/.style={transform shape}]
-			\tikzstyle{rec} = [rectangle, minimum width=4cm, minimum height=0.8cm,
+			\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=1.0cm,minimum height=0.6cm, text centered, draw=black]
+			\tikzstyle{rec} = [rectangle,rounded corners, minimum width=4cm, minimum height=0.8cm,
 			text centered, draw=black]
 			\tikzstyle{subgroup} = [rectangle, minimum width=1.5cm, minimum height=0.6cm,
 			text centered, draw=black]
 			\tikzstyle{bigsubgroup} = [rectangle, minimum width=2.5cm, minimum height=0.6cm,
 			text centered, draw=black]
+			\tikzstyle{decision} = [diamond,minimum width=2.4cm, minimum height=1.4cm, draw=black]
 			% population
-			\node (population) [rec] {population};
+			\node (evaluate) [rec] {Evaluate all individuals};
+			\node (decision) at ($(evaluate.south)+(-0cm, -1.5cm)$)   [decision] {} node at (decision.base) {Is converge?};
+			\node at  ($(decision.south)+(0.3cm, -0.4cm)$) {No};
+			\node at  ($(decision.west)+(-0.9cm, 0.2cm)$) {Yes};
+			\node (population) at ($(decision.south)+(-0cm, -1.3cm)$) [rec] {population};
+			\node (end) at ($(population.west)+(-0.9cm, 0cm)$) [startstop] {End};
 			% active group
 			\node (active_group_1) at ($(population.south)+(-3cm, -2.0cm)$) [subgroup]
 				{active group};
-			\node (active_group_2) at ($(active_group_1.south)+(0cm, -2.0cm)$)
+			\node (active_group_2) at ($(active_group_1.south)+(0cm, -1.5cm)$)
 				[subgroup] {active parents};
+			\draw[->] (decision.west) -| (end.north);
 			\draw[->] (population.south) -- (active_group_1.north);
 			\draw[->] (active_group_1.south) -- (active_group_2.north);
 			% potential group
 			\node (potential_group_1) at ($(population.south)+(0cm, -2.0cm)$) [subgroup]
 				{potential group};
-			\node (potential_group_2) at ($(potential_group_1.south)+(0cm, -2.0cm)$)
+			\node (potential_group_2) at ($(potential_group_1.south)+(0cm, -1.5cm)$)
 				[subgroup] {potential parents};
+			\draw[->] (evaluate.south) -- (decision.north);
+			\draw[->] (decision.south) -- (population.north);
 			\draw[->] (population.south) -- (potential_group_1.north);
 			\draw[->] (potential_group_1.south) -- (potential_group_2.north);
 			\node at ($(potential_group_1.north)+(0cm, 1.0cm)$) {classification };
@@ -28,7 +38,7 @@
 			% proper group
 			\node (proper_group_1) at ($(population.south)+(3cm, -2.0cm)$) [subgroup]
 				{proper group};
-			\node (proper_group_2) at ($(proper_group_1.south)+(0cm, -2.0cm)$)[subgroup]
+			\node (proper_group_2) at ($(proper_group_1.south)+(0cm, -1.5cm)$)[subgroup]
 				{proper parents};
 			\draw[->] (population.south) -- (proper_group_1.north);
 			\draw[->] (proper_group_1.south) -- (proper_group_2.north);
@@ -39,19 +49,19 @@
 			\draw[->] (potential_group_2.south) -- (after_cross_over.north);
 			\draw[->] (proper_group_2.south) -- (after_cross_over.north);
 			% mutation
-			\node (active_group_3) at ($(after_cross_over.south)+(-2.2cm, -2.0cm)$)
+			\node (active_group_3) at ($(after_cross_over.south)+(-2.2cm, -1.5cm)$)
 				[subgroup] {active offspring};
 			\node at ($(after_cross_over.south)+(0cm, -1.0cm)$) {mutation};
 			\draw[->] ($(after_cross_over.south)+(-1cm,0cm)$)--(active_group_3.north);
-			\node (poteni_and_prop) at ($(after_cross_over.south)+(2.2cm, -2.0cm)$)
+			\node (poteni_and_prop) at ($(after_cross_over.south)+(2.2cm, -1.5cm)$)
 				[bigsubgroup] {potential and proper offspring};
 			\draw[->] ($(after_cross_over.south)+(1cm,0cm)$)--(poteni_and_prop.north);
 
 			% final draw
-			\draw[->] (poteni_and_prop.east) --($(poteni_and_prop.east) + (0.2cm,0cm)$) |- (population.east);
+			\draw[->] (poteni_and_prop.east) --($(poteni_and_prop.east) + (0.2cm,0cm)$) |- (evaluate.east);
 			\draw[->] (active_group_3.west) -- ($(active_group_3.west) + (-1cm,0cm)$)
-				|- (population.west);
+				|- (evaluate.west);
 		\end{tikzpicture}
-	\caption{New GA Model}
+	\caption{General flowchart of proposed GA model in which the parents is consist of three different groups.}
 	\label{fig:model}
 \end{figure}
