@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  16 APR 2021 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  21 APR 2021 17:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -685,7 +685,11 @@ File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
 File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
 \pgf@intersect@solutions=\count166
-)) (./main.aux)
+)) (./main.aux
+
+LaTeX Warning: Label `fig:group' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -855,7 +859,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 
 
 ]
-<.//fig/lamina_local_global_axes.png, id=118, 1637.11626pt x 572.1375pt>
+<.//fig/lamina_local_global_axes.png, id=122, 1637.11626pt x 572.1375pt>
 File: .//fig/lamina_local_global_axes.png Graphic file (type png)
 <use .//fig/lamina_local_global_axes.png>
 Package pdftex.def Info: .//fig/lamina_local_global_axes.png  used on input line 81.
@@ -875,94 +879,56 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 251.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 251.
- [2]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [3 <.//fig/lamina_local_global_axes.png>] [4]) (./src/a4_experiment.tex (./fig/ga_operator.tex) (./table/ga_parameters.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-[]\OT1/ptm/m/n/10 Find: $\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 ^^R[]; [][]; n\OMS/cmsy/m/n/10 g$ $\OML/cmm/m/it/10 ^^R[] \OMS/cmsy/m/n/10 2 f\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 45\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 90\OMS/cmsy/m/n/10 g$ $[][] 2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--71
-[]\OT1/ptm/m/n/10 Here, CA, GF, and GL rep-re-sent car-bon/epoxy,
- []
-
-<fig/group_number.png, id=185, 462.528pt x 346.896pt>
+ [2]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex) [3 <.//fig/lamina_local_global_axes.png>] [4]) (./src/a4_experiment.tex (./table/material.tex) (./fig/ga_operator.tex)
+<fig/percentage_of_groups.png, id=189, 462.528pt x 346.896pt>
+File: fig/percentage_of_groups.png Graphic file (type png)
+<use fig/percentage_of_groups.png>
+Package pdftex.def Info: fig/percentage_of_groups.png  used on input line 59.
+(pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
+ (./table/ga_parameters.tex)) (./src/a4_result_and_discussion.tex
+<fig/group_number.png, id=190, 462.528pt x 346.896pt>
 File: fig/group_number.png Graphic file (type png)
 <use fig/group_number.png>
-Package pdftex.def Info: fig/group_number.png  used on input line 76.
+Package pdftex.def Info: fig/group_number.png  used on input line 10.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
-<fig/fitness_strength_ratio.png, id=186, 462.528pt x 346.896pt>
+<fig/fitness_strength_ratio.png, id=191, 462.528pt x 346.896pt>
 File: fig/fitness_strength_ratio.png Graphic file (type png)
 <use fig/fitness_strength_ratio.png>
-Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 81.
+Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 17.
 (pdftex.def)             Requested size: 241.53897pt x 181.15446pt.
-[5 <./fig/group_number.png>] (./table/material.tex) (./table/comparsion.tex)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
-
-
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 122.
-
-(./table/optimum_layup_nx_ny.tex)
-
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 128.
-
-
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 128.
-
-
-LaTeX Warning: Reference `fig:NxNy' on page 6 undefined on input line 129.
-
-
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 145.
-
-
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 145.
-
-
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 146.
-
-
-LaTeX Warning: Reference `fig:NxNyNz' on page 6 undefined on input line 155.
-
-
-LaTeX Warning: Reference `tab:NxNyNz' on page 6 undefined on input line 160.
-
-) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl [6 <./fig/fitness_strength_ratio.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+ [5 <./fig/percentage_of_groups.png>] (./table/optimum_layup.tex) [6 <./fig/group_number.png> <./fig/fitness_strength_ratio.png>] (./table/comparsion.tex)) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ) [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B8DDCD2C476689A02B0CFE81F844722;842.
+(rerunfilecheck)             Checksum: 6F186B065DADFF05B3F01FFC120717DA;901.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 22248 strings out of 492616
- 419681 string characters out of 6128982
- 516245 words of memory out of 5000000
- 25558 multiletter control sequences out of 15000+600000
- 48011 words of font info for 97 fonts, out of 8000000 for 9000
+ 22253 strings out of 492616
+ 419889 string characters out of 6128982
+ 518575 words of memory out of 5000000
+ 25560 multiletter control sequences out of 15000+600000
+ 46385 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,72p,464b,948s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (8 pages, 401764 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 411857 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
