@@ -3,7 +3,6 @@ import copy
 import lamina_failure as lf
 import lamina_mass_and_cost as lmac
 import material_constant_variable as MCV
-import tool
 import csv
 
 
@@ -333,11 +332,9 @@ if __name__=='__main__':
 
 
     load = [1,0,0,0,0,0]
-    angle = [np.pi/2]*9 + [0]*17 + [np.pi/2]*9
-    #angle = tool.get_symmetry_list(angle)
-    height= [0.000165]*35
-    material =[MCV.GRAPHITE_EPOXY] * 35 
-    #material = tool.get_symmetry_list(material)
+    angle = [np.pi/2]*3 + [0]*7 
+    height= [0.000165]*10
+    material =[MCV.GLASS_EPOXY] * 10 
 
     sr  = get_strength_ratio(angle,height,material,load)
     """

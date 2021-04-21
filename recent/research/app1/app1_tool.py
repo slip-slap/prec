@@ -121,13 +121,13 @@ def save_individual(ind):
 
 def save_average_result(result_fitness, result_strength_ratio,total_sr,total_mass, total_cost, total_layer, RUN_BATCH):
     with open("result_ind.py","a") as result_handler:
-        result_handler.write("##########average########################")
+        result_handler.write("##########average########################") 
         result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,1)))
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,1).tolist()))
         result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,RUN_BATCH)))
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_fitness= "+ str(np.divide(result_fitness,RUN_BATCH).tolist()))
         result_handler.write("\n")
-        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_ratio= "+ str(np.divide(result_strength_ratio,RUN_BATCH)))
+        result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_strength_ratio= "+ str(np.divide(result_strength_ratio,RUN_BATCH).tolist()))
         result_handler.write("\n")
         result_handler.write("coeff_"+ str(GCV.MUTATION_EFFICIENT_TYPE) +"_average_strength_ratio= "+ str(np.divide(total_sr,RUN_BATCH)))
         result_handler.write("\n")
@@ -143,7 +143,9 @@ if __name__ == '__main__':
     #a = reduce_list_length([1,2,3,4,2],0)
     #a = increase_list_length([1,2],3)
     #print(a)
-    print(get_specified_value_pos([0.999,1.2323,2], 2.15))
-
+    #print(get_specified_value_pos([0.999,1.2323,2], 2.15))
+    with open("temp.py","a") as result_handler:
+        result_handler.write("##########average########################")
+        result_handler.write(str([1,2,4]))
 
 
