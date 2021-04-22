@@ -5,19 +5,19 @@ industry, electronic packaging to golf clubs, and medical equipment to homebuild
 cost of fabrication of composites is a critical drawback to its application. For example, the
 graphite/epoxy composite part may cost as much as $650$ to $900$ per kilogram. In contrast, the price
 of glass/epoxy is about 2.5 times less. Manufacturing techniques such as sheet molding compounds and
-structural reinforcement injection molding is used to lower the  costs for manufacturing automobile parts.
+structural reinforcement injection molding are used to lower the  costs for manufacturing automobile parts.
 An alternative approach is using hybrid composite materials.
 
 
 The mechanical performance of a laminate composite is affected by a wide range of factors such as the
-thickness, material, and orientation of each lamina. Because of manufacturing limitations, all these
-variables are usually limited to a small set of discrete values. For example, the ply thickness is fixed
+thickness, material, and orientation of each laminae. Because of manufacturing limitations, all these
+variables are usually limited to a small set of discrete values. For example, the ply thickness is fixed,
 and ply orientation angles are limited to a set of angles such as 0, 45, and 90 degrees in practice. So
 the search process for the optimal design is a discrete optimization problem that can be solved by the
 GA. To tailor a laminate composite, the GA has been successfully applied to solve laminate design
 problems\cite{riche1993optimization,nagendra1996improved,sadagopan1998application,todoroki1998stacking,liu2000permutation,sivakumar1998optimum,walker2003technique,lin2004stacking,kang2005minimum,murugan2007target,akbulut2008optimum}.
 The GA simulates the process of natural evolution, including selection, crossover, and mutation
-according to Darwin's principal of ''survival of the fittest''. The known advantages of GAs are the
+according to Darwin's principle of ''survival of the fittest''. The known advantages of GAs are the
 following: (i): GAs are not easily trapped in local optima and can obtain the global
 optimum. (ii): GAs do not need gradient information and can be applied to discrete optimization
 problems. (iii): GAs can not only find the optimal value in the domain but also maintain a
@@ -38,7 +38,7 @@ chosen for the next generation is proportional to the fitness.
 Soremekun et al.\cite{soremekun2001composite} showed that the generalized elitist strategy outperformed a
 single individual elitism in some special cases.
 
-Data structure, repair strategies and penalty functions\cite{le1995improved} are the most commonly used
+Data structure, repair strategies, and penalty functions\cite{le1995improved} are the most commonly used
 approaches to resolve constrained problems in the optimization of composite structures. Symmetric
 laminates are widely used in practical scenarios, and data structures can be used to fulfill symmetry
 constraints, which consists of coding half of the laminate and considering the rest with the
@@ -69,7 +69,7 @@ failure
 theory\cite{massard1984computer,reddy1987first,fang1993design,soeiro1994multilevel,pelletier2006multi,jadhav2007parametric,omkar2008artificial,choudhury2019failure},
 Tsai-Hill\cite{martin1987optimum,soares1995discrete}, the maximum stress\cite{watkins1987multicriteria}, or the maximum strain\cite{watkins1987multicriteria}
 static failure criteria. Akbulut\cite{akbulut2008optimum} used the GA to minimize the thickness of composite laminates with
-Tsai-Hill and maximum stress failure criteria, and the advantage of this method is it avoid spurious
+Tsai-Hill and maximum stress failure criteria, and the advantage of this method is it avoids spurious
 optima. Naik et al.\cite{naik2008design}
 minimized the weight of laminated composites under restrictions with a
 failure mechanism-based criterion based on the maximum strain and Tsai-wu. In the present study, Tsai-wu
@@ -110,49 +110,56 @@ For a single lamina, the stress-strain relation in local axis 1-2 is:
     \begin{bmatrix}
         \varepsilon_1\\
         \varepsilon_2\\\gamma_{12}
-    \end{bmatrix}
+	\end{bmatrix} \textstyle{,}
 \end{equation}
-where $Q_{ij} $are the stiffnesses of the lamina that are related
+where $Q_{ij} $ are the stiffnesses of the lamina that are related
 
 to engineering elastic constants given by
 \begin{equation}
     \begin{split}
-    &Q_{11}=\frac{E_1}{1-v_{12}v_{21}}\\
-    &Q_{22}=\frac{E_2}{1-v_{12}v_{21}}\\
-    &Q_{66}=G_{12}\\
-    &Q_{12}=\frac{v_{21}E_2}{1-v_{12}v_{21}}\\
+    &Q_{11}=\frac{E_1}{1-v_{12}v_{21}}\textstyle{,}\\
+    &Q_{22}=\frac{E_2}{1-v_{12}v_{21}}\textstyle{,}\\
+    &Q_{66}=G_{12}\textstyle{,}\\
+    &Q_{12}=\frac{v_{21}E_2}{1-v_{12}v_{21}}\textstyle{,}\\
     \end{split}
 \end{equation}
 
 where $E_1, E_2, v_{12}, G_{12} $ are four independent engineering elastic constants, which are defined as follows: $E_1 $ is the longitudinal Young's modulus, $E_2 $ is the transverse Young's modulus, $v_{12} $ is the major Poisson's ratio, and $G_{12} $ is the in-plane shear modulus.
 
 Stress strain relation in the global x-y axis:
-\begin{equation}\left[\begin{array}{l}\sigma _{x} \\ \sigma _{y} \\ \tau_{xy}\end{array}\right]=\left[\begin{array}{lll}\bar{Q}_{11} & \bar{Q}_{12} & \bar{Q}_{16}\\ \bar{Q}_{12} & \bar{Q}_{22} & \bar{Q}_{26} \\ \bar{Q}_{16} & \bar{Q}_{26} &\bar{Q}_{66}\end{array}\right]\left[\begin{array}{l}\varepsilon_{x} \\ \varepsilon_{y}\\ \gamma_{x y}\end{array}\right]
+\begin{equation}
+	\left[\begin{array}{l}\sigma _{x} \\ 
+		\sigma _{y} \\ 
+		\tau_{xy}
+	\end{array}\right]=
+	\left[\begin{array}{lll}
+		\bar{Q}_{11} & \bar{Q}_{12} & \bar{Q}_{16}\\ 
+	    \bar{Q}_{12} & \bar{Q}_{22} & \bar{Q}_{26} \\ 
+	    \bar{Q}_{16} & \bar{Q}_{26} &\bar{Q}_{66}
+	\end{array}\right]\left[\begin{array}{l}\varepsilon_{x} \\ 
+	\varepsilon_{y}\\ \gamma_{x y}\end{array}\right] \textstyle{,}
 \end{equation}
 where
 
 \begin{equation}
 	\begin{array}{l}
 		\resizebox{.35\textwidth}{!}{$\bar{Q}_{11}=Q_{11} c^{4}+Q_{22} s^{4}+2\left(Q_{12}+2
-		Q_{66}\right) s^{2} c^{2}$} \\
-
+		Q_{66}\right) s^{2} c^{2}$} \textstyle{,}\\
 		\resizebox{.35\textwidth}{!}{$\bar{Q}_{12}=\left(Q_{11}+Q_{22}-4 Q_{66}\right) s^{2}
-		c^{2}+Q_{12}\left(c^{4}+s^{2}\right)$} \\
-
+		c^{2}+Q_{12}\left(c^{4}+s^{2}\right)$} \textstyle{,}\\
 		\resizebox{.35\textwidth}{!}{$\bar{Q}_{22}=Q_{11} s^{4}+Q_{22} c^{4}+2\left(Q_{12}+2
-		Q_{66}\right) s^{2} c^{2}$} \\
-
-		\resizebox{.4\textwidth}{!}{$\bar{Q}_{16}=\left(Q_{11}-Q_{12}-2 Q_{66}\right) c^{3} s-\left(Q_{22}-Q_{12}-2Q_{66}\right) s^{3} c$}
+		Q_{66}\right) s^{2} c^{2}$} \textstyle{,}\\
+		\resizebox{.4\textwidth}{!}{$\bar{Q}_{16}=\left(Q_{11}-Q_{12}-2 Q_{66}\right) c^{3} s-\left(Q_{22}-Q_{12}-2Q_{66}\right) s^{3} c$}\textstyle{,}
 		 \\ 
-		\resizebox{.4\textwidth}{!}{$\bar{Q}_{26}=\left(Q_{11}-Q_{12}-2 Q_{66}\right) c s^{3}-\left(Q_{22}-Q_{12}-2 Q_{66}\right)c^{3} s$}
+		\resizebox{.4\textwidth}{!}{$\bar{Q}_{26}=\left(Q_{11}-Q_{12}-2 Q_{66}\right) c s^{3}-\left(Q_{22}-Q_{12}-2 Q_{66}\right)c^{3} s$}\textstyle{,}
 		 \\ 
 	\resizebox{.4\textwidth}{!}	{$\bar{Q}_{66}=\left(Q_{11}+Q_{22}-2 Q_{12}-2 Q_{66}\right)
-	s^{2}c^{2}+Q_{66}\left(s^{4}+c^{4}\right)$}\\
+	s^{2}c^{2}+Q_{66}\left(s^{4}+c^{4}\right)$}\textstyle{.}\\
 	\end{array}
 \end{equation}
 
 
-The c and s denotes $cos\theta $ and $sin\theta $.
+The c and s denote $cos\theta $ and $sin\theta $, respectively.
 
 The local and global stresses in an angle lamina are related
 
@@ -161,7 +168,7 @@ to each other through the angle of the lamina $\theta $
 \end{equation}
 
 where
-\begin{equation}[T]=\left[\begin{array}{ccc}c^{2} & s^{2} & 2 s c \\ s^{2} & c^{2} & -2 s c \\ -s c & s c &c^{2}-s^{2}\end{array}\right] 
+\begin{equation}[T]=\left[\begin{array}{ccc}c^{2} & s^{2} & 2 s c \\ s^{2} & c^{2} & -2 s c \\ -s c & s c &c^{2}-s^{2}\end{array}\textstyle{.}\right] 
 \end{equation}
 
 
@@ -239,18 +246,18 @@ $M_x, M_y $ - bending moment per unit length
 
 $M_{xy} $  - twisting moments per unit length
 
-$\varepsilon^{0}, k $- mid plane strains and curvature of a laminate in x-y coordinates
+$\varepsilon^{0}, k $- mid-plane strains and curvature of a laminate in x-y coordinates
 
-The mid plane strain and curvature is given by
+The mid-plane strain and curvature is given by
 \begin{equation}
     \begin{split}
-    &A_{ij}=\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h_k-h_{k-1})  i=1,2,6, j=1,2,6\\
-    &B_{ij}=\frac{1}{2}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h^2_k - h_{k-1}^2)  i=1,2,6, j=1,2,6\\
-    &D_{ij}=\frac{1}{3}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h^3_k - h_{k-1}^3) i=1,2,6, j=1,2,6\\
+	&A_{ij}=\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h_k-h_{k-1})  i=1,2,6, j=1,2,6 \textstyle{,}\\
+	&B_{ij}=\frac{1}{2}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h^2_k - h_{k-1}^2)  i=1,2,6, j=1,2,6 \textstyle{,}\\
+	&D_{ij}=\frac{1}{3}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h^3_k - h_{k-1}^3) i=1,2,6, j=1,2,6 \textstyle{,}\\
     \end{split}
 \end{equation}
 
-The [A], [B], and [D] matrices are called the extensional, coupling, and bending stiffness matrices.
+where the [A], [B], and [D] matrices are called the extensional, coupling, and bending stiffness matrices.
 
 \section{Failure Theory}
 
@@ -259,7 +266,7 @@ A laminate will fail under increasing mechanical loading; however, the procedure
 be catastrophic.
  In some cases, some layers fail first, and the rest are able to continue to take additional loading
  until all the plies fail. A ply is fully discounted when a ply fails; then, the ply is replaced
-by a near zero stiffness and strength. 
+by a near-zero stiffness and strength. 
 The procedure for finding the first ply failure in the present
 study follows the fully discounted method:
 
@@ -308,6 +315,8 @@ if \begin{equation} \label{eq:tsai_wu}
 
 is violated, where
 
-\begin{equation} \label{eq:sr}S R=\frac{\text {Maximum Load Which Can Be Applied}}{\text {Load Applied}}
+\begin{equation} \label{eq:sr}S R=\frac{\text {Maximum Load}}{\text {Load Applied}}
 \end{equation}
+
+The maximum load refers to that can be applied using Tsai-wu failure theory.
 

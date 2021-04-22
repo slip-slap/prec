@@ -1,44 +1,44 @@
 \section{Numerical Results and Discussion}
 First, to check how do different groups evolve, we conducted this experiment
 and presented the variation of these groups. Second, to verify its performance
-and stability, the GA was runned many times, the best, worst case, and average
+and stability, the GA was run many times, the best, worst case, and average
 results were presented. Finally, we compared the result with the work in the
 other literature.
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\linewidth]{fig/group_number.png}
-	\caption{Number of individuals in each group as a function of generation}
+	\caption{Number of individuals in each group as a function of generation.}
 	\label{fig:group}
 \end{figure}
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\linewidth]{fig/fitness_strength_ratio.png}
-	\caption{Fitness and strength ratio as a function of generations}
+	\caption{Fitness and strength ratio as a function of generations.}
 	\label{fig:sr}
 \end{figure}
 
 
 
 Figure \ref{fig:group} shows the number of individuals in each group during
-one-time GA process.  For both active group and potential groups, the number of
+the one-time GA process.  For both active group and potential groups, the number of
 individuals is to its upper bound from the beginning to the end of the
 searching process. However, for the proper group, at the initial stage of GA,
 no individual fulfills the constraint, so the number of proper individuals is
 zero. As seen from figure \ref{fig:group}, after forty generations, proper
-individuals appeared, and increased very quickly to its number upper bound.
+individuals appeared and increased very quickly to its number upper bound.
 
 
 The GA process can be divided into two phases by whether there are individuals
 that are appropriate or not. The figure \ref{fig:sr} shows the GA process in
 which the dashed vertical line is the watershed between the initial phase and
 the last phase. In the initial phase, no individual's strength ratio is over
-the specified threshold; there are two approach that GA could obtain a better
+the specified threshold; there are two approaches that GA could obtain a better
 solution, though none of them are feasible, the first is increasing the length
-of chromosome, and the second is adjust internal structure of an chromosome. So
+of the chromosome, and the second is adjust the internal structure of a chromosome. So
 in the first first stage, the fitness gets more and more smaller because the
-increath of chromosome's length; however, at the point 1 on the fitness curve
+increase of chromosome's length; however, at the point 1 on the fitness curve
 of the GA, the fitness suddenly goes up due to the chromosome's adjustment; the
 corresponding strength ratio of point 1 on the generation-strength ratio curve
 is denoted by the point $1^{\prime}$, and its strength ratio goes up.  Then GA
@@ -55,17 +55,17 @@ Table \ref{tab:optimum_layup} shows the searching results after conducting this
 experiment one hundred times in two different coefficient situations for
 glass-epoxy and graphite-epoxy material, respectively. The best, worst, and
 average experiment results are represented in this table. For the glass-epoxy
-material, if the coefficient value takes 1, the best and worst sequence are
+material, if the coefficient value takes 1, the best and worst sequences are
 $[0_{80}/90_{52}]$, $0_{75}/90_{43}$, respectively; the average mass, cost, and
-number of layers are 1.68, 123, 123. However, if the coefficient takes a
-relative bigger value, the performance of GA is better then the GA with smaller
-coefficient value. When the coefficient takes 1, the number of layer for the
-best and worst case are 118 and 132, respectively. When the coefficient value
+the number of layers are 1.68, 123, 123. However, if the coefficient takes a
+relative bigger value, the performance of GA is better than the GA with a smaller
+coefficient value. When the coefficient takes 1, the number of layers for the
+best and worst cases are 118 and 132, respectively. When the coefficient value
 si 5, the number of layer for them are 125 and 136, respectively. When
-graphite-expoxy was taken as the experiment material, the similar experiment
+graphite-epoxy was taken as the experiment material, similar experiment
 results were presented. This is because the mutation coefficient can control
 both the convergence speed and search performance, a small mutation coefficient
-would slow the covergence speed, however, it would lead to a small-grained
+would slow the convergence speed, however, it would lead to a small-grained
 search in the local. 
 
 
@@ -73,7 +73,7 @@ search in the local.
 Table \ref{tab:comparsion} shows the optimal lay-up sequences by the variant GA
 and  Choudhury and Mondal's\cite{choudhury2019failure} study. For the loading
 case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$  cross ply
-laminate if glass-epoxy are taken, however,  in present study, a
+laminate if glass-epoxy are taken, however,  in the present study, a
 $[0_{78}/90_{28}]$ glass-epoxy cross ply laminate has been found which
 significantly reduces both the cost and weight with increasing laminate's SR;
 If graphite-epoxy was used, compared with the $[0_{17}/90_{18}]$ cross ply

@@ -1,19 +1,19 @@
 \section{Experiment}
-First, we formulate a constrained problem as searching the optimal stacking
+First, we formulate a constrained problem by searching the optimal stacking
 sequence of cross ply laminate under in-plane loading whose strength ratio is
 not less than 2.  Each lamina dimensions $1000 \times 1000 \times 0.165 mm^3$
-is adopted in this experiment , each graphite/epoxy  and glass/epoxy layer is
+is adopted in this experiment, each graphite/epoxy,  and glass/epoxy layer is
 assumed to cost 2.5 and 1 monetary units, respectively. The other material
 properties are shown in Table \ref{tab:mat}. 
 
 
 \subsection{Problem formulation}
 
-In the present experiment, the optimal composite sequences, and number of
-layers for a targeted strength ratio under in-plane loading conditions is
+In the present experiment, the optimal composite sequences, and the number of
+layers for a targeted strength ratio under in-plane loading conditions are
 investigated.  The aim is to minimize the mass of a laminate composite for a
 targeted strength ratio based on the Tsai-wu failure theory. The design
-variable are the ply angles and the number of layers.  Ply orientation
+variables are the ply angles and the number of layers.  Ply orientation
 restricted to a discrete set of angles ($0, \text{ and } 90 \text{ degrees} $).
 The problem can be formulated as the following equation
 
@@ -27,29 +27,29 @@ Subject to: strength ratio
 \subsection{GA Operation}
 
 \input{fig/ga_operator.tex}
-In the present study, floating encoding is adopted in current study, Figure
+In the present study, floating encoding is adopted in the current study, Figure
 \ref{GA:operator}(a) shows two parents $P_1$ and $P_2$ which represent two
 cross ply laminates, the corresponding cross ply laminates lay-ups are
-$[0_3/90_7]$ and $[0_6/90_4]$, respectively. Figure \ref{GA:operator} (b) shows
+$[0_3/90_7]$ and $[0_6/90_4]$, respectively. Figure \ref{GA:operator}(b) shows
 two offspring of parents $P_1$ and $P_2$ which are consist of half of each
-parents chromosome.
+parent's chromosome.
 
-Fig \ref{GA:operator} shows the mutation operations which consists of
-chromosome length mutation and gene mutation. For the chromosome length
+Figure \ref{GA:operator} shows the mutation operations which consists of
+chromosome length mutation and angle mutation. For the chromosome length
 mutation, calculate the chromosome's strength ratio based on its sequence, if
 its strength ratio is less than threshold, then increase its length. A length
 mutation coefficient $lmc$ is introdued to adjust the length mutation.  As
 shown in figure \ref{GA:operator}(b), the strength ratio of $O_1$ chromosome is
 0.0854, and the strength ratio threshold is 2. Suppose the length mutation
 coefficient($lmc$) is 2, then the correspond increasing length is $2
-\times(2-0.0854)$. For the gene mutation, randomly swap the gene from
+\times(2-0.0854)$. For the angle mutation, randomly swap the gene from
 0 to 90 in the chromosome, or the otherwise.
 
 
 \subsection{GA Parameters}
 Table \ref{tab:ga} shows related GA parameters. The population is 40, 50
 percent is selected as the parent, so the parent population is 20. As shown in figure \ref{fig:group},
-, the percentage of active individuals from active group, potential
+, the percent of active individuals from active group, potential
 individuals from potential group, and proper group from proper individual are
 0.3, 0.3, and 0.4, respectively. which means the number of active individuals,
 potential individuals, and proper individuals are 6, 6, and 8, respectively.
@@ -59,7 +59,7 @@ potential individuals, and proper individuals are 6, 6, and 8, respectively.
 	\includegraphics[width=\linewidth]{fig/percentage_of_groups}
 	\caption{Percentage of active individuals from active group, potential
 	  individuals from potential group, and proper individuals from proper group
-	 in parent population}
+	 in parent population.}
 	\label{fig:group}
 \end{figure}
 
