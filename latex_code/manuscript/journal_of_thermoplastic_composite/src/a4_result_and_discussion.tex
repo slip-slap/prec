@@ -1,8 +1,8 @@
 \section{Numerical Results and Discussion}
-First, to check how do different groups evolve, we conducted this experiment
-and presented the variation of these groups. Second, to verify its performance
-and stability, the GA was run many times, the best, worst case, and average
-results were presented. Finally, we compared the result with the work in the
+To figure out the number of individuals in each group during the GA process, we conducted this experiment
+and showed the number of individuals in each generation in respect of GA generation. Second, to verify its performance
+and stability, the GA was run one hundred times, the best, worst case, and average
+results were presented, respectively. Finally, we compared the result with the work in the
 other literature.
 
 \begin{figure}[!htb]
@@ -15,7 +15,13 @@ other literature.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\linewidth]{fig/fitness_strength_ratio.png}
-	\caption{Fitness and strength ratio as a function of generations.}
+	\caption{The fitness is the negation of the individual's mass. The solid
+		curve is the fitness of the best individual in the population in respect
+		to the generations; and the dotted line denotes its corresponding strength
+		ratio. If no individuals in the population satisfy the contraint, the
+		best individual is the one with biggest strength ratio; if not, the
+		best individual is the one with smallest mass.
+}
 	\label{fig:sr}
 \end{figure}
 
@@ -52,8 +58,8 @@ but both of them still satisfy the constraint.
 
 \input{table/optimum_layup.tex}
 Table \ref{tab:optimum_layup} shows the searching results after conducting this
-experiment one hundred times in two different coefficient situations for
-glass-epoxy and graphite-epoxy material, respectively. The best, worst, and
+experiment one hundred times in two length mutation coefficient cases for
+glass-epoxy and graphite-epoxy material, respectively. The best, worst case, and
 average experiment results are represented in this table. For the glass-epoxy
 material, if the coefficient value takes 1, the best and worst sequences are
 $[0_{80}/90_{52}]$, $0_{75}/90_{43}$, respectively; the average mass, cost, and
@@ -70,11 +76,11 @@ search in the local.
 
 
 \input{table/comparsion.tex}
-Table \ref{tab:comparsion} shows the optimal lay-up sequences by the variant GA
+Table \ref{tab:comparsion} shows the optimal lay-up sequences by the proposed GA
 and  Choudhury and Mondal's\cite{choudhury2019failure} study. For the loading
 case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$  cross ply
 laminate if glass-epoxy are taken, however,  in the present study, a
 $[0_{78}/90_{28}]$ glass-epoxy cross ply laminate has been found which
-significantly reduces both the cost and weight with increasing laminate's SR;
+significantly reduces both the cost and weight with increasing laminate's strength ratio;
 If graphite-epoxy was used, compared with the $[0_{17}/90_{18}]$ cross ply
 laminate, an alternative cross ply laminate is found, its lay-up is $[0_{18}/90_8]$.

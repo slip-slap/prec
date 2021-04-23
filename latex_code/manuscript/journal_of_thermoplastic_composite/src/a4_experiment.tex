@@ -27,21 +27,21 @@ Subject to: strength ratio
 \subsection{GA Operation}
 
 \input{fig/ga_operator.tex}
-In the present study, floating encoding is adopted in the current study, Figure
-\ref{GA:operator}(a) shows two parents $P_1$ and $P_2$ which represent two
-cross ply laminates, the corresponding cross ply laminates lay-ups are
-$[0_3/90_7]$ and $[0_6/90_4]$, respectively. Figure \ref{GA:operator}(b) shows
-two offspring of parents $P_1$ and $P_2$ which are consist of half of each
-parent's chromosome.
+In the present study, floating encoding is adopted to represent a solution for
+the lay-up design of cross ply laminate, Figure \ref{GA:operator}(a) shows two
+parents $P_1$ and $P_2$ which represent two cross ply laminates, the
+corresponding cross ply laminates lay-ups are $[0_3/90_7]$ and $[0_6/90_4]$,
+respectively. Figure \ref{GA:operator}(b) shows two offspring of parents $P_1$
+and $P_2$ which are consist of half of each parent's chromosome.
 
 Figure \ref{GA:operator} shows the mutation operations which consists of
-chromosome length mutation and angle mutation. For the chromosome length
+length mutation and angle mutation operation for the chromosome. For the chromosome length
 mutation, calculate the chromosome's strength ratio based on its sequence, if
 its strength ratio is less than threshold, then increase its length. A length
-mutation coefficient $lmc$ is introdued to adjust the length mutation.  As
+mutation coefficient  is introdued to adjust the length mutation.  As
 shown in figure \ref{GA:operator}(b), the strength ratio of $O_1$ chromosome is
 0.0854, and the strength ratio threshold is 2. Suppose the length mutation
-coefficient($lmc$) is 2, then the correspond increasing length is $2
+coefficient takes 2, then the corresponding increase length is $2
 \times(2-0.0854)$. For the angle mutation, randomly swap the gene from
 0 to 90 in the chromosome, or the otherwise.
 
