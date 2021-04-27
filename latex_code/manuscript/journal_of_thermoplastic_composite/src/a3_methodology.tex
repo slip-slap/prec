@@ -5,32 +5,32 @@
 The GA starts with multiple individuals with limited chromosome lengths, in
 which maybe none of these individuals fulfill the constraints. The GA is
 assumed to derive appropriate offspring based on the initial population as the
-GA continues. The classic way to handle the constrained search of the GA is
-either to introduce repair strategies or use a penalty function. Figure
-\ref{fig:old_ga_model} shows the classic flow chart of a GA framework which
+GA continues. The traditional way to handle the constrained search of the GA is
+either to introduce repair strategies or to use a penalty function. Figure
+\ref{fig:old_ga_model} shows the classic flow chart of a GA framework, which
 includes selection, crossover, and mutation operators. However, GA is originally
-proposed to solve unconstrained problems, therefore, a new approach is
-developed to address the constrained GA search problem in an unconstrained way. 
+proposed to solve unconstrained problems; therefore, we suggest a new approach 
+to address the constrained GA search problem in an unconstrained way. 
 
-Because of the existence of constraints, the population can be sorted by the
-fitness (obtained by the objective function) but can also be sorted by the
-constraint value obtained by the constraint function (assuming a constraint
+Because of the existence of constraints, the population not only can be sorted
+by the fitness (obtained by the objective function) but also sorted by
+the constraint value obtained by the constraint function (assuming a constraint
 function exists), so the parents of the next generation can be chosen by the
-following three approaches. First, the population is sorted by fitness 
-in ascending order, and individuals with smaller fitness are selected. These
+following three approaches. First, the population is sorted by fitness in
+ascending order, and individuals with smaller fitness are selected. These
 selected individuals form a group named as a proper group. Second, remove
 individual which satisfies constraints, and sort population by the difference
 between the individual's constraint value and the threshold of the constraint
 in descending order, and individuals with bigger differences are chosen to be
 the parents of the next generation. The group which forms are called potential
-group, and an individual from this group is referred to as a potential individual.
-Third, the population is sorted by fitness from low to high after removing
-individuals which fails to fit the constraints, select individuals with bigger
-fitness, and these individuals form the proper group.  So the final parents'
-pool is consists of three groups, active group, potential group, and proper
-group.  The number of active individuals, potential individuals, and proper
-individuals are called, respectively, active number, potential numbers, and
-proper number. 
+group, and an individual from this group is referred to as a potential
+individual.  Third, the population is sorted by fitness from low to high after
+removing individuals which fails to fit the constraints, select individuals
+with bigger fitness, and these individuals form the proper group.  So the final
+parents' pool is consists of three groups, active group, potential group, and
+proper group.  The number of active individuals, potential individuals, and
+proper individuals are called, respectively, active number, potential numbers,
+and proper number. 
 
 Each group in the parents' population has its role in the searching
 process. The problem within traditional GA is premature and has weak local
@@ -54,31 +54,29 @@ and this active individual could inject a new gene clip into this potential
 individual, therefore providing a new evolution direction. 
 
 
-A proper individual means a feasible solution, it fulfills all the constraints. 
+A proper individual means a feasible solution, which fulfills all the constraints. 
 However, there are still some drawbacks within it, for example, its fitness is low.
 The crossover operation could happen between a proper individual and any other individuals.
 
 
 The mutation operator for an active group is different from the potential group
-and proper group, because their roles in the searching process are different.
-The target of the potential group and proper group is to obtain a feasible
-solution, however, the role of the active group is to maintain the variety of gene
-clip in the mating pool. 
+and proper group because their roles in the searching process are different:
+the target of the potential group and proper group is to obtain a feasible
+solution; however, the role of the active group is to maintain the variety of gene
+clips in the mating pool. 
 
 Figure \ref{fig:model} shows the flow chart of the proposed GA. First, the
-population are divided into three groups, active group, potential group, and
+population is divided into three groups, active group, potential group, and
 proper group by the above-mentioned method. Second, select an appropriate number of
 individuals from each group as parents, and the various selection scheme can be
 taken for each group. 
 
 
 The searching process can be divided into two phases according to whether
-proper individuals are generated.  During the initial stage, no individual in
+proper individuals are generated or not. During the initial stage, no individual in
 the population is appropriate, which means the number of individuals in the
 proper group is zero. Both active group and potential group are full. After a
-couple of generations, some proper individuals could be produced. Then, GA
+couple of generations, some proper individuals could be produced. Then, the GA
 comes to its second phase, the number of proper individuals begins to increase,
-finally, the number in the proper group reaches its upper bound. During the
-last phases, 
-
+finally, the number in the proper group reaches its upper bound. 
 

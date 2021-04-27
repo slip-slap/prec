@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1619485195 "main.aux" "main.bbl" "main" 1619494135
+["bibtex main"] 1619495052 "main.aux" "main.bbl" "main" 1619497052
   "./SageV.bst" 1618195339 27111 85b45bca39b0a2f223956e4ccc2e96ec ""
-  "main.aux" 1619494127 10340 1c42c309adf3878872ca423a233ff0d6 ""
+  "main.aux" 1619497051 10340 fd751a1407a3dd2ea6ddd737ca70faa1 ""
   "reference.bib" 1618274222 13253 c0c65159c54ee88ec54563ffd7cb4bc6 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1619494125 "main.tex" "main.pdf" "main" 1619494135
+  "main.blg"
+["pdflatex"] 1619497049 "main.tex" "main.pdf" "main" 1619497052
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -227,18 +227,18 @@
   "fig/chapter3_ogam.tex" 1619053929 1532 b8173f1ca0f2e309746ade61b73a7265 ""
   "fig/cross_ply_laminate.tex" 1619484510 433 c4e8496b05d7a3af3cfe614dd7040468 ""
   "fig/fitness_strength_ratio.png" 1618980146 38710 e527639558ed591ab42af733db129e2b ""
-  "fig/ga_operator.tex" 1619492597 5557 3f1c01d85ad135a4ff1126c707a4a324 ""
+  "fig/ga_operator.tex" 1619495048 5556 9c71e97d473d1ead9338d6f7e54ee9f6 ""
   "fig/group_number.png" 1618226077 28642 1f9d3f6502bb75e782e14a9630f0e796 ""
   "fig/percentage_of_groups.png" 1618994804 30261 31646d84a3b005819747ea376ed40116 ""
-  "main.aux" 1619494127 10340 1c42c309adf3878872ca423a233ff0d6 ""
-  "main.bbl" 1619485196 7747 1fbbe1a8cbf62fad9649f4d4ce876419 "bibtex main"
-  "main.out" 1619494127 902 59466454eab5aa126b4edf24de6e4e9e ""
-  "main.tex" 1619493098 1741 c80735a4f2125b28a5c1f581da0f2922 ""
+  "main.aux" 1619497051 10340 fd751a1407a3dd2ea6ddd737ca70faa1 ""
+  "main.bbl" 1619495052 7747 1fbbe1a8cbf62fad9649f4d4ce876419 "bibtex main"
+  "main.out" 1619497051 902 59466454eab5aa126b4edf24de6e4e9e ""
+  "main.tex" 1619495316 1741 c80735a4f2125b28a5c1f581da0f2922 ""
   "sagej.cls" 1618195339 15958 5fa98adc3dbacfa813e0251e7c0042fe ""
   "src/a1_abstract.tex" 1619322482 645 f7832ea5ec96b81b1a37a76f7dc2c62f ""
   "src/a2_introduction.tex" 1619484404 15686 ff14794b2c223885e486e65c99e947ec ""
-  "src/a3_methodology.tex" 1619322086 5063 b88fbd654fc3a00285a783be973bd1f3 ""
-  "src/a4_experiment.tex" 1619494123 3444 15ed9c2363ca880e5e914e3cc9dcb61b ""
+  "src/a3_methodology.tex" 1619497041 5059 3427c75a7b0d5c83c0653932519aff8c ""
+  "src/a4_experiment.tex" 1619495204 3458 5fc9036255db1cdabb103a17cec35f75 ""
   "src/a4_result_and_discussion.tex" 1619491725 5065 925aae7d57d58bbc32f3181c1428c0f3 ""
   "src/a5_conclusion.tex" 1619486141 918 e8136ed7a4c5acc076b4ac061e23067e ""
   "src/a6_acknowledgment.tex" 1618209210 129 6099bf39beeda422b598afbf82d7e6d0 ""
@@ -247,7 +247,7 @@
   "table/material.tex" 1619053898 1515 f3ab7c862d7b3d2977571079829198a1 ""
   "table/optimum_layup.tex" 1619150368 2002 9803db1b65c0c9dacff751ce9a7ec290 ""
   (generated)
-  "main.out"
   "main.pdf"
   "main.log"
+  "main.out"
   "main.aux"
