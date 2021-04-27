@@ -47,7 +47,7 @@ no individual's strength ratio is over the specified threshold, and the main
 reason that the fitness gets smaller gradually is the increase of chromosome's
 length; At point 1 on the fitness curve, the fitness suddenly goes up, however,
 the corresponding strength ratio of point 1, denoted by the point $1^{\prime}$
-on the generation-strength ratio curve, also increases. This is because of the
+on the generation-strength ratio curve, also increases. it is because of the
 adjustment of a chromosome's lay-up.  Then GA comes to its second phase. During
 this phase, the GA already found proper individuals which could satisfy the
 constraint, so the target in this stage is to improve fitness. This means GA
@@ -61,29 +61,28 @@ satisfy the constraint.
 Table \ref{tab:optimum_layup} shows the searching results after conducting this
 experiment one hundred times in two length mutation coefficient cases for
 glass-epoxy and graphite-epoxy material, respectively. The best, worst case, and
-average experiment results are represented in this table. For the glass-epoxy
-material, if the coefficient value takes 1, the best and worst sequences are
-$[0_{80}/90_{52}]$, $0_{75}/90_{43}$, respectively; the average mass, cost, and
-the number of layers are 1.68, 123, 123. However, if the coefficient takes a
-relatively bigger value, the performance of GA is better than the GA with a smaller
-coefficient value. When the coefficient takes 1, the number of layers for the
-best and worst cases are 118 and 132, respectively. When the coefficient value
-si 5, the number of layers for them are 125 and 136, respectively. When
-graphite-epoxy was taken as the experiment material, similar experiment
-results were presented. This is because the mutation coefficient can control
-both the convergence speed and search performance, a small mutation coefficient
-would slow the convergence speed, however, it would lead to a small-grained
-search in the local. 
+average experiment results are showed in this table.  For the glass-epoxy
+material, if the length mutation coefficient takes one, the best and worst
+sequences are $[0_{80}/90_{52}]$, $[0_{75}/90_{43}]$; the average mass, cost,
+and number of layers are 7.68, 123, 123. If we increase its length mutation
+coefficient, suppose it is five, the number of layers for best and worst cases
+are 125 and 136;  the average mass, cost, and number of layers are 8.55, 131,
+131.  When graphite-epoxy is taken as the experiment material, similar
+experiment results are found.  Comparing these two results, we see that a
+bigger value of length mutation coefficient can improve this GA's performance.
+This is because the mutation coefficient can control both the convergence speed
+and search performance, a small mutation coefficient would slow the convergence
+speed, however, it would lead to a small-grained exploitation in the local space. 
 
 
 \input{table/comparsion.tex}
-Table \ref{tab:comparsion} shows the optimal cross-ply sequences by the proposed GA
-and  Choudhury and Mondal's\cite{choudhury2019failure} study. For the loading
-case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$  cross-ply
-laminate if glass-epoxy are taken, however, in the present study, a
-$[0_{75}/90_{43}]$ glass-epoxy cross-ply laminate has been found which
-significantly reduces both the cost and weight; and the constraint on the
-optimization is satisfied.  Similarly, if graphite-epoxy is taken, compared
-with the $[0_{17}/90_{18}]$ cross-ply laminate, an alternative solution has
-been found, its lay-up is $[0_{17}/90_5]$. For both cases, the experiment
-results have shown that using the present proposed GA can obtain better results.
+Table \ref{tab:comparsion} shows the optimal cross-ply sequences by the
+proposed GA and  Choudhury and Mondal's\cite{choudhury2019failure} study. For
+the loading case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$
+cross-ply laminate if glass-epoxy is taken; however, in the present study, a
+$[0_{75}/90_{43}]$ glass-epoxy cross-ply laminate is found which
+significantly reduces both the cost and weight, and it satisfies the
+constraint.  Similarly, if graphite-epoxy is taken, compared with the
+$[0_{17}/90_{18}]$ cross-ply laminate, an alternative solution is found,
+its lay-up is $[0_{17}/90_5]$. For both cases, we can see that the experiment
+results show that using the present proposed GA can obtain better results.

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1619485195 "main.aux" "main.bbl" "main" 1619488712
+["bibtex main"] 1619485195 "main.aux" "main.bbl" "main" 1619491741
   "./SageV.bst" 1618195339 27111 85b45bca39b0a2f223956e4ccc2e96ec ""
-  "main.aux" 1619488698 10340 1c42c309adf3878872ca423a233ff0d6 ""
+  "main.aux" 1619491728 10340 1c42c309adf3878872ca423a233ff0d6 ""
   "reference.bib" 1618274222 13253 c0c65159c54ee88ec54563ffd7cb4bc6 ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1619488696 "main.tex" "main.pdf" "main" 1619488712
+  "main.bbl"
+["pdflatex"] 1619491727 "main.tex" "main.pdf" "main" 1619491741
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -230,16 +230,16 @@
   "fig/ga_operator.tex" 1619053998 5558 529e5db8243aaeb683abb2b0f5f9f4d4 ""
   "fig/group_number.png" 1618226077 28642 1f9d3f6502bb75e782e14a9630f0e796 ""
   "fig/percentage_of_groups.png" 1618994804 30261 31646d84a3b005819747ea376ed40116 ""
-  "main.aux" 1619488698 10340 1c42c309adf3878872ca423a233ff0d6 ""
+  "main.aux" 1619491728 10340 1c42c309adf3878872ca423a233ff0d6 ""
   "main.bbl" 1619485196 7747 1fbbe1a8cbf62fad9649f4d4ce876419 "bibtex main"
-  "main.out" 1619488698 902 59466454eab5aa126b4edf24de6e4e9e ""
-  "main.tex" 1619485887 1741 c80735a4f2125b28a5c1f581da0f2922 ""
+  "main.out" 1619491728 902 59466454eab5aa126b4edf24de6e4e9e ""
+  "main.tex" 1619491649 1741 c80735a4f2125b28a5c1f581da0f2922 ""
   "sagej.cls" 1618195339 15958 5fa98adc3dbacfa813e0251e7c0042fe ""
   "src/a1_abstract.tex" 1619322482 645 f7832ea5ec96b81b1a37a76f7dc2c62f ""
   "src/a2_introduction.tex" 1619484404 15686 ff14794b2c223885e486e65c99e947ec ""
   "src/a3_methodology.tex" 1619322086 5063 b88fbd654fc3a00285a783be973bd1f3 ""
   "src/a4_experiment.tex" 1619485735 3154 374e2d95eab07327b75e5c79631c672b ""
-  "src/a4_result_and_discussion.tex" 1619488694 5116 a98002e656f8a7cdcdc783de7e344f27 ""
+  "src/a4_result_and_discussion.tex" 1619491725 5065 925aae7d57d58bbc32f3181c1428c0f3 ""
   "src/a5_conclusion.tex" 1619486141 918 e8136ed7a4c5acc076b4ac061e23067e ""
   "src/a6_acknowledgment.tex" 1618209210 129 6099bf39beeda422b598afbf82d7e6d0 ""
   "table/comparsion.tex" 1619151303 1155 fd86acb0bf4c90097441ffd709461c85 ""
@@ -248,6 +248,6 @@
   "table/optimum_layup.tex" 1619150368 2002 9803db1b65c0c9dacff751ce9a7ec290 ""
   (generated)
   "main.aux"
-  "main.out"
   "main.log"
   "main.pdf"
+  "main.out"
