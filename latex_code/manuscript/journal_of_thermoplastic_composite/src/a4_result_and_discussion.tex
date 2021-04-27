@@ -1,9 +1,10 @@
 \section{Numerical Results and Discussion}
-To figure out the number of individuals in each group during the GA process, we conducted this experiment
-and showed the number of individuals in each generation in respect of GA generation. Second, to verify its performance
-and stability, the GA was run one hundred times, the best, worst case, and average
-results were presented, respectively. Finally, we compared the result with the work in the
-other literature.
+To figure out how the number of individuals in each group varies during the GA
+process, we conduct one-time experiment and show the number of individuals
+in each generation in respect of GA generation. Second, to verify its
+performance and stability, the GA is run one hundred times: the best, worst
+case, and average results are presented, respectively. Finally, we compare
+the results with the work in the other literature.
 
 \begin{figure}[!htb]
 	\centering
@@ -18,42 +19,42 @@ other literature.
 	\caption{The fitness is the negation of the individual's mass. The solid
 		curve is the fitness of the best individual in the population in respect
 		to the generations; and the dotted line denotes its corresponding strength
-		ratio. If no individuals in the population satisfy the contraint, the
-		best individual is the one with biggest strength ratio; if not, the
-		best individual is the one with smallest mass.
+		ratio. If no individuals in the population satisfy the constraint, the
+		best individual is the one with the biggest strength ratio; if not, the
+		best individual is the one with the smallest mass.
 }
 	\label{fig:sr}
 \end{figure}
 
 
 
-Figure \ref{fig:group} shows the number of individuals in each group during
-the one-time GA process.  For both active group and potential groups, the number of
-individuals is to its upper bound from the beginning to the end of the
-searching process. However, for the proper group, at the initial stage of GA,
-no individual fulfills the constraint, so the number of proper individuals is
-zero. As seen from figure \ref{fig:group}, after forty generations, proper
-individuals appeared and increased very quickly to its number upper bound.
+Figure \ref{fig:group} shows the number of individuals in each group during the
+one-time GA process.  For both active group and potential groups, the number of
+individuals is fixed, and equal to its upper bound from the beginning to the
+end of the searching process. However, for the proper group, at the initial
+stage of GA, no individual fulfills the constraint, so the number of proper
+individuals is zero. As seen from figure \ref{fig:group}, after forty
+generations, proper individuals appear, and its population increases very
+quickly up to its upper bound.
 
-
-The GA process can be divided into two phases by whether there are individuals
-that are appropriate or not. The figure \ref{fig:sr} shows the GA process in
-which the dashed vertical line is the watershed between the initial phase and
-the last phase. In the initial phase, no individual's strength ratio is over
-the specified threshold; there are two approaches that GA could obtain a better
-solution, though none of them are feasible, the first is increasing the length
-of the chromosome, and the second is adjust the internal structure of a chromosome. So
-in the first first stage, the fitness gets more and more smaller because the
-increase of chromosome's length; however, at the point 1 on the fitness curve
-of the GA, the fitness suddenly goes up due to the chromosome's adjustment; the
-corresponding strength ratio of point 1 on the generation-strength ratio curve
-is denoted by the point $1^{\prime}$, and its strength ratio goes up.  Then GA
-comes to its second phase. During this phase, the GA already found proper
-individuals which could satisfy the constraint, so the target in this stage is
-to improve the fitness. This means GA needs to adjust its inner structure, at
-the point 2 and 3 on the generation-fitness curve, the fitness curves went up,
-and the corresponding strength ratio of these two points slightly went down,
-but both of them still satisfy the constraint.
+There are two approaches that the GA could obtain a better solution: the first
+is increasing the length of the chromosome; the second one is adjusting the
+internal structure of a chromosome. The GA process can be divided into two
+phases by whether there are proper individuals or not. Figure
+\ref{fig:sr} shows the GA process in which the dashed vertical line is the
+watershed between the initial phase and the last phase. In the initial phase,
+no individual's strength ratio is over the specified threshold, and the main
+reason that the fitness gets smaller gradually is the increase of chromosome's
+length; At point 1 on the fitness curve, the fitness suddenly goes up, however,
+the corresponding strength ratio of point 1, denoted by the point $1^{\prime}$
+on the generation-strength ratio curve, also increases. This is because of the
+adjustment of a chromosome's lay-up.  Then GA comes to its second phase. During
+this phase, the GA already found proper individuals which could satisfy the
+constraint, so the target in this stage is to improve fitness. This means GA
+needs to adjust its inner structure, at the point 2 and 3 on the
+generation-fitness curve, the fitness curves go up, and the corresponding
+strength ratio of these two points slightly go down, but both of them still
+satisfy the constraint.
 
 
 \input{table/optimum_layup.tex}
@@ -64,10 +65,10 @@ average experiment results are represented in this table. For the glass-epoxy
 material, if the coefficient value takes 1, the best and worst sequences are
 $[0_{80}/90_{52}]$, $0_{75}/90_{43}$, respectively; the average mass, cost, and
 the number of layers are 1.68, 123, 123. However, if the coefficient takes a
-relative bigger value, the performance of GA is better than the GA with a smaller
+relatively bigger value, the performance of GA is better than the GA with a smaller
 coefficient value. When the coefficient takes 1, the number of layers for the
 best and worst cases are 118 and 132, respectively. When the coefficient value
-si 5, the number of layer for them are 125 and 136, respectively. When
+si 5, the number of layers for them are 125 and 136, respectively. When
 graphite-epoxy was taken as the experiment material, similar experiment
 results were presented. This is because the mutation coefficient can control
 both the convergence speed and search performance, a small mutation coefficient
@@ -76,11 +77,13 @@ search in the local.
 
 
 \input{table/comparsion.tex}
-Table \ref{tab:comparsion} shows the optimal lay-up sequences by the proposed GA
+Table \ref{tab:comparsion} shows the optimal cross-ply sequences by the proposed GA
 and  Choudhury and Mondal's\cite{choudhury2019failure} study. For the loading
-case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$  cross ply
-laminate if glass-epoxy are taken, however,  in the present study, a
-$[0_{78}/90_{28}]$ glass-epoxy cross ply laminate has been found which
-significantly reduces both the cost and weight with increasing laminate's strength ratio;
-If graphite-epoxy was used, compared with the $[0_{17}/90_{18}]$ cross ply
-laminate, an alternative cross ply laminate is found, its lay-up is $[0_{18}/90_8]$.
+case $Nx=1$ MPa m, the optimal lay-ups are a $[0_{68}/90_{72}]$  cross-ply
+laminate if glass-epoxy are taken, however, in the present study, a
+$[0_{75}/90_{43}]$ glass-epoxy cross-ply laminate has been found which
+significantly reduces both the cost and weight; and the constraint on the
+optimization is satisfied.  Similarly, if graphite-epoxy is taken, compared
+with the $[0_{17}/90_{18}]$ cross-ply laminate, an alternative solution has
+been found, its lay-up is $[0_{17}/90_5]$. For both cases, the experiment
+results have shown that using the present proposed GA can obtain better results.

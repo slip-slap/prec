@@ -5,12 +5,12 @@ industry, electronic packaging to golf clubs, and medical equipment to homebuild
 cost of fabrication of composites is a critical drawback to its application. For example, the
 graphite/epoxy composite part may cost as much as $650$ to $900$ per kilogram. In contrast, the price
 of glass/epoxy is about 2.5 times less. Manufacturing techniques such as sheet molding compounds and
-structural reinforcement injection molding are used to lower the  costs for manufacturing automobile parts.
+structural reinforcement injection molding are used to lower the costs for manufacturing automobile parts.
 An alternative approach is using hybrid composite materials.
 
 
 The mechanical performance of a laminate composite is affected by a wide range of factors such as the
-thickness, material, and orientation of each laminae. Because of manufacturing limitations, all these
+thickness, material, and orientation of each lamina. Because of manufacturing limitations, all these
 variables are usually limited to a small set of discrete values. For example, the ply thickness is fixed,
 and ply orientation angles are limited to a set of angles such as 0, 45, and 90 degrees in practice. So
 the search process for the optimal design is a discrete optimization problem that can be solved by the
@@ -84,11 +84,14 @@ Static failure criteria are used to investigate the feasibility of a laminate co
 \end{figure*}
 
 \input{fig/cross_ply_laminate.tex}
-A laminate structure consists of multiple lamina bonded together through their thickness.
-Considering a laminate composite plate that is symmetric to its middle plane subject to in-plane
-loading of extension, shear, bending and torsion, the classical lamination theory (CLT) is taken to
-calculate the stress and strain in the local and global axes of each ply, as shown in
-Fig.~\ref{fig:lamina}.
+A laminate structure consists of multiple lamina bonded together through their
+thickness.  Considering a laminate composite plate that is subject to in-plane
+loading of extension, shear, bending and torsion, the classical lamination
+theory (CLT) is taken to calculate the stress and strain in the local and
+global axes of each ply, as shown in figure \ref{fig:lamina}. Based on fiber
+orientation, material, and fiber thickness, there are a few special cases of
+laminate: the set of fiber angles in figure \ref{fig:cross_ply} only includes 0
+and 90, which is called cross-ply laminate.
 
 \input{table/material.tex}
 
