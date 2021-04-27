@@ -28,22 +28,26 @@ Subject to: strength ratio
 
 \input{fig/ga_operator.tex}
 In the present study, floating encoding is adopted to represent a solution for
-the lay-up design of cross-ply laminate, Figure \ref{GA:operator}(a) shows two
+the lay-up design of cross-ply laminate, figure \ref{GA:operator}(a) shows two
 parents $P_1$ and $P_2$ which represent two cross-ply laminates, the
 corresponding laminates lay-ups are $[0_3/90_7]$ and $[0_6/90_4]$,
-respectively. Figure \ref{GA:operator}(b) shows two offspring of parents $P_1$
-and $P_2$ which are consist of half of each parent's chromosome.
+respectively; figure \ref{GA:operator}(b) shows two offspring of parents $P_1$
+and $P_2$ which are consist of half of each parent's chromosome; figure
+\ref{GA:operator}(c) and \ref{GA:operator}(d) display the offspring after
+length and angle mutation, respectively.
 
-Figure \ref{GA:operator} shows the mutation operations which consists of
-length mutation and angle mutation operation for the chromosome. For the chromosome length
-mutation, calculate the chromosome's strength ratio based on its sequence, if
-its strength ratio is less than the threshold, then increase its length. A length
-mutation coefficient is introduced to adjust the length mutation.  As
-shown in figure \ref{GA:operator}(b), the strength ratio of $O_1$ chromosome is
-0.0854, and the strength ratio threshold is 2. Suppose the length mutation
-coefficient takes 2, then the corresponding increase length is $2
-\times(2-0.0854)$. For the angle mutation, randomly swap the gene from
-0 to 90 in the chromosome, or the otherwise.
+For the chromosome length mutation, calculate the chromosome's strength ratio
+based on its sequence, if its strength ratio is less than the threshold, then
+increase its length; otherwise, reduce it. We introduce the term length
+mutation coefficient to control the length mutation.  As shown in figure
+\ref{GA:operator}(b), the strength ratio of $O_1$ chromosome is 0.0854, and the
+strength ratio threshold is five. Suppose the length mutation coefficient takes
+two, then the corresponding increase length is the multiplication result of
+length mutation coefficient and the difference between current strength ratio
+and the threshold: the result is $5\times(2-0.0854)$, round this number to its
+closest integer, which is 9. So the length of offspring $O_1$ changes from 10
+to 19 after length mutation.  For the angle mutation, randomly swap the gene
+from 0 to 90 in the chromosome, or the otherwise.
 
 
 \subsection{GA Parameters}
