@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  27 APR 2021 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  28 APR 2021 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,76 +682,48 @@ LaTeX Info: Redefining \nameref on input line 43.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./a1_abstract.tex) (./a1_introduction_CLT.tex
+ (./a1_abstract.tex) (./a1_introduction_part1.tex
 Overfull \hbox (2.22221pt too wide) has occurred while \output is active
 [] 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\comma' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@fnmark' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 13.
-
 [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]) (./a1_introduction_failure_criteria.tex [5] (./fig/angle_ply_laminate.tex) [6] [7] [8]) (./a1_introduction_ann.tex [9] (./fig/ann_general_architecture.tex) [10] (./fig/ann_active_function.tex)) (./a2_methodology.tex [11] (./fig/methodology_evolutionary_ann.tex) [12]
-<fig/ann_for_clt_architecture.png, id=229, 639.38875pt x 311.1625pt>
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./a1_introduction_part2_composite.tex [2] [3] [4] (./fig/angle_ply_laminate.tex) [5] [6] [7]) (./a1_introduction_part3_ann.tex (./fig/ann_general_architecture.tex) [8] (./fig/ann_active_function.tex) [9]) (./a2_methodology.tex (./fig/methodology_evolutionary_ann.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [10]
+<fig/ann_for_clt_architecture.png, id=214, 639.38875pt x 311.1625pt>
 File: fig/ann_for_clt_architecture.png Graphic file (type png)
 <use fig/ann_for_clt_architecture.png>
 Package pdftex.def Info: fig/ann_for_clt_architecture.png  used on input line 35.
 (pdftex.def)             Requested size: 310.4979pt x 151.10829pt.
+ [11]
 
+LaTeX Warning: Reference `fig:parents1' on page 12 undefined on input line 43.
 
-LaTeX Warning: Reference `fig:parents1' on page 13 undefined on input line 43.
-
-[13 <./fig/ann_for_clt_architecture.png>] (./fig/experiment_architecture_example1_table.tex)) (./a3_experiment.tex [14]
+[12 <./fig/ann_for_clt_architecture.png>] (./fig/experiment_architecture_example1_table.tex)) (./a3_experiment.tex
 
 Package caption Warning: \label without proper reference on input line 2.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:traing-data' on page 15 undefined on input line 13.
+LaTeX Warning: Reference `tab:traing-data' on page 13 undefined on input line 13.
 
-(./tab/experiment_training_data.tex) (./tab/composite_material.tex)
-<fig/experiment_architecture_example1.png, id=249, 583.17876pt x 200.75pt>
+[13] (./tab/experiment_training_data.tex) (./tab/composite_material.tex)
+<fig/experiment_architecture_example1.png, id=242, 583.17876pt x 200.75pt>
 File: fig/experiment_architecture_example1.png Graphic file (type png)
 <use fig/experiment_architecture_example1.png>
 Package pdftex.def Info: fig/experiment_architecture_example1.png  used on input line 25.
 (pdftex.def)             Requested size: 276.00105pt x 95.0111pt.
-<fig/experiment_architecture_example2.png, id=250, 589.20125pt x 206.7725pt>
+<fig/experiment_architecture_example2.png, id=243, 589.20125pt x 206.7725pt>
 File: fig/experiment_architecture_example2.png Graphic file (type png)
 <use fig/experiment_architecture_example2.png>
 Package pdftex.def Info: fig/experiment_architecture_example2.png  used on input line 33.
 (pdftex.def)             Requested size: 276.00105pt x 96.85811pt.
-<fig/experiment_architecture_child.png, id=251, 571.13374pt x 207.77625pt>
+<fig/experiment_architecture_child.png, id=244, 571.13374pt x 207.77625pt>
 File: fig/experiment_architecture_child.png Graphic file (type png)
 <use fig/experiment_architecture_child.png>
 Package pdftex.def Info: fig/experiment_architecture_child.png  used on input line 40.
@@ -766,82 +738,79 @@ Package caption Warning: \label without proper reference on input line 15.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:train-process' on page 15 undefined on input line 5.
+LaTeX Warning: Reference `fig:train-process' on page 14 undefined on input line 5.
 
 (./fig/pre_train.pdf_tex
-<fig/pre_train.pdf, id=253, page=1, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=246, page=1, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 1>
 Package pdftex.def Info: fig/pre_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<fig/pre_train.pdf, id=254, page=2, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=247, page=2, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 2>
 Package pdftex.def Info: fig/pre_train.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-<fig/pre_train.pdf, id=255, page=3, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=248, page=3, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 3>
 Package pdftex.def Info: fig/pre_train.pdf , page3 used on input line 80.
 (pdftex.def)             Requested size: 345.0pt x 223.81825pt.
-) (./tab/result_ann_valuation.tex) [15] (./fig/post_train.pdf_tex
-<fig/post_train.pdf, id=264, page=1, 231.23705pt x 151.59235pt>
+) (./tab/result_ann_valuation.tex) (./fig/post_train.pdf_tex
+<fig/post_train.pdf, id=250, page=1, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 1>
 Package pdftex.def Info: fig/post_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 345.0pt x 226.18744pt.
-<fig/post_train.pdf, id=265, page=2, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=251, page=2, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 2>
 Package pdftex.def Info: fig/post_train.pdf , page2 used on input line 68.
 (pdftex.def)             Requested size: 345.0pt x 226.18744pt.
-<fig/post_train.pdf, id=266, page=3, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=252, page=3, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 3>
 Package pdftex.def Info: fig/post_train.pdf , page3 used on input line 81.
 (pdftex.def)             Requested size: 345.0pt x 226.18744pt.
-)) (./a4_conclusion.tex) (./a5_acknowledge.tex [16]) (./main.bbl [17 <./fig/experiment_architecture_example1.png> <./fig/experiment_architecture_example2.png> <./fig/experiment_architecture_child.png>] [18 <./fig/pre_train.pdf> <./fig/pre_train.pdf
+)) (./a4_conclusion.tex [14]) (./a5_acknowledge.tex [15 <./fig/experiment_architecture_example1.png> <./fig/experiment_architecture_example2.png> <./fig/experiment_architecture_child.png>] [16 <./fig/pre_train.pdf> <./fig/pre_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/pre_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./fig/pre_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/pre_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./fig/post_train.pdf
+>]) (./main.bbl [17 <./fig/post_train.pdf> <./fig/post_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./fig/post_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-> <./fig/post_train.pdf
-
-pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [19]) [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+>] [18]) [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 39EDB356EDBE5E360EFE8C2DDCB6457B;1415.
+(rerunfilecheck)             Checksum: 577FABB52C985E38951CBB047DD3D48E;1577.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 21471 strings out of 492616
- 409477 string characters out of 6128982
- 518395 words of memory out of 5000000
- 24860 multiletter control sequences out of 15000+600000
- 9185 words of font info for 33 fonts, out of 8000000 for 9000
+ 21457 strings out of 492616
+ 409404 string characters out of 6128982
+ 516232 words of memory out of 5000000
+ 24853 multiletter control sequences out of 15000+600000
+ 9017 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,77p,464b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (20 pages, 442613 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on main.pdf (19 pages, 415829 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
