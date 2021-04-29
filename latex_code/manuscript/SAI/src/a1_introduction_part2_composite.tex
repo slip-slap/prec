@@ -76,19 +76,19 @@ Stress strain relation in the global x-y axis:
 where
 \begin{equation}
 	\begin{array}{l}
-		\resizebox{.75\textwidth}{!}{$\bar{Q}_{11}=Q_{11} cos^{4}\theta+Q_{22} sin^{4}\theta+2\left(Q_{12}+2
+		\resizebox{.35\textwidth}{!}{$\bar{Q}_{11}=Q_{11} cos^{4}\theta+Q_{22} sin^{4}\theta+2\left(Q_{12}+2
 			Q_{66}\right) sin^{2}\theta cos^{2}\theta$} \\
-		\resizebox{.75\textwidth}{!}{$\bar{Q}_{12}=\left(Q_{11}+Q_{22}-4 Q_{66}\right) sin^{2}\theta
+		\resizebox{.35\textwidth}{!}{$\bar{Q}_{12}=\left(Q_{11}+Q_{22}-4 Q_{66}\right) sin^{2}\theta
 			cos^{2}\theta+Q_{12}\left(cos^{4}\theta+sin^{2}\theta \right)$} \\
-		\resizebox{.75\textwidth}{!}{$\bar{Q}_{22}=Q_{11} sin^{4}\theta+Q_{22} cos^{4}\theta+2\left(Q_{12}+2
+		\resizebox{.35\textwidth}{!}{$\bar{Q}_{22}=Q_{11} sin^{4}\theta+Q_{22} cos^{4}\theta+2\left(Q_{12}+2
 				Q_{66}\right) sin^{2}\theta cos^{2}\theta$} \\
-		\resizebox{.85\textwidth}{!}{$\bar{Q}_{16}=\left(Q_{11}-Q_{12}-2
+		\resizebox{.45\textwidth}{!}{$\bar{Q}_{16}=\left(Q_{11}-Q_{12}-2
 			Q_{66}\right) cos^{3}\theta
 			sin\theta-\left(Q_{22}-Q_{12}-2Q_{66}\right) sin^{3}\theta cos\theta$} \\ 
-		\resizebox{.85\textwidth}{!}{$\bar{Q}_{26}=\left(Q_{11}-Q_{12}-2
+		\resizebox{.45\textwidth}{!}{$\bar{Q}_{26}=\left(Q_{11}-Q_{12}-2
 			Q_{66}\right) cos\theta sin^{3}\theta-\left(Q_{22}-Q_{12}-2
 			Q_{66}\right)cos^{3}\theta sin\theta$} \\ 
-		\resizebox{.85\textwidth}{!}	{$\bar{Q}_{66}=\left(Q_{11}+Q_{22}-2 Q_{12}-2 Q_{66}\right)
+		\resizebox{.45\textwidth}{!}	{$\bar{Q}_{66}=\left(Q_{11}+Q_{22}-2 Q_{12}-2 Q_{66}\right)
 			sin\theta^{2}cos\theta^{2}+Q_{66}\left(sin\theta^{4}+cos\theta^{4}\right)$}\\
 	\end{array}
 \end{equation}
@@ -116,8 +116,8 @@ can be given by
 		\varepsilon_x^0 \\
         \varepsilon_y^0 \\
 		\gamma_{xy}^0
-    \end{bmatrix}   
-	+               
+    \end{bmatrix}   \\
+	&+               
 	\begin{bmatrix}
 		B_{11} & B_{12} & B_{16} \\
 		B_{11} & B_{12} & B_{16} \\
@@ -127,46 +127,13 @@ can be given by
 		k_x \\
 		k_y \\
 		k_{xy} 
-	\end{bmatrix}  \\ 
-	% second linedd
-	\begin{bmatrix}
-		M_x \\
-		M_y \\
-		M_{xy}
-	\end{bmatrix}
-	&=
-	\begin{bmatrix}
-		B_{11} & B_{12} & B_{16} \\
-		B_{12} & B_{22} & B_{26} \\
-		B_{16} & B_{26} & B_{66} 
-	\end{bmatrix}
-    \begin{bmatrix}
-		\varepsilon_x^0 \\
-        \varepsilon_y^0 \\
-		\gamma_{xy}^0
-    \end{bmatrix}  
-	+  
-	\begin{bmatrix}
-		D_{11} & D_{12} & D_{16} \\
-		D_{11} & D_{12} & D_{16} \\
-		D_{16} & D_{26} & D_{66} 
-	\end{bmatrix}
-	\begin{bmatrix}
-		k_x \\
-		k_y \\
-		k_{xy} 
-	\end{bmatrix}
+	\end{bmatrix}   
 	\end{array}
 \end{equation}
-
 
 $N_x,N_y $  - normal force per unit length
 
 $N_{xy} $  - shear force per unit length
-
-$M_x, M_y $ - bending moment per unit length
-
-$M_{xy} $  - twisting moments per unit length
 
 $\varepsilon^{0}, k $- mid plane strains and curvature of a laminate in x-y coordinates
 
@@ -300,37 +267,7 @@ criteria}
 \end{figure}
 
 
-\subsection{Failure Theories for a Laminate}
-If keep increasing the loading applied to a laminate, the laminate will fails. The failure process
-of a laminate is more complicate than a lamina, because a laminate consists of multiple plies, and
-the fiber orientation, material, thickness of each ply maybe different from the others. In most
-situations, some layer fails first and the remains continue to take more loads until all the plies
-fail.  If one ply fails, it means this lamina does not contribute to the load carrying capacity of
-the laminate. The procedure for finding the first failure ply given follows the fully discounted
-method:
-
-\begin{enumerate}
-\item Compute the reduced stiffness matrix [Q] referred to as the local axis for each ply using its
-	four engineering elastic constants $E_1 $, $E_2 $, $E_{12} $, and $G_{12} $.
-
-\item Calculate the transformed reduced stiffness $[\bar{Q}] $ referring to the global coordinate
-	system (x, y) using the reduced stiffness matrix [Q] obtained in step 1 and the ply angle for
-	each layer.
-
-\item  Given the thickness and location of each layer, the three laminate stiffness matrices [A],
-	[B], and [D] are determined.
-
-\item  Apply the forces and moments, $[N]_{xy}, [M]_{xy} $ solve Equation
-	\ref{eq:force_and_moments}, and calculate the middle plane strain $[\sigma ^{0}]_{xy} $ and
-	curvature $[k]_{xy} $.
-
-\item Determine the local strain and stress of each layer under the applied load.
-
-\item  Use the ply-by-ply stresses and strains in the Tsai-wu failure theory to find the strength
-	ratio, and the layer with smallest strenght ratio is the first failed ply. 
-\end{enumerate}
-
-\subsection{Strength ratio}
+\subsubsection{Strength ratio}
 The safety factor, or yield stress, is how much extra load beyond is intended a
 composite laminate will actually take. The safey factor is defined as 
 
