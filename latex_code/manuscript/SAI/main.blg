@@ -1,46 +1,56 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: plain.bst
-Database file #1: a5_reference.bib
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: src/a5_reference.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
 You've used 16 entries,
-            2118 wiz_defined-function locations,
-            611 strings with 6960 characters,
-and the built_in function-call counts, 5571 in all, are:
-= -- 573
-> -- 239
-< -- 1
-+ -- 97
-- -- 78
-* -- 434
-:= -- 930
-add.period$ -- 49
+            4087 wiz_defined-function locations,
+            932 strings with 10257 characters,
+and the built_in function-call counts, 14117 in all, are:
+= -- 1223
+> -- 285
+< -- 161
++ -- 166
+- -- 39
+* -- 697
+:= -- 2127
+add.period$ -- 33
 call.type$ -- 16
-change.case$ -- 86
-chr.to.int$ -- 0
+change.case$ -- 16
+chr.to.int$ -- 354
 cite$ -- 16
-duplicate$ -- 187
-empty$ -- 435
-format.name$ -- 78
-if$ -- 1135
+duplicate$ -- 970
+empty$ -- 995
+format.name$ -- 51
+if$ -- 3273
 int.to.chr$ -- 0
 int.to.str$ -- 16
-missing$ -- 16
-newline$ -- 83
-num.names$ -- 32
-pop$ -- 61
+missing$ -- 148
+newline$ -- 71
+num.names$ -- 16
+pop$ -- 266
 preamble$ -- 1
-purify$ -- 70
-quote$ -- 0
-skip$ -- 129
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1101
 stack$ -- 0
-substring$ -- 459
-swap$ -- 26
-text.length$ -- 1
+substring$ -- 840
+swap$ -- 883
+text.length$ -- 43
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 64
+top$ -- 5
+type$ -- 16
 warning$ -- 0
-while$ -- 63
+while$ -- 76
 width$ -- 18
-write$ -- 178
+write$ -- 193

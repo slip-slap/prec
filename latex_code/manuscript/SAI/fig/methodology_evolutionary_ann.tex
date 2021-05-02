@@ -1,8 +1,11 @@
-\begin{figure}[h!]
+\begin{figure}[tb]
 \centering
-	\resizebox{.7\linewidth}{!}{
+	%\resizebox{.7\linewidth}{!}{dd
+%\begin{tikzpicture}[show background grid, show background rectangle]
 \begin{tikzpicture}
-    %\draw[help lines] (-3cm,-6cm) grid (6cm, 6cm);
+	\useasboundingbox (-3.5,-5.) rectangle (3.5,6.3);
+	\scope[transform canvas={scale=1}]
+    %\draw[help lines] (-3cm,-7cm) grid (6cm, 5cm);
     \tikzstyle{block} = [rectangle, text centered, draw=black,
     minimum width=1.1cm, minimum height=0.4cm]
 	% first level evolution: connection weights
@@ -100,8 +103,9 @@
     %\node [align=left] at ($(level6.north)+(0,-0.2cm)$) {\tiny THE EVOLUTION OF
     %        ARCHITECTURE
     %    };
+	\endscope
 \end{tikzpicture}
-}
+%}
 \caption{A general framwwork for EANN's}
 \label{fig:evolution}
 \end{figure}

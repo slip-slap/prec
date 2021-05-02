@@ -62,7 +62,7 @@
 % should be used if it is desired that the figures are to be displayed in
 % draft mode.
 %
-\documentclass[conference, letterpaper]{IEEEtran}
+\documentclass[letterpaper]{IEEEtran}
 % Add the compsoc option for Computer Society conferences.
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
@@ -71,10 +71,10 @@
 
 
 \usepackage{tikz,pgf,import}
-\usetikzlibrary{shapes.geometric, arrows,positioning,matrix,calc,intersections}
-\usepackage{amsmath,booktabs,caption,subcaption}
-\usepackage{booktabs, multicol,multirow, makecell, amsmath,afterpage}
-\usepackage{tikz,tabularx, adjustbox}
+\usetikzlibrary{shapes.geometric, arrows,positioning,matrix,calc,intersections,backgrounds}
+\usepackage{amsmath,caption,subcaption}
+\usepackage{booktabs, multicol,multirow, makecell, afterpage}
+\usepackage{tabularx, adjustbox}
 
 
 
@@ -415,8 +415,9 @@ Optimization
 \input{src/a4_conclusion}
 \input{src/a5_acknowledge}
 
-\bibliographystyle{plain}
-\bibliography{a5_reference}
+%\bibliographystyle{plain}
+\bibliographystyle{IEEEtran}
+\bibliography{src/a5_reference}
 
 
 % Note that \label must occur AFTER (or within) \caption.
