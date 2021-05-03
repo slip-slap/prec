@@ -1,22 +1,26 @@
 \section{Evolutionary Artificial Neural Network}
 
 \subsection{General neural network}
-\input{fig/ann_general_architecture}
-In this paper, the feedforward nueural network models are adopted in our
-system, because feedforward NNs are straigntforward and simply to implement.  For
-funnction approximation, Cybenko demonstrated that a two-lay multilayer
-perceptron(MLP) is capbable of forming an arbitrarily close approximation to
-any continusous nonliner mapping\cite{cybenko1989approximation}. Therefore, a
-two layers feedforward neural network is proposed in present study, for nodes
-in the hidden layer, they are in essence feature extractors and detectors.
-Therefore, every nodes in the hidden layer should be partial connected within
-the inputs, the unnecessary connections would increased the models complicacy
-which would reduce the ANN's performance. For the nodes in the last layer,
-every node should be full connected with nodes in previou. The design of neural
-network consists of three basic parts: neural network architecture, learning
-rules, and training techniques.
-s layer.
+In this paper, the feedforward neural network(NN) is adopted in the current
+study, since it is straightforward and simple to code. For function
+approximation through a NN, Cybenko demonstrated that a two-layer perceptron
+can form an arbitrarily close approximation to any continuous nonlinear
+mapping\cite{cybenko1989approximation}. Therefore, a two-layer feedforward NN
+is proposed in the present study. Fig.\ref{fig:gnn} shows a general framework for a
+two-layer NN, in which the number of nodes in the hidden layer and the
+connection with inputs, are critical in the design of a NN. For nodes in the
+hidden layer, we can think of them as feature extractors or detectors.
+Therefore, nodes within it should partially be connected with the inputs of NN,
+since the unnecessary connections would increase the model's complicacy, which
+will reduce a NN’s performance. Because we treat the nodes in the hidden layer
+as feature extractors, so the number of nodes in this layer should be less than
+the number of inputs. For the nodes in the last layer, every node should be
+fully connected with nodes in the previous layer, since we think of the nodes
+in the hidden layer as features. The rest, which affects a NN’s performance,
+are activation functions, and NN training method.
 
+
+\input{fig/ann_general_architecture}
 
 \subsection{Transfer function}
 The transfer fucntion has been shown to be one of the critical part of the

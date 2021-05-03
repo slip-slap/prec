@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  2 MAY 2021 12:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  3 MAY 2021 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -641,6 +641,12 @@ Underfull \hbox (badness 2229) in paragraph at lines 379--382
  []
 
 (./src/a1_introduction_part1.tex) (./src/a1_introduction_part2_composite.tex
+<fig/lamina_local_global_axes.png, id=4, 1637.11626pt x 572.1375pt>
+File: fig/lamina_local_global_axes.png Graphic file (type png)
+<use fig/lamina_local_global_axes.png>
+Package pdftex.def Info: fig/lamina_local_global_axes.png  used on input line 15.
+(pdftex.def)             Requested size: 253.04987pt x 88.42722pt.
+ (./fig/angle_ply_laminate.tex)
 
 Package Fancyhdr Warning: \headheight is too small (20.0pt): 
 Make it at least 21.14493pt.
@@ -650,18 +656,25 @@ This may cause the page layout to be inconsistent, however.
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./fig/angle_ply_laminate.tex) [2]) (./src/a1_introduction_part3_ann.tex (./fig/ann_general_architecture.tex) (./fig/ann_active_function.tex)) (./src/a2_methodology.tex [3] (./fig/methodology_evolutionary_ann.tex) (./fig/a0_figure_ann_for_clt_architecture.tex)
+]
+Underfull \vbox (badness 1502) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:parents1' on page 4 undefined on input line 41.
+ [2 <./fig/lamina_local_global_axes.png>]
+Underfull \vbox (badness 1968) has occurred while \output is active []
 
+) (./src/a1_introduction_part3_ann.tex
+Underfull \hbox (badness 1354) in paragraph at lines 4--21
+[]\OT1/ptm/m/n/10 In this pa-per, the feed-for-ward neu-ral net-work(NN) is
+ []
 
-Underfull \vbox (badness 5288) has occurred while \output is active []
+(./fig/ann_general_architecture.tex) [3] (./fig/ann_active_function.tex)) (./src/a2_methodology.tex (./fig/methodology_evolutionary_ann.tex) (./fig/a0_figure_ann_for_clt_architecture.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4] (./fig/experiment_architecture_example1_table.tex
+ [4]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `fig:parents1' on page 5 undefined on input line 41.
 
-)) (./src/a3_experiment.tex
+(./fig/experiment_architecture_example1_table.tex)) (./src/a3_experiment.tex
 
 Package caption Warning: \label without proper reference on input line 2.
 See the caption package documentation for explanation.
@@ -673,47 +686,47 @@ LaTeX Warning: Reference `tab:traing-data' on page 5 undefined on input line 13.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./src/a3_result.tex
+) (./src/a3_result.tex [5]
 
 Package caption Warning: \label without proper reference on input line 15.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:train-process' on page 5 undefined on input line 5.
+LaTeX Warning: Reference `fig:train-process' on page 6 undefined on input line 5.
 
 (./fig/pre_train.pdf_tex
-<fig/pre_train.pdf, id=32, page=1, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=42, page=1, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 1>
 Package pdftex.def Info: fig/pre_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 253.04987pt x 164.15495pt.
-<fig/pre_train.pdf, id=33, page=2, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=43, page=2, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 2>
 Package pdftex.def Info: fig/pre_train.pdf , page2 used on input line 66.
 (pdftex.def)             Requested size: 253.04987pt x 164.15495pt.
-<fig/pre_train.pdf, id=34, page=3, 233.52489pt x 151.48395pt>
+<fig/pre_train.pdf, id=44, page=3, 233.52489pt x 151.48395pt>
 File: fig/pre_train.pdf Graphic file (type pdf)
 <use fig/pre_train.pdf, page 3>
 Package pdftex.def Info: fig/pre_train.pdf , page3 used on input line 80.
 (pdftex.def)             Requested size: 253.04987pt x 164.15495pt.
 ) (./tab/result_ann_valuation.tex) (./fig/post_train.pdf_tex
-<fig/post_train.pdf, id=35, page=1, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=45, page=1, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 1>
 Package pdftex.def Info: fig/post_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-<fig/post_train.pdf, id=36, page=2, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=46, page=2, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 2>
 Package pdftex.def Info: fig/post_train.pdf , page2 used on input line 68.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-<fig/post_train.pdf, id=37, page=3, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=47, page=3, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 3>
 Package pdftex.def Info: fig/post_train.pdf , page3 used on input line 81.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-)) (./src/a4_conclusion.tex [5]) (./src/a5_acknowledge.tex) [6 <./fig/pre_train.pdf> <./fig/pre_train.pdf
+)) (./src/a4_conclusion.tex) (./src/a5_acknowledge.tex) (./main.bbl [6]) [7] [8 <./fig/pre_train.pdf> <./fig/pre_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/pre_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./fig/pre_train.pdf
@@ -728,24 +741,24 @@ pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pd
 > <./fig/post_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] (./main.bbl) [7] (./main.aux)
+>] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18731 strings out of 492616
- 378405 string characters out of 6128982
- 686010 words of memory out of 5000000
- 22216 multiletter control sequences out of 15000+600000
+ 18740 strings out of 492616
+ 378649 string characters out of 6128982
+ 694339 words of memory out of 5000000
+ 22223 multiletter control sequences out of 15000+600000
  44587 words of font info for 84 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  55i,18n,77p,476b,1243s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 281937 bytes).
+Output written on main.pdf (8 pages, 426880 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 276 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
