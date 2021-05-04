@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1620109342 "main.aux" "main.bbl" "main" 1620109916
+["bibtex main"] 1620132533 "main.aux" "main.bbl" "main" 1620132555
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1620109899 7630 6f81af695ef35464055a72c7f131fcc8 ""
+  "main.aux" 1620132536 7630 dd7a9e128a649b8c0c6f9b48de88d78c ""
   "src/a5_reference.bib" 1618195339 4894 dfd79a82196c4487654a018530972135 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1620109895 "main.tex" "main.pdf" "main" 1620109916
+["pdflatex"] 1620132533 "main.tex" "main.pdf" "main" 1620132555
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -187,7 +187,7 @@
   "fig/ann_general_architecture.tex" 1620109286 1987 0d55fdf67502086edfc51b156d9c65cb ""
   "fig/experiment_architecture_child_code.tex" 1619927404 3068 d9a0a7d2d14cc531c796e9c5ec347baa ""
   "fig/experiment_architecture_example1_code.tex" 1619926209 2627 f1bd8868c51cbcd2fd7e48679e4ed317 ""
-  "fig/experiment_architecture_example1_table.tex" 1620109311 2419 de96318cd78f53f8212ac4df5aace784 ""
+  "fig/experiment_architecture_example1_table.tex" 1620126764 3216 147f60a967da71b3f8387b3dc0310df0 ""
   "fig/experiment_architecture_example2_code.tex" 1619926204 3573 87e294d507fca620e0d613d4a149bfdd ""
   "fig/lamina_local_global_axes.png" 1620021106 133854 1883105abfd54615fa4457cb7ff4985d ""
   "fig/methodology_evolutionary_ann.tex" 1620106953 5183 2101adf8b1fdf30f0eab22e0eb9f045a ""
@@ -195,22 +195,22 @@
   "fig/post_train.pdf_tex" 1618195339 5915 b00652b803885a7c4f2cefd43b50a826 ""
   "fig/pre_train.pdf" 1618195339 47019 4b958619a965d50cd65157e90d5c8cbe ""
   "fig/pre_train.pdf_tex" 1618195339 5739 35658ee20c9aab009d010ceec6ad7cf6 ""
-  "main.aux" 1620109899 7630 6f81af695ef35464055a72c7f131fcc8 ""
-  "main.bbl" 1620109342 4196 3e18d19f83edeabc1a23028b4dd19b9a "bibtex main"
+  "main.aux" 1620132536 7630 dd7a9e128a649b8c0c6f9b48de88d78c ""
+  "main.bbl" 1620132533 4196 3e18d19f83edeabc1a23028b4dd19b9a "bibtex main"
   "main.tex" 1620106695 20859 9c323bbd9fe84513766002b21a60cf37 ""
   "src/a1_abstract.tex" 1619523666 668 78cfd93b44562c75b032a966be5feaa4 ""
   "src/a1_introduction_part1.tex" 1620092292 2496 d1744fef68af0db158b8ded0713d83bd ""
   "src/a1_introduction_part2_composite.tex" 1620035584 12016 7c2783967514a61f5a6503774311c2d5 ""
   "src/a1_introduction_part3_ann.tex" 1620094396 2799 7df0cb381ae7e34dfa324fd4784c27c2 ""
-  "src/a2_methodology.tex" 1620109894 3407 bb533b9606f05ad0e89c91d646afee55 ""
+  "src/a2_methodology.tex" 1620111165 3403 b434d1d75105275f2bd857df75fceb7b ""
   "src/a3_experiment.tex" 1620108259 1826 41e99a232bd4aa6225165063cd93f13d ""
   "src/a3_result.tex" 1618195339 772 2f635baa63e9aac63508e2a365b0f342 ""
-  "src/a4_conclusion.tex" 1618195339 786 4af383ae039c8ea3525360fcee45b19a ""
+  "src/a4_conclusion.tex" 1620132530 729 64c57a0d66ba819391c2940953965e76 ""
   "src/a5_acknowledge.tex" 1620017761 124 775177ab7b6e6528e37a62b8d33ec963 ""
   "tab/composite_material.tex" 1620017810 1701 0b5247caa70423a85b16189efb98deca ""
   "tab/experiment_training_data.tex" 1619675424 1023 0100e2b00065949fee2f0635ad223550 ""
   "tab/result_ann_valuation.tex" 1619675457 893 7c778102e61bea865b819066f068ad35 ""
   (generated)
-  "main.pdf"
   "main.aux"
   "main.log"
+  "main.pdf"
