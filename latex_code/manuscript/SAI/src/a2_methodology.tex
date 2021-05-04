@@ -1,10 +1,22 @@
 \section{Methodology}
-The works involved in the evolution process of ANN can be categorized into
-three parts:  search space which defines the architecture can be represented in
-principle; search strategy which details how to explore the search space;
-performance estimation strategy that refers to the process of estimating this
-performance.
+For an angle ply laminate, given the laminate's lay-up, material properties,
+in-plane loading, etc., we can compute its strength ratio based on Tsai-Wu
+failure theory or maximum stress theory. To model this function, we propose an
+ANN framework shown in Fig.\ref{fig:evolution}, which derives from the previous
+two-layer model. There are sixteen inputs of this ANN, which are in-plane
+loading $N_x$, $N_y$, and $N_{xy}$; design parameters of a laminate, two 
+fiber orientation $\theta_1$ and $\theta_2$, ply thickness $t$, total
+number of plies $N$; 
+five engineering constants of composite materials,
+$E_1$, $E_2$, $G_{12}$, and $v_{12}$; five strength parameters of a
+unidirectional lamina.  Two outputs are strength ratio accoring to MS theory
+and strength ratio according to Tsai-Wu theory.
 
+
+The work involved in the evolution process of ANN consists of three parts:
+search space, which includes the ANN's topology, transfer function, etc.;
+search strategy, which details how to explore the search space; performance
+estimation strategy refers to the process of estimating this performance.
 
 \subsection{Search Space}
 \input{fig/methodology_evolutionary_ann.tex}
@@ -24,12 +36,6 @@ issues are involved in the search process of an ANN architecture: the
 representation and the search operators.
 Figure \ref{fig:evolution} summarizes different these four levels of evolution in ANN's.
 
-The inputs of the neural network is consist of four parts: in-plane loading
-$N_x$, $N_y$, and $N_{xy}$, design parameters of laminate, two distinct fiber
-orientation angle $\theta_1$ and $\theta_2$, ply thickness $t$, total number of
-plies $N$; five engineering constants of composite materials, $E_1$, $E_2$, ;
-five strength parameters of a unidirectional lamina. There are two outputs in
-the neural network, safety factors for MS theory and Tsai-Wu theory, respectively.
 
 \input{fig/a0_figure_ann_for_clt_architecture.tex}
 

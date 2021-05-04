@@ -90,14 +90,6 @@ Y.~Liu and X.~Yao, ``Evolutionary design of artificial neural networks with
   evolutionary computation}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1996,
   pp. 670--675.
 
-\bibitem{yao1999evolving}
-X.~Yao, ``Evolving artificial neural networks,'' \emph{Proceedings of the
-  IEEE}, vol.~87, no.~9, pp. 1423--1447, 1999.
-
-\bibitem{elsken2019neural}
-T.~Elsken, J.~H. Metzen, F.~Hutter \emph{et~al.}, ``Neural architecture search:
-  A survey.'' \emph{J. Mach. Learn. Res.}, vol.~20, no.~55, pp. 1--21, 2019.
-
 \bibitem{baker2017accelerating}
 B.~Baker, O.~Gupta, R.~Raskar, and N.~Naik, ``Accelerating neural architecture
   search using performance prediction,'' \emph{arXiv preprint
