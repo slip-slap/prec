@@ -2,18 +2,16 @@
 \centering
 \caption{Different Activation Functions}
 \label{tab:active_function}
-\begin{adjustbox}{width=1\textwidth}
+\begin{adjustbox}{width=0.9\textwidth}
 \label{tab:transfer_function}
-	\begin{tabular}{lllc}
+	\begin{tabular}{lllcc}
 			\toprule
-			Type & Description  & Formula & Range  \\
+			Type & Description  & Formula & Range              & Encoding\\
 			\midrule
-			Linear   & The output is proportional to the input & $f(x)=cx$                  &  $(-\infty, +\infty)$ \\
-			Sigmoid  & A family of S-shaped functions          & $f(x)=\frac{1}{1+e^{-cx}}$ & $(0, 1)$ \\
-			tanh     & A family of Hyperbloic functions        & $f(x)=\frac{e^x -e^{-x}}{e^x+e^{-x}}$ & $(0, 1)$ \\
-			Gaussian & A coninuous bell-shaped curve           & $f(x)=e^{-x^2}$            & $(0,1)$ \\ 
-			ReLU     & A piece-wise function                   & $f(x)= max{0,x}$           & $(0, +\infty)$ \\
-			Softplus & A family of S-shaped functions          & $f(x) = ln(1+e^x)$         & $(0, +\infty)$ \\
+			Linear   & The output is proportional to the input & $f(x)=cx$                  &  $(-\infty, +\infty)$ & 00\\
+			Sigmoid  & A family of S-shaped functions          & $f(x)=\frac{1}{1+e^{-cx}}$ & $(0, 1)$              & 01\\
+			ReLU     & A piece-wise function                   & $f(x)= max{0,x}$           & $(0, +\infty)$        & 10\\
+			Softplus & A family of S-shaped functions          & $f(x) = ln(1+e^x)$         & $(0, +\infty)$        & 11\\
 			\bottomrule
 	\end{tabular}
 \end{adjustbox}

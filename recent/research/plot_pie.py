@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-labels = ['Perentage of \n active Group', 'Perentage of \n potential group','Percentage of \n proper group']
-sizes = [30, 30, 50]
+labels = ['Perentage of    \nactive individuals ', 'Perentage of      \npotential individuals  ','   Percentage of   \nproper individuals ']
+sizes = [30, 30, 40]
 #explode = (0, 0.1, 0 )  # only "explode" the 2nd slice (i.e. 'Hogs')
 explode = (0, 0, 0 )  # only "explode" the 2nd slice (i.e. 'Hogs')
 

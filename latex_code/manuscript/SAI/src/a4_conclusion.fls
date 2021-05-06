@@ -1,6 +1,0 @@
-PWD /Users/kismet/Documents/github/prec/latex_code/manuscript/SAI/src
-INPUT /usr/local/texlive/2018/texmf.cnf
-INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT a4_conclusion.tex
-OUTPUT a4_conclusion.log

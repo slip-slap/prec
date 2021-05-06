@@ -1,6 +1,19 @@
-This is TeX, Version 3.14159265 (TeX Live 2018) (preloaded format=tex 2020.5.18)  2 APR 2021 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdftex 2020.5.18)  30 APR 2021 12:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **a.tex
 (./a.tex)
+*
+(Please type a command or say `\end')
 *\end
-[1]
-Output written on a.dvi (1 page, 316 bytes).
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]</usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on a.pdf (1 page, 21114 bytes).
+PDF statistics:
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -40,18 +40,60 @@ Figure \ref{fig:evolution} summarizes different these four levels of evolution i
 \input{fig/a0_figure_ann_for_clt_architecture.tex}
 
 \subsection{Search Strategy}
+To use the GA method in this work, we need to represent the ANN, devise a
+fitness function that determines how good a solution is, and decides the
+genetic search operators, including selection, mutation, and crossover.
 
-The classic approach has always adopted binary strings to encode an alternative solutions. 
+For the representation of an ANN, encode the $h_i$ node as a eighteen digits
+binary string. The initial sixteen digits in the string correspond to the
+connections between $i_i$ and $h_i$, with '1' implying there exists a
+connection between them, with '0' implying no connection exists. The last two
+digits in the string refer to a activation function, such as "01" means a
+sigmoid fuction.  Tab.\ref{tab:binary-rep} are examples of the binary
+representation of ANNs whose architecture is as shown in
+Fig.\ref{fig:anns}. 
 
-Tab.\ref{tab:parents1}  gives an example of the binary representation of an ANN
-whose architecture is as shown in Fig.\ref{fig:parents1}. Each number in the
-digit denotes the connection relationship between input and nodes in hidden
-layer. It an connection exists, it's indicated by number one, otherwise, the
-number takes zero. The first sixteen digits denotes the connection relationship, and the
-last two digits are stand for  the corresponding kernal function. 
+For the objective function, treat the multiplicative inverse of the mean
+squared error, which is the difference between the target and actual output
+averaged overall examples, as the fitness function.
 
-First,  random initialize ANN population, partial training every ANN, 
+The crossover between individuals results in exploiting the area between the
+given two parent solutions. In the present study, we search the local area by
+combining the genes of half number of nodes from both parents.
+
+
+\begin{figure}[!tb]
+	\centering
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{fig/experiment_architecture_example1_code.tex}
+		\caption{Parent 1}
+	\end{subfigure}
+	\newline
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{fig/experiment_architecture_example2_code.tex}
+		\caption{Parent 2}
+	\end{subfigure}
+	\newline
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{fig/experiment_architecture_child_code.tex}
+		\caption{Child}
+	\end{subfigure}
+	\caption{Examples of three ANN, with (a) and (b) as parent ANNs, and (c) as
+		the child of (a) and (b). child c inherits the connection relationship
+		part from parent 1 denoted by the darker dashed lines,and the rest from
+		parent 2 denoted by the gray dashed line.}
+		\label{fig:anns}
+\end{figure}
+
+
+First,  randomly initialize the population, partial training every ANN, 
 For the evolution of the topology,
+
+Fig. \ref{fig:search} shows three ANNs.
+
 
 \subsection{Performance estimation strategy}
 The simplest approach to this problem is to perform a standard training and

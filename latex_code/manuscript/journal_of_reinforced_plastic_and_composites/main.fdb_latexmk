@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1617862061 "main.aux" "main.bbl" "main" 1618716400
+["bibtex main"] 1620033240 "main.aux" "main.bbl" "main" 1620033243
   "./SageV.bst" 1618195339 27111 85b45bca39b0a2f223956e4ccc2e96ec ""
-  "main.aux" 1618195339 7531 c4576e62eb70def278669f1743e1c3a9 ""
+  "main.aux" 1620033242 7599 5af40edd3e84aa338b0e2450d3163c21 ""
   "src/a6_reference.bib" 1618195339 10539 e8b12e47d8d0f076b3e1e57b10081668 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1618193436 "main.tex" "main.pdf" "main" 1618716400
+["pdflatex"] 1620033240 "main.tex" "main.pdf" "main" 1620033243
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -221,13 +221,13 @@
   "2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png" 1618195339 46422 478d67dd3aae6f386343bf8a58e478de ""
   "2020-11-10-pre-image/two_distinct_angler_number_change.png" 1618195339 39898 1731a5dc9b7c0b596b3c03f246ba980c ""
   "image/lamina_local_global_axes.png" 1618195339 133854 1883105abfd54615fa4457cb7ff4985d ""
-  "main.aux" 1618195339 7531 c4576e62eb70def278669f1743e1c3a9 ""
-  "main.bbl" 1618195339 7567 f51b863895af11fb8b00439fef816a7f "bibtex main"
-  "main.out" 1618195339 1127 f947f76bd9fb5e8be27e45a9c45ac306 ""
+  "main.aux" 1620033242 7599 5af40edd3e84aa338b0e2450d3163c21 ""
+  "main.bbl" 1620033240 7567 f51b863895af11fb8b00439fef816a7f "bibtex main"
+  "main.out" 1620033242 1127 f947f76bd9fb5e8be27e45a9c45ac306 ""
   "main.tex" 1618283678 1877 f520b0776ae362b3fc7e163d665b24a5 ""
   "sagej.cls" 1618195339 15958 5fa98adc3dbacfa813e0251e7c0042fe ""
   "src/a1_abstract.tex" 1618195339 605 cd5ede20160758891c6224608a262b23 ""
-  "src/a1_introduction_CLT.tex" 1618195339 6219 139f4506c18b756cf880941cd297e8cb ""
+  "src/a1_introduction_CLT.tex" 1620021969 6251 981e6bfa212f22d2fbf45fd35ca5a63a ""
   "src/a1_introduction_GA.tex" 1618195339 7052 6cd990940bd06a09e0ff0a5566eac666 ""
   "src/a1_introduction_failure_criteria.tex" 1618195339 6469 517fc5cdf8bb91d5461815f95fecedb1 ""
   "src/a1_introduction_safety_factor.tex" 1618195339 2200 a157adc101888e823b2350b4cafe7d9a ""
@@ -238,7 +238,7 @@
   "src/a5_acknowledgment.tex" 1618195339 129 6099bf39beeda422b598afbf82d7e6d0 ""
   "tab/composite_material.tex" 1618195339 1195 11accd3a73cb3ac57e739ebbea181ea7 ""
   (generated)
-  "main.aux"
-  "main.out"
   "main.log"
+  "main.out"
   "main.pdf"
+  "main.aux"
