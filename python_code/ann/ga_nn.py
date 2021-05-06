@@ -42,12 +42,14 @@ previous_fitness = 0
 current_fitness = population[0].fitness
 print("current_fitness "+str(current_fitness))
 
-while(current_fitness-previous_fitness>0.001):
+round_counter = 0
+while(round_counter < 10):
+    round_counter + 1
     parents = my_ga.select_parents(population,int(CGA.POPUPATION * CGA.PARENT_PERCENT))
     offspring = my_ga.crossover(parents, CGA.POPUPATION - len(parents))
     my_ga.mutation(offspring)
     for i in range(len(offspring)):
-        offspring[i].fitness = offspring[i].calculate_individual_fitness()
+        offspring[i].calculate_individual_fitness()
     population[0:int(CGA.POPUPATION * CGA.PARENT_PERCENT)] = parents
     population[CGA.POPUPATION - len(parents):] = offspring
     population.sort(key = lambda c: c.fitness)
@@ -69,6 +71,9 @@ while(current_fitness-previous_fitness>0.001):
                 train_handler.write("model_save_path:  " + str(population[0].model_save_path))
                 train_handler.write("\n")
                 train_handler.write("model_traing_process_path:  " + str(population[0].model_traing_process_path))
+                train_handler.write("\n")
+                train_handler.write("#########################################################################")
+                
 
 
                     

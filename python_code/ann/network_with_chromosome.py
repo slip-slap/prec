@@ -37,7 +37,6 @@ def gene_unit_to_node(input_data,node_name,gene_unit,activation_function_unit):
         y = tf.matmul(layer_output,w)
         y = tf.add(y,b)
         activation_function_code = tool.binary_to_decimal(activation_function_unit)
-        #y = tf.sigmoid(y,name="result")
         y = activation_function(y,activation_function_code)
     return y
 

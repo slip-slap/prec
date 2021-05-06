@@ -36,8 +36,8 @@ class Genetic_Algorithm(object):
 
             child_node_number = int(parent1_node_number/2 + parent2_node_number/2)
             child = copy.deepcopy(parents[0])
-            child.connection_gene = tool_ga.get_activation_function_gene(child_node_number)
-            child.activation_function_gene = tool_ga.get_connection_gene(child_node_number)
+            child.connection_gene = tool_ga.get_connection_gene(child_node_number)
+            child.activation_function_gene = tool_ga.get_activation_function_gene(child_node_number)
             child.node_number = child_node_number
             child.fitness = -1
             child.model_save_path = self.CONFIGURATION['SAVING_PLACE_OF_TRAINING_MODEL'] + "/child" + str(self.child_counter)+ "/model"
