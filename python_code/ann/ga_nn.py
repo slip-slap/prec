@@ -30,83 +30,43 @@ def initilize_population():
         print(temp_individual)
     return individual_list
 
-#if __name__ == "__main__":
-#    initilize_population()
+def save_best_ind(population):
+    with open("network_train_result.txt","a") as train_handler:
+            train_handler.write("ANN model:")
+            train_handler.write("\n")
+            train_handler.write("active function: " + str(population[0].activation_function_gene))
+            train_handler.write("\n")
+            train_handler.write("connection:  " + str(population[0].connection_gene))
+            train_handler.write("\n")
+            train_handler.write("fitness:  " + str(population[0].fitness))
+            train_handler.write("\n")
+            train_handler.write("model_save_path:  " + str(population[0].model_save_path))
+            train_handler.write("\n")
+            train_handler.write("model_traing_process_path:  " + str(population[0].model_traing_process_path))
+            train_handler.write("\n")
+            train_handler.write("#########################################################################")
 
-            
-my_ga = ga.Genetic_Algorithm()
-population = initilize_population()
-population.sort(key = lambda c: c.fitness)
 
-previous_fitness = 0 
-current_fitness = population[0].fitness
-print("current_fitness "+str(current_fitness))
-
-round_counter = 0
-while(round_counter < 10):
-    round_counter + 1
-    parents = my_ga.select_parents(population,int(CGA.POPUPATION * CGA.PARENT_PERCENT))
-    offspring = my_ga.crossover(parents, CGA.POPUPATION - len(parents))
-    my_ga.mutation(offspring)
-    for i in range(len(offspring)):
-        offspring[i].calculate_individual_fitness()
-    population[0:int(CGA.POPUPATION * CGA.PARENT_PERCENT)] = parents
-    population[CGA.POPUPATION - len(parents):] = offspring
+if __name__ == "__main__":
+    my_ga = ga.Genetic_Algorithm()
+    population = initilize_population()
     population.sort(key = lambda c: c.fitness)
 
-    previous_fitness = current_fitness
-    current_fitness = population[0].fitness
-    print(population[0])
+    round_counter = 0
+    while(round_counter < 10):
+        print("GA round")
+        round_counter + 1
+        parents = my_ga.select_parents(population,int(CGA.POPUPATION * CGA.PARENT_PERCENT))
+        offspring = my_ga.crossover(parents, CGA.POPUPATION - len(parents))
+        my_ga.mutation(offspring)
+        for i in range(len(offspring)):
+            offspring[i].calculate_individual_fitness()
+        population[0:int(CGA.POPUPATION * CGA.PARENT_PERCENT)] = parents
+        population[CGA.POPUPATION - len(parents):] = offspring
 
-    for i in range(1):
-        with open("network_train_result.txt","a") as train_handler:
-                train_handler.write("ANN model:")
-                train_handler.write("\n")
-                train_handler.write("active function: " + str(population[0].activation_function_gene))
-                train_handler.write("\n")
-                train_handler.write("connection:  " + str(population[0].connection_gene))
-                train_handler.write("\n")
-                train_handler.write("fitness:  " + str(population[0].fitness))
-                train_handler.write("\n")
-                train_handler.write("model_save_path:  " + str(population[0].model_save_path))
-                train_handler.write("\n")
-                train_handler.write("model_traing_process_path:  " + str(population[0].model_traing_process_path))
-                train_handler.write("\n")
-                train_handler.write("#########################################################################")
-                
-
-
-                    
-
-
-#data_x = np.arange(0,1,0.01) 
-
-"""
-def binary_to_decimal(binary_number):
-    decimal = 0
-    for i in range(len(binary_number)):
-        decimal = decimal + binary_number[i]*np.power(2,len(binary_number)-i-1)
-    return int(decimal)
-
-def activation_function_name(activation_function_code):
-    if(activation_function_code == 0):
-        return "sigmoid"
-    if(activation_function_code == 1):
-        return "relu"
-    if(activation_function_code == 2):
-        return "tanh"
-    if(activation_function_code == 3):
-        return "softmax"
-
-
-def chromosome_to_gene_list(chromosome,unit_length):
-    gene_number = len(chromosome)/unit_length
-    gene_list= list()
-    i = 0
-    while(i<gene_number):
-        temp = chromosome[i:i+unit_length]
-        gene_list.append(temp)
-        i=i+1
-    return gene_list
-"""
+        population.sort(key = lambda c: c.fitness)
+        print("save the best individual")
+        save_best_ind(population)
+        for i in range(len(population)):
+            population[i].train_existed_model()
 

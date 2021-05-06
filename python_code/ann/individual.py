@@ -1,4 +1,5 @@
 import network_with_chromosome as train
+import train_existed_model as tsm
 
 
 class Individual(object):
@@ -24,11 +25,8 @@ class Individual(object):
         """
         self.fitness = train.train_network(self.connection_gene,
                                                 self.activation_function_gene, self)
-        #self.fitness = valuate.get_cell_result(test_data_input, \
-        #               test_data_output, \
-        #               meta_graph=str(self.model_save_path)+"/model.meta",\
-        #               checkpoint=self.model_save_path)
-
+    def train_existed_model(self):
+        self.fitness = tsm.coninue_training(self.model_save_path[:-6])
 
 
 
