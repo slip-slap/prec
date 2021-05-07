@@ -1,36 +1,42 @@
 \section{Result and Discussion}
-We have conducted experiment by the use of the generated data set. This data
-set is randomly partitoned into a training set and a test.
+In this work, we propose to use an artificial neural network as an alternative
+way to compute the strength ratio of compoiste material instead of a two-step
+procedure, based on classical lamination and failure theory. 
 
-Figure \ref{fig:train-process} shows five ANNs with different topologies, quite
-different results have been observed when different architectures are adopted.
-It is clear that architecture whose mean of average difference is less than the
-rest.
-
-
-\begin{figure}
-	\centering
-	\def\svgwidth{\columnwidth}
-	\import{fig/}{pre_train.pdf_tex}
-	\label{fig:train-process}
+\begin{figure}[!tb]
+	\includegraphics[width=0.9\linewidth]{./fig/result_ga_ann.png}
+	\caption{Fitness and error of pre-trained artificial neural network as generations proceed.}
+	\label{fig:ga_nn}
 \end{figure}
 
-Table \ref{tab:simu} shows part of the valudation.
-\input{tab/result_ann_valuation.tex}
+show the changes of the fitness and error during the evolution procedure, where
+the fitness is obtained through the teciniques of artificial neural network
+estimation.
+fitness grows rapidly during the initial stage of GA, then it slowly conveges as
+generation proceeds. it implies genetic algorithm can find an better artificial
+neural network with the evolution of number of neurons in the hidden layer,
+connection relationship, activation functions, and connection weights.
 
+To present the evaluation result of the ANN in a straightforward way, we
+randomly select several experiment results from the valudation dataset, as is
+shown inTab.\ref{tab:simu}.  Comparing the strength ratio outputs based on CLT
+and ANN from Tab.\ref{tab:simu}, we can see that the calculation of strength
+ratio can be achieved using a two-layer neural network, without the intensive
+computation of matrix multiplication.
+\input{tab/result_ann_valuation.tex}
 
 \begin{figure}
 	\centering
 	\def\svgwidth{\columnwidth}
 	\import{fig/}{post_train.pdf_tex}
+	\caption{The illustration of the behaviour of fitness on the training dataset during the training session.}
 	\label{fig:final_train}
 \end{figure}
 
+Fig.\ref{fig:final_train} shows the rest training of the artificial neural
+netowrk obtained by the GA.
 
-Comparing the strength ratio outputs based on CLT and ANN from
-Tab.\ref{tab:simu}, we can see that the calculation of strength ratio can be
-achieved using a two-layer neural network, without the intensive computation of
-matrix multiplication.
+
 
 
 

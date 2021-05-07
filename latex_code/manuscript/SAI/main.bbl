@@ -95,4 +95,9 @@ B.~Baker, O.~Gupta, R.~Raskar, and N.~Naik, ``Accelerating neural architecture
   search using performance prediction,'' \emph{arXiv preprint
   arXiv:1705.10823}, 2017.
 
+\bibitem{lecun1989backpropagation}
+Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and
+  L.~D. Jackel, ``Backpropagation applied to handwritten zip code
+  recognition,'' \emph{Neural computation}, vol.~1, no.~4, pp. 541--551, 1989.
+
 \end{thebibliography}
