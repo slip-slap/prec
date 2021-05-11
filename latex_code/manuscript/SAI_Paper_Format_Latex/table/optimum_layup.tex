@@ -1,0 +1,29 @@
+\renewcommand{\arraystretch}{1.2}
+\begin{table*}{!tb}
+\caption{The optimum layup for the loading $N_x=1e^6$ N when changing the
+length mutation coefficient, the performance of the GA can be improved
+when the lenght mutation coefficient is smaller.} \centering
+\begin{adjustbox}{width=1\textwidth}
+	\begin{tabular}{cccccccc}
+	\toprule
+	\makecell{Length mutation \\ coefficient}		     &	 Material		               	 & case     & Stacking sequence    & Strength ratio  & Mass  &  Cost   & Layer    \\ 
+	\midrule																															  
+	\multirow{6}{*}{1} &	\multirow{3}{*}{glass-epoxy}   	 & worst     &  $[0_{40}/90_{26}]_s$ & 2.010           &  8.58  & 132     & 132   \\
+					   &								     & best      &  $[90_{24}/0_{38}/\bar{90}]_s$ & 2.078  &  8.12  & 125     & 125  \\
+					     &									 & average   &    		           & 2.012           &  7.83  & 123     & 123  \\
+						 &	\multirow{3}{*}{graphite-epoxy}	 & worst     &  $[0_{9}/90_{4}/\bar{0}]_s$ & 2.17             & 1.41   & 68      & 27      \\
+					     &								     & best      &  $[0_{9}/90_{1}/\bar{0}]_s$  & 2.15           & 1.10   & 53      & 21      \\
+					     &								     & average   &                     & 2.018           & 1.47   & 70      & 28      \\ 
+	\multirow{6}{*}{5} &	\multirow{3}{*}{glass-epoxy}   	 & worst     &  $[0_{36}/90_{32}]_s$ &  2.009          & 8.84   &  136    &  136   \\
+					   &								     & best      &  $[0_{36}/90_{26}/\bar{90}]_s$ &  2.003          & 8.12   &  125    &  125   \\
+					     &									 & average   &                     &  2.008          & 8.55   &  131    &  131  \\
+						 &	\multirow{3}{*}{graphite-epoxy}	 & worst     &  $[0_{9}/90_{12}]_s$ &  2.006          & 2.20   &  105    &  42  \\
+						 &								     & best      &  $[0_{8}/90_{3}/\bar{0}]_s$  &  2.001          & 1.20   &  57     &  23  \\
+					     &								     & average   &                    &   2.022          & 1.54   &  73     &  29  \\
+	\bottomrule																															  
+\end{tabular}
+\end{adjustbox}
+\label{tab:optimum_layup}
+\end{table*}
+            
+            

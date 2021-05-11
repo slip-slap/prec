@@ -6,7 +6,7 @@ study, since it is straightforward and simple to code. For function
 approximation through an ANN, Cybenko demonstrated that a two-layer perceptron
 can form an arbitrarily close approximation to any continuous nonlinear
 mapping\cite{cybenko1989approximation}. Therefore, a two-layer feedforward ANN
-is proposed in the present study. Fig.\ref{fig:gnn} shows a general framework for a
+is proposed in the present study. Fig. \ref{fig:gnn} shows a general framework for a
 two-layer NN, in which the number of nodes in the hidden layer and the
 connection with inputs, are critical in the design of an ANN. For nodes in the
 hidden layer, we can think of them as feature extractors or detectors.
@@ -17,17 +17,17 @@ as feature extractors, so the number of nodes in this layer should be less than
 the number of inputs. For the nodes in the last layer, every node should be
 fully connected with nodes in the previous layer, since we think of the nodes
 in the hidden layer as features. The rest, which affects a NN’s performance,
-are transfer function, and ANN's training method. In the following section, we
+are activation function, and ANN's training method. In the following section, we
 denote the $i$th node in the input layer, and the hidden layer, as $i_i$, and $h_i$,
-recpectively.
+respectively.
 
 \input{fig/ann_general_architecture}
-\subsection{Transfer function}
+\subsection{Activation function}
 
-The transfer function is one of the critical parts of an ANN. Liu
-\cite{liu1996evolutionary} et al. claims that the performance of NNs with
-different transfer functions is different, even if they have the same
-architecture.  A generalized transfer function can be written as
+The activation function is one of the critical parts of an ANN. Liu
+\cite{liu1996evolutionary} et al. claims that the performance of neural networks with
+different activation functions is different, even if they have the same
+architecture.  A generalized activation function can be written as
 
 \begin{equation}
 	y_i = f_i(\sum_{j=1}^n{w_{ij}x_j - \theta})
@@ -35,7 +35,7 @@ architecture.  A generalized transfer function can be written as
 
 where $y_i$ is the output of the node $i$, $x_j$ is the $j$th input to the
 node, and $w_{ij}$ is the connection weight between adjacent nodes $i$ and $j$.
-Tab. \ref{tab:transfer_function} display the most widely adopted transfer
+Tab. \ref{tab:transfer_function} displays the most widely adopted activation
 functions in the design of an ANN, which is used for the current study.
 
 \input{fig/ann_active_function}

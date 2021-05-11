@@ -1,28 +1,37 @@
 \section{Experiment}
-In the previous section we present the details of our strategies for designing an ANN. In
-this section, we describe the details of praparation of training set, and validation set.
+In the previous section, we present the details of our strategies for designing
+an ANN. In this section, we explain the details of the preparation of the
+training dataset, and validation dataset.
 \subsection{Dataset Preparation}
-For compoiste material, it is impossible to obtain massive training data from
-practical scenerio.  Therefore, we use classical lamination theory and failure
-theory to prepare the training dataset, which follows a two-step procedure to
-calculate the strength ratio: first, evaluate the stress and strain according
-to classic lamination theory; second, substitue them into the corresponding
-equation to get the strength ratio. We repeat this procedure to yield 14000
-points uniformly distributed over the domain space.
-
-The range of in-plane loading is from 0 to 120; the range of fiber orientation $\theta$ is from
--90 to 90; ply thickness $t$ is 1.27mm, number of plies range $N$ is from 4 to 120;
-Three different material is used in this experiment, as shown in table \ref{tab:mat}.
-Figure \ref{tab:traing-data} shows part of the training data.
-
-In order to speeds up the learning and accerlate convergence, the input
-atttributes of the dataset are rescaled to between 0 and 1.0 by a linear function.
-
-
+For composite material, it is impossible to obtain massive training data from
+the practical scenario. Therefore, we use classical lamination theory and
+failure theory, which follows a two-step procedure: first, evaluate the stress
+and strain according to classic lamination theory; second, substitute them into
+the corresponding equation to get the strength ratio. We repeat this procedure
+to yield 14000 points uniformly distributed over the domain space. We define
+the domain of the corresponding inputs as follows: the range of in-plane
+loading varies from 0 to 120; the range of fiber orientation $\theta$ is from
+-90 to 90; ply thickness $t$ is 1.27mm, the number of plies range $N$ is from 4
+to 120. Three different composite material is used in this experiment, as shown
+in Tab. \ref{tab:mat}. Fig. \ref{tab:traing-data} shows part of the training
+data, which are randomly selected from the generated training dataset.  To
+speeds up the learning and accelerate convergence, the input atttributes of the
+dataset are rescaled to between 0 and 1.0 by a linear function.
 
 \input{tab/experiment_training_data}
 
+\subsection{ANN training and validation}
 The ANN training procedure is carried out by optimising the multinomial
-logistic regression objective using mini-batch gradient descent\cite{lecun1989backpropagation} with momentum. the batch size is set to 1000,
-momentum to 0.9. the learning rate is set to $10^{-2}$.
+logistic regression objective using mini-batch gradient
+descent\cite{lecun1989backpropagation} with momentum. The batch size is set to
+1000, momentum to 0.9. the learning rate is set to $10^{-2}$. As for the
+training dataset and validation dataset, We follow the 70/30 rule, with 70\% of
+the entire data for training and 30\% for validation.
+
+\subsection{Genetic algorithm}
+The genetic algorithm involves the evolution of an artificial neural network’s
+topology, activation function, etc., in the optimizing process.  The
+corresponding parameters are as the following. The population is 10, the
+percentage of parents in the population is 40\%; the strategy of selecting
+parents is rank-based; the mutation rate of the offspring is 0.3.
 

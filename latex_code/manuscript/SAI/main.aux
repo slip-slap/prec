@@ -1,4 +1,5 @@
 \relax 
+\citation{lobo2007parameter}
 \providecommand \oddpage@label [2]{}
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {II}Classic lamination theory and Failure theory}{1}\protected@file@percent }
@@ -25,71 +26,74 @@
 \citation{watkins1987multicriteria}
 \citation{martin1987optimum}
 \citation{soares1995discrete}
-\citation{cybenko1989approximation}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Failure criteria for a lamina}{3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}1}Maximum stress(MS) failure criterion}{3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Schematic failure surfaces for maximum stress and quadratic failure criteria\relax }}{3}\protected@file@percent }
 \newlabel{fig:failure_surface}{{3}{3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}1}Maximum stress(MS) failure criterion}{3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}2}Tsai-wu failure criterion}{3}\protected@file@percent }
 \newlabel{eq:tsai_wu}{{8}{3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {II-B}3}Strength ratio}{3}\protected@file@percent }
 \newlabel{eq:sr}{{10}{3}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}Evolutionary Artificial Neural Network}{3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}General neural network}{3}\protected@file@percent }
+\citation{cybenko1989approximation}
 \citation{liu1996evolutionary}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A general framwwork for EANN, in which fitness refers to the corresponding value of objective function.\relax }}{4}\protected@file@percent }
 \newlabel{fig:evolution}{{4}{4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Transfer function}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Evolutionary Artificial Neural Network}{4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}General neural network}{4}\protected@file@percent }
 \pgfsyspdfmark {pgfid4}{30226196}{44169254}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Network diagram for the two-layer neural network. The input, hidden, and output variables are represented by nodes, and the weight parameters are represented by links between the nodes. Arrows denote the direction of information flow through the network during forward propagation.\relax }}{4}\protected@file@percent }
 \newlabel{fig:gnn}{{5}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Activation function}{4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Weights learning}{4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Methodology}{4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Different Activation Functions\relax }}{5}\protected@file@percent }
+\citation{baker2017accelerating}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Examples of widely used activation functions in the design of artificial neural network.\relax }}{5}\protected@file@percent }
 \newlabel{tab:active_function}{{II}{5}}
 \newlabel{tab:transfer_function}{{II}{5}}
-\pgfsyspdfmark {pgfid5}{21350987}{34364440}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Diagram for modeling the target function of strength ratio calculating for a angle ply laminate\relax }}{5}\protected@file@percent }
-\newlabel{label:gnn_for_clt}{{6}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Search Space}{5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Search Strategy}{5}\protected@file@percent }
-\citation{baker2017accelerating}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Performance estimation strategy}{5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Experiment}{5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Dataset Preparation}{5}\protected@file@percent }
 \citation{lecun1989backpropagation}
-\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Binary representation of parent 1, parent 2 and child corresponding to Fig 5\hbox {}(a), (b) and (c), with $i_1,i_2,\cdots  , I_{16}$ denote sixteen inputs and $h_1,h_2, \cdots  , h_{12}$ refer to nodes in the hidden layer. 1 represents an edge from input node to hidden node, and 0 represents no edge from input nodes to hidden node.\relax }}{6}\protected@file@percent }
+\pgfsyspdfmark {pgfid5}{21350987}{41947589}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Diagram for modeling the target function of strength ratio calculating for an angle ply laminate.\relax }}{6}\protected@file@percent }
+\newlabel{label:gnn_for_clt}{{6}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces The binary representation of parent 1, parent 2, and child corresponding to Fig.5\hbox {}(a), (b) and (c), with $i_1,i_2,\cdots  , I_{16}$ denote sixteen inputs and $h_1,h_2, \cdots  , h_{12}$ refer to nodes in the hidden layer. 1 represents an edge from the input node to hidden node, and 0 represents no edge from input nodes to hidden node.\relax }}{6}\protected@file@percent }
 \newlabel{tab:binary-rep}{{III}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Performance estimation strategy}{6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {V}Experiment}{6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Dataset Preparation}{6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Result and Discussion}{6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}ANN training and validation}{6}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Examples of the training data\relax }}{7}\protected@file@percent }
 \newlabel{tab:traing-data}{{IV}{7}}
 \pgfsyspdfmark {pgfid6}{11397888}{32218974}
 \pgfsyspdfmark {pgfid7}{11512578}{24849210}
 \pgfsyspdfmark {pgfid8}{11512578}{17479446}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Examples of three ANN, with (a) and (b) as parent ANNs, and (c) as the child of (a) and (b). child c inherits the connection relationship part from parent 1 denoted by the darker dashed lines,and the rest from parent 2 denoted by the gray dashed line.\relax }}{7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Examples of three ANNs, with (a) and (b) as parent ANNs, and (c) as the child of (a) and (b). child c inherits the connection relationship part from parent 1 denoted by the darker dashed lines,and the rest from parent 2 denoted by the gray dashed line.\relax }}{7}\protected@file@percent }
 \newlabel{fig:anns}{{7}{7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Fitness and error of pre-trained artificial neural network as generations proceed.\relax }}{7}\protected@file@percent }
-\newlabel{fig:ga_nn}{{8}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Genetic algorithm}{7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Result and Discussion}{7}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{src/a5_reference}
-\bibcite{massard1984computer}{1}
-\bibcite{reddy1987first}{2}
-\bibcite{fang1993design}{3}
-\bibcite{soeiro1994multilevel}{4}
-\bibcite{pelletier2006multi}{5}
-\bibcite{jadhav2007parametric}{6}
-\bibcite{omkar2008artificial}{7}
-\bibcite{choudhury2019failure}{8}
-\bibcite{watkins1987multicriteria}{9}
-\bibcite{martin1987optimum}{10}
-\bibcite{soares1995discrete}{11}
-\bibcite{cybenko1989approximation}{12}
-\bibcite{liu1996evolutionary}{13}
-\bibcite{baker2017accelerating}{14}
-\bibcite{lecun1989backpropagation}{15}
+\bibcite{lobo2007parameter}{1}
+\bibcite{massard1984computer}{2}
+\bibcite{reddy1987first}{3}
+\bibcite{fang1993design}{4}
+\bibcite{soeiro1994multilevel}{5}
+\bibcite{pelletier2006multi}{6}
+\bibcite{jadhav2007parametric}{7}
+\bibcite{omkar2008artificial}{8}
+\bibcite{choudhury2019failure}{9}
+\bibcite{watkins1987multicriteria}{10}
 \@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Comparsion between practical and simulation\relax }}{8}\protected@file@percent }
 \newlabel{tab:simu}{{V}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Fitness and averaged sum-of-squares errors of the pre-trained artificial neural network as generations proceed.\relax }}{8}\protected@file@percent }
+\newlabel{fig:ga_nn}{{8}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The illustration of the behaviour of fitness on the training dataset during the training session.\relax }}{8}\protected@file@percent }
 \newlabel{fig:final_train}{{9}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{8}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{References}{8}\protected@file@percent }
+\bibcite{martin1987optimum}{11}
+\bibcite{soares1995discrete}{12}
+\bibcite{cybenko1989approximation}{13}
+\bibcite{liu1996evolutionary}{14}
+\bibcite{baker2017accelerating}{15}
+\bibcite{lecun1989backpropagation}{16}

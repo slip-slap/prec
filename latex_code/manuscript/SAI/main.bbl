@@ -21,6 +21,11 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{lobo2007parameter}
+F.~Lobo, C.~F. Lima, and Z.~Michalewicz, \emph{Parameter setting in
+  evolutionary algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax Springer
+  Science \& Business Media, 2007, vol.~54.
+
 \bibitem{massard1984computer}
 T.~N. Massard, ``Computer sizing of composite laminates for strength,''
   \emph{Journal of reinforced plastics and composites}, vol.~3, no.~4, pp.
