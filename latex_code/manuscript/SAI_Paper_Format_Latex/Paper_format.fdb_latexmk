@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Paper_format"] 1620721059 "Paper_format.aux" "Paper_format.bbl" "Paper_format" 1620721062
+["bibtex Paper_format"] 1620721059 "Paper_format.aux" "Paper_format.bbl" "Paper_format" 1620732422
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1480098433 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Paper_format.aux" 1620721061 10544 0e8b218150e4cc6cd77e39a1e2ea5242 ""
+  "Paper_format.aux" 1620732421 10544 0e8b218150e4cc6cd77e39a1e2ea5242 ""
   "reference.bib" 1620644498 13253 c0c65159c54ee88ec54563ffd7cb4bc6 ""
   (generated)
-  "Paper_format.blg"
   "Paper_format.bbl"
-["pdflatex"] 1620721060 "Paper_format.tex" "Paper_format.pdf" "Paper_format" 1620721062
+  "Paper_format.blg"
+["pdflatex"] 1620732419 "Paper_format.tex" "Paper_format.pdf" "Paper_format" 1620732422
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1480098689 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -170,9 +170,9 @@
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1589792795 4227023 287652bbbca0ab5bc2f398b14c497dd0 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
   "IEEEtran.cls" 1353994332 207390 d653df0f34cc52792528fb4a3b56093b ""
-  "Paper_format.aux" 1620721061 10544 0e8b218150e4cc6cd77e39a1e2ea5242 ""
+  "Paper_format.aux" 1620732421 10544 0e8b218150e4cc6cd77e39a1e2ea5242 ""
   "Paper_format.bbl" 1620721060 8529 51ea78f2a986aed820ee848f64eadb25 "bibtex Paper_format"
-  "Paper_format.out" 1620721061 955 3758097803d037d146c3631b46e6c76f ""
+  "Paper_format.out" 1620732421 955 3758097803d037d146c3631b46e6c76f ""
   "Paper_format.tex" 1620709487 2329 580a6a77864fc35f02686c0e7a9a77a8 ""
   "fig/chapter3_ngam.tex" 1620709806 3753 b34ea74fb3829b5281a78db60316a57e ""
   "fig/chapter3_ogam.tex" 1620705286 1537 17e58e3f63a87b9975445bbd1a4f56c1 ""
@@ -182,18 +182,18 @@
   "fig/group_number.png" 1620644498 28642 1f9d3f6502bb75e782e14a9630f0e796 ""
   "fig/percentage_of_groups.png" 1620644498 30261 31646d84a3b005819747ea376ed40116 ""
   "src/a1_abstract.tex" 1620704647 656 328818da8daafeb46146385b45232eb3 ""
-  "src/a2_introduction.tex" 1620705418 15681 399b9cced7148c1239353d9b86577539 ""
-  "src/a3_methodology.tex" 1620705461 5054 73c238a876f36576ee0a9a6a97bfa5fa ""
+  "src/a2_introduction.tex" 1620732186 15682 49ca610cb1364b064dca5f7bd470287d ""
+  "src/a3_methodology.tex" 1620732418 5069 f9a028c455b02cc502b07dc55f9f4aed ""
   "src/a4_experiment.tex" 1620720945 3446 eb488bf0be04286d4ac65111b43a2bce ""
   "src/a4_result_and_discussion.tex" 1620720930 5087 d872d9f94fc997beb4f081b83c4aa4e0 ""
   "src/a5_conclusion.tex" 1620720900 917 5d7b352ef8d8150c744fee9c727c2b6b ""
-  "src/a6_acknowledgment.tex" 1620703479 130 2c63e335df7bdfee7838aedd19f30bb6 ""
+  "src/a6_acknowledgment.tex" 1620726094 113 6f956baea3097f028a9ec21e86305ac2 ""
   "table/comparsion.tex" 1620709610 1155 f151f140a11066ffc25158ad1b93f25d ""
   "table/ga_parameters.tex" 1620644498 897 3d49cc735fdca2b8e6d0de02b27e8e11 ""
   "table/material.tex" 1620644498 1515 f3ab7c862d7b3d2977571079829198a1 ""
   "table/optimum_layup.tex" 1620721056 2083 40687f312375ee2bd18949526707c5db ""
   (generated)
-  "Paper_format.out"
-  "Paper_format.aux"
-  "Paper_format.pdf"
   "Paper_format.log"
+  "Paper_format.out"
+  "Paper_format.pdf"
+  "Paper_format.aux"
