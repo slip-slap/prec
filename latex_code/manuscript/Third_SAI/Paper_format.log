@@ -1,0 +1,3080 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  13 MAY 2021 19:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Paper_format.tex
+(./Paper_format.tex
+LaTeX2e <2018-12-01>
+(./IEEEtran.cls
+Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Christensen
+-- Based on V1.7a by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen104
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen105
+\CLASSINFOnormalsizeunitybaselineskip=\dimen106
+\IEEEnormaljot=\dimen107
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 731.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 731.
+\IEEEilabelindentA=\dimen108
+\IEEEilabelindentB=\dimen109
+\IEEEilabelindent=\dimen110
+\IEEEelabelindent=\dimen111
+\IEEEdlabelindent=\dimen112
+\IEEElabelindent=\dimen113
+\IEEEiednormlabelsep=\dimen114
+\IEEEiedmathlabelsep=\dimen115
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEtmpitemindent=\dimen116
+\c@IEEEbiography=\count91
+\@IEEEtranrubishbin=\box27
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count92
+\@cmidlb=\count93
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count94
+\@lastruleclass=\count95
+\@thisrulewidth=\dimen129
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count96
+\mult@box=\box28
+\multicol@leftmargin=\dimen130
+\c@unbalance=\count97
+\c@collectmore=\count98
+\doublecol@number=\count99
+\multicoltolerance=\count100
+\multicolpretolerance=\count101
+\full@width=\dimen131
+\page@free=\dimen132
+\premulticols=\dimen133
+\postmulticols=\dimen134
+\multicolsep=\skip44
+\multicolbaselineskip=\skip45
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen135
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count102
+\c@finalcolumnbadness=\count103
+\last@try=\dimen136
+\multicolovershoot=\dimen137
+\multicolundershoot=\dimen138
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count104
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen139
+\ar@mcellbox=\box54
+\extrarowheight=\dimen140
+\NC@list=\toks15
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box55
+)
+\rotheadsize=\dimen141
+\c@nlinenum=\count105
+\TeXr@lab=\toks16
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen144
+\pgfutil@tempdimb=\dimen145
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen146
+\pgf@y=\dimen147
+\pgf@xa=\dimen148
+\pgf@ya=\dimen149
+\pgf@xb=\dimen150
+\pgf@yb=\dimen151
+\pgf@xc=\dimen152
+\pgf@yc=\dimen153
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count110
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen154
+\pgfmath@count=\count113
+\pgfmath@box=\box57
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count114
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen155
+\pgf@picmaxx=\dimen156
+\pgf@picminy=\dimen157
+\pgf@picmaxy=\dimen158
+\pgf@pathminx=\dimen159
+\pgf@pathmaxx=\dimen160
+\pgf@pathminy=\dimen161
+\pgf@pathmaxy=\dimen162
+\pgf@xx=\dimen163
+\pgf@xy=\dimen164
+\pgf@yx=\dimen165
+\pgf@yy=\dimen166
+\pgf@zx=\dimen167
+\pgf@zy=\dimen168
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen169
+\pgf@path@lasty=\dimen170
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen171
+\pgf@shorten@start@additional=\dimen172
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count115
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen173
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen174
+\pgf@pt@y=\dimen175
+\pgf@pt@temp=\dimen176
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen177
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen178
+\pgf@sys@shading@range@num=\count116
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box61
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box62
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen179
+\pgf@nodesepend=\dimen180
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen181
+\pgffor@skip=\dimen182
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count117
+\pgfplotmarksize=\dimen183
+)
+\tikz@lastx=\dimen184
+\tikz@lasty=\dimen185
+\tikz@lastxsaved=\dimen186
+\tikz@lastysaved=\dimen187
+\tikzleveldistance=\dimen188
+\tikzsiblingdistance=\dimen189
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
+)
+\tikz@expandcount=\count125
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen190
+\TX@old@table=\dimen191
+\TX@old@col=\dimen192
+\TX@target=\dimen193
+\TX@delta=\dimen194
+\TX@cols=\count126
+\TX@ftn=\toks30
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen195
+\captionmargin@=\dimen196
+\captionwidth=\dimen197
+\caption@tempdima=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEtablestring \footnotesize {\centering \normalfont \footnotesize #1.\qquad \scshape #2\par }\@IEEEtablecaptionsepspace \else \@IEEEfigurecaptionsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}~~ }\parbox [t]{\hsize }{\normalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONconference \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi \fi .
+\c@caption@flags=\count127
+\c@ContinuedFloat=\count128
+)
+\c@subfigure=\count129
+\c@subtable=\count130
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\arrowsize=\dimen258
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+\pgf@intersect@solutions=\count131
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+) (./Paper_format.aux)
+\openout1 = `Paper_format.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen259
+\scratchbox=\box67
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen260
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <11> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7.69997> on input line 63.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5.5> on input line 63.
+
+./Paper_format.tex:63: Undefined control sequence.
+<recently read> \text 
+                      
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Paper_format.tex:63: Undefined control sequence.
+<argument> $\text {Huiyao Zhang}^1, \text 
+                                          { Atsushi Yokoyama}^2$
+l.63 \maketitle
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./src/a1_abstract.tex) (./src/a1_introduction_GA.tex
+
+LaTeX Warning: Citation `schmit1973optimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `schmit1977optimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `fukunaga1991strength' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `soares1995discrete' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `le1995improved' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `jayatheertha1996application' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `wang1996optimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `adali1997minimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `correia1997higher' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `scares1997optimization' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `abu1998optimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `lombardi1998anti' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `le1998design' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `sivakumar1998optimum' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `barakat1999use' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `richard2000reliability' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `moita2000sensitivity' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `soremekun2001composite' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `walker2003technique' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `di2003multiconstrained' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `kere2003using' on page 1 undefined on input line 17.
+
+
+LaTeX Warning: Citation `callahan1992optimum' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `soremekun2001composite' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `park2001stacking' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `walker2003technique' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `deka2005multiobjective' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `pelletier2006multi' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `jadhav2007parametric' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `kim2007development' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `park2008improved' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `le1995improved' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Citation `kogiso1994design' on page 1 undefined on input line 66.
+
+
+LaTeX Warning: Citation `todoroki1998stacking' on page 1 undefined on input line 70.
+
+
+Package Fancyhdr Warning: \headheight is too small (20.0pt): 
+Make it at least 21.14493pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 85.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 85.
+[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]) (./src/a1_introduction_CLT.tex
+<image/lamina_local_global_axes.png, id=16, 1637.11626pt x 572.1375pt>
+File: image/lamina_local_global_axes.png Graphic file (type png)
+<use image/lamina_local_global_axes.png>
+Package pdftex.def Info: image/lamina_local_global_axes.png  used on input line 5.
+(pdftex.def)             Requested size: 524.09975pt x 183.1663pt.
+
+
+./src/a1_introduction_CLT.tex:15: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15     \begin{bmatrix}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:19: LaTeX Error: \begin{equation} on input line 14 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19     \end{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:21: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21     \begin{bmatrix}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:22: Misplaced alignment tab character &.
+l.22         Q_{11} &
+                      Q_{12} & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:22: Misplaced alignment tab character &.
+l.22         Q_{11} & Q_{12} &
+                               0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:23: Misplaced alignment tab character &.
+l.23         Q_{12} &
+                      Q_{22} & 0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:23: Misplaced alignment tab character &.
+l.23         Q_{12} & Q_{22} &
+                               0\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:24: Misplaced alignment tab character &.
+l.24         0      &
+                       0     & Q_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:24: Misplaced alignment tab character &.
+l.24         0      &  0     &
+                               Q_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:25: LaTeX Error: \begin{equation} on input line 14 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25     \end{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:26: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26     \begin{bmatrix}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:29: LaTeX Error: \begin{equation} on input line 14 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 	\end{bmatrix}
+                   _{\textstyle ,}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:29: Double subscript.
+l.29 	\end{bmatrix}_
+                    {\textstyle ,}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+./src/a1_introduction_CLT.tex:35: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35     \begin{split}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:36: Misplaced alignment tab character &.
+l.36 	&
+       Q_{11}=\frac{E_1}{1-v_{12}v_{21}},\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:37: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.37 	&
+       Q_{22}=\frac{E_2}{1-v_{12}v_{21}},\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:38: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.38 	&
+       Q_{66}=G_{12},\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:39: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.39 	&
+       Q_{12}=\frac{v_{21}E_2}{1-v_{12}v_{21}},\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:40: LaTeX Error: \begin{equation} on input line 34 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40     \end{split}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (38.69002pt too wide) detected at line 41
+\OML/cmm/m/it/10 Q[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ; [] Q[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ; [] Q[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 G[]; [] Q[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ; [] 
+ []
+
+
+./src/a1_introduction_CLT.tex:107: LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 		\begin{aligned}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:108: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:110: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.110 		N
+         _y \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:110: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.110 		N
+         _y \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./src/a1_introduction_CLT.tex:112: LaTeX Error: \begin{array} on input line 106 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:112: Missing $ inserted.
+<inserted text> 
+                $
+l.112 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:112: Missing } inserted.
+<inserted text> 
+                }
+l.112 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:112: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.112 	\end{bmatrix}
+                    
+I'm guessing that you meant to end an alignment here.
+
+./src/a1_introduction_CLT.tex:112: Missing $ inserted.
+<inserted text> 
+                $
+l.112 	\end{bmatrix}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_CLT.tex:112: Missing } inserted.
+<inserted text> 
+                }
+l.112 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:113: Misplaced alignment tab character &.
+l.113 	&
+        =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:114: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.114 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:115: Misplaced alignment tab character &.
+l.115 		A_{11} &
+                 A_{12} & A_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:115: Misplaced alignment tab character &.
+l.115 		A_{11} & A_{12} &
+                          A_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:116: Misplaced alignment tab character &.
+l.116 		A_{12} &
+                 A_{22} & A_{26} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:116: Misplaced alignment tab character &.
+l.116 		A_{12} & A_{22} &
+                          A_{26} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:117: Misplaced alignment tab character &.
+l.117 		A_{16} &
+                 A_{26} & A_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:117: Misplaced alignment tab character &.
+l.117 		A_{16} & A_{26} &
+                          A_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:118: LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:119: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119     \begin{bmatrix}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:123: LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123     \end{bmatrix}
+                          \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:124: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.124 	&
+        +
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:125: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:126: Misplaced alignment tab character &.
+l.126 		B_{11} &
+                 B_{12} & B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:126: Misplaced alignment tab character &.
+l.126 		B_{11} & B_{12} &
+                          B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:127: Misplaced alignment tab character &.
+l.127 		B_{11} &
+                 B_{12} & B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:127: Misplaced alignment tab character &.
+l.127 		B_{11} & B_{12} &
+                          B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:128: Misplaced alignment tab character &.
+l.128 		B_{16} &
+                 B_{26} & B_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:128: Misplaced alignment tab character &.
+l.128 		B_{16} & B_{26} &
+                          B_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:129: LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:130: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:134: LaTeX Error: \begin{equation} on input line 105 ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 	\end{bmatrix}
+                    _{\textstyle ,}  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:134: Double subscript.
+l.134 	\end{bmatrix}_
+                     {\textstyle ,}  \\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+./src/a1_introduction_CLT.tex:135: LaTeX Error: \begin{equation} on input line 105 ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \end{aligned}
+                    \\ \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:135: Missing $ inserted.
+<inserted text> 
+                $
+l.135 \end{aligned}
+                    \\ \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:135: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.135 \end{aligned}
+                    \\ \\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+Overfull \hbox (155.46939pt too wide) detected at line 135
+[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 A[]A[]A[][] A[]A[]A[][] A[]A[]A[]"[][] "[][] ^^M[][]  \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 B[]B[]B[][] B[]B[]B[][] B[]B[]B[]k[][] k[][] k[][][] 
+ []
+
+
+./src/a1_introduction_CLT.tex:136: LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 \begin{aligned}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./src/a1_introduction_CLT.tex:137: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:138: Missing $ inserted.
+<inserted text> 
+                $
+l.138 		M_
+          x \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a1_introduction_CLT.tex:141: LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:141: Missing $ inserted.
+<inserted text> 
+                $
+l.141 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:142: Misplaced alignment tab character &.
+l.142 	&
+        =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:143: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:144: Missing $ inserted.
+<inserted text> 
+                $
+l.144 		B_
+          {11} & B_{12} & B_{16} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_CLT.tex:144: Misplaced alignment tab character &.
+l.144 		B_{11} &
+                 B_{12} & B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:144: Misplaced alignment tab character &.
+l.144 		B_{11} & B_{12} &
+                          B_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:145: Misplaced alignment tab character &.
+l.145 		B_{12} &
+                 B_{22} & B_{26} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:145: Misplaced alignment tab character &.
+l.145 		B_{12} & B_{22} &
+                          B_{26} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:146: Misplaced alignment tab character &.
+l.146 		B_{16} &
+                 B_{26} & B_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:146: Misplaced alignment tab character &.
+l.146 		B_{16} & B_{26} &
+                          B_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:147: LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:147: Missing $ inserted.
+<inserted text> 
+                $
+l.147 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./src/a1_introduction_CLT.tex:148: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148     \begin{bmatrix}
+                         
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:149: Missing $ inserted.
+<inserted text> 
+                $
+l.149 		\varepsilon
+                   _x^0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a1_introduction_CLT.tex:152: LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152     \end{bmatrix}
+                        \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:152: Missing $ inserted.
+<inserted text> 
+                $
+l.152     \end{bmatrix}
+                        \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:153: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.153 	&
+        +
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:154: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:155: Missing $ inserted.
+<inserted text> 
+                $
+l.155 		D_
+          {11} & D_{12} & D_{16} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_CLT.tex:155: Misplaced alignment tab character &.
+l.155 		D_{11} &
+                 D_{12} & D_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:155: Misplaced alignment tab character &.
+l.155 		D_{11} & D_{12} &
+                          D_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:156: Misplaced alignment tab character &.
+l.156 		D_{11} &
+                 D_{12} & D_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:156: Misplaced alignment tab character &.
+l.156 		D_{11} & D_{12} &
+                          D_{16} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:157: Misplaced alignment tab character &.
+l.157 		D_{16} &
+                 D_{26} & D_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:157: Misplaced alignment tab character &.
+l.157 		D_{16} & D_{26} &
+                          D_{66}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:158: LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 	\end{bmatrix}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:158: Missing $ inserted.
+<inserted text> 
+                $
+l.158 	\end{bmatrix}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./src/a1_introduction_CLT.tex:159: LaTeX Error: Environment bmatrix undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 	\begin{bmatrix}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:160: Missing $ inserted.
+<inserted text> 
+                $
+l.160 		k_
+          x \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a1_introduction_CLT.tex:163: LaTeX Error: \begin{document} ended by \end{bmatrix}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 	\end{bmatrix}
+                    _{\textstyle,}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:163: Missing $ inserted.
+<inserted text> 
+                $
+l.163 	\end{bmatrix}
+                    _{\textstyle,}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:163: Missing $ inserted.
+<inserted text> 
+                $
+l.163 	\end{bmatrix}_
+                     {\textstyle,}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a1_introduction_CLT.tex:164: LaTeX Error: \begin{document} ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 \end{aligned}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:164: Missing $ inserted.
+<inserted text> 
+                $
+l.164 \end{aligned}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:165: Misplaced \crcr.
+\endarray ->\crcr 
+                  \egroup \egroup \@arrayright \gdef \@preamble {}
+l.165 	\end{array}
+                  
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:165: Too many }'s.
+\endarray ->\crcr \egroup 
+                          \egroup \@arrayright \gdef \@preamble {}
+l.165 	\end{array}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+./src/a1_introduction_CLT.tex:165: Too many }'s.
+\endarray ->\crcr \egroup \egroup 
+                                  \@arrayright \gdef \@preamble {}
+l.165 	\end{array}
+                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+./src/a1_introduction_CLT.tex:165: LaTeX Error: \begin{document} ended by \end{array}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 	\end{array}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:165: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.165 	\end{array}
+                  
+Things are pretty mixed up, but I think the worst is over.
+
+./src/a1_introduction_CLT.tex:166: You can't use `\eqno' in horizontal mode.
+\endequation ->\eqno 
+                     \hbox {\@eqnnum }$$\@ignoretrue 
+l.166 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--166
+
+ []
+
+
+./src/a1_introduction_CLT.tex:166: LaTeX Error: \begin{document} ended by \end{equation}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:166: Missing $ inserted.
+<inserted text> 
+                $
+l.166 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a1_introduction_CLT.tex:166: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.166 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./src/a1_introduction_CLT.tex:166: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.166 \end{equation}
+                    
+Things are pretty mixed up, but I think the worst is over.
+
+
+./src/a1_introduction_CLT.tex:183: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183     \begin{split}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_CLT.tex:184: Misplaced alignment tab character &.
+l.184     &
+           A_{ij}=\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h_k-h_{k-1})  i=1,2,6,...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:185: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.185     &
+           B_{ij}=\frac{1}{2}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h_k^2 - h_{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_CLT.tex:187: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.187     &
+           D_{ij}=\frac{1}{3}\sum_{k=1}^{n}(\overline{Q_{ij}})_k(h_k^3 - h_{...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_CLT.tex:189: LaTeX Error: \begin{equation} on input line 182 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189     \end{split}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (390.35558pt too wide) detected at line 190
+\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 = []([])[](\OML/cmm/m/it/10 h[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 h[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; j \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; [] B[] \OT1/cmr/m/n/10 = [] []([])[](\OML/cmm/m/it/10 h[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 h[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; j \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; [] D[] \OT1/cmr/m/n/10 = [] []([])[](\OML/cmm/m/it/10 h[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 h[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 ; j \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 6\OML/cmm/m/it/10 :[] 
+ []
+
+) (./src/a1_introduction_failure_criteria.tex [2]
+
+./src/a1_introduction_failure_criteria.tex:54: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \begin{split}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_failure_criteria.tex:55: Misplaced alignment tab character &.
+l.55 	H_1 \sigma_1  &
+                      + H_2 \sigma_2 + H_6 \tau_{12} + H_{11}\sigma_1^2 + H_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:56: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.56 				  &
+             + H_{66}  \tau_{12}^2 + 2H_{12}\sigma_1\sigma_2 < 1
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_failure_criteria.tex:57: LaTeX Error: \begin{equation} on input line 53 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \end{split}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (10.09181pt too wide) detected at line 58
+[]\OML/cmm/m/it/10 H[]^^[[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 H[]^^[[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 H[]^^\[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 H[]^^[[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 H[]^^[[][]  \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 H[]^^\[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 H[]^^[[]^^[[] < \OT1/cmr/m/n/10 1
+ []
+
+
+./src/a1_introduction_failure_criteria.tex:63: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 	\begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_failure_criteria.tex:64: Misplaced alignment tab character &.
+l.64 		H_{1}&
+             =\frac{1}{\left(\sigma_{1}^{T}\right)_{u l
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:66: Misplaced alignment tab character &.
+l.66 		H_{11}&
+              =\frac{1}{\left(\sigma_{1}^{T}\right)_{u l t}\left(\sigma_{1}^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:67: Misplaced alignment tab character &.
+l.67 		H_{2}&
+             =\frac{1}{\left(\sigma_{2}^{T}\right)_{u l t}}-\frac{1}{\left(\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:68: Misplaced alignment tab character &.
+l.68 		H_{22}&
+              =\frac{1}{\left(\sigma_{2}^{T}\right)_{u l t}\left(\sigma_{2}^...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:69: Misplaced alignment tab character &.
+l.69 		H_{66}&
+              =\frac{1}{\left(\tau_{12}\right)_{u l t}^{2}} \textstyle{,}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a1_introduction_failure_criteria.tex:70: Misplaced alignment tab character &.
+l.70 		H_{12}&
+              =-\frac{1}{2} \sqrt{\frac{1}{\left(\sigma_{1}^{T}\right)_{u l
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a1_introduction_failure_criteria.tex:73: LaTeX Error: \begin{equation} on input line 62 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 	\end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (370.48895pt too wide) detected at line 74
+\OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^@ [][][] \OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = [][][] \OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = [] \OMS/cmsy/m/n/10 ^^@ [][][] \OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = [][][] \OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = [][][] \OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[][]\OML/cmm/m/it/10 :
+ []
+
+[3 <./image/lamina_local_global_axes.png>]
+
+LaTeX Warning: Reference `eq:force_and_moments' on page 4 undefined on input line 135.
+
+) (./src/a1_introduction_safety_factor.tex
+./src/a1_introduction_safety_factor.tex:8: Undefined control sequence.
+<argument> \text 
+                 {Maximum Load Which Can Be Applied}
+l.8 	Applied}}{\text {Load Applied}}
+                                     {\textstyle .}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:8: Undefined control sequence.
+<argument> \text 
+                 {Load Applied}
+l.8 	Applied}}{\text {Load Applied}}
+                                     {\textstyle .}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `eq:sr' on page 4 undefined on input line 14.
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 11--17
+\OT1/ptm/m/n/10 cal-cu-lated by the fol-low-ing method: first, the prin-ci-pal
+ []
+
+
+./src/a1_introduction_safety_factor.tex:18: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_safety_factor.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19 	SF_
+         {MS}^k = \text{min of}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:19: Undefined control sequence.
+l.19 	SF_{MS}^k = \text
+                       {min of}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:23: Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.23 			\frac
+             {X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./src/a1_introduction_safety_factor.tex:23: Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.23 			\frac
+             {X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./src/a1_introduction_safety_factor.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 			\frac
+             {X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:23: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.23 			\frac
+             {X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+I'm guessing that you meant to end an alignment here.
+
+./src/a1_introduction_safety_factor.tex:23: Missing $ inserted.
+<inserted text> 
+                $
+l.23 			\frac
+             {X_t}{\sigma_{11}}, \text{ if } \sigma_{11}>0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:23: Undefined control sequence.
+l.23 			\frac{X_t}{\sigma_{11}}, \text
+                                      { if } \sigma_{11}>0 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:24: Undefined control sequence.
+l.24 			\frac{X_c}{\sigma_{11}}, \text
+                                      { if } \sigma_{11}<0 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:28: Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.28 			\frac
+             {Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./src/a1_introduction_safety_factor.tex:28: Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.28 			\frac
+             {Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./src/a1_introduction_safety_factor.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 			\frac
+             {Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:28: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.28 			\frac
+             {Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+I'm guessing that you meant to end an alignment here.
+
+./src/a1_introduction_safety_factor.tex:28: Missing $ inserted.
+<inserted text> 
+                $
+l.28 			\frac
+             {Y_t}{\sigma_{22}}, \text{ if } \sigma_{22}>0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:28: Undefined control sequence.
+l.28 			\frac{Y_t}{\sigma_{22}}, \text
+                                      { if } \sigma_{22}>0 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:29: Undefined control sequence.
+l.29 			\frac{Y_c}{\sigma_{22}}, \text
+                                      { if } \sigma_{22}<0 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:33: Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.33 			\frac
+             {S}{|\tau_{12}|} \\
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+./src/a1_introduction_safety_factor.tex:33: Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.33 			\frac
+             {S}{|\tau_{12}|} \\
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./src/a1_introduction_safety_factor.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 			\frac
+             {S}{|\tau_{12}|} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a1_introduction_safety_factor.tex:33: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.33 			\frac
+             {S}{|\tau_{12}|} \\
+I'm guessing that you meant to end an alignment here.
+
+./src/a1_introduction_safety_factor.tex:33: Missing $ inserted.
+<inserted text> 
+                $
+l.33 			\frac
+             {S}{|\tau_{12}|} \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a1_introduction_safety_factor.tex:36: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a1_introduction_safety_factor.tex:36: Missing $ inserted.
+<inserted text> 
+                $
+l.36 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: Reference `eq:tsai_wu' on page 4 undefined on input line 42.
+
+./src/a1_introduction_safety_factor.tex:64: Undefined control sequence.
+l.64 $SF_{TW}= \text
+                    { min of } SF_{TW}^k \text{ for } k=1,2,\cdots, m-1,m$ .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a1_introduction_safety_factor.tex:64: Undefined control sequence.
+l.64 $SF_{TW}= \text{ min of } SF_{TW}^k \text
+                                              { for } k=1,2,\cdots, m-1,m$ .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./src/a2_ga_operator.tex) (./src/a2_methodology.tex [4]
+
+./src/a2_methodology.tex:9: LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 	\begin{split}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:10: Misplaced alignment tab character &.
+l.10     	F  &
+              = 2t_0 \sum_{k=1}^n n_k  \textstyle{,}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a2_methodology.tex:11: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.11     	   &
+              SF_{MS} \geq 1 \textstyle{,} \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a2_methodology.tex:12: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.12     	   &
+              SF_{TW} \geq 1 \textstyle{.}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./src/a2_methodology.tex:13: LaTeX Error: \begin{equation} on input line 8 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	\end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Reference `GA:operator' on page 5 undefined on input line 57.
+
+
+./src/a2_methodology.tex:60: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \begin{align}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:62: Missing $ inserted.
+<inserted text> 
+                $
+l.62 	C
+       _a &= (P1_a + P2_a)/2 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a2_methodology.tex:62: Misplaced alignment tab character &.
+l.62 	C_a &
+           = (P1_a + P2_a)/2 \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a2_methodology.tex:63: Misplaced alignment tab character &.
+l.63 	C_l &
+           = (P1_l + P2_l)/2
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./src/a2_methodology.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64 \end{cases}
+                 \textstyle{.}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a2_methodology.tex:64: Missing $ inserted.
+<inserted text> 
+                $
+l.64 \end{cases} \textstyle
+                           {.}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a2_methodology.tex:65: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:65: Missing $ inserted.
+<inserted text> 
+                $
+l.65 \end{align}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+(./tab/composite_material.tex
+Overfull \hbox (15.83089pt too wide) in alignment at lines 20--20
+[][][][] 
+ []
+
+)
+./src/a2_methodology.tex:78: Undefined control sequence.
+<recently read> \text 
+                      
+l.78 }
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `tab:T300/5308' on page 5 undefined on input line 88.
+
+
+./src/a2_methodology.tex:104: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \begin{align}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:105: Undefined control sequence.
+l.105 	\text
+            {LM} =
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a2_methodology.tex:107: Missing $ inserted.
+<inserted text> 
+                $
+l.107 		\resizebox
+                  {.35\textwidth}{!}{$[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Runaway argument?
+./src/a2_methodology.tex:107: Forbidden control sequence found while scanning use of \Gscale@box@dddd.
+<inserted text> 
+                \par 
+l.107 		\resizebox
+                  {.35\textwidth}{!}{$[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+./src/a2_methodology.tex:107: Missing $ inserted.
+<inserted text> 
+                $
+l.107 		\resizebox
+                  {.35\textwidth}{!}{$[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a2_methodology.tex:107: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.107 		\resizebox{.35\textwidth}
+                                 {!}{$[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./src/a2_methodology.tex:107: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.107 		\resizebox{.35\textwidth}
+                                 {!}{$[0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./src/a2_methodology.tex:107: Missing } inserted.
+<inserted text> 
+                }
+l.107 		\resizebox{.35\textwidth}{!}{$
+                                      [0,(C_l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a2_methodology.tex:107: Missing $ inserted.
+<inserted text> 
+                $
+l.107 		\resizebox{.35\textwidth}{!}{$[0,(C_
+                                            l \sum_{i=1}^{N}{(CT_i-CV_i)})/N...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a2_methodology.tex:107: Undefined control sequence.
+l.107 ..._l \sum_{i=1}^{N}{(CT_i-CV_i)})/N], \text
+                                                  { if }  \sum_{i=1}^{N}{CT_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a2_methodology.tex:108: Extra }, or forgotten \endgroup.
+l.108 		\sum_{i=1}^{N}{CV_i}$}
+                              \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./src/a2_methodology.tex:110: Undefined control sequence.
+<argument> ...{i=1}^{N}{(CT_i-CV_i)})/N,0], \text 
+                                                  { if } \sum _{i=1}^{N}{CT_...
+l.110 		\sum_{i=1}^{N}{CV_i}$}
+                              \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./src/a2_methodology.tex:112: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 96--113
+[]\OT1/ptm/m/n/10 If the $[][] []$ less than $[][] []$, the mu-ta-tion
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 96--113
+\OT1/ptm/m/n/10 value, and de-crease the chrom-some's length. As-sum-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--113
+
+ []
+
+
+./src/a2_methodology.tex:120: LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 \begin{align}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:121: Undefined control sequence.
+l.121 	\text
+            {P(AM)} =
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a2_methodology.tex:123: Missing $ inserted.
+<inserted text> 
+                $
+l.123 		0
+         .5, \text{ AM = }[0,C_a \sum_{i=1}^{N}{(|CT_i-CV_i|)}] \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./src/a2_methodology.tex:123: Undefined control sequence.
+l.123 		0.5, \text
+                  { AM = }[0,C_a \sum_{i=1}^{N}{(|CT_i-CV_i|)}] \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a2_methodology.tex:124: Undefined control sequence.
+l.124 	    0.5, \text
+                     { AM = }[C_a \sum_{i=1}^{N}{(-|CT_i-CV_i|)},0]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a2_methodology.tex:125: Missing $ inserted.
+<inserted text> 
+                $
+l.125 	\end{cases}
+                   \textstyle{.}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./src/a2_methodology.tex:125: Missing $ inserted.
+<inserted text> 
+                $
+l.125 	\end{cases} \textstyle
+                             {.}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./src/a2_methodology.tex:126: LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.126 \end{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./src/a2_methodology.tex:126: Missing $ inserted.
+<inserted text> 
+                $
+l.126 \end{align}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (./src/a3_result.tex
+
+LaTeX Warning: Reference `tab:T300/5308' on page 5 undefined on input line 4.
+
+[5]
+<2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png, id=38, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
+<use 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png>
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png  used on input line 21.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+<2020-11-10-pre-image/two_distinct_angle_angle_change.png, id=39, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/two_distinct_angle_angle_change.png Graphic file (type png)
+<use 2020-11-10-pre-image/two_distinct_angle_angle_change.png>
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angle_angle_change.png  used on input line 25.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+<2020-11-10-pre-image/two_distinct_angler_number_change.png, id=40, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/two_distinct_angler_number_change.png Graphic file (type png)
+<use 2020-11-10-pre-image/two_distinct_angler_number_change.png>
+Package pdftex.def Info: 2020-11-10-pre-image/two_distinct_angler_number_change.png  used on input line 29.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+
+./src/a3_result.tex:50: Undefined control sequence.
+l.50 ...                        &  $[33_{29}/\text
+                                                  {-}39_{25}/\bar{\text{-}39...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:50: Undefined control sequence.
+l.50 ...   &  $[33_{29}/\text{-}39_{25}/\bar{\text
+                                                  {-}39}]_s$            &   ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:51: Undefined control sequence.
+l.51 ...                        &  $[33_{22}/\text
+                                                  {-}31_{24}]_s$            ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:52: Undefined control sequence.
+l.52 ...                        &  $[29_{18}/\text
+                                                  {-}21_{23}/\bar{\text{-}21...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:52: Undefined control sequence.
+l.52 ...   &  $[29_{18}/\text{-}21_{23}/\bar{\text
+                                                  {-}21}]_s$            &   ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:53: Undefined control sequence.
+l.53 ...                                &  $[\text
+                                                  {-}20_{27}/21_{25}/\bar{25...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:54: Undefined control sequence.
+l.54 ...                                &  $[\text
+                                                  {-}18_{34}/17_{36}]_s$    ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:two_angles' on page 6 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:three_angles' on page 6 undefined on input line 64.
+
+
+LaTeX Warning: Reference `fig:two_angles' on page 6 undefined on input line 69.
+
+
+LaTeX Warning: Reference `fig:three_angles' on page 6 undefined on input line 70.
+
+
+LaTeX Warning: Reference `fig:two_angles' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Reference `fig:three_angles' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Reference `fig:two_angles' on page 6 undefined on input line 80.
+
+
+LaTeX Warning: Reference `fig:two_angles' on page 6 undefined on input line 83.
+
+
+LaTeX Warning: Reference `fig:three_angles' on page 6 undefined on input line 83.
+
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./2020-11-10-pre-image/two_distinct_angle_fitness_and_sr.png> <./2020-11-10-pre-image/two_distinct_angle_angle_change.png> <./2020-11-10-pre-image/two_distinct_angler_number_change.png>]
+<2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png, id=47, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png Graphic file (type png)
+<use 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png>
+Package pdftex.def Info: 2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png  used on input line 107.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+<2020-11-10-pre-image/three_distinct_angles_angle_change.png, id=48, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/three_distinct_angles_angle_change.png Graphic file (type png)
+<use 2020-11-10-pre-image/three_distinct_angles_angle_change.png>
+Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angles_angle_change.png  used on input line 111.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+<2020-11-10-pre-image/three_distinct_angle_number_of_angle.png, id=49, 462.528pt x 346.896pt>
+File: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png Graphic file (type png)
+<use 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>
+Package pdftex.def Info: 2020-11-10-pre-image/three_distinct_angle_number_of_angle.png  used on input line 115.
+(pdftex.def)             Requested size: 202.44066pt x 151.83014pt.
+
+./src/a3_result.tex:136: Undefined control sequence.
+l.136 ...                       &  $[37_{27}/\text
+                                                  {-}38_{27}/\text{-}5]_s$  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:136: Undefined control sequence.
+l.136 ...       &  $[37_{27}/\text{-}38_{27}/\text
+                                                  {-}5]_s$            &     ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:137: Undefined control sequence.
+l.137 ...                       &  $[34_{24}/\text
+                                                  {-}32_{14}/\text{-}28_{11}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:137: Undefined control sequence.
+l.137 ...       &  $[34_{24}/\text{-}32_{14}/\text
+                                                  {-}28_{11}]_s$      &     ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:138: Undefined control sequence.
+l.138 ...                       &  $[21_{28}/\text
+                                                  {-}32_{19}/2_3]_s$        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:139: Undefined control sequence.
+l.139 	80/5/0                       &  $[\text
+                                              {-}19_{24}/20_{27}/\text{-}{17...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:139: Undefined control sequence.
+l.139 ...       &  $[\text{-}19_{24}/20_{27}/\text
+                                                  {-}{17}_{16}/\bar{\text{-}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:139: Undefined control sequence.
+l.139 ...{24}/20_{27}/\text{-}{17}_{16}/\bar{\text
+                                                  {-}17}]_s$  &  109      & ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:140: Undefined control sequence.
+l.140 	120/5/0                      &  $[\text
+                                              {-}19_{33}/12_{13}/16_{28}]_s$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.47392pt too wide) in paragraph at lines 127--143
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `akbulut2008optimum' on page 7 undefined on input line 152.
+
+./src/a3_result.tex:157: Undefined control sequence.
+l.157 	  10/5/0                 &  $[37_{27}/\text
+                                                  {-}37_{27}]_s$     &  108 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:157: Undefined control sequence.
+l.157 ...   &  1.0068  &  1.0277 & $[33_{29}/\text
+                                                  {-}39_{25}/\bar{\text{-}39...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:157: Undefined control sequence.
+l.157 ...77 & $[33_{29}/\text{-}39_{25}/\bar{\text
+                                                  {-}39}]_s$     &     109  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:158: Undefined control sequence.
+l.158 	  20/5/0                 &  $[31_{23}/\text
+                                                  {-}31_{23}]_s$     &  92  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:158: Undefined control sequence.
+l.158 ...   &  1.0208  &  1.1985 & $[33_{22}/\text
+                                                  {-}31_{24}]_s$            ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:159: Undefined control sequence.
+l.159 	  40/5/0                 &  $[26_{20}/\text
+                                                  {-}26_{20}]_s$     &  80  ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:159: Undefined control sequence.
+l.159 ...   &  1.0190  &  1.5381 & $[29_{18}/\text
+                                                  {-}21_{23}/\bar{\text{-}21...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:159: Undefined control sequence.
+l.159 ...81 & $[29_{18}/\text{-}21_{23}/\bar{\text
+                                                  {-}21}]_s$     &     83   ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:160: Undefined control sequence.
+l.160 	  80/5/0                 &  $[21_{25}/\text
+                                                  {-}19_{28}]_s$     &  106 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:160: Undefined control sequence.
+l.160 ...  106      &  1.0113  &  1.2213 & $[\text
+                                                  {-}20_{27}/21_{25}/\bar{25...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:161: Undefined control sequence.
+l.161 	  120/5/0                &  $[17_{35}/\text
+                                                  {-}17_{35}]_s$     &  140 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./src/a3_result.tex:161: Undefined control sequence.
+l.161 ...  140      &  1.0030  &  1.0950 & $[\text
+                                                  {-}18_{34}/17_{36}]_s$    ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `tab:comparision' on page 7 undefined on input line 166.
+
+
+LaTeX Warning: Citation `akbulut2008optimum' on page 7 undefined on input line 168.
+
+) (./src/a4_conclusion.tex) (./src/a5_acknowledgment.tex) (./Paper_format.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./2020-11-10-pre-image/Three_distinct_angles_fitness_and_sr.png> <./2020-11-10-pre-image/three_distinct_angles_angle_change.png> <./2020-11-10-pre-image/three_distinct_angle_number_of_angle.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 104.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 104.
+ [8])
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[9
+
+] (./Paper_format.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15937 strings out of 492616
+ 329042 string characters out of 6128982
+ 393930 words of memory out of 5000000
+ 19523 multiletter control sequences out of 15000+600000
+ 37440 words of font info for 73 fonts, out of 8000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 55i,15n,72p,416b,832s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Paper_format.pdf (9 pages, 536097 bytes).
+PDF statistics:
+ 113 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+

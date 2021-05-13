@@ -1,0 +1,99 @@
+\documentclass[conference, letterpaper]{IEEEtran}
+\usepackage{booktabs, multicol, makecell}
+\usepackage{graphicx, tikz,tabularx}
+\usepackage{subcaption}
+\usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+%\usepackage{subcaption}
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+%
+\usepackage{fancyhdr}
+
+\renewcommand{\thispagestyle}[2]{} 
+
+
+\fancypagestyle{plain}{
+        \fancyhead{}
+        \fancyhead[C]{first page center header}
+        \fancyfoot{}
+        \fancyfoot[C]{first page center footer}
+}
+\pagestyle{fancy}
+
+
+\headheight 20pt
+\footskip 20pt
+
+\rhead{}
+
+%Enter the first page number of your paper below
+\setcounter{page}{1}
+
+%Header
+\fancyhead[R]{\textit{(IJACSA) International Journal of Advanced Computer Science and Applications, \\ Vol. XXX, No. XXX, 2014}}
+\renewcommand{\headrulewidth}{0pt}
+
+%Footer
+\fancyfoot[C]{www.ijacsa.thesai.org}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyfoot[R]{\thepage \  $|$ P a g e }
+
+
+\begin{document}
+
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Bare Demo of IEEEtran.cls for IJACSA and IJARAI}
+
+\author{\IEEEauthorblockN{$\text{Huiyao Zhang}^1, \text{ Atsushi Yokoyama}^2$}\\
+\IEEEauthorblockA{
+Department of Fiber Science and Engineering\\
+Kyoto Institute of Technology,\\
+Kyoto, JAPAN \\
+email:yokoyama@kit.ac.jp \\
+}}
+
+\maketitle
+
+\begin{abstract}
+	\input{src/a1_abstract}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Genetic algorithm; Optimization; Classic lamination theory; Failure theory
+\end{IEEEkeywords}
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+\input{src/a1_introduction_GA}
+\input{src/a1_introduction_CLT}
+\input{src/a1_introduction_failure_criteria}
+\input{src/a1_introduction_safety_factor}
+\input{src/a2_ga_operator}
+\input{src/a2_methodology}
+\input{src/a3_result}
+\input{src/a4_conclusion}
+\input{src/a5_acknowledgment}
+
+\bibliographystyle{IEEEtran}
+\bibliography{src/a6_reference}
+
+\end{document}
+
+
