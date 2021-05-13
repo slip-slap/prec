@@ -1,9 +1,9 @@
 \documentclass[conference, letterpaper]{IEEEtran}
-\usepackage{booktabs, multicol, makecell}
+
+\usepackage{booktabs, multicol, makecell, amsmath, adjustbox}
 \usepackage{graphicx, tikz,tabularx}
 \usepackage{subcaption}
 \usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
-
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -50,7 +50,9 @@
 %
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
-\title{Bare Demo of IEEEtran.cls for IJACSA and IJARAI}
+\title{Optimum design of laminated composites for minimum thickness by a variant
+of genetic algorithm}
+
 
 \author{\IEEEauthorblockN{$\text{Huiyao Zhang}^1, \text{ Atsushi Yokoyama}^2$}\\
 \IEEEauthorblockA{
@@ -59,8 +61,18 @@ Kyoto Institute of Technology,\\
 Kyoto, JAPAN \\
 email:yokoyama@kit.ac.jp \\
 }}
+% affiliations
+% conference papers do not typically use \thanks and this command
+% is locked out in conference mode. If really needed, such as for
+% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
+% after \documentclass
 
+
+
+% make the title area
 \maketitle
+
+
 
 \begin{abstract}
 	\input{src/a1_abstract}
