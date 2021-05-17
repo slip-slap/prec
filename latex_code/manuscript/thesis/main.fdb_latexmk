@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex main"] 1616488827 "main.aux" "main.bbl" "main" 1618293621
+["bibtex main"] 1616488827 "main.aux" "main.bbl" "main" 1621232019
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1541279461 64114 9f5431e5c511cac88d0dcd7e87bd2d0e ""
   "Chapters/my_chapter_1.aux" 1618195339 4810 ba3a58588afc5344c7e4844ca8a6daa6 ""
   "Chapters/my_chapter_2.aux" 1618195339 6021 c73ca9eb472336a493934afb97a938b9 ""
@@ -11,10 +11,10 @@
   "main-blx.bib" 1618195340 332 c80cc8eb6e15cd6e844e31e86ad5e8db ""
   "main.aux" 1618195340 6109 f78729057002b6288bcc80d4d95da6ef ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1616992209 "main.tex" "main.pdf" "main" 1618293621
-  "/dev/null" 1618293614 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.blg"
+["pdflatex"] 1616992209 "main.tex" "main.pdf" "main" 1621232019
+  "/dev/null" 1621232010 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1480098688 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -290,19 +290,19 @@
   "main.bbl" 1618195340 25305 8a2c39bdc83863dc267ea656a5483e9c "bibtex main"
   "main.out" 1618195340 9140 d1b852f53eaa3000f0e85faf468054af ""
   "main.run.xml" 1618195340 2553 1689e1e457107e1ba9de7449f066f039 ""
-  "main.tex" 1618195340 12069 b63931ca17d3351cd8d33f860c088ffa ""
+  "main.tex" 1618293691 12069 b63931ca17d3351cd8d33f860c088ffa ""
   "main.toc" 1618195340 4139 33b607567ef22f048bf61750f08aa06f ""
   (generated)
-  "Chapters/my_chapter_2.aux"
+  "Chapters/my_chapter_1.aux"
   "Chapters/my_chapter_6.aux"
+  "main.pdf"
+  "main.run.xml"
+  "main.aux"
+  "main-blx.bib"
+  "main.toc"
+  "main.out"
   "Chapters/my_chapter_3.aux"
   "main.log"
-  "main-blx.bib"
-  "main.out"
-  "Chapters/my_chapter_1.aux"
-  "main.aux"
+  "Chapters/my_chapter_2.aux"
   "Chapters/my_chapter_5.aux"
-  "main.run.xml"
   "Chapters/my_chapter_4.aux"
-  "main.pdf"
-  "main.toc"
