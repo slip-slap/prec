@@ -1,56 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: man.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: src/a6_reference.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-
-Done.
-You've used 31 entries,
-            4087 wiz_defined-function locations,
-            1040 strings with 14309 characters,
-and the built_in function-call counts, 30162 in all, are:
-= -- 2725
-> -- 610
-< -- 345
-+ -- 354
-- -- 82
-* -- 1597
-:= -- 4723
-add.period$ -- 62
-call.type$ -- 31
-change.case$ -- 31
-chr.to.int$ -- 756
-cite$ -- 31
-duplicate$ -- 1967
-empty$ -- 1972
-format.name$ -- 112
-if$ -- 6924
-int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 299
-newline$ -- 178
-num.names$ -- 31
-pop$ -- 493
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 2361
-stack$ -- 0
-substring$ -- 1793
-swap$ -- 1878
-text.length$ -- 93
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 31
-warning$ -- 0
-while$ -- 155
-width$ -- 33
-write$ -- 456
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'man.blg'
+[49] biber-darwin:315> INFO - === Mon May 17, 2021, 18:16:14
+[77] Biber.pm:371> INFO - Reading 'man.bcf'
+[200] Biber.pm:889> INFO - Found 31 citekeys in bib section 0
+[216] Biber.pm:4093> INFO - Processing section 0
+[230] Biber.pm:4254> INFO - Looking for bibtex format file 'src/a6_reference.bib' for section 0
+[232] bibtex.pm:1523> INFO - LaTeX decoding ...
+[295] bibtex.pm:1340> INFO - Found BibTeX data source 'src/a6_reference.bib'
+[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[559] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[559] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[594] bbl.pm:636> INFO - Writing 'man.bbl' with encoding 'UTF-8'
+[609] bbl.pm:739> INFO - Output to man.bbl

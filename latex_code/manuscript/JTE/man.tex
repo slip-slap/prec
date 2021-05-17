@@ -1,20 +1,13 @@
 \documentclass[twocolumn]{IEEEtran}
+\usepackage[utf8]{inputenc}
 
 \usepackage{booktabs, multicol, makecell, amsmath, adjustbox}
 \usepackage{graphicx, tikz,tabularx}
 \usepackage{subcaption}
 \usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
 
-% correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
-
-%\usepackage{subcaption}
-
-% *** GRAPHICS RELATED PACKAGES ***
-%
-%
 \usepackage{fancyhdr}
-
 \renewcommand{\thispagestyle}[2]{} 
 
 
@@ -44,6 +37,8 @@
 \renewcommand{\footrulewidth}{0.5pt}
 \fancyfoot[R]{\thepage \  $|$ P a g e }
 
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{src/a6_reference.bib}
 
 \begin{document}
 
@@ -104,9 +99,8 @@ Genetic algorithm; Optimization; Classic lamination theory; Failure theory
 \input{src/a4_conclusion}
 \input{src/a5_acknowledgment}
 
-\bibliographystyle{IEEEtran}
-\bibliography{src/a6_reference}
-
+%\bibliographystyle{IEEEtran}
+%\bibliography{src/a6_reference}
+\printbibliography
 \end{document}
-
 

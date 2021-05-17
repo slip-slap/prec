@@ -1,4 +1,5 @@
 @article{schmit1973optimum,
+  title={Optimum laminate design for strength and stiffness},
   author={Schmit, L Aꎬ and Farshi, B},
   journal={International Journal for Numerical Methods in Engineering},
   volume={7},
@@ -9,6 +10,7 @@
   url={https://doi.org/10.1002/nme.1620070410}
 }
 @article{schmit1977optimum,
+  title={Optimum design of laminated fibre composite plates},
   author={Schmit Jr, LA and Farshi, B},
   journal={International journal for numerical methods in engineering},
   volume={11},
@@ -19,6 +21,7 @@
   url={https://doi.org/10.1002/nme.1620110403}
 }
 @article{fukunaga1991strength,
+  title={Strength optimization of laminated composites with respect to layer thickness and/or layer orientation angle},
   author={Fukunaga, Hisao and Vanderplaats, GN},
   journal={Computers \& Structures},
   volume={40},
@@ -30,6 +33,7 @@
 }
 
 @article{callahan1992optimum,
+  title={Optimum design of composite laminates using genetic algorithms},
   author={Callahan, Kelvin J and Weeks, George E},
   journal={Composites Engineering},
   volume={2},
@@ -42,6 +46,7 @@
 
 
 @article{todoroki1998stacking,
+  title={Stacking sequence optimization by a genetic algorithm with a new recessive gene like repair strategy},
   author={Todoroki, Akira and Haftka, Raphael T},
   journal={Composites Part B: Engineering},
   volume={29},
@@ -53,6 +58,7 @@
 }
 
 @article{kogiso1994design,
+  title={Design of composite laminates by a genetic algorithm with memory},
   author={Kogiso, N and Watson, Layne T and G{\"u}rdal, Zafer and Haftka, Robert T and Nagendra, S},
   journal={MECHANICS OF COMPOSITE MATERIALS AND STRUCTURES An International Journal},
   volume={1},
@@ -65,6 +71,7 @@
 
 
 @article{soares1995discrete,
+  title={A discrete model for the optimal design of thin composite plate-shell type structures using a two-level approach},
   author={Soares, CM Mota and Correia, V Franco and Mateus, H and Herskovits, J},
   journal={Composite structures},
   volume={30},
@@ -76,6 +83,7 @@
 }
 
 @article{le1995improved,
+  title={Improved genetic algorithm for minimum thickness composite laminate design},
   author={Le Riche, R and Haftka, RT},
   journal={Composites Engineering},
   volume={5},
@@ -87,6 +95,7 @@
 }
 
 @article{jayatheertha1996application,
+  title={Application of artificial neural networks for the optimum design of a laminated plate},
   author={Jayatheertha, C and Webber, JPH and Morton, SK},
   journal={Computers \& structures},
   volume={59},
@@ -98,6 +107,7 @@
 }
 
 @article{wang1996optimum,
+  title={Optimum in situ strength design of composite laminates. Part I: in situ strength parameters},
   author={Wang, J and Karihaloo, BL},
   journal={Journal of composite materials},
   volume={30},
@@ -108,6 +118,7 @@
   url={https://doi.org/10.1177/002199839603001202}
 }
 @article{adali1997minimum,
+  title={Minimum cost design of hybrid composite cylinders with temperature dependent properties},
   author={Adali, Sarp and Verijenko, Viktor E},
   journal={Composite structures},
   volume={38},
@@ -119,6 +130,7 @@
 }
 
 @article{correia1997higher,
+  title={Higher order models on the eigenfrequency analysis and optimal design of laminated composite structures},
   author={Correia, VM Franco and Soares, CM Mota and Soares, CA Mota},
   journal={Composite Structures},
   volume={39},
@@ -130,6 +142,7 @@
 }
 
 @article{scares1997optimization,
+  title={Optimization of multilaminated structures using higher-order deformation models},
   author={Scares, Crist{\'o}v{\~a}o M Mota and Soares, Carlos A Mota and Correia, Victor M Franco},
   journal={Computer methods in applied mechanics and engineering},
   volume={149},
@@ -141,6 +154,7 @@
 }
 
 @article{abu1998optimum,
+  title={Optimum design of composite plates using response surface method},
   author={Abu-Odeh, Akram Y and Jones, Harry L},
   journal={Composite structures},
   volume={43},
@@ -152,6 +166,7 @@
 }
 
 @article{lombardi1998anti,
+  title={Anti-optimization technique for structural design under load uncertainties},
   author={Lombardi, Marco and Haftka, Raphael T},
   journal={Computer methods in applied mechanics and engineering},
   volume={157},
@@ -163,6 +178,7 @@
 }
 
 @article{le1998design,
+  title={Design of dimensionally stable composites by evolutionary optimization},
   author={Le Riche, Rodolphe and Gaudin, Jocelyn},
   journal={Composite Structures},
   volume={41},
@@ -174,6 +190,7 @@
 }
 
 @article{sivakumar1998optimum,
+  title={Optimum design of laminated composite plates with cutouts using a genetic algorithm},
   author={Sivakumar, K and Iyengar, NGR and Deb, Kalyanmoy},
   journal={Composite Structures},
   volume={42},
@@ -185,6 +202,7 @@
 }
 
 @article{barakat1999use,
+  title={The use of an energy-based criterion to determine optimum configurations of fibrous composites},
   author={Barakat, SA and Abu-Farsakh, GA},
   journal={Composites science and technology},
   volume={59},
@@ -196,6 +214,7 @@
 }
 
 @article{richard2000reliability,
+  title={A reliability method for optimization of [+ $\phi$,- $\phi$] n fiber reinforced composite pipes},
   author={Richard, F and Perreux, D},
   journal={Reliability Engineering \& System Safety},
   volume={68},
@@ -207,6 +226,7 @@
 }
 
 @article{moita2000sensitivity,
+  title={Sensitivity analysis and optimal design of geometrically non-linear laminated plates and shells},
   author={Moita, JS and Barbosa, J Infante and Soares, CM Mota and Soares, CA Mota},
   journal={Computers \& Structures},
   volume={76},
@@ -217,6 +237,7 @@
   url={https://doi.org/10.1016/s0045-7949(99)00164-9}
 }
 @article{park2001stacking,
+  title={Stacking sequence design of composite laminates for maximum strength using genetic algorithms},
   author={Park, JH and Hwang, JH and Lee, CS and Hwang, W},
   journal={Composite Structures},
   volume={52},
@@ -228,6 +249,7 @@
 }
 
 @article{soremekun2001composite,
+  title={Composite laminate design optimization by genetic algorithm with generalized elitist selection},
   author={Soremekun, G and G{\"u}rdal, Z and Haftka, RT and Watson, LT},
   journal={Computers \& structures},
   volume={79},
@@ -239,6 +261,7 @@
 }
 
 @article{walker2003technique,
+  title={A technique for the multiobjective optimisation of laminated composite structures using genetic algorithms and finite element analysis},
   author={Walker, Mark and Smith, Ryan E},
   journal={Composite structures},
   volume={62},
@@ -250,6 +273,7 @@
 }
 
 @article{di2003multiconstrained,
+  title={Multiconstrained optimization of laminated and sandwich plates using evolutionary algorithms and higher-order plate theories},
   author={Di Sciuva, M and Gherlone, M and Lomario, D},
   journal={Composite Structures},
   volume={59},
@@ -260,6 +284,7 @@
   url={https://doi.org/10.1016/s0263-8223(02)00132-0}
 }
 @article{kere2003using,
+  title={Using multicriterion optimization for strength design of composite laminates},
   author={Kere, Petri and Lyly, Mikko and Koski, Juhani},
   journal={Composite Structures},
   volume={62},
@@ -271,6 +296,7 @@
 }
 
 @article{kang2005minimum,
+  title={Minimum-weight design of compressively loaded composite plates and stiffened panels for postbuckling strength by genetic algorithm},
   author={Kang, Ji-Ho and Kim, Chun-Gon},
   journal={Composite structures},
   volume={69},
@@ -282,6 +308,7 @@
 }
  
 @article{deka2005multiobjective,
+  title={Multiobjective optimization of laminated composites using finite element method and genetic algorithm},
   author={Deka, Dhyan Jyoti and Sandeep, G and Chakraborty, D and Dutta, A},
   journal={Journal of reinforced plastics and composites},
   volume={24},
@@ -292,6 +319,7 @@
   url={https://doi.org/10.1177/0731684405043555}
 }
 @article{pelletier2006multi,
+  title={Multi-objective optimization of fiber reinforced composite laminates for strength, stiffness and minimal mass},
   author={Pelletier, Jacob L and Vel, Senthil S},
   journal={Computers \& structures},
   volume={84},
@@ -303,6 +331,7 @@
 }
 
 @article{jadhav2007parametric,
+  title={Parametric optimization of grid-stiffened composite panels for maximizing their performance under transverse loading},
   author={Jadhav, Prakash and Mantena, P Raju},
   journal={Composite structures},
   volume={77},
@@ -313,6 +342,7 @@
   url={https://doi.org/10.1016/j.compstruct.2005.07.015}
 }
 @article{kim2007development,
+  title={Development of a user-friendly expert system for composite laminate design},
   author={Kim, Jung-Seok},
   journal={Composite Structures},
   volume={79},
@@ -323,6 +353,7 @@
   url={https://doi.org/10.1016/j.compstruct.2005.11.030}
 }
 @article{park2008improved,
+  title={Improved genetic algorithm for multidisciplinary optimization of composite laminates},
   author={Park, Chung Hae and Lee, Woo Il and Han, Woo Suck and Vautrin, Alain},
   journal={Computers \& structures},
   volume={86},
@@ -333,6 +364,7 @@
   url={https://doi.org/10.1016/j.compstruc.2008.03.001}
 }
 @article{akbulut2008optimum,
+  title={Optimum design of composite laminates for minimum thickness},
   author={Akbulut, Mustafa and Sonmez, Fazil O},
   journal={Computers \& Structures},
   volume={86},
@@ -343,6 +375,7 @@
   url={https://doi.org/10.1016/j.compstruc.2008.05.003}
 }
 @article{aymerich2006ant,
+  title={An ant colony optimization algorithm for stacking sequence design of composite laminates},
   author={Aymerich, Francesco and Serra, Mauro},
   year={2006},
   url={https://doi.org/10.14793/cds_etd.2}
