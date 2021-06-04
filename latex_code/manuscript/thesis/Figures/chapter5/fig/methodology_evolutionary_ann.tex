@@ -1,0 +1,112 @@
+\begin{figure}[tb]
+\centering
+	%\resizebox{.7\linewidth}{!}{dd
+%\begin{tikzpicture}[show background grid, show background rectangle]
+\begin{tikzpicture}
+	\useasboundingbox (-3.5,-5.) rectangle (3.5,6.3);
+	\scope[transform canvas={scale=1}]
+    %\draw[help lines] (-3cm,-7cm) grid (6cm, 5cm);
+    \tikzstyle{block} = [rectangle, text centered, draw=black,
+    minimum width=1.1cm, minimum height=0.4cm]
+	% first level evolution: connection weights
+    \node (evaluation-parent) [block, minimum width=2.4cm, minimum
+        height=1.8cm,draw=white] {};
+    \node (evaluation) [block] at ($(evaluation-parent.north)$) {evaluation};
+    \node (reproduction) [block] at ($(evaluation-parent.south)$) {reproduction};
+    \node (tasks) [block, minimum width=1.1cm, minimum height=0.4cm] {tasks};
+
+    \draw[->] ($(evaluation.south)+(0.3cm,0cm)$) --
+        ($(tasks.north)+(0.3cm,0cm)$) node[auto=left, pos=0.5] {\small weights}; 
+    \draw[<-] ($(evaluation.south)+(-0.3cm,0cm)$) --
+        ($(tasks.north)+(-0.3cm,0cm)$) node[auto=right, pos=0.5] {\small fitness}; 
+
+	\draw[black] (reproduction.west) -- ++(-0.3cm,0)  |- (evaluation.west);
+	\draw[black] (reproduction.east) -- ++(0.3cm,0)   |- (evaluation.east);
+
+    \node (level1) [block,draw=black, minimum width=3.5cm, minimum height=3.0cm] at
+        (0cm,0.2cm) {};
+    \node [align=left] at ($(level1.north)+(0,-0.2cm)$) {\tiny THE EVOLUTION
+        OF};
+    \node [align=left] at ($(level1.north)+(0,-0.45cm)$) {\tiny CONNECTION
+            WEIGHTS
+        };
+    % second level evolution: active functions
+    \node (level2_container) [block, draw=black, minimum width=5.8cm, minimum
+        height=6.0cm] at
+        (0, 0.4cm)  {};
+    \node [align=left] at ($(level2_container.north)+(0,-0.25cm)$) {\tiny THE EVOLUTION
+        OF ACTIVE FUNCTIONS};
+    \node (level2-assister) [block, draw=white, minimum width=5cm, minimum
+		height=4.6cm] at
+        (0, 0.3cm)  {};
+    \node (evaluation) [block] at ($(level2-assister.north)$) {\small evaluation of
+        active functions};
+    \node (reproduction) [block] at ($(level2-assister.south)$) {\small reproduction of
+        active functions};
+
+    \draw[->] ($(evaluation.south)+(0.3cm,0cm)$) --
+        ($(level1.north)+(0.3cm,0cm)$) node[auto=left, pos=0.5] {\small active functions
+        }; 
+
+    \draw[<-] ($(evaluation.south)+(-0.3cm,0cm)$) --
+        ($(level1.north)+(-0.3cm,0cm)$) node[auto=right, pos=0.5] {\small fitness}; 
+
+	\draw[black] (reproduction.west) -- ++(-0.3cm,0)  |- (evaluation.west);
+	\draw[black] (reproduction.east) -- ++(0.3cm,0)   |- (evaluation.east);
+    % third level: evolution of learning rules
+    \node (level3-assister) [block, draw=white, minimum width=3cm, minimum
+        height=7.6cm] at
+        (0, 0.4cm)  {};
+	\node (level3_container) [block, draw=black, minimum width=7.5cm, minimum
+		height=9cm] at (0, 0.4cm)  {};
+    \node [align=left] at ($(level3_container.north)+(0,-0.25cm)$) {\tiny THE EVOLUTION
+        OF LEARNING RULES};
+    \node (evaluation) [block] at   ($(level3-assister.north)$) {\small evaluation of
+        learning rules};
+    \node (reproduction) [block] at ($(level3-assister.south)$) {\small reproduction of
+        learning rules};
+    \draw[->] ($(evaluation.south)+(0.3cm,0cm)$) --
+        ($(level2_container.north)+(0.3cm,0cm)$) node[auto=left, pos=0.5] {\small learning
+        rule}; 
+    \draw[<-] ($(evaluation.south)+(-0.3cm,0cm)$) --
+        ($(level2_container.north)+(-0.3cm,0cm)$) node[auto=right, pos=0.5] {\small fitness}; 
+
+	\draw[black] (reproduction.west) -- ++(-0.9cm,0)  |- (evaluation.west);
+	\draw[black] (reproduction.east) -- ++(0.9cm,0)   |- (evaluation.east);
+
+	% fourth level: evolution of topology
+    \node (level4-assister) [block, draw=white, minimum width=3cm, minimum
+        height=11cm] at
+        (0, 0.8cm)  {};
+	\node (level4_container) [block, draw=black, minimum width=9cm, minimum
+		height=11.8cm] at (0, 0.8cm)  {};
+    \node (evaluation) [block] at   ($(level4-assister.north)$) {\small evaluation of
+        topology};
+    \node (reproduction) [block] at ($(level4-assister.south)$) {\small reproduction of
+        topology};
+    \draw[->] ($(evaluation.south)+(0.3cm,0cm)$) --
+        ($(level3_container.north)+(0.3cm,0cm)$) node[auto=left, pos=0.5] {\small learning
+        topology}; 
+    \draw[<-] ($(evaluation.south)+(-0.3cm,0cm)$) --
+        ($(level3_container.north)+(-0.3cm,0cm)$) node[auto=right, pos=0.5] {\small fitness}; 
+	\draw[black] (reproduction.west) -- ++(-2.1cm,0)  |- (evaluation.west);
+	\draw[black] (reproduction.east) -- ++(2.1cm,0)   |- (evaluation.east);
+
+    %\node (evaluation) [block] at ($(level3-assister.north)$) {\small evaluation of
+    %    architecture};
+    %\node (reproduction) [block] at ($(level3-assister.south)$) {\small reproduction of
+    %    learning architecture};
+    % level 6
+    %\node (level6) [block, minimum width=7.0cm, minimum
+    %    height=8.1cm] at
+    %    (0, 0.5cm)  {};
+    %\node [align=left] at ($(level6.north)+(0,-0.2cm)$) {\tiny THE EVOLUTION OF
+    %        ARCHITECTURE
+    %    };
+	\endscope
+\end{tikzpicture}
+%}
+\caption{A general framwwork for EANN, in which fitness refers to the corresponding value of objective function.}
+\label{fig:evolution}
+\end{figure}
+

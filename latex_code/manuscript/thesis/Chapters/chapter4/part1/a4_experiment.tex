@@ -1,0 +1,72 @@
+\section{Experiment}
+First, we formulate a constrained problem by searching the optimal stacking
+sequence of cross-ply laminate under in-plane loading under the constraint
+whose strength ratio is not less than two.  Each lamina dimensions $1000 \times
+1000 \times 0.165 mm^3$ is adopted in this experiment, each graphite/epoxy,
+and glass/epoxy layer is assumed to cost 2.5 and 1 monetary units,
+respectively. The other material properties are shown in Tab. \ref{tab:mat}. 
+
+
+\subsection{Problem formulation}
+
+In the present experiment, the optimal composite sequences, and the number of
+layers for a targeted strength ratio under in-plane loading conditions are
+investigated.  The aim is to minimize the mass of a laminate composite for a
+targeted strength ratio based on the Tsai-wu failure theory. The design
+variables are the ply angles and the number of layers.  Ply orientation
+restricted to a discrete set of angles ($0, \text{ and } 90 \text{ degrees} $).
+The problem can be formulated as the following equation:
+
+Find: $\{\theta_k, n\}$ $\theta_k \in \{ 0,90\}$,
+
+Minimize: weight,
+
+Subject to: strength ratio.
+
+
+\subsection{GA Operation}
+
+\input{Figures/chapter4/part1/fig/ga_operator.tex}
+In the present study, floating encoding is adopted to represent a solution for
+the layup design of cross-ply laminate, Fig. \ref{GA:operator}(a) shows two
+parents $P_1$ and $P_2$ represent two cross-ply laminates, the
+corresponding laminates layups are $[0_3/90_7]$ and $[0_6/90_4]$,
+respectively; Fig. \ref{GA:operator}(b) shows two offspring of parents $P_1$
+and $P_2$ are consist of half of each parent's chromosome; Fig. 
+\ref{GA:operator}(c) and \ref{GA:operator}(d) display the offspring after
+length and angle mutation, respectively.
+
+For the chromosome length mutation, calculate the chromosome's strength ratio
+based on its sequence, if its strength ratio is less than the threshold, then
+increase its length; otherwise, reduce it. We introduce the term length
+mutation coefficient to control the length mutation.  As shown in figure
+\ref{GA:operator}(b), the strength ratio of $O_1$ chromosome is 0.0854, and the
+strength ratio threshold is five. Suppose the length mutation coefficient takes
+two, then the corresponding increase length is the multiplication result of
+length mutation coefficient and the difference between current strength ratio
+and the threshold: the result is $5\times(2-0.0854)$, round this number to its
+closest integer, which is 9. So the length of offspring $O_1$ changes from 10
+to 19 after length mutation.  For the angle mutation, randomly swap the gene
+from 0 to 90 in the chromosome, or the otherwise.
+
+
+\subsection{GA Parameters}
+Tab. \ref{tab:ga} shows related GA parameters: the population is 40, and 50
+percent is as the mating pool, so the parent population is 20; as
+shown in Fig. \ref{fig:percentage}, the percentage of active individuals from
+the active group, potential individuals from the potential group, and proper
+individuals from the proper group are 0.3, 0.3, and 0.4, which means the
+corresponding number of these three types of individuals are 6, 6, and 8,
+respectively.
+
+\begin{figure}[!tb]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/chapter4/part1/fig/percentage_of_groups}
+	\caption{Percentage of active individuals from active group, potential
+	  individuals from potential group, and proper individuals from proper group
+	 in parent population.}
+	 \label{fig:percentage}
+\end{figure}
+
+\input{Figures/chapter4/part1/table/ga_parameters.tex}
+

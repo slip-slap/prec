@@ -8,56 +8,13 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Neural Network Design}
-Artificial neural networks(ANN) which heavily inspired by biology and psychology
-have been widely used to solve various practical engineering problems in such
-areas as pattern recognition, nonlinear regression, data mining, clustering and
-prediction. Methods based on complicated mathematical models is of intensive
-computation, approximation function evaluation techniques can be employed to
-accelerate the calculation process and reduce the computation cost. In order to
-solve practical engineering problems in composite material application, classic
-laminational theory(CLT) has been proposed which involves many matrix
-multiplication and integration calculation. ANN which has been proved is a
-reliable tool instead of complicate mathematical model.  The design of neural
-network consists of three basic parts: neural network architecture, learning
-rules, and training techniques.
 
-The weight training in ANN is to minimize the error function, such as the most
-widely used mean square error which calculate the difference  between the
-desired and the prediction output values averaged over all examples.
-Backpropation algorithm has been successful applied to in many areas, and it's
-based on gradient descent. However, this class of algorithms are  plagued by the
-possible existance of local minima or "flat spots" and "the curse of
-dimensionality". One method to overcome this problem is to adopt EANN's 
-
-\subsection{Architecture}
-The inputs of the neural network is consist of four parts: in-plane loading
-$N_x$, $N_y$, and $N_{xy}$, design parameters of laminate, two distinct fiber
-orientation angle $\theta_1$ and $\theta_2$, ply thickness $t$, total number of
-plies $N$; five engineering constants of composite materials, $E_1$, $E_2$, ;
-five strength parameters of a unidirectional lamina. There are two outputs in
-the neural network, safety factors for MS theory and Tsai-Wu theory, respectively.
-\input{Figures/chapter5_neural_network.tex}
-\input{Figures/chapter5_figure_angle_ply_laminate.tex}
-\input{Figures/chapter5_ann_for_clt.tex}
-
-\section{Approximation Framework}
-\subsection{Data Preparation}
-\input{Figures/chapter5_table_training_data.tex}
-It's implausible to obatain the training data from practial experiments, so CLT
-is taken to generate the training data and evaluation data. Three composite
-materials are used, as shown in Table \ref{tab:mat}. The fiber orientation range
-is from -90 to 90, the number of layers range is from 5 to 200. Assuming the
-composite material only subjects to in-plane loading, each component range is
-from -90 to 90;
-
-we sample this function to yield 140000 points distributed uniformly over
-aboved mentioned ranges as the training data.
-
-\subsection{Training}
-\input{Figures/chapter5_figure_ga_and_ann.tex}
-\subsection{Evaluation}
-\input{Figures/chapter5_table_ann_valuation.tex}
-\subsection{Result and Discussion}
-\section{Summary}
+\input{Chapters/chapter5/a1_introduction_part1}
+\input{Chapters/chapter5/a1_introduction_part2_composite}
+\input{Chapters/chapter5/a1_introduction_part3_ann}
+\input{Chapters/chapter5/a2_methodology}
+\input{Chapters/chapter5/a3_experiment}
+%\input{Chapters/chapter5/a3_result}
+%\input{Chapters/chapter5/a4_conclusion}
+\input{Chapters/chapter5/a5_acknowledge}
 

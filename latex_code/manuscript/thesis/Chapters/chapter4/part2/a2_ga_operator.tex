@@ -1,0 +1,114 @@
+
+\begin{figure}
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{0pt}%
+\begin{center}
+\resizebox{.95\linewidth}{!}{
+		\begin{tikzpicture}
+		\tikzstyle{rec} = [rectangle, minimum width=0.8cm,minimum height=0.6cm, text
+		centered, draw=black]
+			\node (gene11) [rec] {+7};
+			\node (gene2) [rec] at ($(gene11.east)+(0.4cm,0)$)  {+7};
+			\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+7};
+			\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {+7};
+			\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {+7};
+			\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {+7};
+			\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {+7};
+			\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {+7};
+			\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {-9};
+			\node (last) [rec] at ($(gene9.east)+(0.4cm,0)$)  {-9};
+			\node[text width=1cm] at ($(gene11.west)+(-0.3cm,0)$) {$P_1$:};
+			\node (gene1) [rec] at ($(gene11.east)+(-0.4cm,-0.8cm)$) {+19};
+			\node (gene2) [rec] at ($(gene1.east)+(0.4cm,0)$)  {+19};
+			\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+19};
+			\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {+19};
+			\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {-36};
+			\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {-36};
+			\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {-36};
+			\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {-36};
+			\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {-36};
+			\node (gene10) [rec] at ($(gene9.east)+(0.4cm,0)$)  {-36};
+			\node[text width=1cm] at ($(gene1.west)+(-0.3cm,0)$) {$P_2$:};
+			\draw[-,white] ($(gene10.north)$)-- ++(0,-1.5cm);
+			\node (label1) at ($(gene5.south)+(0cm,-0.5cm)$) {(a): Parents $P_1$ and $P_2$};
+		\end{tikzpicture}
+}
+
+% offspring
+\resizebox{.95\linewidth}{!}{
+		\begin{tikzpicture}
+			\tikzstyle{rec} = [rectangle, minimum width=0.8cm,minimum height=0.6cm, text
+			centered, draw=black]
+			\node (gene11) [rec] {+13};
+			\node (gene2) [rec] at ($(gene11.east)+(0.4cm,0)$)  {+13};
+			\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+13};
+			\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {+13};
+			\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {+13};
+			\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {+13};
+			\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {-27};
+			\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {-27};
+			\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {-27};
+			\node (last) [rec] at ($(gene9.east)+(0.4cm,0)$)  {-27};
+			\node[text width=1cm] at ($(gene11.west)+(-0.3cm,0)$) {$O_1$:};
+			\node (gene1) [rec] at ($(gene11.east)+(-0.4cm,-0.8cm)$) {+22};
+			\node (gene2) [rec] at ($(gene1.east)+(0.4cm,0)$)  {+22};
+			\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+22};
+			\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {+22};
+			\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {+22};
+			\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {+22};
+			\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {+22};
+			\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {+5};
+			\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {+5};
+			\node (gene10) [rec] at ($(gene9.east)+(0.4cm,0)$)  {+5};
+			\node[text width=1cm] at ($(gene1.west)+(-0.3cm,0)$) {$O_2$:};
+			\draw[-,white] ($(gene10.north)$)-- ++(0,-1.5cm);
+			\node (label1) at ($(gene5.south)+(0cm,-0.5cm)$) {(b): Offspring $O_1$ and $O_2$};
+		\end{tikzpicture}
+}
+
+%mutation
+\resizebox{.95\linewidth}{!}{
+	\begin{tikzpicture}
+	\tikzstyle{rec} = [rectangle, minimum width=0.8cm,minimum height=0.6cm, text
+	centered, draw=black]
+		\tikzstyle{rec} = [rectangle, minimum width=0.8cm,minimum height=0.6cm, text
+		centered, draw=black]
+		%\draw[help lines](-3,-3) grid (4,4);
+		\node (gene11) [rec] {+13};
+		\node (gene2) [rec] at ($(gene11.east)+(0.4cm,0)$)  {+13};
+		\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+13};
+		\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {$\cdots$};
+		\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {+13};
+		\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {+13};
+		\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {-27};
+		\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {$\cdots$};
+		\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {-27};
+		\node (last) [rec] at ($(gene9.east)+(0.4cm,0)$)  {-27};
+		\draw[<->,thick] (gene11.south) .. controls +(1.8,-0.4) .. (gene6.south)
+			node[pos=0.5] {11} ;
+		\draw[<->,thick] (gene7.south) .. controls +(1.3,-0.4) .. (last.south)
+			node[pos=0.5] {7};
+		\node[text width=1cm] at ($(gene11.west)+(-0.3cm,0)$) {$O_1$:};
+
+		\node (label1) at ($(gene5.south)+(0cm,-0.8cm)$) {(c): Offspring $O_1$ after
+			lenght mutation};
+
+		\node (gene1) [rec] at ($(gene11.east)+(-0.4cm,-1.8cm)$) {+12};
+		\node (gene2) [rec] at ($(gene1.east)+(0.4cm,0)$)  {+12};
+		\node (gene3) [rec] at ($(gene2.east)+(0.4cm,0)$)  {+12};
+		\node (gene4) [rec] at ($(gene3.east)+(0.4cm,0)$)  {$\cdots$};
+		\node (gene5) [rec] at ($(gene4.east)+(0.4cm,0)$)  {+12};
+		\node (gene6) [rec] at ($(gene5.east)+(0.4cm,0)$)  {+12};
+		\node (gene7) [rec] at ($(gene6.east)+(0.4cm,0)$)  {-26};
+		\node (gene8) [rec] at ($(gene7.east)+(0.4cm,0)$)  {$\cdots$};
+		\node (gene9) [rec] at ($(gene8.east)+(0.4cm,0)$)  {-26};
+		\node (last) [rec] at ($(gene9.east)+(0.4cm,0)$)  {-26};
+		\node[text width=1cm] at ($(gene11.west)+(-0.3cm,0)$) {$O_1$:};
+		\draw[-,white] ($(gene10.north)$)-- ++(0,-1.5cm);
+		\node (label1) at ($(gene5.south)+(0cm,-0.5cm)$) {(d): Offspring $O_1$ 
+			 after angle mutation};
+	\end{tikzpicture}
+}
+\end{center}
+\caption{GA Operators\label{GA:operator}}
+\end{figure}

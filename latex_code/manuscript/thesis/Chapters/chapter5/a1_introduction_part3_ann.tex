@@ -1,0 +1,52 @@
+\section{Evolutionary Artificial Neural Network}
+\input{Figures/chapter5/fig/methodology_evolutionary_ann.tex}
+\subsection{General neural network}
+In this paper, the feedforward ANN is adopted in the current
+study, since it is straightforward and simple to code. For function
+approximation through an ANN, Cybenko demonstrated that a two-layer perceptron
+can form an arbitrarily close approximation to any continuous nonlinear
+mapping\cite{cybenko1989approximation}. Therefore, a two-layer feedforward ANN
+is proposed in the present study. Fig. \ref{fig:gnn} shows a general framework for a
+two-layer NN, in which the number of nodes in the hidden layer and the
+connection with inputs, are critical in the design of an ANN. For nodes in the
+hidden layer, we can think of them as feature extractors or detectors.
+Therefore, nodes within it should partially be connected with the inputs of an ANN,
+since the unnecessary connections would increase the model's complicacy, which
+will reduce an ANN’s performance. Because we treat the nodes in the hidden layer
+as feature extractors, so the number of nodes in this layer should be less than
+the number of inputs. For the nodes in the last layer, every node should be
+fully connected with nodes in the previous layer, since we think of the nodes
+in the hidden layer as features. The rest, which affects a NN’s performance,
+are activation function, and ANN's training method. In the following section, we
+denote the $i$th node in the input layer, and the hidden layer, as $i_i$, and $h_i$,
+respectively.
+
+\input{Figures/chapter5/fig/ann_general_architecture}
+\subsection{Activation function}
+
+The activation function is one of the critical parts of an ANN. Liu
+\cite{liu1996evolutionary} et al. claims that the performance of neural networks with
+different activation functions is different, even if they have the same
+architecture.  A generalized activation function can be written as
+
+\begin{equation}
+	y_i = f_i(\sum_{j=1}^n{w_{ij}x_j - \theta})
+\end{equation}
+
+where $y_i$ is the output of the node $i$, $x_j$ is the $j$th input to the
+node, and $w_{ij}$ is the connection weight between adjacent nodes $i$ and $j$.
+Tab. \ref{tab:transfer_function} displays the most widely adopted activation
+functions in the design of an ANN, which is used for the current study.
+
+\input{Figures/chapter5/fig/ann_active_function}
+
+\subsection{Weights learning}
+The weight training in an ANN is to minimize the error function, such as the
+most widely used mean square error function, which calculates the difference
+between the desired and the prediction output values averaged overall examples.
+Gradient descent algorithm is widely adopted to reduce the value of an error
+function, which has been successfully applied in many practical areas. However,
+this class of algorithms is plagued by the possible existence of local minima
+or ”flat spots” and ”the curse of dimensionality.” One method to overcome this
+problem is to adopt a genetic algorithm(GA)
+

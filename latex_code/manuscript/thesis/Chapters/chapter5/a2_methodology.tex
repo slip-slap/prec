@@ -1,0 +1,108 @@
+\section{Methodology}
+For an angle ply laminate, given the laminate's lay-up, material properties,
+in-plane loading, etc., we can compute its strength ratio based on Tsai-Wu
+failure theory or maximum stress theory. To model this function, we propose an
+ANN framework shown in Fig. \ref{fig:evolution}, which derives from the previous
+two-layer model. There are sixteen inputs of this ANN, which are in-plane
+loading $N_x$, $N_y$, and $N_{xy}$; design parameters of a laminate, two 
+fiber orientation $\theta_1$ and $\theta_2$, ply thickness $t$, total
+number of plies $N$; 
+five engineering constants of composite materials,
+$E_1$, $E_2$, $G_{12}$, and $v_{12}$; five strength parameters of a
+unidirectional lamina.  Two outputs are strength ratio according to MS theory
+and strength ratio according to Tsai-Wu theory.
+
+\input{Figures/chapter5/fig/a0_figure_ann_for_clt_architecture.tex}
+\begin{figure}[!tb]
+	\centering
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{Figures/chapter5/fig/experiment_architecture_example1_code.tex}
+		\caption{Parent 1}
+	\end{subfigure}
+	\newline
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{Figures/chapter5/fig/experiment_architecture_example2_code.tex}
+		\caption{Parent 2}
+	\end{subfigure}
+	\newline
+	\begin{subfigure}[b]{1.0\linewidth}
+		\centering
+		\input{Figures/chapter5/fig/experiment_architecture_child_code.tex}
+		\caption{Child}
+	\end{subfigure}
+	\caption{Examples of three ANNs, with (a) and (b) as parent ANNs, and (c) as
+		the child of (a) and (b). child c inherits the connection relationship
+		part from parent 1 denoted by the darker dashed lines,and the rest from
+		parent 2 denoted by the gray dashed line.}
+		\label{fig:anns}
+\end{figure}
+\input{Figures/chapter5/fig/experiment_architecture_example1_table.tex}
+
+The work involved in the evolution process of ANN consists of three parts:
+search space, which includes the ANN's topology, transfer function, etc.;
+search strategy, which details how to explore the search space; performance
+estimation strategy refers to the process of estimating this performance.
+
+\subsection{Search Space}
+We propose a GNN framework as shown in Fig. \ref{fig:gnn}. The search space
+is parametrized by: (i) the number of nodes m(possibly unbounded) in the hidden
+layer, to narrow down the search space, the assumption is that m less than n; (ii) the type of
+operation every node executes, e.g., sigmoid, linear, gaussian. (iii) the
+connection relationship between hidden nodes and inputs; (IV) if a connection
+exists, the weight value in the connection.
+
+Therefore, evolution in EANN can be divided into four different levels:
+topology, learning rules, active functions, and connection weights. For the
+evolution of topology, the aim is to find an optimal ANN architecture for a
+specific problem. The architecture of a neural network determines the
+information processing capability in an application, which is the foundation of
+the ANN. Two critical issues are involved in the search process of an ANN
+architecture: the representation and the search operators.
+Fig. \ref{fig:evolution} summarizes these four levels of evolution in
+an ANN.
+
+
+
+\subsection{Search Strategy}
+To use the GA method in this work, we need to represent the ANN, devise a
+fitness function that determines how good a solution is, and decides the
+genetic search operators, including selection, mutation, and crossover.
+
+For the representation of an ANN, encode the $h_i$ node as an eighteen digits
+binary string. The initial sixteen digits in the string correspond to the
+connections between $i_i$ and $h_i$, with '1' implying there exists a
+connection between them, with '0' implying no connection exists. The last two
+digits in the string refer to an activation function, such as "01" which means a
+sigmoid function. Tab. \ref{tab:binary-rep} are examples of the binary
+representation of ANNs whose architecture is as shown in
+Fig. \ref{fig:anns}. 
+
+For the objective function, treat the multiplicative inverse of the mean
+squared error, which is the difference between the target and actual output
+averaged overall examples, as the fitness function.
+
+The crossover between individuals results in exploiting the area between the
+given two parent solutions. In the present study, we search the local area by
+combining the genes of half number of nodes from both parents.
+Fig. \ref{fig:anns} illustrates the crossover operator: Fig. \ref{fig:anns}
+(c) is the child of Fig. \ref{fig:anns} (a) and Fig. \ref{fig:anns} (a), the
+connection relationship of hidden nodes with inputs are from both parents,  and
+the corresponding activation functions are also from both parents. In the
+binary representation Tab. \ref{tab:binary-rep}, we can see that the first two
+rows of the child are the same as the first two rows of parent $P_1$, and the
+last six rows of the child are the same as the first six rows of parent $P_2$.
+
+\subsection{Performance estimation strategy}
+The simplest approach to this problem is to perform a standard training and
+validation of the architecture on a dataset, however, this method is inefficient
+and computationally intensive. Therefore, much recent
+research\cite{baker2017accelerating} focuses on developing methods that reduce
+the cost of performance estimation. In this work, during the GA process, we
+adopt the following straightforward and efficient method to estimate the
+performance of an ANN: first, train a neural network one hundred times on the
+training dataset; second, do the validation test; estimate the neural network's
+performance according to its fitness of objective function on the test dataset.  
+
+
