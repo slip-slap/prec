@@ -1010,10 +1010,10 @@
     \endentry
     \entry{schmit1973optimum}{article}{}
       \name{author}{2}{}{%
-        {{hash=641985d66edd304383997141dc0e3c74}{%
+        {{hash=eec06fd3824cee3c35765f5ad7251071}{%
            family={Schmit},
            familyi={S\bibinitperiod},
-           given={L\bibnamedelima Aꎬ},
+           given={L\bibnamedelima A},
            giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=2365b40bed9123ac115575aef3d0936a}{%
            family={Farshi},
@@ -1024,12 +1024,12 @@
       \list{publisher}{1}{%
         {Wiley Online Library}%
       }
-      \strng{namehash}{bd5263aefe8f4711b9f13174f762dc47}
-      \strng{fullhash}{bd5263aefe8f4711b9f13174f762dc47}
-      \strng{bibnamehash}{bd5263aefe8f4711b9f13174f762dc47}
-      \strng{authorbibnamehash}{bd5263aefe8f4711b9f13174f762dc47}
-      \strng{authornamehash}{bd5263aefe8f4711b9f13174f762dc47}
-      \strng{authorfullhash}{bd5263aefe8f4711b9f13174f762dc47}
+      \strng{namehash}{a3a9d6cc83d05a94d847013970670b48}
+      \strng{fullhash}{a3a9d6cc83d05a94d847013970670b48}
+      \strng{bibnamehash}{a3a9d6cc83d05a94d847013970670b48}
+      \strng{authorbibnamehash}{a3a9d6cc83d05a94d847013970670b48}
+      \strng{authornamehash}{a3a9d6cc83d05a94d847013970670b48}
+      \strng{authorfullhash}{a3a9d6cc83d05a94d847013970670b48}
       \field{sortinit}{S}
       \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}

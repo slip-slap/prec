@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'man.blg'
-[49] biber-darwin:315> INFO - === Mon May 17, 2021, 18:16:14
-[77] Biber.pm:371> INFO - Reading 'man.bcf'
-[200] Biber.pm:889> INFO - Found 31 citekeys in bib section 0
-[216] Biber.pm:4093> INFO - Processing section 0
-[230] Biber.pm:4254> INFO - Looking for bibtex format file 'src/a6_reference.bib' for section 0
-[232] bibtex.pm:1523> INFO - LaTeX decoding ...
-[295] bibtex.pm:1340> INFO - Found BibTeX data source 'src/a6_reference.bib'
-[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[558] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[559] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[559] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[594] bbl.pm:636> INFO - Writing 'man.bbl' with encoding 'UTF-8'
-[609] bbl.pm:739> INFO - Output to man.bbl
+[55] biber-darwin:315> INFO - === Sat May 29, 2021, 12:19:53
+[97] Biber.pm:371> INFO - Reading 'man.bcf'
+[222] Biber.pm:889> INFO - Found 31 citekeys in bib section 0
+[239] Biber.pm:4093> INFO - Processing section 0
+[258] Biber.pm:4254> INFO - Looking for bibtex format file 'src/a6_reference.bib' for section 0
+[262] bibtex.pm:1523> INFO - LaTeX decoding ...
+[320] bibtex.pm:1340> INFO - Found BibTeX data source 'src/a6_reference.bib'
+[585] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[585] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[585] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[585] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[631] bbl.pm:636> INFO - Writing 'man.bbl' with encoding 'UTF-8'
+[646] bbl.pm:739> INFO - Output to man.bbl

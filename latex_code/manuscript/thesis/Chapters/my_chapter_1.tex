@@ -21,7 +21,6 @@ material is can significantly reducing the weight of target structure, and many
 researchers attempted to improve the efficiency of using composite materail by
 mimimizing the thickness.
 
-\section{Classic Lamination Theory and Failure Theory}
 Classic lamination theory(CLT) is used to develop the stress-strain relationship of
 composite material under in-plane and out-of-plane loading. First, develop
 stress-strain relationships, elastic moduli, strengths of an angle ply based on
@@ -31,7 +30,11 @@ macromechianical analysis will be developed for a laminate based on applied
 loading.  To check whether a designed lay-up is plausible or not, different
 failure theories have been developed.
 
-\section{Genetic Algorithm}
+\input{Chapters/chapter3/part2/a1_introduction_CLT.tex}
+\input{Chapters/chapter3/part2/a1_introduction_failure_criteria.tex}
+\input{Chapters/chapter3/part2/a1_introduction_safety_factor.tex}
+
+
 In the design of composite material, gradient based optimization techiques are
 not appliable in this domain, because the design varaibles, such as fiber
 orientation, layer thickness, number of layers etc. are discrete. Genetic
@@ -39,7 +42,6 @@ algorithm(GA) can be adopted in the optimization problem becasue it doesn't requ
 the gradient information. Moreover, the GA has been proved a reliable techique
 and widely used in the design of composite material. 
 
-\section{Artificial Neural Network}
 CLT is an classic analytical approach to obtain the stress and stain of
 composite material, the disadvantage of this method is quiet cubersome and in
 which involves compliate matrix and integration operations. Artificial neural
@@ -49,6 +51,25 @@ assumptions. In this thesis, the ANN is taken to approximate the numberic
 results based on CLT and failure theory.
 
 \section{Summary}
+
+In this chapter, we review the classical lamination theory for the stress and
+strain analysis in composite material, then related failure theories are
+introduced to check whether a composite material would fail or not. In the
+following chapters, the CLT would be used to calculate the stress and strain
+under in-plane loading, it would also be used to generate the training data for
+stress and strain approximation based on neural network; in order to design a
+proper composite material, the failure theory are used to decide the feasibility
+of composite design.
+
+The rest of this thesis is as follows: in chapter two, we review the classic
+lamination theory and related classic lamination theory, which are widely
+adopted in the design of composite material; To design composite material, we
+provide a new framework of genetic algorithm in chapter three; In chapter four,
+this genetic algorith framework is implemented to guide the design of composite
+material in two different cases; chapter five discusses about the application of
+artificial neural network in composite material for approximating the evaluation
+result based on classic lamination theory and failure theory.
+
 In this thesis, first, we review the use of composite material in practice,
 then, the CLT to calculate the stress and strain under certain loading, last,
 the failure theories which are used to decide whether a composite material will
@@ -57,7 +78,4 @@ in the desgin of composite material, two different cases are studied in which GA
 can be taken to obtain the optimal lay-up. At last, ANN is introduced to
 approximate the evaluation result of CLT, the reason for adopting ANN is to
 reduce the computation complexity based on CLT.
-
-
-
 

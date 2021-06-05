@@ -42,12 +42,12 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{comment,import} 
-\usepackage{booktabs, multicol, makecell, amsmath,afterpage}
-\usepackage{tikz,tabularx, adjustbox}
+\usepackage{booktabs,multicol,multirow,makecell,amsmath,afterpage}
+\usepackage{tikz,tabularx,adjustbox}
 \usepackage{subcaption}
-\usetikzlibrary{shapes.geometric, matrix,arrows,positioning,calc,intersections}
+\usetikzlibrary{shapes.geometric,matrix,arrows,positioning,calc,intersections}
 
-\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
+\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=black,urlcolor=black]{hyperref}
 \usepackage[backend=bibtex,style=numeric,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \addbibresource{example.bib} % The filename of the bibliography
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
@@ -90,7 +90,6 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
 }
-
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
@@ -230,7 +229,6 @@ The acknowledgments and the people to thank go here, don't forget to include you
 \include{Chapters/my_chapter_3}
 \include{Chapters/my_chapter_4} 
 \include{Chapters/my_chapter_5} 
-\include{Chapters/my_chapter_6} 
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

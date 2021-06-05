@@ -187,39 +187,6 @@
     \field{year}{1999}
   \endentry
 
-  \entry{callahan1992optimum}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CKJ}{%
-         family={Callahan},
-         familyi={C\bibinitperiod},
-         given={Kelvin\bibnamedelima J},
-         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=WGE}{%
-         family={Weeks},
-         familyi={W\bibinitperiod},
-         given={George\bibnamedelima E},
-         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{CKJWGE1}
-    \strng{fullhash}{CKJWGE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{number}{3}
-    \field{pages}{149\bibrangedash 160}
-    \field{title}{Optimum design of composite laminates using genetic
-  algorithms}
-    \field{volume}{2}
-    \field{journaltitle}{Composites Engineering}
-    \field{year}{1992}
-  \endentry
-
   \entry{choudhury2019failure}{article}{}
     \name{author}{3}{}{%
       {{hash=CA}{%
@@ -325,51 +292,6 @@
     \field{year}{1989}
   \endentry
 
-  \entry{deka2005multiobjective}{article}{}
-    \name{author}{4}{}{%
-      {{hash=DDJ}{%
-         family={Deka},
-         familyi={D\bibinitperiod},
-         given={Dhyan\bibnamedelima Jyoti},
-         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Sandeep},
-         familyi={S\bibinitperiod},
-         given={G},
-         giveni={G},
-      }}%
-      {{hash=CD}{%
-         family={Chakraborty},
-         familyi={C\bibinitperiod},
-         given={D},
-         giveni={D},
-      }}%
-      {{hash=DA}{%
-         family={Dutta},
-         familyi={D\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Publications Sage CA: Thousand Oaks, CA}%
-    }
-    \strng{namehash}{DDJ+1}
-    \strng{fullhash}{DDJSGCDDA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{number}{3}
-    \field{pages}{273\bibrangedash 285}
-    \field{title}{Multiobjective optimization of laminated composites using
-  finite element method and genetic algorithm}
-    \field{volume}{24}
-    \field{journaltitle}{Journal of reinforced plastics and composites}
-    \field{year}{2005}
-  \endentry
-
   \entry{di2003multiconstrained}{article}{}
     \name{author}{3}{}{%
       {{hash=DSM}{%
@@ -409,38 +331,6 @@
     \field{year}{2003}
   \endentry
 
-  \entry{fang1993design}{article}{}
-    \name{author}{2}{}{%
-      {{hash=FC}{%
-         family={Fang},
-         familyi={F\bibinitperiod},
-         given={Chin},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=SGS}{%
-         family={Springer},
-         familyi={S\bibinitperiod},
-         given={George\bibnamedelima S},
-         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Publications Sage CA: Thousand Oaks, CA}%
-    }
-    \strng{namehash}{FCSGS1}
-    \strng{fullhash}{FCSGS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{number}{7}
-    \field{pages}{721\bibrangedash 753}
-    \field{title}{Design of composite laminates by a Monte Carlo method}
-    \field{volume}{27}
-    \field{journaltitle}{Journal of composite materials}
-    \field{year}{1993}
-  \endentry
-
   \entry{fukunaga1991strength}{article}{}
     \name{author}{2}{}{%
       {{hash=FH}{%
@@ -472,39 +362,6 @@
     \field{volume}{40}
     \field{journaltitle}{Computers \& Structures}
     \field{year}{1991}
-  \endentry
-
-  \entry{jadhav2007parametric}{article}{}
-    \name{author}{2}{}{%
-      {{hash=JP}{%
-         family={Jadhav},
-         familyi={J\bibinitperiod},
-         given={Prakash},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=MPR}{%
-         family={Mantena},
-         familyi={M\bibinitperiod},
-         given={P\bibnamedelima Raju},
-         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{JPMPR1}
-    \strng{fullhash}{JPMPR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-    \field{number}{3}
-    \field{pages}{353\bibrangedash 363}
-    \field{title}{Parametric optimization of grid-stiffened composite panels
-  for maximizing their performance under transverse loading}
-    \field{volume}{77}
-    \field{journaltitle}{Composite structures}
-    \field{year}{2007}
   \endentry
 
   \entry{jayatheertha1996application}{article}{}
@@ -546,39 +403,6 @@
     \field{year}{1996}
   \endentry
 
-  \entry{kang2005minimum}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KJH}{%
-         family={Kang},
-         familyi={K\bibinitperiod},
-         given={Ji-Ho},
-         giveni={J\bibinithyphendelim H\bibinitperiod},
-      }}%
-      {{hash=KCG}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Chun-Gon},
-         giveni={C\bibinithyphendelim G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{KJHKCG1}
-    \strng{fullhash}{KJHKCG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{2}
-    \field{pages}{239\bibrangedash 246}
-    \field{title}{Minimum-weight design of compressively loaded composite
-  plates and stiffened panels for postbuckling strength by genetic algorithm}
-    \field{volume}{69}
-    \field{journaltitle}{Composite structures}
-    \field{year}{2005}
-  \endentry
-
   \entry{kere2003using}{article}{}
     \name{author}{3}{}{%
       {{hash=KP}{%
@@ -616,33 +440,6 @@
     \field{volume}{62}
     \field{journaltitle}{Composite Structures}
     \field{year}{2003}
-  \endentry
-
-  \entry{kim2007development}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KJS}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Jung-Seok},
-         giveni={J\bibinithyphendelim S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{KJS1}
-    \strng{fullhash}{KJS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{number}{1}
-    \field{pages}{76\bibrangedash 83}
-    \field{title}{Development of a user-friendly expert system for composite
-  laminate design}
-    \field{volume}{79}
-    \field{journaltitle}{Composite Structures}
-    \field{year}{2007}
   \endentry
 
   \entry{kogiso1994design}{article}{}
@@ -925,59 +722,6 @@
     \field{year}{1998}
   \endentry
 
-  \entry{martin1987optimum}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MP}{%
-         family={Martin},
-         familyi={M\bibinitperiod},
-         given={PMJW},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{MP1}
-    \strng{fullhash}{MP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{1-2}
-    \field{pages}{3\bibrangedash 12}
-    \field{title}{Optimum design of anisotropic sandwich panels with thin
-  faces}
-    \field{volume}{11}
-    \field{journaltitle}{Engineering optimization}
-    \field{year}{1987}
-  \endentry
-
-  \entry{massard1984computer}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MTN}{%
-         family={Massard},
-         familyi={M\bibinitperiod},
-         given={Thierry\bibnamedelima N},
-         giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Publications Sage CA: Thousand Oaks, CA}%
-    }
-    \strng{namehash}{MTN1}
-    \strng{fullhash}{MTN1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{4}
-    \field{pages}{300\bibrangedash 345}
-    \field{title}{Computer sizing of composite laminates for strength}
-    \field{volume}{3}
-    \field{journaltitle}{Journal of reinforced plastics and composites}
-    \field{year}{1984}
-  \endentry
-
   \entry{moita2000sensitivity}{article}{}
     \name{author}{4}{}{%
       {{hash=MJ}{%
@@ -1021,212 +765,6 @@
     \field{volume}{76}
     \field{journaltitle}{Computers \& Structures}
     \field{year}{2000}
-  \endentry
-
-  \entry{omkar2008artificial}{article}{}
-    \name{author}{5}{}{%
-      {{hash=OS}{%
-         family={Omkar},
-         familyi={O\bibinitperiod},
-         given={SN},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KR}{%
-         family={Khandelwal},
-         familyi={K\bibinitperiod},
-         given={Rahul},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=YS}{%
-         family={Yathindra},
-         familyi={Y\bibinitperiod},
-         given={Santhosh},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NGN}{%
-         family={Naik},
-         familyi={N\bibinitperiod},
-         given={G\bibnamedelima Narayana},
-         giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Gopalakrishnan},
-         familyi={G\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{OS+1}
-    \strng{fullhash}{OSKRYSNGNGS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{O}
-    \field{sortinithash}{O}
-    \field{number}{8}
-    \field{pages}{1416\bibrangedash 1429}
-    \field{title}{Artificial immune system for multi-objective design
-  optimization of composite structures}
-    \field{volume}{21}
-    \field{journaltitle}{Engineering Applications of Artificial Intelligence}
-    \field{year}{2008}
-  \endentry
-
-  \entry{park2008improved}{article}{}
-    \name{author}{4}{}{%
-      {{hash=PCH}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={Chung\bibnamedelima Hae},
-         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=LWI}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Woo\bibnamedelima Il},
-         giveni={W\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=HWS}{%
-         family={Han},
-         familyi={H\bibinitperiod},
-         given={Woo\bibnamedelima Suck},
-         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=VA}{%
-         family={Vautrin},
-         familyi={V\bibinitperiod},
-         given={Alain},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{PCH+1}
-    \strng{fullhash}{PCHLWIHWSVA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{19-20}
-    \field{pages}{1894\bibrangedash 1903}
-    \field{title}{Improved genetic algorithm for multidisciplinary optimization
-  of composite laminates}
-    \field{volume}{86}
-    \field{journaltitle}{Computers \& structures}
-    \field{year}{2008}
-  \endentry
-
-  \entry{park2001stacking}{article}{}
-    \name{author}{4}{}{%
-      {{hash=PJ}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={JH},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={JH},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=LC}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={CS},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=HW}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={W},
-         giveni={W},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{PJ+1}
-    \strng{fullhash}{PJHJLCHW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{2}
-    \field{pages}{217\bibrangedash 231}
-    \field{title}{Stacking sequence design of composite laminates for maximum
-  strength using genetic algorithms}
-    \field{volume}{52}
-    \field{journaltitle}{Composite Structures}
-    \field{year}{2001}
-  \endentry
-
-  \entry{pelletier2006multi}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PJL}{%
-         family={Pelletier},
-         familyi={P\bibinitperiod},
-         given={Jacob\bibnamedelima L},
-         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=VSS}{%
-         family={Vel},
-         familyi={V\bibinitperiod},
-         given={Senthil\bibnamedelima S},
-         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{PJLVSS1}
-    \strng{fullhash}{PJLVSS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{29-30}
-    \field{pages}{2065\bibrangedash 2080}
-    \field{title}{Multi-objective optimization of fiber reinforced composite
-  laminates for strength, stiffness and minimal mass}
-    \field{volume}{84}
-    \field{journaltitle}{Computers \& structures}
-    \field{year}{2006}
-  \endentry
-
-  \entry{reddy1987first}{article}{}
-    \name{author}{2}{}{%
-      {{hash=RJ}{%
-         family={Reddy},
-         familyi={R\bibinitperiod},
-         given={JN},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pandey},
-         familyi={P\bibinitperiod},
-         given={AK},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{RJPA1}
-    \strng{fullhash}{RJPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{number}{3}
-    \field{pages}{371\bibrangedash 393}
-    \field{title}{A first-ply failure analysis of composite laminates}
-    \field{volume}{25}
-    \field{journaltitle}{Computers \& Structures}
-    \field{year}{1987}
   \endentry
 
   \entry{richard2000reliability}{article}{}
@@ -1454,44 +992,6 @@
     \field{year}{1995}
   \endentry
 
-  \entry{soeiro1994multilevel}{article}{}
-    \name{author}{3}{}{%
-      {{hash=SA}{%
-         family={Soeiro},
-         familyi={S\bibinitperiod},
-         given={AV},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=ACC}{%
-         family={Ant{\'o}nio},
-         familyi={A\bibinitperiod},
-         given={CA\bibnamedelima Concei{\c{c}}{\~a}o},
-         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=MAT}{%
-         family={Marques},
-         familyi={M\bibinitperiod},
-         given={A\bibnamedelima Torres},
-         giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{SAACCMAT1}
-    \strng{fullhash}{SAACCMAT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{1-2}
-    \field{pages}{55\bibrangedash 60}
-    \field{title}{Multilevel optimization of laminated composite structures}
-    \field{volume}{7}
-    \field{journaltitle}{Structural optimization}
-    \field{year}{1994}
-  \endentry
-
   \entry{soremekun2001composite}{article}{}
     \name{author}{4}{}{%
       {{hash=SG}{%
@@ -1634,39 +1134,6 @@
     \field{volume}{30}
     \field{journaltitle}{Journal of composite materials}
     \field{year}{1996}
-  \endentry
-
-  \entry{watkins1987multicriteria}{article}{}
-    \name{author}{2}{}{%
-      {{hash=WR}{%
-         family={Watkins},
-         familyi={W\bibinitperiod},
-         given={RI},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Morris},
-         familyi={M\bibinitperiod},
-         given={AJ},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{WRMA1}
-    \strng{fullhash}{WRMA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{number}{2}
-    \field{pages}{233\bibrangedash 251}
-    \field{title}{A multicriteria objective function optimization scheme for
-  laminated composites for use in multilevel structural optimization schemes}
-    \field{volume}{60}
-    \field{journaltitle}{Computer Methods in Applied Mechanics and Engineering}
-    \field{year}{1987}
   \endentry
 \enddatalist
 \endinput

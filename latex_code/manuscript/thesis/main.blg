@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/my_chapter_1.aux
+A level-1 auxiliary file: Chapters/my_chapter_2.aux
+A level-1 auxiliary file: Chapters/my_chapter_3.aux
+A level-1 auxiliary file: Chapters/my_chapter_4.aux
+A level-1 auxiliary file: Chapters/my_chapter_5.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: example.bib
+Repeated entry---line 506 of file example.bib
+ : @article{soares1995discrete
+ :                            ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.11
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 31 entries,
+            6304 wiz_defined-function locations,
+            1375 strings with 14471 characters,
+and the built_in function-call counts, 211934 in all, are:
+= -- 15483
+> -- 3881
+< -- 1149
++ -- 5050
+- -- 1462
+* -- 16199
+:= -- 22508
+add.period$ -- 0
+call.type$ -- 31
+change.case$ -- 644
+chr.to.int$ -- 34
+cite$ -- 60
+duplicate$ -- 21499
+empty$ -- 19111
+format.name$ -- 2301
+if$ -- 43479
+int.to.chr$ -- 0
+int.to.str$ -- 89
+missing$ -- 0
+newline$ -- 1107
+num.names$ -- 1634
+pop$ -- 10613
+preamble$ -- 1
+purify$ -- 841
+quote$ -- 0
+skip$ -- 6010
+stack$ -- 0
+substring$ -- 27522
+swap$ -- 5197
+text.length$ -- 919
+text.prefix$ -- 49
+top$ -- 1
+type$ -- 1042
+warning$ -- 0
+while$ -- 2941
+width$ -- 0
+write$ -- 1077
+(There was 1 error message)

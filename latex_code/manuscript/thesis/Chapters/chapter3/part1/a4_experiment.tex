@@ -1,4 +1,4 @@
-\section{Experiment}
+\subsection{Experiment}
 First, we formulate a constrained problem by searching the optimal stacking
 sequence of cross-ply laminate under in-plane loading under the constraint
 whose strength ratio is not less than two.  Each lamina dimensions $1000 \times
@@ -7,7 +7,7 @@ and glass/epoxy layer is assumed to cost 2.5 and 1 monetary units,
 respectively. The other material properties are shown in Tab. \ref{tab:mat}. 
 
 
-\subsection{Problem formulation}
+\subsubsection{Problem formulation}
 
 In the present experiment, the optimal composite sequences, and the number of
 layers for a targeted strength ratio under in-plane loading conditions are
@@ -24,7 +24,7 @@ Minimize: weight,
 Subject to: strength ratio.
 
 
-\subsection{GA Operation}
+\subsubsection{GA Operation}
 
 \input{Figures/chapter4/part1/fig/ga_operator.tex}
 In the present study, floating encoding is adopted to represent a solution for
@@ -50,7 +50,7 @@ to 19 after length mutation.  For the angle mutation, randomly swap the gene
 from 0 to 90 in the chromosome, or the otherwise.
 
 
-\subsection{GA Parameters}
+\subsubsection{GA Parameters}
 Tab. \ref{tab:ga} shows related GA parameters: the population is 40, and 50
 percent is as the mating pool, so the parent population is 20; as
 shown in Fig. \ref{fig:percentage}, the percentage of active individuals from

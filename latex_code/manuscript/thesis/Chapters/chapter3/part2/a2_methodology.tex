@@ -1,5 +1,5 @@
-\section{Methodology}
-\subsection{Objective function}
+\subsection{Experiment}
+\subsubsection{Problem Formulation}
 The optimization problem can be formulated by searching the optimal stacking
 sequence of composite laminate.  There are two design variables here, the angles
 in the laminate, and the number of layers that each fiber orientation has. The
@@ -19,7 +19,7 @@ the fiber orientation is $\theta_k$. The constraints here are two safety
 factors should not less than 1, which means  $SF_{MS} \geq 1$, and $SF_{TW} \geq
 1$, respectively.
 
-\subsection{Encoding}
+\subsubsection{Encoding}
 Due to the simplicity and efficiency of float representation, this encoding
 method is implemented to represent a possible solution. As shown in Figure \ref{GA:operator}
  (a), these two chromsomes represent a $[+8_{7}/-9_{2}]_s$
@@ -27,7 +27,7 @@ carbon T300/5308 laminated composite, and $[+19_{4}/-36_{6}]_s$, respectively.
 Becasue the laminate adopted in this paper is symmetric to its mid-plane, so
 only half needs to be encoded.
 
-\subsection{Selection}
+\subsubsection{Selection}
 The purpose of the selection operator is to choose mating pool to produce
 alternative solutions of better fitness. Traditional methods of selecting
 strategies only take the fitness of individuals into account, however, due to 
@@ -47,7 +47,7 @@ into proper individual after a couple of generations, and potential individuals
 are chosen by constraint function, the more the individual fulfills the
 constraint, the more possibility it will be selected.
 
-\subsection{Crossover}
+\subsubsection{Crossover}
 The crossover operator happens among these three groups. the child of two proper
 groups is more likely to be a proper individual which can be used to obtain an
 alternative feasible solution. the child of an active individual and a potential
