@@ -19,19 +19,18 @@ the fiber orientation is $\theta_k$. The constraints here are two safety
 factors should not less than 1, which means  $SF_{MS} \geq 1$, and $SF_{TW} \geq
 1$, respectively.
 
-\subsubsection{Encoding}
-Due to the simplicity and efficiency of float representation, this encoding
+\subsubsection{GA Operation}
+1. Encoding: Due to the simplicity and efficiency of float representation, this encoding
 method is implemented to represent a possible solution. As shown in Figure \ref{GA:operator}
  (a), these two chromsomes represent a $[+8_{7}/-9_{2}]_s$
 carbon T300/5308 laminated composite, and $[+19_{4}/-36_{6}]_s$, respectively.
 Becasue the laminate adopted in this paper is symmetric to its mid-plane, so
 only half needs to be encoded.
 
-\subsubsection{Selection}
-The purpose of the selection operator is to choose mating pool to produce
-alternative solutions of better fitness. Traditional methods of selecting
-strategies only take the fitness of individuals into account, however, due to 
-the existence of constraint, various selection schemes are implemented to
+2. Selection: The purpose of the selection operator is to choose mating pool to
+produce alternative solutions of better fitness. Traditional methods of
+selecting strategies only take the fitness of individuals into account, however,
+due to the existence of constraint, various selection schemes are implemented to
 select the mating set. Based on different selection schemes, the parents of
 next generation can be divided into  three groups: proper groups, active groups,
 and potential groups according to different selecting methods. 
@@ -47,30 +46,29 @@ into proper individual after a couple of generations, and potential individuals
 are chosen by constraint function, the more the individual fulfills the
 constraint, the more possibility it will be selected.
 
-\subsubsection{Crossover}
-The crossover operator happens among these three groups. the child of two proper
-groups is more likely to be a proper individual which can be used to obtain an
-alternative feasible solution. the child of an active individual and a potential
-individual can significantly change the gene of an active individual's chromosome,
-which makes the individual evolve toward a new direction. The offspring of two
-active individuals are more likely to be an active individual, which can maintain
-the active group.  The figure.\ref{GA:operator} (b) shows two children $O_1$
-and $O_2$ from two parents $P_1$ and $P_2$, each angle $C_a$ and its length 
-$C_l$ of a child are obtained by the following formula
+3. Crossover: The crossover operator happens among these three groups. the child
+of two proper groups is more likely to be a proper individual which can be used
+to obtain an alternative feasible solution. the child of an active individual
+and a potential individual can significantly change the gene of an active
+individual's chromosome, which makes the individual evolve toward a new
+direction. The offspring of two active individuals are more likely to be an
+active individual, which can maintain the active group.  The
+figure.\ref{GA:operator} (b) shows two children $O_1$ and $O_2$ from two parents
+$P_1$ and $P_2$, each angle $C_a$ and its length $C_l$ of a child are obtained
+by the following formula
 \begin{align} 
 	\begin{cases}
 	C_a &= (P1_a + P2_a)/2 \\
 	C_l &= (P1_l + P2_l)/2 
 \end{cases} \textstyle{.}
 \end{align}
-\input{Figures/chapter4/part2/tab/composite_material.tex}
-\subsection{Mutation}
-A mutation direction is imposed on the mutation operator which to make sure the
-individual evolving toward the right direction. The mutation direction, denoted
-by $md$, is an n dimensional vector corresponding to the number of constraints, it
-is decided by the constraint thresholds $CT_i$ and the current individual's
-constraint value, denoted as $CV_i$,  The mutation vector can be obtained by the
-following formula
+\input{Figures/chapter3/part2/tab/composite_material.tex}
+4. Mutation: A mutation direction is imposed on the mutation operator which to
+make sure the individual evolving toward the right direction. The mutation
+direction, denoted by $md$, is an n dimensional vector corresponding to the
+number of constraints, it is decided by the constraint thresholds $CT_i$ and the
+current individual's constraint value, denoted as $CV_i$,  The mutation vector
+can be obtained by the following formula
 
 \resizebox{.9\linewidth}{!}{
 	$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [CV_0, \cdots, CV_{n-1}, CV_n] \textstyle{.}$

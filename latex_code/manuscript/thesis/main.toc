@@ -31,25 +31,22 @@
 \contentsline {section}{\numberline {3.2}Case2: Minimum Thickness Optimization}{20}{section.53}% 
 \contentsline {subsection}{\numberline {3.2.1}Experiment}{20}{subsection.55}% 
 \contentsline {subsubsection}{Problem Formulation}{20}{section*.56}% 
-\contentsline {subsubsection}{Encoding}{21}{section*.58}% 
-\contentsline {subsubsection}{Selection}{21}{section*.59}% 
-\contentsline {subsubsection}{Crossover}{21}{section*.60}% 
-\contentsline {subsection}{\numberline {3.2.2}Mutation}{22}{subsection.63}% 
-\contentsline {subsection}{\numberline {3.2.3}Numerical Results and Discussion}{23}{subsection.66}% 
-\contentsline {subsection}{\numberline {3.2.4}Conclusion}{25}{subsection.72}% 
-\contentsline {chapter}{\numberline {4}The Application of Artificial Neural Network in Composite Material}{29}{chapter.73}% 
-\contentsline {section}{\numberline {4.1}Introduction}{29}{section.74}% 
-\contentsline {section}{\numberline {4.2}Evolutionary Artificial Neural Network}{30}{section.75}% 
-\contentsline {subsection}{\numberline {4.2.1}General neural network}{30}{subsection.77}% 
-\contentsline {subsection}{\numberline {4.2.2}Activation function}{31}{subsection.79}% 
-\contentsline {subsection}{\numberline {4.2.3}Weights learning}{31}{subsection.82}% 
-\contentsline {section}{\numberline {4.3}Methodology}{32}{section.83}% 
-\contentsline {subsection}{\numberline {4.3.1}Search Space}{32}{subsection.87}% 
-\contentsline {subsection}{\numberline {4.3.2}Search Strategy}{33}{subsection.88}% 
-\contentsline {subsection}{\numberline {4.3.3}Performance estimation strategy}{34}{subsection.89}% 
-\contentsline {section}{\numberline {4.4}Experiment}{34}{section.90}% 
-\contentsline {subsection}{\numberline {4.4.1}Dataset Preparation}{35}{subsection.91}% 
-\contentsline {subsection}{\numberline {4.4.2}ANN training and validation}{35}{subsection.93}% 
-\contentsline {subsection}{\numberline {4.4.3}Genetic algorithm}{35}{subsection.94}% 
-\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.96}% 
-\contentsline {chapter}{Bibliography}{39}{chapter*.97}% 
+\contentsline {subsubsection}{GA Operation}{21}{section*.58}% 
+\contentsline {subsection}{\numberline {3.2.2}Numerical Results and Discussion}{23}{subsection.63}% 
+\contentsline {subsection}{\numberline {3.2.3}Conclusion}{24}{subsection.69}% 
+\contentsline {chapter}{\numberline {4}The Application of Artificial Neural Network in Composite Material}{29}{chapter.70}% 
+\contentsline {section}{\numberline {4.1}Introduction}{29}{section.71}% 
+\contentsline {section}{\numberline {4.2}Evolutionary Artificial Neural Network}{30}{section.72}% 
+\contentsline {subsection}{\numberline {4.2.1}General neural network}{30}{subsection.74}% 
+\contentsline {subsection}{\numberline {4.2.2}Activation function}{31}{subsection.76}% 
+\contentsline {subsection}{\numberline {4.2.3}Weights learning}{31}{subsection.79}% 
+\contentsline {section}{\numberline {4.3}Methodology}{32}{section.80}% 
+\contentsline {subsection}{\numberline {4.3.1}Search Space}{32}{subsection.84}% 
+\contentsline {subsection}{\numberline {4.3.2}Search Strategy}{33}{subsection.85}% 
+\contentsline {subsection}{\numberline {4.3.3}Performance estimation strategy}{34}{subsection.86}% 
+\contentsline {section}{\numberline {4.4}Experiment}{34}{section.87}% 
+\contentsline {subsection}{\numberline {4.4.1}Dataset Preparation}{35}{subsection.88}% 
+\contentsline {subsection}{\numberline {4.4.2}ANN training and validation}{35}{subsection.90}% 
+\contentsline {subsection}{\numberline {4.4.3}Genetic algorithm}{35}{subsection.91}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.93}% 
+\contentsline {chapter}{Bibliography}{39}{chapter*.94}% 

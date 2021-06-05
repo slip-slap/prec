@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  5 JUN 2021 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  5 JUN 2021 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1404,10 +1404,10 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
 (./Chapters/chapter3/part2/a1_introduction_CLT.tex
-<Figures/chapter4/part2/image/lamina_local_global_axes.png, id=286, 1637.11626pt x 572.1375pt>
-File: Figures/chapter4/part2/image/lamina_local_global_axes.png Graphic file (type png)
-<use Figures/chapter4/part2/image/lamina_local_global_axes.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/lamina_local_global_axes.png  used on input line 5.
+<Figures/chapter3/part2/image/lamina_local_global_axes.png, id=271, 1637.11626pt x 572.1375pt>
+File: Figures/chapter3/part2/image/lamina_local_global_axes.png Graphic file (type png)
+<use Figures/chapter3/part2/image/lamina_local_global_axes.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/lamina_local_global_axes.png  used on input line 5.
 (pdftex.def)             Requested size: 404.02908pt x 141.2007pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
@@ -1417,7 +1417,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 
 
 
- <./Figures/chapter4/part2/image/lamina_local_global_axes.png>] [2]) (./Chapters/chapter3/part2/a1_introduction_failure_criteria.tex [3] (./Figures/chapter1/failure_surface.tex) [4]) (./Chapters/chapter3/part2/a1_introduction_safety_factor.tex [5])) [6] [7]
+ <./Figures/chapter3/part2/image/lamina_local_global_axes.png>] [2]) (./Chapters/chapter3/part2/a1_introduction_failure_criteria.tex [3] (./Figures/chapter1/failure_surface.tex) [4]) (./Chapters/chapter3/part2/a1_introduction_safety_factor.tex [5])) [6] [7]
 \openout2 = `Chapters/my_chapter_2.aux'.
 
  (./Chapters/my_chapter_2.tex [8
@@ -1429,13 +1429,13 @@ Chapter 2.
 
 LaTeX Warning: Reference `GA:old_model' on page 9 undefined on input line 37.
 
-(./Figures/chapter4/part1/fig/chapter3_OGAM.tex)
+(./Figures/chapter3/part1/fig/chapter3_OGAM.tex)
 Overfull \hbox (3.06999pt too wide) in paragraph at lines 56--62
 []\T1/ppl/m/n/10.95 Crossover is an-other cru-cial op-er-a-tor in-tro-duced into the GA method-ol-ogy frame-
  []
 
 1: section
-[9] (./Figures/chapter4/part1/fig/chapter3_NGAM.tex)
+[9] (./Figures/chapter3/part1/fig/chapter3_NGAM.tex)
 
 LaTeX Warning: Reference `GA:model' on page 10 undefined on input line 90.
 
@@ -1467,24 +1467,24 @@ Package scrlayer-scrpage Warning: \headheight to low.
 
 Overfull \vbox (8.34636pt too high) has occurred while \output is active []
 
- [14] (./Figures/chapter4/part1/fig/ga_operator.tex) [15]
-<Figures/chapter4/part1/fig/percentage_of_groups.png, id=437, 462.528pt x 346.896pt>
-File: Figures/chapter4/part1/fig/percentage_of_groups.png Graphic file (type png)
-<use Figures/chapter4/part1/fig/percentage_of_groups.png>
-Package pdftex.def Info: Figures/chapter4/part1/fig/percentage_of_groups.png  used on input line 64.
+ [14] (./Figures/chapter3/part1/fig/ga_operator.tex) [15]
+<Figures/chapter3/part1/fig/percentage_of_groups.png, id=422, 462.528pt x 346.896pt>
+File: Figures/chapter3/part1/fig/percentage_of_groups.png Graphic file (type png)
+<use Figures/chapter3/part1/fig/percentage_of_groups.png>
+Package pdftex.def Info: Figures/chapter3/part1/fig/percentage_of_groups.png  used on input line 64.
 (pdftex.def)             Requested size: 404.02908pt x 303.03568pt.
- (./Figures/chapter4/part1/table/ga_parameters.tex)) (./Chapters/chapter3/part1/a4_result_and_discussion.tex [16 <./Figures/chapter4/part1/fig/percentage_of_groups.png>]
-<Figures/chapter4/part1/fig/group_number.png, id=445, 462.528pt x 346.896pt>
-File: Figures/chapter4/part1/fig/group_number.png Graphic file (type png)
-<use Figures/chapter4/part1/fig/group_number.png>
-Package pdftex.def Info: Figures/chapter4/part1/fig/group_number.png  used on input line 11.
+ (./Figures/chapter3/part1/table/ga_parameters.tex)) (./Chapters/chapter3/part1/a4_result_and_discussion.tex [16 <./Figures/chapter3/part1/fig/percentage_of_groups.png>]
+<Figures/chapter3/part1/fig/group_number.png, id=430, 462.528pt x 346.896pt>
+File: Figures/chapter3/part1/fig/group_number.png Graphic file (type png)
+<use Figures/chapter3/part1/fig/group_number.png>
+Package pdftex.def Info: Figures/chapter3/part1/fig/group_number.png  used on input line 11.
 (pdftex.def)             Requested size: 404.02908pt x 303.03568pt.
-<Figures/chapter4/part1/fig/fitness_strength_ratio.png, id=446, 462.528pt x 346.896pt>
-File: Figures/chapter4/part1/fig/fitness_strength_ratio.png Graphic file (type png)
-<use Figures/chapter4/part1/fig/fitness_strength_ratio.png>
-Package pdftex.def Info: Figures/chapter4/part1/fig/fitness_strength_ratio.png  used on input line 18.
+<Figures/chapter3/part1/fig/fitness_strength_ratio.png, id=431, 462.528pt x 346.896pt>
+File: Figures/chapter3/part1/fig/fitness_strength_ratio.png Graphic file (type png)
+<use Figures/chapter3/part1/fig/fitness_strength_ratio.png>
+Package pdftex.def Info: Figures/chapter3/part1/fig/fitness_strength_ratio.png  used on input line 18.
 (pdftex.def)             Requested size: 404.02908pt x 303.03568pt.
- [17 <./Figures/chapter4/part1/fig/group_number.png>] (./Figures/chapter4/part1/table/optimum_layup.tex) (./Figures/chapter4/part1/table/comparsion.tex)) (./Chapters/chapter3/part1/a5_conclusion.tex [18 <./Figures/chapter4/part1/fig/fitness_strength_ratio.png>] [19]) (./Chapters/chapter3/part2/a2_ga_operator.tex) (./Chapters/chapter3/part2/a2_methodology.tex [20] [21] (./Figures/chapter4/part2/tab/composite_material.tex
+ [17 <./Figures/chapter3/part1/fig/group_number.png>] (./Figures/chapter3/part1/table/optimum_layup.tex) (./Figures/chapter3/part1/table/comparsion.tex)) (./Chapters/chapter3/part1/a5_conclusion.tex [18 <./Figures/chapter3/part1/fig/fitness_strength_ratio.png>] [19]) (./Chapters/chapter3/part2/a2_ga_operator.tex) (./Chapters/chapter3/part2/a2_methodology.tex [20] (./Figures/chapter3/part2/tab/composite_material.tex
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\T1/ppl/m/n/10.95 Ultimate lon-gi-tu-di-nal ten-sile
  []
@@ -1504,82 +1504,67 @@ Overfull \hbox (49.21033pt too wide) in alignment at lines 20--20
 [][][][] 
  []
 
-)
-Overfull \hbox (7.34557pt too wide) in paragraph at lines 80--95
+) [21]
+Overfull \hbox (7.34557pt too wide) in paragraph at lines 78--93
 \T1/ppl/m/n/10.95 crease the chro-mo-some's length; As-sum-ing a $\OT1/zplm/m/n/10.95 [+\OT1/ppl/m/n/10.95 13[]\OT1/zplm/m/n/10.95 / \OMS/zplm/m/n/10.95 ^^@ \OT1/ppl/m/n/10.95 27[]\OT1/zplm/m/n/10.95 ][]$ \T1/ppl/m/n/10.95 T300/5308 car-bon/epoxy
  []
 
 
-Overfull \hbox (3.11475pt too wide) in paragraph at lines 96--104
+Overfull \hbox (3.11475pt too wide) in paragraph at lines 94--102
 \T1/ppl/m/n/10.95 value, and de-crease the chrom-some's length. As-sum-ing a $\OT1/zplm/m/n/10.95 [+\OT1/ppl/m/n/10.95 33[]\OT1/zplm/m/n/10.95 / \OMS/zplm/m/n/10.95 ^^@ \OT1/ppl/m/n/10.95 29[]\OT1/zplm/m/n/10.95 ][]$ \T1/ppl/m/n/10.95 T300/5308
  []
 
-[22]
-Overfull \hbox (19.39006pt too wide) in paragraph at lines 114--119
+
+Overfull \hbox (19.39006pt too wide) in paragraph at lines 112--117
 \T1/ppl/m/n/10.95 The co-ef-fi-cient an-gle mu-ta-tion is $\OML/zplm/m/it/10.95 C[]$\T1/ppl/m/n/10.95 , the an-gle mu-ta-tion range is $\OT1/zplm/m/n/10.95 [\OT1/ppl/m/n/10.95 0, \OML/zplm/m/it/10.95 C[] [][] []\OT1/zplm/m/n/10.95 ]$
  []
 
-) (./Chapters/chapter3/part2/a3_result.tex
-<Figures/chapter4/part2/image/two_distinct_angle_fitness_and_sr.png, id=495, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
-<use Figures/chapter4/part2/image/two_distinct_angle_fitness_and_sr.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/two_distinct_angle_fitness_and_sr.png  used on input line 21.
+[22]) (./Chapters/chapter3/part2/a3_result.tex
+<Figures/chapter3/part2/image/two_distinct_angle_fitness_and_sr.png, id=481, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/two_distinct_angle_fitness_and_sr.png Graphic file (type png)
+<use Figures/chapter3/part2/image/two_distinct_angle_fitness_and_sr.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/two_distinct_angle_fitness_and_sr.png  used on input line 21.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
-<Figures/chapter4/part2/image/two_distinct_angle_angle_change.png, id=496, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/two_distinct_angle_angle_change.png Graphic file (type png)
-<use Figures/chapter4/part2/image/two_distinct_angle_angle_change.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/two_distinct_angle_angle_change.png  used on input line 25.
+<Figures/chapter3/part2/image/two_distinct_angle_angle_change.png, id=482, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/two_distinct_angle_angle_change.png Graphic file (type png)
+<use Figures/chapter3/part2/image/two_distinct_angle_angle_change.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/two_distinct_angle_angle_change.png  used on input line 25.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
-<Figures/chapter4/part2/image/two_distinct_angler_number_change.png, id=497, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/two_distinct_angler_number_change.png Graphic file (type png)
-<use Figures/chapter4/part2/image/two_distinct_angler_number_change.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/two_distinct_angler_number_change.png  used on input line 29.
+<Figures/chapter3/part2/image/two_distinct_angler_number_change.png, id=483, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/two_distinct_angler_number_change.png Graphic file (type png)
+<use Figures/chapter3/part2/image/two_distinct_angler_number_change.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/two_distinct_angler_number_change.png  used on input line 29.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
 
 
 LaTeX Warning: Float too large for page by 57.78741pt on input line 33.
 
-
-Overfull \hbox (152.33797pt too wide) in paragraph at lines 41--57
- [][] 
- []
-
-
-Overfull \hbox (6.01628pt too wide) in paragraph at lines 59--73
+(./Figures/chapter3/part2/tab/result_two_different_angle.tex)
+Overfull \hbox (6.01628pt too wide) in paragraph at lines 38--52
 []\T1/ppl/m/n/10.95 Figure [][]3.6[][](a) shows how the op-ti-mal in-di-vid-ual's fit-ness and strength ra-tio evolves
  []
 
 [23]
-<Figures/chapter4/part2/image/Three_distinct_angles_fitness_and_sr.png, id=517, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/Three_distinct_angles_fitness_and_sr.png Graphic file (type png)
-<use Figures/chapter4/part2/image/Three_distinct_angles_fitness_and_sr.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/Three_distinct_angles_fitness_and_sr.png  used on input line 107.
+<Figures/chapter3/part2/image/Three_distinct_angles_fitness_and_sr.png, id=502, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/Three_distinct_angles_fitness_and_sr.png Graphic file (type png)
+<use Figures/chapter3/part2/image/Three_distinct_angles_fitness_and_sr.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/Three_distinct_angles_fitness_and_sr.png  used on input line 86.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
-<Figures/chapter4/part2/image/three_distinct_angles_angle_change.png, id=518, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/three_distinct_angles_angle_change.png Graphic file (type png)
-<use Figures/chapter4/part2/image/three_distinct_angles_angle_change.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/three_distinct_angles_angle_change.png  used on input line 111.
+<Figures/chapter3/part2/image/three_distinct_angles_angle_change.png, id=503, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/three_distinct_angles_angle_change.png Graphic file (type png)
+<use Figures/chapter3/part2/image/three_distinct_angles_angle_change.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/three_distinct_angles_angle_change.png  used on input line 90.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
-<Figures/chapter4/part2/image/three_distinct_angle_number_of_angle.png, id=519, 462.528pt x 346.896pt>
-File: Figures/chapter4/part2/image/three_distinct_angle_number_of_angle.png Graphic file (type png)
-<use Figures/chapter4/part2/image/three_distinct_angle_number_of_angle.png>
-Package pdftex.def Info: Figures/chapter4/part2/image/three_distinct_angle_number_of_angle.png  used on input line 115.
+<Figures/chapter3/part2/image/three_distinct_angle_number_of_angle.png, id=504, 462.528pt x 346.896pt>
+File: Figures/chapter3/part2/image/three_distinct_angle_number_of_angle.png Graphic file (type png)
+<use Figures/chapter3/part2/image/three_distinct_angle_number_of_angle.png>
+Package pdftex.def Info: Figures/chapter3/part2/image/three_distinct_angle_number_of_angle.png  used on input line 94.
 (pdftex.def)             Requested size: 323.22449pt x 242.42854pt.
 
 
-LaTeX Warning: Float too large for page by 57.78741pt on input line 119.
+LaTeX Warning: Float too large for page by 57.78741pt on input line 98.
 
-
-Overfull \hbox (177.0185pt too wide) in paragraph at lines 127--143
- [][] 
- []
-
-
-Overfull \hbox (138.02225pt too wide) in paragraph at lines 150--164
- [][] 
- []
-
-) (./Chapters/chapter3/part2/a4_conclusion.tex [24])) [25] [26 <./Figures/chapter4/part2/image/two_distinct_angle_fitness_and_sr.png> <./Figures/chapter4/part2/image/two_distinct_angle_angle_change.png> <./Figures/chapter4/part2/image/two_distinct_angler_number_change.png>] [27 <./Figures/chapter4/part2/image/Three_distinct_angles_fitness_and_sr.png> <./Figures/chapter4/part2/image/three_distinct_angles_angle_change.png> <./Figures/chapter4/part2/image/three_distinct_angle_number_of_angle.png>]
+(./Figures/chapter3/part2/tab/result_three_different_angle.tex) (./Figures/chapter3/part2/tab/comparsion.tex)) (./Chapters/chapter3/part2/a4_conclusion.tex [24])) [25] [26 <./Figures/chapter3/part2/image/two_distinct_angle_fitness_and_sr.png> <./Figures/chapter3/part2/image/two_distinct_angle_angle_change.png> <./Figures/chapter3/part2/image/two_distinct_angler_number_change.png>] [27 <./Figures/chapter3/part2/image/Three_distinct_angles_fitness_and_sr.png> <./Figures/chapter3/part2/image/three_distinct_angles_angle_change.png> <./Figures/chapter3/part2/image/three_distinct_angle_number_of_angle.png>]
 \openout2 = `Chapters/my_chapter_4.aux'.
 
  (./Chapters/my_chapter_4.tex [28
@@ -1588,14 +1573,14 @@ Overfull \hbox (138.02225pt too wide) in paragraph at lines 150--164
 
 ]
 Chapter 4.
-(./Chapters/chapter4/a1_introduction_part1.tex) (./Chapters/chapter4/a1_introduction_part3_ann.tex (./Figures/chapter5/fig/methodology_evolutionary_ann.tex
+(./Chapters/chapter4/a1_introduction_part1.tex) (./Chapters/chapter4/a1_introduction_part3_ann.tex (./Figures/chapter4/fig/methodology_evolutionary_ann.tex
 1: section
-[29]) (./Figures/chapter5/fig/ann_general_architecture.tex) [30] (./Figures/chapter5/fig/ann_active_function.tex)) (./Chapters/chapter4/a2_methodology.tex [31] (./Figures/chapter5/fig/a0_figure_ann_for_clt_architecture.tex
+[29]) (./Figures/chapter4/fig/ann_general_architecture.tex) [30] (./Figures/chapter4/fig/ann_active_function.tex)) (./Chapters/chapter4/a2_methodology.tex [31] (./Figures/chapter4/fig/a0_figure_ann_for_clt_architecture.tex
 Overfull \hbox (7.67703pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-) (./Figures/chapter5/fig/experiment_architecture_example1_code.tex) (./Figures/chapter5/fig/experiment_architecture_example2_code.tex) (./Figures/chapter5/fig/experiment_architecture_child_code.tex) (./Figures/chapter5/fig/experiment_architecture_example1_table.tex)
+) (./Figures/chapter4/fig/experiment_architecture_example1_code.tex) (./Figures/chapter4/fig/experiment_architecture_example2_code.tex) (./Figures/chapter4/fig/experiment_architecture_child_code.tex) (./Figures/chapter4/fig/experiment_architecture_example1_table.tex)
 Overfull \hbox (3.17493pt too wide) in paragraph at lines 49--55
 \T1/ppl/m/n/10.95 We pro-pose a GNN frame-work as shown in Fig. [][]4.2[][]. The search space is parametrized
  []
@@ -1604,7 +1589,7 @@ Overfull \hbox (3.17493pt too wide) in paragraph at lines 49--55
 
 LaTeX Warning: Reference `tab:mat' on page 34 undefined on input line 16.
 
-[34] (./Figures/chapter5/tab/experiment_training_data.tex)) (./Chapters/chapter4/a5_acknowledge.tex)) [35]
+[34] (./Figures/chapter4/tab/experiment_training_data.tex)) (./Chapters/chapter4/a5_acknowledge.tex)) [35]
 \openout2 = `Chapters/my_chapter_5.aux'.
 
  (./Chapters/my_chapter_5.tex [36
@@ -1646,7 +1631,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E6E9D16C83FFDAE34E0DBEBCADEB1C64;10155.
+(rerunfilecheck)             Checksum: C9CA11C4A75A8AA6306EE385BDA9830C;9839.
 
 
 LaTeX Warning: There were undefined references.
@@ -1659,18 +1644,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50202 strings out of 492616
- 1034001 string characters out of 6128982
+ 50207 strings out of 492616
+ 1034465 string characters out of 6128982
  1537648 words of memory out of 5000000
  53186 multiletter control sequences out of 15000+600000
  581540 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,22n,83p,1149b,2429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (42 pages, 647368 bytes).
+Output written on main.pdf (42 pages, 646922 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 629 compressed objects within 7 object streams
- 170 named destinations out of 1000 (max. 500000)
- 487 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 613 compressed objects within 7 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
