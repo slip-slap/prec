@@ -100,7 +100,6 @@ headsepline, % Uncomment to get a line under the header
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\begin{comment}
 \begin{titlepage}
 \begin{center}
 
@@ -182,7 +181,7 @@ headsepline, % Uncomment to get a line under the header
 
 \begin{abstract}
 \addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+\input{Chapters/abstract}
 \end{abstract}
 
 %----------------------------------------------------------------------------------------
@@ -197,13 +196,12 @@ The acknowledgments and the people to thank go here, don't forget to include you
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
-\end{comment}
 
 \tableofcontents % Prints the main table of contents
 
-%\listoffigures % Prints the list of figures
+\listoffigures % Prints the list of figures
 
-%\listoftables % Prints the list of tables
+\listoftables % Prints the list of tables
 
 %\include{miscellaneous/nomenclature.tex}
 
