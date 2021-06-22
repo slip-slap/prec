@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  13 MAY 2021 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  21 JUN 2021 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,18 +567,18 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
@@ -635,7 +635,27 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros (./src/a1_abstract.tex) (./src/a2_introduction.tex
+ ABD: EveryShipout initializing macros
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 61.
+ (./src/a1_abstract.tex) (./src/a2_introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 41--51
+[]\OT1/ptm/m/n/10 The data struc-ture, re-pair strate-gies, and penalty
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 41--51
+\OT1/ptm/m/n/10 functions[[]] are the most com-monly used ap-proaches
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 41--51
+\OT1/ptm/m/n/10 to re-solve con-strained prob-lems in the op-ti-miza-tion of
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (20.0pt): 
 Make it at least 21.14493pt.
@@ -646,48 +666,63 @@ This may cause the page layout to be inconsistent, however.
 
 
 ]
-<.//fig/lamina_local_global_axes.png, id=15, 1637.11626pt x 572.1375pt>
+<.//fig/lamina_local_global_axes.png, id=17, 1637.11626pt x 572.1375pt>
 File: .//fig/lamina_local_global_axes.png Graphic file (type png)
 <use .//fig/lamina_local_global_axes.png>
-Package pdftex.def Info: .//fig/lamina_local_global_axes.png  used on input line 81.
-(pdftex.def)             Requested size: 524.09975pt x 183.1663pt.
- (./fig/cross_ply_laminate.tex) (./table/material.tex) [2]
-Overfull \vbox (33.09947pt too high) has occurred while \output is active []
+Package pdftex.def Info: .//fig/lamina_local_global_axes.png  used on input line 92.
+(pdftex.def)             Requested size: 253.04987pt x 88.42722pt.
+ (./fig/cross_ply_laminate.tex) [2 <.//fig/lamina_local_global_axes.png>]) (./src/a3_methodology.tex (./fig/chapter3_ogam.tex) [3]
+Underfull \vbox (badness 1748) has occurred while \output is active []
 
- [3 <.//fig/lamina_local_global_axes.png>]) (./src/a3_methodology.tex (./fig/chapter3_ngam.tex) (./fig/chapter3_ogam.tex)
-Underfull \vbox (badness 1867) has occurred while \output is active []
+ (./fig/chapter3_ngam.tex)) (./src/a4_experiment.tex (./table/material.tex
+Overfull \hbox (9.00351pt too wide) in paragraph at lines 4--24
+ [] 
+ []
 
- [4]) (./src/a4_experiment.tex (./fig/ga_operator.tex) [5]
-<fig/percentage_of_groups.png, id=37, 462.528pt x 346.896pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [4] (./fig/ga_operator.tex)
+<fig/percentage_of_groups.png, id=33, 462.528pt x 346.896pt>
 File: fig/percentage_of_groups.png Graphic file (type png)
 <use fig/percentage_of_groups.png>
-Package pdftex.def Info: fig/percentage_of_groups.png  used on input line 64.
+Package pdftex.def Info: fig/percentage_of_groups.png  used on input line 62.
 (pdftex.def)             Requested size: 253.04987pt x 189.78767pt.
- (./table/ga_parameters.tex)) (./src/a4_result_and_discussion.tex
-<fig/group_number.png, id=38, 462.528pt x 346.896pt>
+ (./table/ga_parameters.tex)) (./src/a4_result_and_discussion.tex [5]
+<fig/group_number.png, id=39, 462.528pt x 346.896pt>
 File: fig/group_number.png Graphic file (type png)
 <use fig/group_number.png>
-Package pdftex.def Info: fig/group_number.png  used on input line 11.
+Package pdftex.def Info: fig/group_number.png  used on input line 21.
 (pdftex.def)             Requested size: 253.04987pt x 189.78767pt.
-<fig/fitness_strength_ratio.png, id=39, 462.528pt x 346.896pt>
+<fig/fitness_strength_ratio.png, id=40, 462.528pt x 346.896pt>
 File: fig/fitness_strength_ratio.png Graphic file (type png)
 <use fig/fitness_strength_ratio.png>
-Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 18.
+Package pdftex.def Info: fig/fitness_strength_ratio.png  used on input line 46.
 (pdftex.def)             Requested size: 253.04987pt x 189.78767pt.
- [6 <./fig/percentage_of_groups.png>] (./table/optimum_layup.tex) (./table/comparsion.tex)) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl [7 <./fig/group_number.png> <./fig/fitness_strength_ratio.png>] [8]) [9] (./main.aux) ) 
+ [6 <./fig/percentage_of_groups.png> <./fig/group_number.png>] (./table/optimum_layup.tex
+Overfull \hbox (9.01355pt too wide) in paragraph at lines 6--27
+ [] 
+ []
+
+) (./table/comparsion.tex
+Overfull \hbox (9.00935pt too wide) in paragraph at lines 6--22
+ [] 
+ []
+
+)) (./src/a5_conclusion.tex) (./src/a6_acknowledgment.tex) (./main.bbl [7 <./fig/fitness_strength_ratio.png>]) [8] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17779 strings out of 492616
- 356383 string characters out of 6128982
- 436350 words of memory out of 5000000
- 21298 multiletter control sequences out of 15000+600000
- 36204 words of font info for 67 fonts, out of 8000000 for 9000
+ 17804 strings out of 492616
+ 356748 string characters out of 6128982
+ 435952 words of memory out of 5000000
+ 21320 multiletter control sequences out of 15000+600000
+ 39724 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 59i,18n,94p,546b,838s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 402688 bytes).
+ 59i,18n,94p,546b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (8 pages, 409803 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

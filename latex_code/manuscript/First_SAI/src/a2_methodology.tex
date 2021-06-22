@@ -1,8 +1,8 @@
 \section{Methodology}
-For an angle ply laminate, given the laminate's lay-up, material properties,
-in-plane loading, etc., we can compute its strength ratio based on Tsai-Wu
-failure theory or maximum stress theory. To model this function, we propose an
-ANN framework shown in Fig. \ref{fig:evolution}, which derives from the previous
+For an angle ply laminate, its strength ratio can be computed based on Tsai-Wu
+failure theory or maximum stress theory given the laminate's lay-up, material properties,
+in-plane loading, etc. To model this function, we propose an
+ANN framework as shown in Fig. \ref{fig:gnn_for_clt}, which derives from the previous
 two-layer model. There are sixteen inputs of this ANN, which are in-plane
 loading $N_x$, $N_y$, and $N_{xy}$; design parameters of a laminate, two 
 fiber orientation $\theta_1$ and $\theta_2$, ply thickness $t$, total
@@ -12,8 +12,9 @@ $E_1$, $E_2$, $G_{12}$, and $v_{12}$; five strength parameters of a
 unidirectional lamina.  Two outputs are strength ratio according to MS theory
 and strength ratio according to Tsai-Wu theory.
 
+\input{fig/methodology_evolutionary_ann.tex}
 \input{fig/a0_figure_ann_for_clt_architecture.tex}
-\begin{figure}[!tb]
+\begin{figure}[t]
 	\centering
 	\begin{subfigure}[b]{1.0\linewidth}
 		\centering
@@ -41,19 +42,19 @@ and strength ratio according to Tsai-Wu theory.
 \input{fig/experiment_architecture_example1_table.tex}
 
 The work involved in the evolution process of ANN consists of three parts:
-search space, which includes the ANN's topology, transfer function, etc.;
+search space, which includes the topology of an ANN, activation function, etc.;
 search strategy, which details how to explore the search space; performance
 estimation strategy refers to the process of estimating this performance.
 
 \subsection{Search Space}
-We propose a GNN framework as shown in Fig. \ref{fig:gnn}. The search space
+We propose a general neural network framework as shown in Fig. \ref{fig:gnn}. The search space
 is parametrized by: (i) the number of nodes m(possibly unbounded) in the hidden
 layer, to narrow down the search space, the assumption is that m less than n; (ii) the type of
 operation every node executes, e.g., sigmoid, linear, gaussian. (iii) the
 connection relationship between hidden nodes and inputs; (IV) if a connection
 exists, the weight value in the connection.
 
-Therefore, evolution in EANN can be divided into four different levels:
+Therefore, evolution in evolutional neural network can be divided into four different levels:
 topology, learning rules, active functions, and connection weights. For the
 evolution of topology, the aim is to find an optimal ANN architecture for a
 specific problem. The architecture of a neural network determines the
@@ -66,16 +67,17 @@ an ANN.
 
 
 \subsection{Search Strategy}
-To use the GA method in this work, we need to represent the ANN, devise a
-fitness function that determines how good a solution is, and decides the
-genetic search operators, including selection, mutation, and crossover.
+It is necessary to define related operations related to GA process, which
+includes the representation of an artificial neural network, the fitness
+function that determines how good a solution is, and the search operators, such
+as selection, mutation, and crossover.
 
 For the representation of an ANN, encode the $h_i$ node as an eighteen digits
 binary string. The initial sixteen digits in the string correspond to the
 connections between $i_i$ and $h_i$, with '1' implying there exists a
 connection between them, with '0' implying no connection exists. The last two
 digits in the string refer to an activation function, such as "01" which means a
-sigmoid function. Tab. \ref{tab:binary-rep} are examples of the binary
+sigmoid function. Table \ref{tab:binary-rep} are examples of the binary
 representation of ANNs whose architecture is as shown in
 Fig. \ref{fig:anns}. 
 
@@ -90,7 +92,7 @@ Fig. \ref{fig:anns} illustrates the crossover operator: Fig. \ref{fig:anns}
 (c) is the child of Fig. \ref{fig:anns} (a) and Fig. \ref{fig:anns} (a), the
 connection relationship of hidden nodes with inputs are from both parents,  and
 the corresponding activation functions are also from both parents. In the
-binary representation Tab. \ref{tab:binary-rep}, we can see that the first two
+binary representation Table \ref{tab:binary-rep}, it is shown that the first two
 rows of the child are the same as the first two rows of parent $P_1$, and the
 last six rows of the child are the same as the first six rows of parent $P_2$.
 

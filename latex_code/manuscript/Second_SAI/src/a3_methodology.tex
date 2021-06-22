@@ -1,7 +1,4 @@
 \section{Genetic algorithm model}
-
-\input{fig/chapter3_ngam.tex}
-\input{fig/chapter3_ogam.tex}
 The genetic algorithm starts with multiple individuals with limited chromosome lengths, in
 which maybe none of these individuals fulfill the constraints. The GA is
 assumed to derive appropriate offspring based on the initial population as the
@@ -11,6 +8,7 @@ either to introduce repair strategies or to use a penalty function. Fig.
 includes selection, crossover, and mutation operators. However, GA is originally
 proposed to solve unconstrained problems; therefore, we suggest a new approach 
 to address the constrained GA search problem in an unconstrained way. 
+\input{fig/chapter3_ogam.tex}
 
 Because of the existence of constraints, the population not only can be sorted
 by the fitness (obtained by the objective function) but also sorted by
@@ -25,7 +23,7 @@ in descending order, and individuals with bigger differences are chosen to be
 the parents of the next generation. The group which forms are called potential
 group, and an individual from this group is referred to as a potential
 individual.  Third, the population is sorted by fitness from low to high after
-removing individuals which fails to fit the constraints, select individuals
+removing individuals which fail to fit the constraints, select individuals
 with bigger fitness, and these individuals form the proper group.  So the final
 parents' pool is consists of three groups, active group, potential group, and
 proper group.  The number of active individuals, potential individuals, and
@@ -41,7 +39,7 @@ this problem. As its name suggests, this group would always live in the
 population.  Because both active individual's fitness and constraint value are small,
 each individual can be treated as an independent gene clip. So their existence
 enriches the gene clip variety of the mating pool. The offspring of two active
-individuals are more likely to be an active individual, which can maintain the
+individuals are more likely to be active individuals, which can maintain the
 active group.
 
 For an individual in the potential group, it doesn't satisfy the constraint,
@@ -70,7 +68,7 @@ population is divided into three groups, active group, potential group, and
 proper group by the above-mentioned method. Second, select an appropriate number of
 individuals from each group as parents, and the various selection scheme can be
 taken for each group. 
-
+\input{fig/chapter3_ngam.tex}
 
 The searching process can be divided into two phases according to whether
 proper individuals are generated or not. During the initial stage, no individual in

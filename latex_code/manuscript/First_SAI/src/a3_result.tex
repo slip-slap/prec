@@ -27,22 +27,20 @@ connection relationship, activation functions, and connection weights.
 
 
 Fig. \ref{fig:final_train} shows the rest training of the artificial neural
-network obtained by the GA. After the optimizing process, we get the best
-individual, which is a pre-trained neural network. We continue to train it with
-a standard gradient-based descent algorithm. The target neural network
-converges rapidly at first, and further training doesn’t reduce the error
-efficiently.  Then, we use the target ANN to predict the properties of
-laminated composite material.
+network obtained from the GA, which is a pre-trained ANN. Continue train it with
+a standard gradient-based descent algorithm until the error converges.
+The target neural network converges rapidly at first, and further training
+doesn’t reduce the error efficiently. Then, this artificial neural network is
+used to predict the strength ratio of laminated composite material.
 
 \input{tab/result_ann_valuation.tex}
-To present the evaluation result of the ANN straightforwardly, we randomly
-select several experiment results from the validation dataset, as is shown
-in Tab. \ref{tab:simu}.  Comparing the strength ratio outputs based on CLT and
-ANN from Tab. \ref{tab:simu}, we can see that the calculation of strength ratio
-can be achieved using a two-layer neural network, without the intensive
-computation of matrix multiplication.
-
-
+To present the evaluation result of the ANN straightforwardly, several
+experiment results from the validation dataset are displayed in Table
+\ref{tab:simu}, which are randomly selected.
+ Comparing the strength ratio outputs based on CLT and ANN from Table
+ \ref{tab:simu}, it is shown that the calculation of strength ratio can be
+ achieved using a two-layer neural network, without the intensive computation of
+ matrix multiplication.
 
 
 

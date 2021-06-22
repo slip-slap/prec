@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  13 MAY 2021 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2020.5.18)  22 JUN 2021 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,18 +564,18 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 321.
-LaTeX Font Info:    ... okay on input line 321.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 320.
+LaTeX Font Info:    ... okay on input line 320.
  ABD: EveryShipout initializing macros (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
@@ -632,13 +632,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./src/a1_abstract.tex) (./src/a1_introduction_part1.tex) (./src/a1_introduction_part2_composite.tex (./tab/composite_material.tex)
-<fig/lamina_local_global_axes.png, id=4, 1637.11626pt x 572.1375pt>
-File: fig/lamina_local_global_axes.png Graphic file (type png)
-<use fig/lamina_local_global_axes.png>
-Package pdftex.def Info: fig/lamina_local_global_axes.png  used on input line 16.
-(pdftex.def)             Requested size: 253.04987pt x 88.42722pt.
- (./fig/angle_ply_laminate.tex)
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 375.
+ (./src/a1_abstract.tex) (./src/a1_introduction_part1.tex) (./src/a1_introduction_part2_composite.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (20.0pt): 
 Make it at least 21.14493pt.
@@ -649,58 +647,78 @@ This may cause the page layout to be inconsistent, however.
 
 
 ]
-Underfull \vbox (badness 2197) has occurred while \output is active []
+<fig/lamina_local_global_axes.png, id=16, 1637.11626pt x 572.1375pt>
+File: fig/lamina_local_global_axes.png Graphic file (type png)
+<use fig/lamina_local_global_axes.png>
+Package pdftex.def Info: fig/lamina_local_global_axes.png  used on input line 17.
+(pdftex.def)             Requested size: 253.04987pt x 88.42722pt.
+ (./fig/angle_ply_laminate.tex) [2 <./fig/lamina_local_global_axes.png>]) (./src/a1_introduction_part3_ann.tex [3] (./fig/ann_general_architecture.tex) (./fig/ann_active_function.tex
+Overfull \hbox (8.99696pt too wide) in paragraph at lines 5--18
+ [] 
+ []
 
- [2 <./fig/lamina_local_global_axes.png>]) (./src/a1_introduction_part3_ann.tex (./fig/methodology_evolutionary_ann.tex [3]) (./fig/ann_general_architecture.tex) (./fig/ann_active_function.tex)) (./src/a2_methodology.tex [4] (./fig/a0_figure_ann_for_clt_architecture.tex) (./fig/experiment_architecture_example1_code.tex) (./fig/experiment_architecture_example2_code.tex) (./fig/experiment_architecture_child_code.tex) (./fig/experiment_architecture_example1_table.tex)) (./src/a3_experiment.tex [5]
+)) (./src/a2_methodology.tex (./fig/methodology_evolutionary_ann.tex) (./fig/a0_figure_ann_for_clt_architecture.tex) (./fig/experiment_architecture_example1_code.tex) (./fig/experiment_architecture_example2_code.tex) (./fig/experiment_architecture_child_code.tex) (./fig/experiment_architecture_example1_table.tex) [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (./tab/experiment_training_data.tex) [6]
-Underfull \vbox (badness 1629) has occurred while \output is active []
+ [5]) (./src/a3_experiment.tex (./tab/composite_material.tex
+Overfull \hbox (9.01328pt too wide) in paragraph at lines 4--24
+ [] 
+ []
 
-) (./src/a3_result.tex
-<./fig/result_ga_ann.png, id=45, 462.528pt x 346.896pt>
+) (./tab/experiment_training_data.tex
+Overfull \hbox (9.01569pt too wide) in paragraph at lines 5--22
+ [] 
+ []
+
+) [6]) (./src/a3_result.tex
+<./fig/result_ga_ann.png, id=46, 462.528pt x 346.896pt>
 File: ./fig/result_ga_ann.png Graphic file (type png)
 <use ./fig/result_ga_ann.png>
 Package pdftex.def Info: ./fig/result_ga_ann.png  used on input line 15.
 (pdftex.def)             Requested size: 227.74333pt x 170.81155pt.
  (./fig/post_train.pdf_tex
-<fig/post_train.pdf, id=46, page=1, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=47, page=1, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 1>
 Package pdftex.def Info: fig/post_train.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-<fig/post_train.pdf, id=47, page=2, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=48, page=2, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 2>
 Package pdftex.def Info: fig/post_train.pdf , page2 used on input line 68.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-<fig/post_train.pdf, id=48, page=3, 231.23705pt x 151.59235pt>
+<fig/post_train.pdf, id=49, page=3, 231.23705pt x 151.59235pt>
 File: fig/post_train.pdf Graphic file (type pdf)
 <use fig/post_train.pdf, page 3>
 Package pdftex.def Info: fig/post_train.pdf , page3 used on input line 81.
 (pdftex.def)             Requested size: 253.04987pt x 165.8916pt.
-) (./tab/result_ann_valuation.tex)) (./src/a4_conclusion.tex [7]) (./src/a5_acknowledge.tex) (./main.bbl [8 <./fig/result_ga_ann.png> <./fig/post_train.pdf> <./fig/post_train.pdf
+) (./tab/result_ann_valuation.tex
+Overfull \hbox (9.01714pt too wide) in paragraph at lines 6--20
+ [] 
+ []
+
+)) (./src/a4_conclusion.tex [7 <./fig/result_ga_ann.png> <./fig/post_train.pdf> <./fig/post_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./fig/post_train.pdf
 
 pdfTeX warning: pdflatex (file ./fig/post_train.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) [9
+>]) (./src/a5_acknowledge.tex) (./main.bbl [8]) [9
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 18726 strings out of 492616
- 378351 string characters out of 6128982
- 703307 words of memory out of 5000000
- 22211 multiletter control sequences out of 15000+600000
- 43480 words of font info for 83 fonts, out of 8000000 for 9000
+ 18763 strings out of 492616
+ 378940 string characters out of 6128982
+ 743012 words of memory out of 5000000
+ 22245 multiletter control sequences out of 15000+600000
+ 47000 words of font info for 94 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,18n,77p,484b,1243s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (9 pages, 409400 bytes).
+ 55i,18n,77p,483b,1243s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (9 pages, 420072 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

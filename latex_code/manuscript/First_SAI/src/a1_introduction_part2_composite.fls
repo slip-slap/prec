@@ -1,0 +1,8 @@
+PWD /Users/kismet/Documents/github/prec/latex_code/manuscript/First_SAI/src
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT a1_introduction_part2_composite.tex
+OUTPUT a1_introduction_part2_composite.log
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

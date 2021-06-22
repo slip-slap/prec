@@ -1,25 +1,25 @@
 \section{Evolutionary Artificial Neural Network}
-\input{fig/methodology_evolutionary_ann.tex}
 \subsection{General neural network}
-In this paper, the feedforward ANN is adopted in the current
-study, since it is straightforward and simple to code. For function
-approximation through an ANN, Cybenko demonstrated that a two-layer perceptron
-can form an arbitrarily close approximation to any continuous nonlinear
-mapping\cite{cybenko1989approximation}. Therefore, a two-layer feedforward ANN
-is proposed in the present study. Fig. \ref{fig:gnn} shows a general framework for a
-two-layer NN, in which the number of nodes in the hidden layer and the
-connection with inputs, are critical in the design of an ANN. For nodes in the
-hidden layer, we can think of them as feature extractors or detectors.
-Therefore, nodes within it should partially be connected with the inputs of an ANN,
-since the unnecessary connections would increase the model's complicacy, which
-will reduce an ANN’s performance. Because we treat the nodes in the hidden layer
-as feature extractors, so the number of nodes in this layer should be less than
-the number of inputs. For the nodes in the last layer, every node should be
-fully connected with nodes in the previous layer, since we think of the nodes
-in the hidden layer as features. The rest, which affects a NN’s performance,
-are activation function, and ANN's training method. In the following section, we
-denote the $i$th node in the input layer, and the hidden layer, as $i_i$, and $h_i$,
-respectively.
+
+In this paper, the feedforward ANN is adopted in the current study, since it is
+straightforward to code. For function approximation through an artificial neural
+network, Cybenko demonstrated that a two-layer perceptron can form an
+arbitrarily close approximation to any continuous nonlinear mapping\cite{cybenko1989approximation}.
+Therefore, a two-layer feedforward ANN is proposed in the present study. Fig. \ref{fig:gnn}
+shows a general framework for a two-layer ANN, in which the number of nodes in
+the hidden layer and the connection with inputs, are critical in the design of
+an ANN. The nodes in the hidden layer are treated as feature extractors or
+detectors. Therefore, nodes within this layer should partially be connected with
+the inputs of an ANN, since the unnecessary connections would increase the
+model’s complicacy, which will reduce an ANN’s performance. The number of nodes
+in the hidden layer should be less than the number of inputs since the nodes in
+the hidden layer are features. For the nodes in the last layer, every node
+should be fully connected with nodes in the previous layer, the relationship
+between the outputs and features should be direct. The rest, which affects the
+performance of an artificial neural network, are the activation function, and
+ANNs training method. In the following section, the $i$th node in the
+input layer is denoted as $i_i$, and the $j$th node in the hidden layerd denoted
+as $h_j$, respectively.
 
 \input{fig/ann_general_architecture}
 \subsection{Activation function}
@@ -35,8 +35,8 @@ architecture.  A generalized activation function can be written as
 
 where $y_i$ is the output of the node $i$, $x_j$ is the $j$th input to the
 node, and $w_{ij}$ is the connection weight between adjacent nodes $i$ and $j$.
-Tab. \ref{tab:transfer_function} displays the most widely adopted activation
-functions in the design of an ANN, which is used for the current study.
+Table \ref{tab:transfer_function} display the most widely adopted activation
+functions in the design of an ANN, which is used in the current study.
 
 \input{fig/ann_active_function}
 
@@ -48,5 +48,5 @@ Gradient descent algorithm is widely adopted to reduce the value of an error
 function, which has been successfully applied in many practical areas. However,
 this class of algorithms is plagued by the possible existence of local minima
 or ”flat spots” and ”the curse of dimensionality.” One method to overcome this
-problem is to adopt a genetic algorithm(GA)
+problem is to adopt a genetic algorithm.
 

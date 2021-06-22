@@ -1,28 +1,29 @@
-\section{Classic lamination theory and Failure theory}
+\section{classical lamination theory and failure criteria}
 
-\input{tab/composite_material}
-\subsection{Classic Lamination Theory}
-CLT is based upon three simplifying engineering assumptions: Each layer’s
-thickness is small and consists of homogeneous, orthotropic material, and these
-layers are perfectly bonded together through the thickness; The entire
-laminated composite is supposed to be under in-plane loading; Normal
-cross-sections of the laminate is normal to the deflected middle surface, and
-do not change in thickness. Fig. \ref{fig:lamina_local_and_global} shows the
-coordinate system used for showing an angle lamina. The axis in the 1-2
-coordinate system are called the local axis or the material axis, and the axis
-in the x-y coordinate system are called global axis.
+\subsection{Classical Lamination Theory}
 
-\begin{figure}[ht]
+
+Classical lamination theory derives from three simplifying assumptions in
+laminated composite material: the laminate consist of plies bonded together
+through the thickness, the thickness of each ply is small, and it is consists of
+homogeneous, orthotropic material; the entire laminated composite is only under
+in-plane loading; the Normal cross-section of the laminate is vertical to the
+deflected middle surface. Fig. \ref{fig:lamina_local_and_global} shows the
+coordinate system used for an angle lamina. The axis in the 1-2 coordinate
+system is called the local axis or the material axis, and the axis in the x-y
+coordinate system is called the global axis.
+
+\begin{figure}[b]
 	\includegraphics[width=1\linewidth]{fig/lamina_local_global_axes.png}
 	\caption{The left diagram shows the local and global axis of an angle lamina, which is from a laminate as shown in the right diagram.}
 	\label{fig:lamina_local_and_global}
 \end{figure}
 
-Special cases of laminates, i.e., symmetric laminates, cross-ply laminates, are
-important in the design of laminated structures. A laminate is called an angle
-ply laminate if it has plies of the same material and thickness and only
-oriented at $+\theta$ and $-\theta$ directions. A model of an angle ply
-laminate is as shown in Fig. \ref{fig:angle-ply}.  
+A few cases of laminates, such as symmetric laminates, cross-ply laminates, play
+an important role in the application of laminated composite material. A laminate
+is called an angle ply laminate if it has plies of the same material and
+thickness and is only oriented at $+\theta$ and $-\theta$ directions. A model of
+an angle ply laminate is as shown in Fig. \ref{fig:angle-ply}.
 
 \input{fig/angle_ply_laminate.tex}
 
@@ -54,9 +55,9 @@ composite material. The stress-strain relation in local axis 1-2 is
         	\varepsilon_2\\
 			\gamma_{12}
 		\end{array} 
-	\right]
+	\right]\textstyle{,}
 \end{equation}
-where $Q_{ij} $ are the stiffnesses of the lamina. And they are related to
+where $Q_{ij} $ is the stiffness of a lamina. And they are related to
 engineering elastic constants as follows:
 \begin{equation}
 	\begin{array}{l}
@@ -71,7 +72,7 @@ constants, which are defined as follows: $E_1 $ is the longitudinal Young's
 modulus, $E_2 $ is the transverse Young's modulus, $v_{12} $ is the major
 Poisson's ratio, and $G_{12} $ is the in-plane shear modulus.
 
-Stress strain relation in the global x-y axis is
+Stress-strain relation in the global x-y axis is
 \begin{equation}
 	\label{equ:stress-strain}
 	\left[\begin{array}{l}
@@ -91,7 +92,7 @@ Stress strain relation in the global x-y axis is
 	 		 \varepsilon_{y} \\ 
 	 		 \gamma_{x y}
 	 		\end{array}
-	\right] 
+	\right] \textstyle{,}
 \end{equation}
 where
 \begin{equation}
@@ -114,8 +115,8 @@ where
 \end{equation}
 
 \subsubsection{Stress and Strain in a Laminate}
-For forces and moment resultants acting on laminates, such as in plate and shell
-structures, the relationship between applied forces and moment and displacement
+For forces acting on laminates, such as in plate and shell
+structures, the relationship between applied forces and displacement
 can be given by
 
 \begin{equation} \label{eq:force_and_moments}
@@ -165,29 +166,26 @@ The [A], [B], and [D] matrices are called the extensional, coupling, and bending
 respectively. The extensional stiffness matrix $[A]$ relates the resultant in-plane forces to the
 in-plain strains, and the bending stiffness matrix $[D]$ couples the resultant bending moments to
 the plane curvatures.  The coupling stiffness matrix $[B]$ relates the force and moment terms to the
-midplain strains and midplane curvatures.
+midplane strains and curvatures.
 
 \subsection{Failure criteria for a lamina}
 
 Failure criteria for composite materials are more difficult to predict due to
-structural and material complexity in comparison to isotropic materials. The
-failure process of composite materials can be regarded from microscopic and
-macroscopic points of view. Most popular criteria about the failure of an angle
-lamina are in terms of macroscopic failure criteria, which are based on the
-tensile, compressive, and shear strengths. According to the failure surfaces,
-these criteria
-\cite{massard1984computer,reddy1987first,fang1993design,soeiro1994multilevel,pelletier2006multi,jadhav2007parametric,omkar2008artificial,choudhury2019failure},
-can be classified into two classes: one is called independent failure mode
-criteria which includes the maximum stress failure
-theory\cite{watkins1987multicriteria}, maximum strain failure theory because
-their failure envelop are rectangle; another is called quadratic polynomial
-which includes Tsai-Wu\cite{martin1987optimum,soares1995discrete}, Chamis,
-Hoffman and Hill criteria because their failure surfaces are of ellipsoidal
-shape. In the present study, the two most reliable failure criteria are taken,
-Maximum stress and Tsai-wu.  Both of these two failure criteria are based on
-the stresses in the local axis instead of principal normal stresses and maximum
-shear stresses, and four normal strength parameters and one shear stress for a
-unidirectional lamina are involved. The five strength parameters are
+structural and material complexity. The failure process of composite materials
+can be regarded from microscopic and macroscopic points of view. The most
+popular criteria about the failure of an angle lamina are from the macroscopic
+point of view, which are according to the tensile, compressive, and shear
+strengths. There are two types of failure
+criteria\cite{massard1984computer,reddy1987first,fang1993design,soeiro1994multilevel,pelletier2006multi,jadhav2007parametric,omkar2008artificial,choudhury2019failure}
+according to failure surfaces. The first failure surface is a rectangle that
+includes the maximum stress failure criterion\cite{watkins1987multicriteria},
+and maximum strain failure criterion. The second failure surface is ellipsoidal
+that includes Tsai-Wu\cite{martin1987optimum,soares1995discrete}, Chamis,
+Hoffman, and Hill criteria. In the present study, the two most reliable failure
+criteria are adopted, Maximum stress and Tsai-wu. Both these failure criteria
+are based on the stress in the local axis instead of principal normal stress and
+maximum shear stresses, in which four normal strength parameters and one shear
+stress are involved. The five strength parameters are
 
 $(\sigma _1^{T})_{ult}= $ ultimate longitudinal tensile strength(in direction 1),
 
@@ -199,7 +197,7 @@ $(\sigma _2^{C})_{ult}= $ ultimate transverse compressive strength, and
 
 $(\tau_{12})_{ult}= $ and ultimate in-plane shear strength.
 
-\begin{figure}[ht]
+\begin{figure}[b]
 \centering
 \begin{tikzpicture}
 	\begin{scope}
@@ -229,12 +227,13 @@ criteria}
 \end{figure}
 
 \subsubsection{Maximum stress(MS) failure criterion}
-Maximum stress failure theory consists of maximum normal stress theory proposed
-by Rankine and maximum shearing stress theory proposed by Tresca. The stress
-applied on a lamina can be resolved into the normal and shear stress in the
-local axis. If any of the normal or shear stresses in the local axis of a
-lamina is equal or exceeds the corresponding ultimate strengths of the
-unidirectional lamina, the lamina is considered to be failed. That is,
+
+Maximum stress failure criteria are consist of the normal stress theory and the
+shear stress theory. The stress applied to a lamina can be resolved into the
+normal stress and shear stress in the local axis. The lamina fails if either of
+the normal stress or shear stress in the local axis of a lamina is equal or
+exceeds the corresponding ultimate strengths of the unidirectional lamina.  That
+is,
 
 \begin{equation}
 	\begin{array}{lll}
@@ -247,8 +246,8 @@ unidirectional lamina, the lamina is considered to be failed. That is,
 where $\sigma_1$ and $\sigma_2$ are the normal stresses in the local axis 1 and 2;
 $\tau_{12}$ is the shear stress in the symmetry plane 1-2.
 
-\subsubsection{Tsai-wu failure criterion}
-The TW criterion is one of the most reliable static failure criteria derived from the von
+\subsubsection{Tsai-Wu failure criterion}
+The Tsai-Wu criterion is one of the most reliable static failure criteria derived from the von
 Mises yield criterion.  
 A lamina is considered to fail
 if \begin{equation} \label{eq:tsai_wu}
@@ -273,8 +272,8 @@ is violated, where
 	\end{split}
 \end{equation}
 
-$H_i$ is the strength tensors of the second-order; $H_{ij}$ is the strength
-tensors of the fourth-order. $\sigma_1$ is the applied normal stress in 
+$H_i$ is the strength tensor of the second-order; $H_{ij}$ is the strength
+tensor of the fourth-order. $\sigma_1$ is the applied normal stress in 
 direction 1; $\sigma_2$ is the applied normal stress in direction 2; 
 $\tau_{12}$ is the applied in-plane shear stress.
 
@@ -283,8 +282,8 @@ $\tau_{12}$ is the applied in-plane shear stress.
 
 \subsubsection{Strength ratio}
 The safety factor, or yield stress, is how much extra load beyond is intended a
-composite laminate will take. The strength ratio is defined as 
+composite laminate will take. The strength ratio(SR) is defined as 
 
 \begin{equation}
-	\label{eq:sr}S R=\frac{\text {Maximum Load Which Can Be Applied}}{\text {Load Applied}}
-\end{equation}.
+	\label{eq:sr}S R=\frac{\text {Maximum Load Which Can Be Applied}}{\text {Load Applied}}\textstyle{.}
+\end{equation}

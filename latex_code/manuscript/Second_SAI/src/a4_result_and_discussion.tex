@@ -1,41 +1,27 @@
 \section{Numerical Results and Discussion}
 To figure out how the number of individuals in each group varies during the GA
-process, we conduct one-time experiment and show the number of individuals
-in each generation in respect of GA generation. Second, to verify its
+process, we conduct a one-time experiment and show the number of individuals
+in each generation with respect of GA generation. Second, to verify its
 performance and stability, the GA is run one hundred times: the best, worst
 case, and average results are presented, respectively. Finally, we compare
 the results with the work in the other literature.
 
-\begin{figure}[!tb]
-	\centering
-	\includegraphics[width=\linewidth]{fig/group_number.png}
-	\caption{Number of individuals in each group as a function of generation.}
-	\label{fig:group}
-\end{figure}
-
-\begin{figure}[!tb]
-	\centering
-	\includegraphics[width=\linewidth]{fig/fitness_strength_ratio.png}
-	\caption{The fitness is the negation of the individual's mass. The solid
-		curve is the fitness of the best individual in the population in respect
-		to the generations; and the dotted line denotes its corresponding strength
-		ratio. If no individuals in the population satisfy the constraint, the
-		best individual is the one with the biggest strength ratio; if not, the
-		best individual is the one with the smallest mass.
-}
-	\label{fig:sr}
-\end{figure}
-
-
 
 Fig. \ref{fig:group} shows the number of individuals in each group during the
-one-time GA process.  For both active group and potential groups, the number of
+one-time GA process.  For both active group and potential group, the number of
 individuals is fixed, and equal to its upper bound from the beginning to the
 end of the searching process. However, for the proper group, at the initial
 stage of GA, no individual fulfills the constraint, so the number of proper
 individuals is zero. As seen from Fig. \ref{fig:group}, after forty
 generations, proper individuals appear, and its population increases very
 quickly up to its upper bound.
+
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=\linewidth]{fig/group_number.png}
+	\caption{Number of individuals in each group as a function of generation.}
+	\label{fig:group}
+\end{figure}
 
 There are two approaches that the GA could obtain a better solution: the first
 is increasing the length of the chromosome; the second one is adjusting the
@@ -55,16 +41,26 @@ needs to adjust its inner structure, at the point 2 and 3 on the
 generation-fitness curve, the fitness curves go up, and the corresponding
 strength ratio of these two points slightly go down, but both of them still
 satisfy the constraint.
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=\linewidth]{fig/fitness_strength_ratio.png}
+	\caption{The fitness is the negation of the individual's mass. The solid
+		curve is the fitness of the best individual in the population in respect
+		to the generations; and the dotted line denotes its corresponding strength
+		ratio. If no individuals in the population satisfy the constraint, the
+		best individual is the one with the biggest strength ratio; if not, the
+		best individual is the one with the smallest mass.
+}
+	\label{fig:sr}
+\end{figure}
 
-
-\input{table/optimum_layup.tex}
 Tab. \ref{tab:optimum_layup} shows the searching results after conducting this
 experiment one hundred times in two length mutation coefficient cases for
 glass-epoxy and graphite-epoxy material, respectively. The best, worst case, and
 average experiment results are showed in this table.  For the glass-epoxy
 material, if the length mutation coefficient takes one, the best and worst
 sequences are $[0_{40}/90_{26}]_s$, $[90_{24}/0_{38}/\bar{90}]_s$; the average mass, cost,
-and number of layers are 7.83, 123, 123. If we increase its length mutation
+and the number of layers are 7.83, 123, 123. If we increase its length mutation
 coefficient, suppose it is five, the number of layers for best and worst cases
 are 125 and 136;  the average mass, cost, and number of layers are 8.55, 131,
 131.  When graphite-epoxy is taken as the experiment material, similar
@@ -72,10 +68,10 @@ experiment results are found.  Comparing these two results, we see that a
 bigger value of length mutation coefficient can improve this GA's performance.
 This is because the mutation coefficient can control both the convergence speed
 and search performance, a small mutation coefficient would slow the convergence
-speed, however, it would lead to a small-grained exploitation in the local space. 
+speed, however, it would lead to small-grained exploitation in the local space. 
 
+\input{table/optimum_layup.tex}
 
-\input{table/comparsion.tex}
 Tab. \ref{tab:comparsion} shows the optimal cross-ply sequences by the
 proposed GA and  Choudhury and Mondal's\cite{choudhury2019failure} study. For
 the loading case $Nx=1$ MPa m, the optimal layups are a $[0_{68}/90_{72}]$
@@ -87,3 +83,4 @@ $[0_{17}/90_{18}]$ cross-ply laminate, an alternative solution is found,
 its layup is $[0_{9}/90_{1}/\bar{0}]_s$. For both cases, we can see that the
 experiment results show that using the present proposed GA can obtain better
 results.
+\input{table/comparsion.tex}

@@ -21,10 +21,82 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{todoroki1998stacking}
+A.~Todoroki and R.~T. Haftka, ``Stacking sequence optimization by a genetic
+  algorithm with a new recessive gene like repair strategy,'' \emph{Composites
+  Part B: Engineering}, vol.~29, no.~3, pp. 277--285, 1998.
+
+\bibitem{liu2000permutation}
+B.~Liu, R.~T. Haftka, M.~A. Akg{\"u}n, and A.~Todoroki, ``Permutation genetic
+  algorithm for stacking sequence design of composite laminates,''
+  \emph{Computer methods in applied mechanics and engineering}, vol. 186, no.
+  2-4, pp. 357--372, 2000.
+
+\bibitem{sivakumar1998optimum}
+K.~Sivakumar, N.~Iyengar, and K.~Deb, ``Optimum design of laminated composite
+  plates with cutouts using a genetic algorithm,'' \emph{Composite Structures},
+  vol.~42, no.~3, pp. 265--279, 1998.
+
+\bibitem{walker2003technique}
+M.~Walker and R.~E. Smith, ``A technique for the multiobjective optimisation of
+  laminated composite structures using genetic algorithms and finite element
+  analysis,'' \emph{Composite structures}, vol.~62, no.~1, pp. 123--128, 2003.
+
+\bibitem{lin2004stacking}
+C.-C. Lin and Y.-J. Lee, ``Stacking sequence optimization of laminated
+  composite structures using genetic algorithm with local improvement,''
+  \emph{Composite structures}, vol.~63, no. 3-4, pp. 339--345, 2004.
+
+\bibitem{kang2005minimum}
+J.-H. Kang and C.-G. Kim, ``Minimum-weight design of compressively loaded
+  composite plates and stiffened panels for postbuckling strength by genetic
+  algorithm,'' \emph{Composite structures}, vol.~69, no.~2, pp. 239--246, 2005.
+
+\bibitem{murugan2007target}
+M.~Murugan, S.~Suresh, R.~Ganguli, and V.~Mani, ``Target vector optimization of
+  composite box beam using real-coded genetic algorithm: a decomposition
+  approach,'' \emph{Structural and Multidisciplinary Optimization}, vol.~33,
+  no.~2, pp. 131--146, 2007.
+
+\bibitem{akbulut2008optimum}
+M.~Akbulut and F.~O. Sonmez, ``Optimum design of composite laminates for
+  minimum thickness,'' \emph{Computers \& Structures}, vol.~86, no. 21-22, pp.
+  1974--1982, 2008.
+
+\bibitem{YAN2020108014}
+\BIBentryALTinterwordspacing
+S.~Yan, X.~Zou, M.~Ilkhani, and A.~Jones, ``An efficient multiscale surrogate
+  modelling framework for composite materials considering progressive damage
+  based on artificial neural networks,'' \emph{Composites Part B: Engineering},
+  vol. 194, p. 108014, 2020. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S1359836820303279}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MENTGES2021108736}
+\BIBentryALTinterwordspacing
+N.~Mentges, B.~Dashtbozorg, and S.~Mirkhalaf, ``A micromechanics-based
+  artificial neural networks model for elastic properties of short fiber
+  composites,'' \emph{Composites Part B: Engineering}, vol. 213, p. 108736,
+  2021. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S1359836821001281}
+\BIBentrySTDinterwordspacing
+
 \bibitem{lobo2007parameter}
 F.~Lobo, C.~F. Lima, and Z.~Michalewicz, \emph{Parameter setting in
   evolutionary algorithms}.\hskip 1em plus 0.5em minus 0.4em\relax Springer
   Science \& Business Media, 2007, vol.~54.
+
+\bibitem{liu1996evolutionary}
+Y.~Liu and X.~Yao, ``Evolutionary design of artificial neural networks with
+  different nodes,'' in \emph{Proceedings of IEEE international conference on
+  evolutionary computation}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1996,
+  pp. 670--675.
+
+\bibitem{rodzin2016neuroevolution}
+S.~Rodzin, O.~Rodzina, and L.~Rodzina, ``Neuroevolution: problems, algorithms,
+  and experiments,'' in \emph{2016 IEEE 10th International Conference on
+  Application of Information and Communication Technologies (AICT)}.\hskip 1em
+  plus 0.5em minus 0.4em\relax IEEE, 2016, pp. 1--4.
 
 \bibitem{massard1984computer}
 T.~N. Massard, ``Computer sizing of composite laminates for strength,''
@@ -88,12 +160,6 @@ C.~M. Soares, V.~F. Correia, H.~Mateus, and J.~Herskovits, ``A discrete model
 G.~Cybenko, ``Approximation by superpositions of a sigmoidal function,''
   \emph{Mathematics of control, signals and systems}, vol.~2, no.~4, pp.
   303--314, 1989.
-
-\bibitem{liu1996evolutionary}
-Y.~Liu and X.~Yao, ``Evolutionary design of artificial neural networks with
-  different nodes,'' in \emph{Proceedings of IEEE international conference on
-  evolutionary computation}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1996,
-  pp. 670--675.
 
 \bibitem{baker2017accelerating}
 B.~Baker, O.~Gupta, R.~Raskar, and N.~Naik, ``Accelerating neural architecture

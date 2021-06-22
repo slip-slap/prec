@@ -22,7 +22,7 @@ following: (i): GAs are not easily trapped in local optima and can obtain the gl
 optimum. (ii): GAs do not need gradient information and can be applied to discrete optimization
 problems. (iii): GAs can not only find the optimal value in the domain but also maintain a
 set of optimal solutions. However, the GA also has some disadvantages, for example, the GA
-needs to evaluate the target functions many times to achieve the optimization, and the cost of the
+needs to evaluate the target functions many times to achieve optimization, and the cost of the
 search process is high. The GA consists of some basic parts, the coding of the design variable,
 the selection strategy, the crossover operator, the mutation operator, and how to deal with constraints. For the
 variable design part, there are two methods to deal with the representation of design variables, namely,
@@ -38,7 +38,7 @@ chosen for the next generation is proportional to the fitness.
 Soremekun et al.\cite{soremekun2001composite} showed that the generalized elitist strategy outperformed a
 single individual elitism in some special cases.
 
-Data structure, repair strategies, and penalty functions\cite{le1995improved} are the most commonly used
+The data structure, repair strategies, and penalty functions\cite{le1995improved} are the most commonly used
 approaches to resolve constrained problems in the optimization of composite structures. Symmetric
 laminates are widely used in practical scenarios, and data structures can be used to fulfill symmetry
 constraints, which consists of coding half of the laminate and considering the rest with the
@@ -75,27 +75,28 @@ minimized the weight of laminated composites under restrictions with a
 failure mechanism-based criterion based on the maximum strain and Tsai-wu. In the present study, Tsai-wu
 Static failure criteria are used to investigate the feasibility of a laminate composite.
 
-\section{Stress and Strain in a Laminate}
-\begin{figure*}[!tb]
-	\centering
-	\includegraphics[width=\linewidth]{\ROOT/fig/lamina_local_global_axes.png}
-	\caption{Local and global axes of an angle lamina.}
-  	\label{fig:lamina}
-\end{figure*}
 
-\input{fig/cross_ply_laminate.tex}
-A laminate structure consists of multiple lamina bonded together through their
+
+\section{Classical lamination theory}
+A laminate structure consists of multiple laminae bonded together through their
 thickness.  Considering a laminate composite plate that is subject to in-plane
-loading of extension, shear, bending and torsion, the classical lamination
+loading of extension, shear, bending, and torsion, the classical lamination
 theory (CLT) is taken to calculate the stress and strain in the local and
 global axes of each ply, as shown in Fig. \ref{fig:lamina}. Based on fiber
 orientation, material, and fiber thickness, there are a few special cases of
 laminate: the set of fiber angles in Fig. \ref{fig:cross_ply} only includes 0
 and 90, which is called cross-ply laminate.
-\input{table/material.tex}
 
+\begin{figure}[!b]
+	\centering
+	\includegraphics[width=\linewidth]{\ROOT/fig/lamina_local_global_axes.png}
+	\caption{Local and global axes of an angle lamina.}
+  	\label{fig:lamina}
+\end{figure}
 
-\subsection{Stress and Strain in a Lamina}
+\input{fig/cross_ply_laminate.tex}
+
+\subsection{Stress and Strain in Lamina}
 For a single lamina, the stress-strain relation in local axis 1-2 is:
 \begin{equation}
     \begin{bmatrix}

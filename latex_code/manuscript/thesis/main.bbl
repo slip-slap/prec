@@ -16,7 +16,7 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
+\datalist[entry]{nyt/global//global/global}
   \entry{abu1998optimum}{article}{}
     \name{author}{2}{}{%
       {{hash=AOAY}{%
@@ -39,6 +39,8 @@
     \strng{fullhash}{AOAYJHL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{number}{3}
@@ -72,6 +74,8 @@
     \strng{fullhash}{ASVVE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{number}{1-4}
@@ -105,6 +109,8 @@
     \strng{fullhash}{AMSFO1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{number}{21-22}
@@ -146,6 +152,8 @@
     \strng{fullhash}{BBGORRNN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{title}{Accelerating neural architecture search using performance
@@ -176,6 +184,8 @@
     \strng{fullhash}{BSAFG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{number}{12}
@@ -215,6 +225,8 @@
     \strng{fullhash}{CAMSSS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{number}{3}
@@ -255,6 +267,8 @@
     \strng{fullhash}{CVFSCMSCM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{number}{3-4}
@@ -282,6 +296,8 @@
     \strng{fullhash}{CG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{year}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{number}{4}
@@ -320,6 +336,8 @@
     \strng{fullhash}{DSMGMLD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{year}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{number}{1}
@@ -353,6 +371,8 @@
     \strng{fullhash}{FHVG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{year}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{number}{6}
@@ -392,6 +412,8 @@
     \strng{fullhash}{JCWJMS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
     \field{sortinit}{J}
     \field{sortinithash}{J}
     \field{number}{5}
@@ -431,6 +453,8 @@
     \strng{fullhash}{KPLMKJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{year}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{number}{3-4}
@@ -482,6 +506,8 @@
     \strng{fullhash}{KNWLTGZHRTNS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{year}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{number}{1}
@@ -516,6 +542,8 @@
     \strng{fullhash}{LRRHR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{number}{2}
@@ -549,6 +577,8 @@
     \strng{fullhash}{LRRGJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{number}{2}
@@ -612,6 +642,8 @@
     \strng{fullhash}{LYBBDJSHDHREHWJLD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{number}{4}
@@ -644,6 +676,8 @@
     \strng{fullhash}{LYYX1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{booktitle}{Proceedings of IEEE international conference on
@@ -682,6 +716,8 @@
     \strng{fullhash}{LFLCFMZ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{title}{Parameter setting in evolutionary algorithms}
@@ -711,6 +747,8 @@
     \strng{fullhash}{LMHRT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{number}{1-2}
@@ -756,6 +794,8 @@
     \strng{fullhash}{MJBJISCMSCM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{year}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{number}{1-3}
@@ -789,6 +829,8 @@
     \strng{fullhash}{RFPD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{year}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{number}{1}
@@ -831,6 +873,8 @@
     \strng{fullhash}{SCMMSCAMCVMF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{1-4}
@@ -864,6 +908,8 @@
     \strng{fullhash}{SLAFB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1973}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{4}
@@ -897,6 +943,8 @@
     \strng{fullhash}{SJLFB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1977}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{4}
@@ -936,6 +984,8 @@
     \strng{fullhash}{SKINDK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{3}
@@ -981,6 +1031,8 @@
     \strng{fullhash}{SCMCVFMHHJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{2}
@@ -1026,6 +1078,8 @@
     \strng{fullhash}{SGGZHRWL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{year}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{number}{2}
@@ -1059,6 +1113,8 @@
     \strng{fullhash}{TAHRT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{year}
     \field{sortinit}{T}
     \field{sortinithash}{T}
     \field{number}{3}
@@ -1092,6 +1148,8 @@
     \strng{fullhash}{WMSRE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{year}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{number}{1}
@@ -1125,6 +1183,8 @@
     \strng{fullhash}{WJKB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{year}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{number}{12}
