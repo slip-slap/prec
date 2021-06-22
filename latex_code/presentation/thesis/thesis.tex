@@ -16,7 +16,9 @@
 \usecolortheme{spruce}
 \setbeamercolor{background canvas}{bg=white}
 
-\title{Thesis Presentation}
+\title{Study of the Application of Genetic
+Algorithm and Artificial Neural Network
+in Laminated Composite Material}
 \author{Huiyao Zhang}
 \institute{Kyoto Institue of Technology}
 \date{03-24-2021}
@@ -29,30 +31,215 @@
     \titlepage
 \end{frame}
 
-\begin{frame}[c]{Content} 
+
+\begin{frame}{Problem I: constrained optimization of discrete variables}
 	\begin{columns}
-		\begin{column}{0.8\textwidth}
-			\begin{enumerate}[I]
-				\item Introduction
-					\begin{itemize}
-						\item Classic lamination theory(CLT) 
-        				\item Failure theory 
-						\item Evolutionary artificial neural network
-					\end{itemize}
-				\item New GA Model
-					\begin{itemize}
-						\item optimal design for cross ply laminate
-						\item optimal design for angle ply laminate
-					\end{itemize}
-				\item Approximation of CLT and failure theories.
-					\begin{itemize}
-						\item Data preparation
-						\item Learning
-						\item Experiment
-					\end{itemize}
-			\end{enumerate}
+		\begin{column}{0.65\textwidth}
+			\begin{itemize}
+				\item  1. formulate the objective function, assume it is $f(x)$.
+				\item  2. to satisfy the constraints, adding punishment items
+					$\phi_1(x),\phi_2(x),\cdots, \phi_n(x)$ 
+				\item  3. reformulate the objective functions as
+
+					$f(x)+c_1\phi_1(x)+c_2\phi_2(x)+ \cdots + c_n\phi_n(x)$
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.35\textwidth}
+			\input{fig/chapter3_OGAM.tex}
 		\end{column}
 	\end{columns}
+\end{frame}
+
+
+\begin{frame}{Problem I: basic idea}
+	\begin{columns}
+		\begin{column}{0.6\textwidth}
+			\begin{itemize}
+				\item  1. formulate the objective function, assume it is $f(x)$.
+				\item  2. to satisfy the constraints, maintaining different groups in the population 
+				\item  3. do not change the objective function $f(x)$.
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.4\textwidth}
+			\input{fig/chapter3_NGAM.tex}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Problem I: Definition}
+	Definition
+		\begin{itemize}
+			\item An individual is active if it is far smaller than the
+				numerical value of these constraints. A group is consist of
+				active individuals are called as active group.
+			\item An individual is potential if it is close but smaller than the
+				numerical value of these constraints. The corresponding group is
+				refered as potential group.
+			\item An individual is proper if it satisfy all the constraints. Its
+				counterpart group is written as proper group.
+		\end{itemize}
+\end{frame}
+
+\begin{frame}{Problem I: parents}
+    \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+		\begin{itemize}
+			\item acitve group: individual is used to increase the diversity of the population
+			\item potential group: individual doesn't fulfill constraint
+			\item proper group: individual meet constraint
+		\end{itemize}
+    \end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\caption{Parents}
+			\includegraphics[scale=0.5]{fig/chapter2_figure_group_pie.png}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Example I: design of cross ply laminate}
+	\input{fig/chapter4_first_figure_cross_ply_laminate.tex}
+\end{frame}
+
+\begin{frame}{Example I: result}
+    \begin{columns}[c]
+    \begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.4]{fig/chapter4_first_result_strength_ratio_and_fitness.png}
+			\caption{Parents}
+		\end{figure}
+    \end{column}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.4]{fig/chapter4_first_result_number_of_three_groups.png}
+			\caption{Parents}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Example I: comparison with works in other literature}
+	\input{fig/chapter4_first_table_comparsion.tex}
+\end{frame}
+
+
+\begin{frame}{Example II: design of angle ply laminate}
+    \begin{columns}[c]
+    \begin{column}{1\textwidth}
+		\begin{itemize}
+			\item Modifying selection strategy: in order to handle the constraint search
+			\item Self-adaptative mutation direction of fiber orientation and laminate thickness:
+				random change the length, and the angle in the laminate.
+			\item The self-adaptative parameters don't refer to parent's proportion, mutation
+				probability.
+		\end{itemize}
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Example II: mutation operator}
+    \begin{columns}[c]
+    \begin{column}{1\textwidth}
+		$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [ICV_0, \cdots, ICV_{n-1},
+		ICV_n]$ \\
+		\begin{itemize}
+			\item  md means mutation direction.
+			\item  $CT_i$ denotes the i-th constraint, such as weight, safety factor.
+			\item  $ICV_i$ denotes individual's i-th constraint value, such as,  weight, safety
+				factor of current individual.
+		\end{itemize}
+
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Example II: mutation operator}
+    \begin{columns}[c]
+	\begin{column}{1\textwidth}
+		\begin{itemize}
+			\item length mutation =  
+				\[
+				  \begin{cases}
+					  LMC*[0, \sum_{i=1}^{N}{md_i}] & \text{if $\sum_{i=1}^{N}{md_i} > 0$} \\
+					  LMC*[\sum_{i=1}^{N}{md_i}, 0] & \text{if $\sum_{i=1}^{N}{md_i} < 0$} \\
+				  \end{cases}
+				\] \\
+				LMC stands for length mutation coefficient, it's a positive integer.
+			\item angle mutation = 
+				\[
+				  \begin{cases}
+					  AMC*[0, \sum_{i=1}^{N}{md_i}] & \text{if $\sum_{i=1}^{N}{md_i} > 0$} \\
+					  AMC*[\sum_{i=1}^{N}{md_i}, 0] & \text{if $\sum_{i=1}^{N}{md_i} < 0$} \\
+				  \end{cases}
+				\] \\
+				AMC stands for angle mutation coefficient, it's sign is unclear.
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Example II: Experiment: $N_x = 10, N_y=5 $ MPa m}
+    \begin{columns}
+    \begin{column}{0.5\textwidth}
+
+        \begin{center}
+			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angle_fitness_and_sr.png}
+        \end{center}
+
+        \begin{center}
+			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angle_angle_change.png}
+        \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \begin{center}
+			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angler_number_change.png}
+              \captionof{figure}{Two distinct angles in the laminate}
+        \end{center}
+    \end{column}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}{Example II: comparison with works in other literature}
+\begin{table}
+	\normalsize
+	\caption{Comparison with the results of DSA}
+	\label{tab:comparision}
+	\centering
+	\resizebox{10cm}{!}{
+\begin{tabular}{c|cccc|lccc}
+	\toprule
+	\textbf{Loading}	    & \multicolumn {4}{c}{\textbf{Akbulut and Sonmez's Study}}   & \multicolumn {4}{c}{\textbf{Present Study}}\\
+	\midrule
+	 $N_{x}/N_{y}/N_{xy}$   & Optimum lay-up			        & laminate  & TW & MS   & Optimum lay-up & laminate  & TW & MS \\
+	  (MPa m)	            & sequences					        & thickness &    &      & sequences	     & thickness &    &    \\
+	\midrule
+	  10/5/0                 &  $[37_{27}/\text{-}37_{27}]_s$     &  108      &  1.0068  &  1.0277 & $[33_{29}/\text{-}39_{25}/\bar{\text{-}39}]_s$     &     109      &  1.0074      &  1.0246  \\
+	  20/5/0                 &  $[31_{23}/\text{-}31_{23}]_s$     &  92       &  1.0208  &  1.1985 & $[33_{22}/\text{-}31_{24}]_s$                      &     92      &  1.0055       &  1.2065    \\
+	  40/5/0                 &  $[26_{20}/\text{-}26_{20}]_s$     &  80       &  1.0190  &  1.5381 & $[29_{18}/\text{-}21_{23}/\bar{\text{-}21}]_s$     &     83      &  1.0034       &  1.7350   \\
+	  80/5/0                 &  $[21_{25}/\text{-}19_{28}]_s$     &  106      &  1.0113  &  1.2213 & $[\text{-}20_{27}/21_{25}/\bar{25}]_s$             &     105      &  1.0029      &  1.2063    \\
+	  120/5/0                &  $[17_{35}/\text{-}17_{35}]_s$     &  140      &  1.0030  &  1.0950 & $[\text{-}18_{34}/17_{36}]_s$                     &     140      &  1.0000      &  1.0898     \\
+	\bottomrule
+\end{tabular}
+}
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Problem II: calculation of strength ratio}
+	It follows a two-step procedure: 
+	\begin{itemize}
+		\item 1. calculate relationship between stress and strain according to
+			classical lamination theory.
+		\item 2. obtained strength ratio based on related failure criterion.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Paper 3: Angle ply laminate}
+	\input{fig/chapter5_figure_angle_ply_laminate.tex}
 \end{frame}
 
 
@@ -207,170 +394,6 @@
 	\input{fig/chapter5_neural_network.tex}
 \end{frame}
 
-\begin{frame}{2. Traditional GA Model}
-	\input{fig/chapter3_OGAM.tex}
-\end{frame}
-
-\begin{frame}{3. New GA Model}
-	\input{fig/chapter3_NGAM.tex}
-\end{frame}
-
-\begin{frame}{3. New GA Parents}
-    \begin{columns}[c]
-    \begin{column}{0.5\textwidth}
-		\begin{itemize}
-			\item acitve group: individual is used to increase the diversity of the population
-			\item potential group: individual doesn't fulfill constraint
-			\item proper group: individual meet constraint
-		\end{itemize}
-    \end{column}
-	\begin{column}{0.5\textwidth}
-		\begin{figure}
-			\caption{Parents}
-			\includegraphics[scale=0.5]{fig/chapter2_figure_group_pie.png}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-
-\begin{frame}{Experiment for  cross ply laminate}
-	\input{fig/chapter4_first_figure_cross_ply_laminate.tex}
-\end{frame}
-
-\begin{frame}{Experiment for  cross ply laminate}
-    \begin{columns}[c]
-    \begin{column}{0.5\textwidth}
-		\begin{figure}
-			\includegraphics[scale=0.4]{fig/chapter4_first_result_strength_ratio_and_fitness.png}
-			\caption{Parents}
-		\end{figure}
-    \end{column}
-	\begin{column}{0.5\textwidth}
-		\begin{figure}
-			\includegraphics[scale=0.4]{fig/chapter4_first_result_number_of_three_groups.png}
-			\caption{Parents}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Experiment for Comparison}
-	\input{fig/chapter4_first_table_comparsion.tex}
-\end{frame}
-
-
-\begin{frame}{Experiment for angle ply laminate: Self-adaptative GA}
-    \begin{columns}[c]
-    \begin{column}{1\textwidth}
-		\begin{itemize}
-			\item Modifying selection strategy: in order to handle the constraint search
-			\item Self-adaptative mutation direction of fiber orientation and laminate thickness:
-				random change the length, and the angle in the laminate.
-			\item The self-adaptative parameters don't refer to parent's proportion, mutation
-				probability.
-		\end{itemize}
-    \end{column}
-    \begin{column}{0.8\textwidth}
-
-    \end{column}
-\end{columns}
-\end{frame}
-
-
-\begin{frame}{Experiment for angle ply laminate:  mutation operator}
-    \begin{columns}[c]
-    \begin{column}{1\textwidth}
-		$\text{md} = [CT_1, \cdots, CT_{n-1}, CT_n] -  [ICV_0, \cdots, ICV_{n-1},
-		ICV_n]$ \\
-		\begin{itemize}
-			\item  md means mutation direction.
-			\item  $CT_i$ denotes the i-th constraint, such as weight, safety factor.
-			\item  $ICV_i$ denotes individual's i-th constraint value, such as,  weight, safety
-				factor of current individual.
-		\end{itemize}
-
-    \end{column}
-\end{columns}
-\end{frame}
-
-
-\begin{frame}{Experiment for angle ply laminate: mutation operator}
-    \begin{columns}[c]
-	\begin{column}{1\textwidth}
-		\begin{itemize}
-			\item length mutation =  
-				\[
-				  \begin{cases}
-					  LMC*[0, \sum_{i=1}^{N}{md_i}] & \text{if $\sum_{i=1}^{N}{md_i} > 0$} \\
-					  LMC*[\sum_{i=1}^{N}{md_i}, 0] & \text{if $\sum_{i=1}^{N}{md_i} < 0$} \\
-				  \end{cases}
-				\] \\
-				LMC stands for length mutation coefficient, it's a positive integer.
-			\item angle mutation = 
-				\[
-				  \begin{cases}
-					  AMC*[0, \sum_{i=1}^{N}{md_i}] & \text{if $\sum_{i=1}^{N}{md_i} > 0$} \\
-					  AMC*[\sum_{i=1}^{N}{md_i}, 0] & \text{if $\sum_{i=1}^{N}{md_i} < 0$} \\
-				  \end{cases}
-				\] \\
-				AMC stands for angle mutation coefficient, it's sign is unclear.
-		\end{itemize}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Experiment: $N_x = 10, N_y=5 $ MPa m}
-    \begin{columns}
-    \begin{column}{0.5\textwidth}
-
-        \begin{center}
-			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angle_fitness_and_sr.png}
-        \end{center}
-
-        \begin{center}
-			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angle_angle_change.png}
-        \end{center}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-        \begin{center}
-			\includegraphics[width=1.0\linewidth]{./fig/two_distinct_angler_number_change.png}
-              \captionof{figure}{Two distinct angles in the laminate}
-        \end{center}
-    \end{column}
-\end{columns}
-\end{frame}
-
-
-\begin{frame}{Comparison}
-\begin{table}
-	\normalsize
-	\caption{Comparison with the results of DSA}
-	\label{tab:comparision}
-	\centering
-	\resizebox{10cm}{!}{
-\begin{tabular}{c|cccc|lccc}
-	\toprule
-	\textbf{Loading}	    & \multicolumn {4}{c}{\textbf{Akbulut and Sonmez's Study}}   & \multicolumn {4}{c}{\textbf{Present Study}}\\
-	\midrule
-	 $N_{x}/N_{y}/N_{xy}$   & Optimum lay-up			        & laminate  & TW & MS   & Optimum lay-up & laminate  & TW & MS \\
-	  (MPa m)	            & sequences					        & thickness &    &      & sequences	     & thickness &    &    \\
-	\midrule
-	  10/5/0                 &  $[37_{27}/\text{-}37_{27}]_s$     &  108      &  1.0068  &  1.0277 & $[33_{29}/\text{-}39_{25}/\bar{\text{-}39}]_s$     &     109      &  1.0074      &  1.0246  \\
-	  20/5/0                 &  $[31_{23}/\text{-}31_{23}]_s$     &  92       &  1.0208  &  1.1985 & $[33_{22}/\text{-}31_{24}]_s$                      &     92      &  1.0055       &  1.2065    \\
-	  40/5/0                 &  $[26_{20}/\text{-}26_{20}]_s$     &  80       &  1.0190  &  1.5381 & $[29_{18}/\text{-}21_{23}/\bar{\text{-}21}]_s$     &     83      &  1.0034       &  1.7350   \\
-	  80/5/0                 &  $[21_{25}/\text{-}19_{28}]_s$     &  106      &  1.0113  &  1.2213 & $[\text{-}20_{27}/21_{25}/\bar{25}]_s$             &     105      &  1.0029      &  1.2063    \\
-	  120/5/0                &  $[17_{35}/\text{-}17_{35}]_s$     &  140      &  1.0030  &  1.0950 & $[\text{-}18_{34}/17_{36}]_s$                     &     140      &  1.0000      &  1.0898     \\
-	\bottomrule
-\end{tabular}
-}
-\end{table}
-\end{frame}
-
-\begin{frame}{Paper 3: Angle ply laminate}
-	\input{fig/chapter5_figure_angle_ply_laminate.tex}
-\end{frame}
-
 \begin{frame}{Paper 3: General Neural Network}
 	\begin{figure}
 		\includegraphics[width=0.9\textwidth]{fig/a0_figure_ann_for_clt_architecture.png}
@@ -384,14 +407,6 @@
 
 \begin{frame}{Paper 3: Prediction}
 	\input{fig/chapter5_table_ann_valuation.tex}
-\end{frame}
-
-\begin{frame}{Paper 3: Prediction}
-	\begin{enumerate}[1)]
-		\item paper1:  journal of reinforced plastic and composites
-		\item paper2:  journal of thermoplastic composite
-		\item paper3: which journal?
-	\end{enumerate}
 \end{frame}
 
 \end{document}

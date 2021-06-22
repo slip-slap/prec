@@ -149,6 +149,6 @@ def average_ga(times):
     app1_tool.save_average_result(total_fitness,total_strength_ratio, total_sr, total_mass,total_cost, total_layer,times)
     
 if __name__ == "__main__":
-   average_ga(1)
+   average_ga(10)
                     
 
