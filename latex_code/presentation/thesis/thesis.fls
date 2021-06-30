@@ -229,6 +229,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefaul
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -445,8 +447,8 @@ INPUT ./fig/chapter4_first_result_strength_ratio_and_fitness.png
 INPUT fig/chapter4_first_result_number_of_three_groups.png
 INPUT ./fig/chapter4_first_result_number_of_three_groups.png
 INPUT ./fig/chapter4_first_result_number_of_three_groups.png
-INPUT fig/chapter4_first_table_comparsion.tex
-INPUT fig/chapter4_first_table_comparsion.tex
+INPUT tab/optimum_layup.tex
+INPUT tab/optimum_layup.tex
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -460,6 +462,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT fig/chapter4_first_table_comparsion.tex
+INPUT fig/chapter4_first_table_comparsion.tex
 INPUT ./fig/two_distinct_angle_fitness_and_sr.png
 INPUT ./fig/two_distinct_angle_fitness_and_sr.png
 INPUT ./fig/two_distinct_angle_fitness_and_sr.png
@@ -470,14 +474,13 @@ INPUT ./fig/two_distinct_angler_number_change.png
 INPUT ./fig/two_distinct_angler_number_change.png
 INPUT ./fig/two_distinct_angler_number_change.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT ./fig/lamina_local_global_axes.png
+INPUT ./fig/lamina_local_global_axes.png
+INPUT ./fig/lamina_local_global_axes.png
+INPUT fig/chapter5_table_training_data.tex
+INPUT fig/chapter5_table_training_data.tex
 INPUT fig/chapter5_figure_angle_ply_laminate.tex
 INPUT fig/chapter5_figure_angle_ply_laminate.tex
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
-INPUT ./fig/lamina_local_global_axes.png
-INPUT ./fig/lamina_local_global_axes.png
-INPUT ./fig/lamina_local_global_axes.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssi8.tfm
@@ -486,8 +489,6 @@ INPUT fig/chapter5_neural_network.tex
 INPUT fig/a0_figure_ann_for_clt_architecture.png
 INPUT ./fig/a0_figure_ann_for_clt_architecture.png
 INPUT ./fig/a0_figure_ann_for_clt_architecture.png
-INPUT fig/chapter5_table_training_data.tex
-INPUT fig/chapter5_table_training_data.tex
 INPUT fig/chapter5_table_ann_valuation.tex
 INPUT fig/chapter5_table_ann_valuation.tex
 OUTPUT thesis.nav

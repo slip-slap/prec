@@ -1,0 +1,56 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\contentsline {chapter}{Abstract}{iii}{section*.1}% 
+\contentsline {chapter}{Acknowledgements}{v}{section*.2}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.6}% 
+\contentsline {section}{\numberline {1.1}Laminated Composite Material}{1}{section.7}% 
+\contentsline {section}{\numberline {1.2}Analysis of stress and strain for composite material}{2}{section.8}% 
+\contentsline {subsection}{\numberline {1.2.1}Stress and Strain in a Lamina}{2}{subsection.10}% 
+\contentsline {subsection}{\numberline {1.2.2}Stress and Strain in a Laminate}{3}{subsection.17}% 
+\contentsline {section}{\numberline {1.3}Failure criteria}{4}{section.20}% 
+\contentsline {subsection}{\numberline {1.3.1}Maximum stress failure criterion}{4}{subsection.22}% 
+\contentsline {subsection}{\numberline {1.3.2}Tsai-wu failure criterion}{5}{subsection.23}% 
+\contentsline {subsection}{\numberline {1.3.3}Safety factor}{5}{subsection.26}% 
+\contentsline {section}{\numberline {1.4}Summary}{6}{section.29}% 
+\contentsline {chapter}{\numberline {2}A New Genetic Algorithm Model for Constrained Problem}{7}{chapter.30}% 
+\contentsline {section}{\numberline {2.1}Genetic Algorithm Framework}{7}{section.31}% 
+\contentsline {section}{\numberline {2.2}Constrained Problem Optimization}{8}{section.33}% 
+\contentsline {section}{\numberline {2.3}A New Genetic Algorithm Model}{8}{section.34}% 
+\contentsline {subsection}{\numberline {2.3.1}Classification}{8}{subsection.36}% 
+\contentsline {subsection}{\numberline {2.3.2}Selection}{9}{subsection.37}% 
+\contentsline {subsection}{\numberline {2.3.3}Crossover}{9}{subsection.38}% 
+\contentsline {subsection}{\numberline {2.3.4}Mutation}{10}{subsection.39}% 
+\contentsline {section}{\numberline {2.4}Summary}{10}{section.40}% 
+\contentsline {chapter}{\numberline {3}The Application of New Genetic Algorithm Model in the Design of Composite Material}{11}{chapter.41}% 
+\contentsline {section}{\numberline {3.1}Case1: Design of cross-ply Laminate}{11}{section.42}% 
+\contentsline {subsection}{\numberline {3.1.1}Methodology}{11}{subsection.43}% 
+\contentsline {subsection}{\numberline {3.1.2}Experiment}{12}{subsection.44}% 
+\contentsline {subsubsection}{Problem formulation}{12}{section*.45}% 
+\contentsline {subsubsection}{GA Operation}{13}{section*.46}% 
+\contentsline {subsubsection}{GA Parameters}{14}{section*.48}% 
+\contentsline {subsection}{\numberline {3.1.3}Numerical Results and Discussion}{15}{subsection.51}% 
+\contentsline {subsection}{\numberline {3.1.4}conclusions}{17}{subsection.56}% 
+\contentsline {section}{\numberline {3.2}Case2: Minimum Thickness Optimization}{18}{section.57}% 
+\contentsline {subsection}{\numberline {3.2.1}Experiment}{18}{subsection.59}% 
+\contentsline {subsubsection}{Problem Formulation}{18}{section*.60}% 
+\contentsline {subsubsection}{GA Operation}{19}{section*.62}% 
+\contentsline {subsection}{\numberline {3.2.2}Numerical Results and Discussion}{20}{subsection.67}% 
+\contentsline {subsection}{\numberline {3.2.3}Conclusion}{22}{subsection.73}% 
+\contentsline {chapter}{\numberline {4}The Application of Artificial Neural Network in Composite Material}{25}{chapter.74}% 
+\contentsline {section}{\numberline {4.1}Introduction}{25}{section.75}% 
+\contentsline {section}{\numberline {4.2}Evolutionary Artificial Neural Network}{26}{section.76}% 
+\contentsline {subsection}{\numberline {4.2.1}General neural network}{26}{subsection.78}% 
+\contentsline {subsection}{\numberline {4.2.2}Activation function}{27}{subsection.80}% 
+\contentsline {subsection}{\numberline {4.2.3}Weights learning}{27}{subsection.83}% 
+\contentsline {section}{\numberline {4.3}Methodology}{28}{section.84}% 
+\contentsline {subsection}{\numberline {4.3.1}Search Space}{28}{subsection.88}% 
+\contentsline {subsection}{\numberline {4.3.2}Search Strategy}{29}{subsection.89}% 
+\contentsline {subsection}{\numberline {4.3.3}Performance estimation strategy}{30}{subsection.90}% 
+\contentsline {section}{\numberline {4.4}Experiment}{30}{section.91}% 
+\contentsline {subsection}{\numberline {4.4.1}Dataset Preparation}{31}{subsection.92}% 
+\contentsline {subsection}{\numberline {4.4.2}ANN training and validation}{31}{subsection.94}% 
+\contentsline {subsection}{\numberline {4.4.3}Genetic algorithm}{31}{subsection.95}% 
+\contentsline {section}{\numberline {4.5}Result and Discussion}{31}{section.96}% 
+\contentsline {section}{\numberline {4.6}Conclusion}{33}{section.100}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{35}{chapter.101}% 
+\contentsline {chapter}{Bibliography}{37}{appendix*.102}% 

@@ -1,5 +1,5 @@
 \documentclass{beamer}
-\usepackage{multicol,lipsum,caption,graphicx}
+\usepackage{multicol,multirow,lipsum,caption,graphicx}
 \usepackage{mathtools, amsmath,booktabs,verbatim,tikz} 
 \usetikzlibrary{shapes.geometric, arrows,positioning,matrix,calc}
 \usepackage{booktabs, makecell, amsmath,afterpage}
@@ -21,7 +21,7 @@ Algorithm and Artificial Neural Network
 in Laminated Composite Material}
 \author{Huiyao Zhang}
 \institute{Kyoto Institue of Technology}
-\date{03-24-2021}
+\date{06-24-2021}
 \setbeamertemplate{itemize/enumerate body begin}{\large}
 
 \DeclarePairedDelimiter\Floor\lfloor\rfloor
@@ -66,7 +66,7 @@ in Laminated Composite Material}
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Problem I: Definition}
+\begin{frame}{Problem I: definition}
 	Definition
 		\begin{itemize}
 			\item An individual is active if it is far smaller than the
@@ -80,7 +80,7 @@ in Laminated Composite Material}
 		\end{itemize}
 \end{frame}
 
-\begin{frame}{Problem I: parents}
+\begin{frame}{Problem I: mating pool}
     \begin{columns}[c]
     \begin{column}{0.5\textwidth}
 		\begin{itemize}
@@ -98,7 +98,7 @@ in Laminated Composite Material}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Example I: design of cross ply laminate}
+\begin{frame}{Example I: design of cross ply laminate with one constraint}
 	\input{fig/chapter4_first_figure_cross_ply_laminate.tex}
 \end{frame}
 
@@ -119,12 +119,17 @@ in Laminated Composite Material}
 \end{columns}
 \end{frame}
 
+\begin{frame}{Example I: universalness}
+	\input{tab/optimum_layup.tex}
+\end{frame}
+
+
 \begin{frame}{Example I: comparison with works in other literature}
 	\input{fig/chapter4_first_table_comparsion.tex}
 \end{frame}
 
 
-\begin{frame}{Example II: design of angle ply laminate}
+\begin{frame}{Example II: design of angle ply laminate with two constraints}
     \begin{columns}[c]
     \begin{column}{1\textwidth}
 		\begin{itemize}
@@ -228,6 +233,19 @@ in Laminated Composite Material}
 \end{table}
 \end{frame}
 
+\begin{frame}{reviewer's comment}
+	\begin{itemize}
+		\item "no one uses unsymmetric laminate stacking sequences” argued by
+			reviewer. 
+		\item "Furthermore, the authors have not included the ply properties
+			used in the study and have not stated whether they used first ply
+			failure or last ply failure” argued by reviewer.
+	   \item "In Table 3 - the strength ratio differences are not statistically
+		   significant given the variation in strength properties of the input
+		   layers.”  
+	\end{itemize}
+\end{frame}
+
 
 \begin{frame}{Problem II: calculation of strength ratio}
 	It follows a two-step procedure: 
@@ -238,12 +256,7 @@ in Laminated Composite Material}
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Paper 3: Angle ply laminate}
-	\input{fig/chapter5_figure_angle_ply_laminate.tex}
-\end{frame}
-
-
-\begin{frame}{1): Classic Lamination Theory}
+\begin{frame}{Problem II: two-step procedure}
     \begin{columns}[c]
     \begin{column}{0.5\textwidth}
 		\includegraphics[width=1.5\linewidth]{./fig/lamina_local_global_axes.png}
@@ -316,7 +329,7 @@ in Laminated Composite Material}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Introduction: Failure Theory }
+\begin{frame}{Problem II: two-step procedure}
 \begin{columns}[c]
     \begin{column}{0.4\textwidth}
 		\begin{figure}
@@ -390,22 +403,26 @@ in Laminated Composite Material}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Introduction: Neural network structure}
+\begin{frame}{Problem II: neural network}
+	\input{fig/chapter5_table_training_data.tex}
+\end{frame}
+
+\begin{frame}{Example: angle ply laminate}
+	\input{fig/chapter5_figure_angle_ply_laminate.tex}
+\end{frame}
+
+\begin{frame}{Example: neural network structure}
 	\input{fig/chapter5_neural_network.tex}
 \end{frame}
 
-\begin{frame}{Paper 3: General Neural Network}
+\begin{frame}{Example: preparation of trainging data}
 	\begin{figure}
 		\includegraphics[width=0.9\textwidth]{fig/a0_figure_ann_for_clt_architecture.png}
 		\caption{General Neural Network for CLT}
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Paper 3: Trainging data preparation}
-	\input{fig/chapter5_table_training_data.tex}
-\end{frame}
-
-\begin{frame}{Paper 3: Prediction}
+\begin{frame}{Example: prediction}
 	\input{fig/chapter5_table_ann_valuation.tex}
 \end{frame}
 

@@ -37,74 +37,75 @@ and strength ratio according to Tsai-Wu theory.
 		the child of (a) and (b). child c inherits the connection relationship
 		part from parent 1 denoted by the darker dashed lines,and the rest from
 		parent 2 denoted by the gray dashed line.}
-		\label{fig:anns}
+		\label{fig:three_anns}
 \end{figure}
 \input{fig/experiment_architecture_example1_table.tex}
 
 The work involved in the evolution process of ANN consists of three parts:
 search space, which includes the topology of an ANN, activation function, etc.;
 search strategy, which details how to explore the search space; performance
-estimation strategy refers to the process of estimating this performance.
+estimation strategy refers to the measurement of the performance of
+an artificial neural network.
 
 \subsection{Search Space}
-We propose a general neural network framework as shown in Fig. \ref{fig:gnn}. The search space
-is parametrized by: (i) the number of nodes m(possibly unbounded) in the hidden
-layer, to narrow down the search space, the assumption is that m less than n; (ii) the type of
-operation every node executes, e.g., sigmoid, linear, gaussian. (iii) the
-connection relationship between hidden nodes and inputs; (IV) if a connection
-exists, the weight value in the connection.
+We propose a general neural network framework as shown in Fig. \ref{fig:gnn}.
+The search space is parameterized by four parts: (1) the number of nodes
+m(possibly unbounded) in the hidden layer, to further narrow down the search
+space, the assumption is m less than n; (2) the type of operation every node
+executes, e.g., sigmoid, linear, gaussian; (3) the connection relationship
+between the hidden nodes and inputs (4) the weight value in the connection if a
+connection exists.
 
-Therefore, evolution in evolutional neural network can be divided into four different levels:
-topology, learning rules, active functions, and connection weights. For the
-evolution of topology, the aim is to find an optimal ANN architecture for a
-specific problem. The architecture of a neural network determines the
-information processing capability in an application, which is the foundation of
-the ANN. Two critical issues are involved in the search process of an ANN
-architecture: the representation and the search operators.
-Fig. \ref{fig:evolution} summarizes these four levels of evolution in
-an ANN.
-
-
+Therefore, the evolution process in an evolutional artificial neural network can
+be divided into four different levels: topology, learning rules, active
+functions, and connection weights. For the evolution of the topology, the aim is
+to find an optimal ANN architecture for a specific problem. The architecture of
+a neural network determines the information processing capability in an
+application, which is the foundation of the ANN. Two critical issues are
+involved in the search process of an ANN architecture: the representation and
+the search operators. Fig. \ref{fig:evolution} summarizes these four levels of
+evolution in an ANN.
 
 \subsection{Search Strategy}
-It is necessary to define related operations related to GA process, which
+
+It is necessary to define related operations during the GA process, which
 includes the representation of an artificial neural network, the fitness
 function that determines how good a solution is, and the search operators, such
 as selection, mutation, and crossover.
 
 For the representation of an ANN, encode the $h_i$ node as an eighteen digits
 binary string. The initial sixteen digits in the string correspond to the
-connections between $i_i$ and $h_i$, with '1' implying there exists a
-connection between them, with '0' implying no connection exists. The last two
-digits in the string refer to an activation function, such as "01" which means a
-sigmoid function. Table \ref{tab:binary-rep} are examples of the binary
-representation of ANNs whose architecture is as shown in
-Fig. \ref{fig:anns}. 
+connections between $i_i$ and $h_i$, with '1' implying there exists a connection
+between them, with '0' implying no connection exists. The last two digits in the
+string refer to an activation function, such as "01" which means a sigmoid
+function. Table \ref{tab:binary-rep} are examples of the binary representation
+of ANNs whose architectures are as shown in Fig. \ref{fig:three_anns}. 
 
-For the objective function, treat the multiplicative inverse of the mean
-squared error, which is the difference between the target and actual output
-averaged overall examples, as the fitness function.
+For the objective function, treat the multiplicative inverse of the mean squared
+error, which is the difference between the target and actual output averaged
+overall examples, as the fitness function.
 
 The crossover between individuals results in exploiting the area between the
-given two parent solutions. In the present study, we search the local area by
-combining the genes of half number of nodes from both parents.
-Fig. \ref{fig:anns} illustrates the crossover operator: Fig. \ref{fig:anns}
-(c) is the child of Fig. \ref{fig:anns} (a) and Fig. \ref{fig:anns} (a), the
-connection relationship of hidden nodes with inputs are from both parents,  and
-the corresponding activation functions are also from both parents. In the
-binary representation Table \ref{tab:binary-rep}, it is shown that the first two
-rows of the child are the same as the first two rows of parent $P_1$, and the
-last six rows of the child are the same as the first six rows of parent $P_2$.
+given two-parent solutions. In the present study, we search the local area by
+combining the genes of half number of nodes from both parents.  Fig.
+\ref{fig:three_anns} illustrates the crossover operator: Fig.
+\ref{fig:three_anns} (c) is the child of Fig. \ref{fig:three_anns} (a) and Fig.
+\ref{fig:three_anns} (b), the connection relationship of hidden nodes with
+inputs are from both parents,  and the corresponding activation functions are
+also from both parents. In the binary representation Table \ref{tab:binary-rep},
+it is shown that the first two rows of the child are the same as the first two
+rows of parent $P_1$, and the last six rows of the child are the same as the
+first six rows of parent $P_2$.
 
 \subsection{Performance estimation strategy}
-The simplest approach to this problem is to perform a standard training and
-validation of the architecture on a dataset, however, this method is inefficient
+The simplest approach to this problem is to perform standard training and
+validation of the architecture on a dataset. However, this method is inefficient
 and computationally intensive. Therefore, much recent
-research\cite{baker2017accelerating} focuses on developing methods that reduce
-the cost of performance estimation. In this work, during the GA process, we
-adopt the following straightforward and efficient method to estimate the
-performance of an ANN: first, train a neural network one hundred times on the
-training dataset; second, do the validation test; estimate the neural network's
+research\cite{baker2017accelerating} focuses on developing strategy reducing the
+cost of performance estimation. In this work, during the GA process, we adopt
+the following straightforward and efficient method to estimate the performance
+of an ANN: first, train a neural network one hundred times on the training
+dataset; second, do the validation test; measure the neural network's
 performance according to its fitness of objective function on the test dataset.  
 
 

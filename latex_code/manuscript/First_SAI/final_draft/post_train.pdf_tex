@@ -1,0 +1,83 @@
+%% Creator: Inkscape 1.0.2 (e86c8708, 2021-01-15), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'post_train.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{230.37314063bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.65557121)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{post_train.pdf}}%
+    \put(0.08711282,0.06362721){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}-0.05\end{tabular}}}}%
+    \put(0.08711282,0.1212511){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0.08711282,0.178875){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.05\end{tabular}}}}%
+    \put(0.08711282,0.23649892){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.1\end{tabular}}}}%
+    \put(0.08711282,0.29412284){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.15\end{tabular}}}}%
+    \put(0.08711282,0.35174673){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.2\end{tabular}}}}%
+    \put(0.08711282,0.40937063){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.25\end{tabular}}}}%
+    \put(0.08711282,0.46699455){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.3\end{tabular}}}}%
+    \put(0.08711282,0.52461844){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.35\end{tabular}}}}%
+    \put(0.08711282,0.58224235){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.4\end{tabular}}}}%
+    \put(0.08711282,0.63986626){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0.45\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{post_train.pdf}}%
+    \put(0.11773569,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}-500k\end{tabular}}}}%
+    \put(0.19806177,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.27838786,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}500k\end{tabular}}}}%
+    \put(0.35871394,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1M\end{tabular}}}}%
+    \put(0.43904002,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}1.5M\end{tabular}}}}%
+    \put(0.5193661,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2M\end{tabular}}}}%
+    \put(0.5996922,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2.5M\end{tabular}}}}%
+    \put(0.68001828,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3M\end{tabular}}}}%
+    \put(0.76034435,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}3.5M\end{tabular}}}}%
+    \put(0.84067043,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4M\end{tabular}}}}%
+    \put(0.92099651,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4.5M\end{tabular}}}}%
+    \put(1.00132258,0.03758251){\color[rgb]{0.19607843,0.19215686,0.24705882}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}5M\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{post_train.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -2,14 +2,14 @@
 
 In this work, we propose to use an artificial neural network as an alternative
 way to compute the strength ratio of composite material instead of a two-step
-procedure, based on classical lamination and failure theory.
-Fig. \ref{fig:ga_nn} shows the changes of the fitness and error during the
-evolution procedure. The fitness is obtained through the performance estimation
-technique of an artificial neural network. As shown in this figure, fitness
-grows during the initial stage; then, it slowly converges as generation
-proceeds. It implies genetic algorithm can find a better artificial neural
-network with the evolution of the number of neurons in the hidden layer,
-connection relationship, activation functions, and connection weights.
+procedure, based on classical lamination and failure theory. Fig.
+\ref{fig:ga_nn} shows the changes of the fitness and error during the evolution
+procedure. The fitness is obtained through the performance estimation technique
+of an artificial neural network. As shown in this figure, fitness grows during
+the initial stage; then, it slowly converges as generation proceeds. It implies
+genetic algorithm can find a better artificial neural network with the evolution
+of the number of neurons in the hidden layer, connection relationship,
+activation functions, and connection weights.
 
 \begin{figure}[!tb]
 	\includegraphics[width=0.9\linewidth]{./fig/result_ga_ann.png}
@@ -25,13 +25,13 @@ connection relationship, activation functions, and connection weights.
 	\label{fig:final_train}
 \end{figure}
 
-
 Fig. \ref{fig:final_train} shows the rest training of the artificial neural
-network obtained from the GA, which is a pre-trained ANN. Continue train it with
-a standard gradient-based descent algorithm until the error converges.
-The target neural network converges rapidly at first, and further training
-doesn’t reduce the error efficiently. Then, this artificial neural network is
-used to predict the strength ratio of laminated composite material.
+network obtained from the GA, which is a pre-trained ANN. Continue to train it
+with a standard gradient-based descent algorithm until the error converges. The
+target neural network converges rapidly at first, and further training doesn’t
+reduce the error efficiently. Then, this artificial neural network is used to
+predict the strength ratio of laminated composite material.
+
 
 \input{tab/result_ann_valuation.tex}
 To present the evaluation result of the ANN straightforwardly, several

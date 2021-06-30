@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Local and global axes of an angle lamina\relax }}{1}{figure.caption.9}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Schematic failure surfaces for maximum stress and quadratic failure criteria\relax }}{4}{figure.caption.21}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Traditional GA Model.\relax }}{8}{figure.caption.32}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces General flowchart of proposed GA model in which the parents is consist of three different groups.\relax }}{9}{figure.caption.35}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Examples of crossover, length mutation, angle mutation operator for proposed GA.\relax }}{13}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Percentage of active individuals from active group, potential individuals from potential group, and proper individuals from proper group in parent population.\relax }}{14}{figure.caption.49}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Number of individuals in each group as a function of generation.\relax }}{15}{figure.caption.52}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The fitness is the negation of the individual's mass. The solid curve is the fitness of the best individual in the population in respect to the generations; and the dotted line denotes its corresponding strength ratio. If no individuals in the population satisfy the constraint, the best individual is the one with the biggest strength ratio; if not, the best individual is the one with the smallest mass. \relax }}{16}{figure.caption.53}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces GA Operators\relax }}{18}{figure.caption.58}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Two distinct angles\relax }}{23}{figure.caption.68}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Three distinct angles\relax }}{24}{figure.caption.70}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A general framwwork for EANN, in which fitness refers to the corresponding value of objective function.\relax }}{26}{figure.caption.77}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Network diagram for the two-layer neural network. The input, hidden, and output variables are represented by nodes, and the weight parameters are represented by links between the nodes. Arrows denote the direction of information flow through the network during forward propagation.\relax }}{27}{figure.caption.79}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagram for modeling the target function of strength ratio calculating for an angle ply laminate.\relax }}{28}{figure.caption.85}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Examples of three ANNs, with (a) and (b) as parent ANNs, and (c) as the child of (a) and (b). child c inherits the connection relationship part from parent 1 denoted by the darker dashed lines,and the rest from parent 2 denoted by the gray dashed line.\relax }}{29}{figure.caption.86}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fitness and averaged sum-of-squares errors of the pre-trained artificial neural network as generations proceed.\relax }}{32}{figure.caption.97}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The illustration of the behaviour of fitness on the training dataset during the training session.\relax }}{33}{figure.caption.98}% 
+\addvspace {10\p@ }

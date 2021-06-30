@@ -7,7 +7,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: src/a5_reference.bib
+Database file #1: reference.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -15,7 +15,7 @@ Database file #1: src/a5_reference.bib
 Done.
 You've used 27 entries,
             4087 wiz_defined-function locations,
-            1003 strings with 12789 characters,
+            1003 strings with 12782 characters,
 and the built_in function-call counts, 23521 in all, are:
 = -- 2040
 > -- 505

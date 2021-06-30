@@ -14,6 +14,8 @@
 # EXTERNAL cache entries
 ########################
 
+Boost_CHRONO_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_chrono-mt.dylib
+
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.75.0
 
@@ -21,6 +23,8 @@ Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.75.0
 Boost_INCLUDE_DIR:PATH=/usr/local/include
 
 Boost_LOCALE_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_locale-mt.dylib
+
+Boost_RANDOM_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_random-mt.dylib
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -271,6 +275,9 @@ boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.75.0
 
 //The directory containing a CMake configuration file for boost_locale.
 boost_locale_DIR:PATH=/usr/local/lib/cmake/boost_locale-1.75.0
+
+//The directory containing a CMake configuration file for boost_random.
+boost_random_DIR:PATH=/usr/local/lib/cmake/boost_random-1.75.0
 
 //The directory containing a CMake configuration file for boost_system.
 boost_system_DIR:PATH=/usr/local/lib/cmake/boost_system-1.75.0
@@ -593,7 +600,7 @@ CMAKE_UNAME:INTERNAL=/usr/local/opt/coreutils/libexec/gnubin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake][cfound components: locale ][v1.75.0(1.72.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake][cfound components: locale random chrono ][v1.75.0(1.72.0)]
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/local/lib/libgtest.a][/usr/local/include][/usr/local/lib/libgtest_main.a][v()]
 //Details about finding PkgConfig
@@ -653,6 +660,8 @@ boost_chrono_DIR-ADVANCED:INTERNAL=1
 boost_headers_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_locale_DIR
 boost_locale_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_random_DIR
+boost_random_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_system_DIR
 boost_system_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: boost_thread_DIR

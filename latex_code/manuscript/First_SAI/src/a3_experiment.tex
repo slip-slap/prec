@@ -1,33 +1,34 @@
 \section{Experiment}
 In the previous section, we present the details of our strategies for designing
 an ANN. In this section, we explain the details of the preparation of the
-training dataset, and validation dataset.
+training dataset and validation dataset.
+
 \subsection{Dataset Preparation}
 For composite material, it is impossible to obtain massive training data from
 the practical scenario. Therefore, we use classical lamination theory and
 failure theory, which follows a two-step procedure: first, evaluate the stress
 and strain according to classic lamination theory; second, substitute them into
-the corresponding equation to get the strength ratio. We repeat this procedure
-to yield 14000 points uniformly distributed over the domain space. We define
-the domain of the corresponding inputs as follows: the range of in-plane
-loading varies from 0 to 120; the range of fiber orientation $\theta$ is from
--90 to 90; ply thickness $t$ is 1.27mm, the number of plies range $N$ is from 4
-to 120. Three different composite material is used in this experiment, as shown
-in Tab. \ref{tab:mat}. Fig. \ref{tab:traing-data} shows part of the training
-data, which are randomly selected from the generated training dataset.  To
-speeds up the learning and accelerate convergence, the input atttributes of the
-dataset are rescaled to between 0 and 1.0 by a linear function.
+the corresponding equation to get the strength ratio. Repeat this procedure to
+yield 14000 points uniformly distributed over the domain space, and define the
+domain of the corresponding inputs as follows: the range of in-plane loading
+varies from 0 to 120; the range of fiber orientation $\theta$ is from -90 to 90;
+ply thickness $t$ is 1.27mm, the number of plies ranges $N$ is from 4 to 120.
+Three different composite material is used in this experiment, as shown in Table
+\ref{tab:mat}. Table. \ref{tab:traing-data} shows part of the training data, which
+are randomly selected from the generated training dataset.  To speeds up the
+learning and accelerate convergence, the input attributes of the dataset are
+rescaled to between 0 and 1.0 by a linear function.
 
 \input{tab/composite_material}
 \input{tab/experiment_training_data}
 
 \subsection{ANN training and validation}
-The ANN training procedure is carried out by optimising the multinomial
-logistic regression objective using mini-batch gradient
+The ANN training procedure is carried out by optimizing the multinomial logistic
+regression objective using mini-batch gradient
 descent\cite{lecun1989backpropagation} with momentum. The batch size is set to
-1000, momentum to 0.9. the learning rate is set to $10^{-2}$. As for the
-training dataset and validation dataset, We follow the 70/30 rule, with 70\% of
-the entire data for training and 30\% for validation.
+1000, momentum to 0.9. the learning rate is set to $10^{-2}$. The ratio of the
+training dataset and validation dataset is 70/30, with 70\% of the entire data
+for training and 30\% for validation.
 
 \subsection{Genetic algorithm}
 The genetic algorithm involves the evolution of an artificial neural network’s

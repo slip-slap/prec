@@ -13,6 +13,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "BOOST_ALL_NO_LIB"
   "BOOST_CHRONO_DYN_LINK"
   "BOOST_LOCALE_DYN_LINK"
+  "BOOST_RANDOM_DYN_LINK"
   "BOOST_SYSTEM_DYN_LINK"
   "BOOST_THREAD_DYN_LINK"
   )
@@ -20,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
+  "../src"
   "/usr/local/include"
   "/Users/kismet/Desktop/temp_install/include"
   )

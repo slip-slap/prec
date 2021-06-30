@@ -1,26 +1,70 @@
 #include <iostream>
+#include <vector>
+#include <set>
+#include <cmath>
+#include <boost/random/uniform_int.hpp>
+#include <boost/random/mersenne_twister.hpp>
+#include <boost/chrono.hpp>
+#include "constant.h"
+#include "add.h"
+#include "multiply.h"
 
-class String{
-	public:
-		String(){}
-		String(char* str){}
-		~String(){
-			delete[] m_Array;
+/*
+void sort_helper(Operation& target, std::vector<Operation>& ordering, std::set<Operation>& visited_node){
+	for(std::vector<Operation>::iterator itr=target.inputs.begin(); itr!=target.inputs.end(); itr++){
+		const bool is_in = visited_node.find(*itr) != visited_node.end();
+		if(!is_in){
+			sort_helper(*itr, ordering, visited_node);
 		}
-	private:
-		char* m_Array;
-		size_t m_Size;
-	friend void printString(String other){
-		std::cout<<other.m_Size;
 	}
-};
+	visited_node.insert(target);
+	ordering.push_back(target);
+}
+
+void sort(Operation target){
+	std::vector<Operation> ordering;
+	std::set<Operation> visited_node;
+	sort_helper(target, ordering, visited_node);
+}
+
+*/
+
+//void session(Operation target){
+	
+//}
 
 
 int main(){
-	String s;
-	printString(s);
-	std::cout<<3;
+	Add* sum11 = new  Add(new Constant(5),new Constant(5));
+	Add* sum12 = new  Add(new Constant(5),new Constant(5));
+	Add* sum13 = new  Add(new Constant(5),new Constant(5));
+	Add* sum14 = new  Add(new Constant(5),new Constant(5));
+	Add* sum21 = new Add(sum11, sum12);
+	Add* sum22 = new Add(sum13, sum14);
+	
+	Multiply result = Multiply(sum21, sum22);
+
+	//session(sum21);
+	//sort(sum21);
+	//std::cout<<sum11->forward()<<std::endl;
+	//std::cout<<sum12->forward()<<std::endl;
+	std::cout<<result.forward()<<std::endl;
+	return 0;
 }
+
+/*
+	std::vector<int> a={};
+	boost::chrono::system_clock::time_point start = boost::chrono::system_clock::now();
+
+	boost::random::mt19937 gen;
+	boost::random::uniform_int_distribution<> hundred(1,100);
+	std::cout<<hundred(gen)<<std::endl;
+	std::cout<<hundred(gen)<<std::endl;
+
+	boost::chrono::duration<double> sec = boost::chrono::system_clock::now() - start;
+	std::cout<< "took " << sec.count()<< "seconds\n";
+	std::cout<<a.size();
+*/
 
 /*
 #include <iostream>
