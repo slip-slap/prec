@@ -8,17 +8,14 @@ message(${CMAKE_HOST_SYSTEM})
 
 
 find_package(Boost 1.72.0 COMPONENTS locale)
-find_package( OpenCV REQUIRED )
-
+find_package(OpenCV REQUIRED )
 
 
 message(${CMAKE_CURRENT_SOURCE_DIR})
 include_directories( ${OpenCV_INCLUDE_DIRS} )
+
 add_executable(opengl main.cpp)
 target_link_libraries(opengl ${OpenCV_LIBS}) # ${OPENGL_gl_LIBRARY})
-
-
-
 
 
 

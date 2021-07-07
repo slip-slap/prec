@@ -333,10 +333,10 @@ if __name__=='__main__':
 
 
     load = [1,0,0,0,0,0]
-    angle = [np.pi/2]*9 + [0]*17 + [np.pi/2]*9
-    #angle = tool.get_symmetry_list(angle)
-    height= [0.000165]*35
-    material =[cv.GRAPHITE_EPOXY] * 35 
+    angle =  [0]*1 +  [np.pi/2]*5
+    angle = tool.get_symmetry_list(angle)
+    height= [0.000165] * 12 
+    material =[cv.GRAPHITE_EPOXY] * 12 
     #material = tool.get_symmetry_list(material)
 
     sr  = get_strength_ratio(angle,height,material,load)

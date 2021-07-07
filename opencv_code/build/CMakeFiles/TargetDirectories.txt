@@ -1,0 +1,3 @@
+/Users/kismet/Documents/github/prec/opencv_code/build/CMakeFiles/rebuild_cache.dir
+/Users/kismet/Documents/github/prec/opencv_code/build/CMakeFiles/edit_cache.dir
+/Users/kismet/Documents/github/prec/opencv_code/build/CMakeFiles/opengl.dir

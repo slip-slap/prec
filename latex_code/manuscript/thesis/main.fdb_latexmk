@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex main"] 1624493839 "main.aux" "main.bbl" "main" 1624493856
+["bibtex main"] 1624493839 "main.aux" "main.bbl" "main" 1625386376
   "/usr/local/texlive/2018/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1541279461 64114 9f5431e5c511cac88d0dcd7e87bd2d0e ""
   "Chapters/my_chapter_1.aux" 1624493851 6274 6371657138f1a9bfe1d0c69464b08f9d ""
   "Chapters/my_chapter_2.aux" 1624493851 5873 e500ebd7614ac5e07bb6b820be5a9bec ""
@@ -10,10 +10,10 @@
   "main-blx.bib" 1624493850 332 9e5f268a09d5bfc38bb83030efef87bb ""
   "main.aux" 1624493855 8976 5023e404a92f4fd43d804c5d2e35515a ""
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1624493849 "main.tex" "main.pdf" "main" 1624493856
-  "/dev/null" 1624493827 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main.bbl"
+["pdflatex"] 1624493849 "main.tex" "main.pdf" "main" 1625386376
+  "/dev/null" 1625386299 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1480098688 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -329,17 +329,17 @@
   "main.tex" 1622967306 13394 c185f895c599edb14b32c845c0b48173 ""
   "main.toc" 1624493855 4665 4c2b032bc272a4794729fabd5fe228e9 ""
   (generated)
-  "Chapters/my_chapter_1.aux"
-  "main.lof"
-  "Chapters/my_chapter_3.aux"
-  "Chapters/my_chapter_5.aux"
   "main.lot"
-  "main.log"
-  "main-blx.bib"
-  "Chapters/my_chapter_4.aux"
+  "Chapters/my_chapter_3.aux"
+  "main.pdf"
+  "Chapters/my_chapter_5.aux"
+  "Chapters/my_chapter_1.aux"
   "Chapters/my_chapter_2.aux"
+  "main.aux"
+  "main-blx.bib"
+  "main.out"
   "main.toc"
   "main.run.xml"
-  "main.aux"
-  "main.pdf"
-  "main.out"
+  "main.lof"
+  "main.log"
+  "Chapters/my_chapter_4.aux"

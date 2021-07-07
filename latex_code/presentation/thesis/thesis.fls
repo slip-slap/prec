@@ -436,6 +436,10 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT fig/chapter3_NGAM.tex
 INPUT fig/chapter3_NGAM.tex
+INPUT tab/group-classification.tex
+INPUT tab/group-classification.tex
+INPUT tab/composite_material.tex
+INPUT tab/composite_material.tex
 INPUT fig/chapter2_figure_group_pie.png
 INPUT ./fig/chapter2_figure_group_pie.png
 INPUT ./fig/chapter2_figure_group_pie.png

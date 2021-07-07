@@ -1,0 +1,60 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{miller1989designing}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=773e9c5e07cf8cd723a7f0e841f2bde6}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Geoffrey\bibnamedelima F},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=20c5abe02d87cb3086e223351e44e900}{%
+           family={Todd},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=267232ab33b4a24f09ef68407ac2ae1d}{%
+           family={Hegde},
+           familyi={H\bibinitperiod},
+           given={Shailesh\bibnamedelima U},
+           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{7df0046b4be7cc029ce702ad24685b51}
+      \strng{fullhash}{7df0046b4be7cc029ce702ad24685b51}
+      \strng{bibnamehash}{7df0046b4be7cc029ce702ad24685b51}
+      \strng{authorbibnamehash}{7df0046b4be7cc029ce702ad24685b51}
+      \strng{authornamehash}{7df0046b4be7cc029ce702ad24685b51}
+      \strng{authorfullhash}{7df0046b4be7cc029ce702ad24685b51}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICGA}
+      \field{title}{Designing Neural Networks using Genetic Algorithms.}
+      \field{volume}{89}
+      \field{year}{1989}
+      \field{pages}{379\bibrangedash 384}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
