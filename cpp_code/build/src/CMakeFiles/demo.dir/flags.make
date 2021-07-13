@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Werror -std=c++14 -isysroot /Applications/Xcode.app/Contents
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_LOCALE_DYN_LINK -DBOOST_RANDOM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK
 
-CXX_INCLUDES = -I/Users/kismet/Documents/github/prec/cpp_code/build -I/Users/kismet/Documents/github/prec/cpp_code/src -isystem /usr/local/include -isystem /Users/kismet/Desktop/temp_install/include 
+CXX_INCLUDES = -I/Users/kismet/Documents/github/prec/cpp_code/src -isystem /usr/local/include 
 

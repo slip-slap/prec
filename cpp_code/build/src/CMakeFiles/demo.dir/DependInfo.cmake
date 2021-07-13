@@ -20,10 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "."
   "../src"
   "/usr/local/include"
-  "/Users/kismet/Desktop/temp_install/include"
   )
 
 # Targets to which this target links.
